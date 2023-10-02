@@ -33,7 +33,8 @@
       * 40% laboratoria oraz zadanie indywidualne
       * 40% egzamin pisemny
       * 20% egzamin ustny
-    Finalna ocena jest przyznawana przez wykładowcę według następującej skali:
+  * Finalna ocena z przedmiotu _Podstawy programowania_ jest przyznawana przez
+    wykładowcę według następującej skali:
       * 91%-100% — bardzo dobra
       * 81%-90%  — dobra plus
       * 71%-80%  — dobra
