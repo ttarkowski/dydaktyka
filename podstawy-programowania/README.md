@@ -52,3 +52,31 @@
     dyspozycji są konsultacje u osób prowadzących zajęcia.
   * W sprawach nieuregulowanych powyższymi zapisami stosuje się przepisy
     Regulaminu studiów.
+
+## 1. Wstęp do programowania
+
+## 2. Generacje języków programowania
+
+## 3. Typy danych i zmienne
+
+## 4. Instrukcje
+
+## 5. Wskaźniki i zmienne dynamiczne
+
+## 6. Wyrażenia
+
+## 7. Złożone typy danych
+
+## 8. Funkcje
+
+## 9. Zasięg i widoczność
+
+## 10. Rekurencja
+
+## 11. Metoda wstępująca i zstępująca
+
+## 12. Klasy i obiekty
+
+## 13. Biblioteki programistyczne
+
+## 14. Pliki
