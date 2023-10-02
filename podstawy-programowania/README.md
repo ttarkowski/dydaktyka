@@ -55,6 +55,22 @@
 
 ## 1. Wstęp do programowania
 
+### Informatyka a programowanie
+
+### Algorytm i jego własności
+
+### Historia rozwoju algorytmów
+
+### Budowa komputera
+
+### Maszyna Turinga
+
+### Języki programowania i ich podział oraz generacje
+
+### Języki interpretowane i kompilowane
+
+### Schematy blokowe
+
 ## 2. Generacje języków programowania
 
 ## 3. Typy danych i zmienne
