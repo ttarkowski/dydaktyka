@@ -71,10 +71,6 @@ uruchamianych na urządzeniach elektronicznych.
 *Algorytm* to skończony ciąg ściśle określonych instrukcji, zazwyczaj używanych
 do rozwiązania jakiegoś problemu lub wykonania obliczeń.
 
-### Historia rozwoju algorytmów
-
-### Budowa komputera
-
 ### Maszyna Turinga
 
 ### Języki programowania i ich podział oraz generacje
