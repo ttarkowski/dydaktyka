@@ -53,9 +53,18 @@
   * W sprawach nieuregulowanych powyższymi zapisami stosuje się przepisy
     Regulaminu studiów.
 
+*Poniżej znajduje się konspekt wykładu w wersji roboczej.*
+
 ## 1. Wstęp do programowania
 
 ### Informatyka a programowanie
+
+Można w przybliżeniu uznać, że informatyka ma się tak do programowania, jak
+fizyka do inżynierii mechanicznej. Fizyka jest nauką ścisłą, która opisuje świat
+z użyciem języka jakim jest matematyka. Inżynieria mechaniczna zaś wykorzystuje
+prawa fizyki do opisu i konstrukcji urządzeń. Tak samo informatyka jest nauką
+ścisłą a programowania wykorzystuje jej osiągnięcia do tworzenia programów
+uruchamianych na urządzeniach elektronicznych.
 
 ### Algorytm i jego własności
 
