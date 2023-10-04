@@ -68,6 +68,9 @@ uruchamianych na urządzeniach elektronicznych.
 
 ### Algorytm i jego własności
 
+*Algorytm* to skończony ciąg ściśle określonych instrukcji, zazwyczaj używanych
+do rozwiązania jakiegoś problemu lub wykonania obliczeń.
+
 ### Historia rozwoju algorytmów
 
 ### Budowa komputera
