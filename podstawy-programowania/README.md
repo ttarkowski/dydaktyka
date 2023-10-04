@@ -53,7 +53,7 @@
   * W sprawach nieuregulowanych powyższymi zapisami stosuje się przepisy
     Regulaminu studiów.
 
-*Poniżej znajduje się konspekt wykładu w wersji roboczej.*
+**Poniżej znajduje się robocza wersja konspektu wykładu.**
 
 ## 1. Wstęp do programowania
 
