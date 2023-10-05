@@ -73,6 +73,30 @@ do rozwiązania jakiegoś problemu lub wykonania obliczeń.
 
 ### Maszyna Turinga
 
+Maszyna Turinga została zaproponowana przez Alana Turinga w 1936 i jest bardzo
+prostym modelem obecnie stosowanego komputera. Abstrakcja ta składa się
+z nieskończonej taśmy, głowicy i mechanizmu sterującego:
+  * Taśma jest podzielona na pola (komórki). Na każdym polu może zostać zapisany
+    symbol w języku maszyny.
+  * Głowica służy do odczytywania i zapisywania symboli. Może ona się znaleźć
+    nad dowolnym polem taśmy.
+  * Mechanizm sterujący jest elementem maszyny, który decyduje o jej działaniu.
+    Może on się znaleźć w danej chwili czasu w jednym ze skończenie wielu
+    stanów.
+
+Mechanizm sterujący podejmuje decyzje do wykonania przez maszynę Turinga.
+Decyzja jest podejmowana na podstawie bieżącego stanu mechanizmu a także symbolu
+znajdującego się w polu pod głowicą. Taką decyzją może być:
+  * przesunięcie głowicy względem taśmy
+  * zmiana zawartości pola taśmy
+  * zmiana stanu mechanizmu
+
+**Jak widać maszyna Turinga jest środowiskiem do wykonywania algorytmów.**
+
+Warto zauważyć, że komputery fizyczne mają mniejsze możliwości wykonywania
+programów aniżeli maszyna Turinga, ponieważ ta ostatnia ma nieskończenie wiele
+miejsca na taśmie.
+
 ### Języki programowania i ich podział oraz generacje
 
 ### Języki interpretowane i kompilowane
