@@ -97,7 +97,24 @@ Warto zauważyć, że komputery fizyczne mają mniejsze możliwości wykonywania
 programów aniżeli maszyna Turinga, ponieważ ta ostatnia ma nieskończenie wiele
 miejsca na taśmie.
 
-### Języki programowania i ich podział oraz generacje
+### Języki programowania
+
+*Język programowania* jest systemem notacji umożliwiającym zapisywanie programów
+komputerowych.
+
+Przykładowe style programowania:
+  * imperatywny
+  * proceduralny
+  * deklaratywny
+  * funkcyjny
+  * obiektowy
+  * generyczny
+
+Uwaga: Jeden język programowania może wspierać więcej niż jeden styl
+programowania. Na przykład C++ wspiera styl imperatywny, proceduralny,
+funkcyjny, obiektowy i generyczny. Istnieją też języki programowania, w których
+programuje się w jednym stylu. Na przykład Haskell jest językiem czysto
+funkcyjnym.
 
 ### Języki interpretowane i kompilowane
 
