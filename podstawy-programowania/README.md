@@ -109,6 +109,7 @@ Przykładowe style programowania:
   * funkcyjny
   * obiektowy
   * generyczny
+  * programowanie w logice
 
 Uwaga: Jeden język programowania może wspierać więcej niż jeden styl
 programowania. Na przykład C++ wspiera styl imperatywny, proceduralny,
