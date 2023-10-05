@@ -73,7 +73,7 @@ do rozwiązania jakiegoś problemu lub wykonania obliczeń.
 
 ### Maszyna Turinga
 
-Maszyna Turinga została zaproponowana przez Alana Turinga w 1936 i jest bardzo
+*Maszyna Turinga* została zaproponowana przez Alana Turinga w 1936 i jest bardzo
 prostym modelem obecnie stosowanego komputera. Abstrakcja ta składa się
 z nieskończonej taśmy, głowicy i mechanizmu sterującego:
   * Taśma jest podzielona na pola (komórki). Na każdym polu może zostać zapisany
