@@ -66,6 +66,8 @@ prawa fizyki do opisu i konstrukcji urządzeń. Tak samo informatyka jest nauką
 ścisłą a programowania wykorzystuje jej osiągnięcia do tworzenia programów
 uruchamianych na urządzeniach elektronicznych.
 
+*Informatyka* jest nauką o przetwarzaniu informacji w sposób automatyczny.
+
 ### Algorytm i jego własności
 
 *Algorytm* to skończony ciąg ściśle określonych instrukcji, zazwyczaj używanych
