@@ -123,6 +123,11 @@ funkcyjnym.
 
 ### Schematy blokowe
 
+W celu zapisu algorytmu można wykorzystać *pseudokod*, będący czymś pośrednim
+między potencjalnie nieprecyzyjnym językiem naturalnym a precyzyjnym językiem
+programowania, lub *schemat blokowy*, będący graficzną wizualizacją wykonania
+algorytmu.
+
 ## 2. Generacje języków programowania
 
 ## 3. Typy danych i zmienne
