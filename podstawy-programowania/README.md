@@ -99,7 +99,7 @@ Warto zauważyć, że komputery fizyczne mają mniejsze możliwości wykonywania
 programów aniżeli maszyna Turinga, ponieważ ta ostatnia ma nieskończenie wiele
 miejsca na taśmie.
 
-### Języki i style programowania
+### Języki programowania
 
 *Język programowania* $\mathcal{L}$ jest systemem notacji umożliwiającym
 zapisywanie programów komputerowych. Jeśli uznać, że $\mathcal{D}$ jest zbiorem
@@ -107,6 +107,8 @@ danych, to program można uznać jako następującą funkcję (częściową):
 $$\mathcal{P}^{\mathcal{L}}\colon D\rightarrow D$$
 taką, że: $$\mathcal{P}^{\mathcal{L}}(\textnormal{dane wejściowe}) =
 \textnormal{dane wyjściowe}$$
+
+### Style programowania
 
 Przykładowe style programowania:
   * imperatywny
