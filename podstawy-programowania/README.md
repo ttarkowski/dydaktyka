@@ -105,9 +105,12 @@ miejsca na taśmie.
 zapisywanie programów komputerowych.
 
 Jeśli $\mathcal{D}$ jest zbiorem danych, to program można uznać jako następującą
-funkcję (częściową): $$\mathcal{P}^{\mathcal{L}}\colon D\rightarrow D$$ taką,
+funkcję częściową: $$\mathcal{P}^{\mathcal{L}}\colon D\rightarrow D$$ taką,
 że: $$\mathcal{P}^{\mathcal{L}}(\textnormal{dane wejściowe}) =
 \textnormal{dane wyjściowe}$$
+Program $\mathcal{P}^{\mathcal{L}} może nigdy nie kończyć się dla niektórych
+danych wejściowych, dlatego też jest on określany jako funkcja częściowa (por.
+problem stopu).
 
 *Maszyną abstrakcyjną* $\mathcal{M}_{\mathcal{L}}$ dla języka $\mathcal{L}$ jest
 zbiór algorytmów i struktur umożliwiających przechowywanie i wykonywanie
