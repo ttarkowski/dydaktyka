@@ -108,7 +108,7 @@ Jeśli $\mathcal{D}$ jest zbiorem danych, to program można uznać jako następu
 funkcję częściową: $$\mathcal{P}^{\mathcal{L}}\colon D\rightarrow D$$ taką,
 że: $$\mathcal{P}^{\mathcal{L}}(\textnormal{dane wejściowe}) =
 \textnormal{dane wyjściowe}$$
-Program $\mathcal{P}^{\mathcal{L}} może nigdy nie kończyć się dla niektórych
+Program $\mathcal{P}^{\mathcal{L}}$ może nigdy nie kończyć się dla niektórych
 danych wejściowych, dlatego też jest on określany jako funkcja częściowa (por.
 problem stopu).
 
