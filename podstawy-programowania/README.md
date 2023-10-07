@@ -139,6 +139,10 @@ schematów blokowych.
   * *Predykat* lub *decyzja* (ang. decision) polega na sprawdzeniu czy dany
     warunek jest spełniony i wyborze jednej z dwóch możliwości.  
     ![Decyzja](/podstawy-programowania/fig/flowchart/decision.svg)
+  * *Blok wejścia/wyjścia* (ang. input/output) reprezentuje operacje wejścia
+    (np. wczytanie danych z klawiatury) oraz wyjścia (np. wypisanie danych na
+    ekran).  
+    ![Blok wejścia/wyjścia](/podstawy-programowania/fig/flowchart/in-out.svg)
 
 ## 2. Generacje języków programowania
 

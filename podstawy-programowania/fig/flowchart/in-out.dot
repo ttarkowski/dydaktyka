@@ -1,0 +1,4 @@
+graph g {
+  node[shape=parallelogram, margin=0]
+  a [label="x"]
+}
