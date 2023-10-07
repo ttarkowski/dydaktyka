@@ -99,7 +99,7 @@ Warto zauważyć, że komputery fizyczne mają mniejsze możliwości wykonywania
 programów aniżeli maszyna Turinga, ponieważ ta ostatnia ma nieskończenie wiele
 miejsca na taśmie.
 
-### Języki programowania
+### Języki i style programowania
 
 *Język programowania* jest systemem notacji umożliwiającym zapisywanie programów
 komputerowych.
