@@ -132,6 +132,9 @@ schematów blokowych.
   * *Blok graniczny* (ang. *terminal*), nazywany również *etykietą*, służy do
     określania początku lub końca algorytmu.
     ![Blok graniczny](/podstawy-programowania/fig/flowchart/terminal.svg)
+  * *Blok operacyjny* (ang. *process*) oznacza zestaw operacji zmieniających
+    dane, np. przypisanie wartości do zmiennej.
+    ![Blok operacyjny](/podstawy-programowania/fig/flowchart/process.svg)
 
 ## 2. Generacje języków programowania
 
