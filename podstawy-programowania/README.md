@@ -109,6 +109,10 @@ funkcję (częściową): $$\mathcal{P}^{\mathcal{L}}\colon D\rightarrow D$$ tak�
 że: $$\mathcal{P}^{\mathcal{L}}(\textnormal{dane wejściowe}) =
 \textnormal{dane wyjściowe}$$
 
+*Maszyną abstrakcyjną* $\mathcal{M}_{\mathcal{L}}$ dla języka $\mathcal{L}$ jest
+zbiór algorytmów i struktur umożliwiających przechowywanie i wykonywanie
+programów napisanych w języku $\mathcal{L}$.
+
 ### Style programowania
 
 Przykładowe style programowania:
