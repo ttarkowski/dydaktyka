@@ -121,6 +121,9 @@ funkcyjnym.
 
 ### Języki interpretowane i kompilowane
 
+Implementacja danego języka programowania może mieć formę *interpretowaną* lub
+*kompilowaną*.
+
 ### Schematy blokowe
 
 W celu zapisu algorytmu można wykorzystać *pseudokod*, będący czymś pośrednim
