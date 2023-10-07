@@ -127,6 +127,8 @@ z symboli maszyny Turinga.
 
 Językiem maszynowym dla współczesnego komputera są pewne napisy nad alfabetem
 zero-jedynkowym związane z brakiem lub przepływem prądu w procesorze komputera.
+Napisy te są równoważne semantycznie (znaczeniowo) z językiem asemblera danej
+architektury komputera.
 
 ### Style programowania
 
