@@ -183,3 +183,6 @@ schematów blokowych.
 ## 14. Pliki
 
 ## Bibliografia
+
+Maurizio Gabbrielli & Simone Martini. *Programming Languages: Principles and
+Paradigms*. Springer-Verlag London Limited, 2010.
