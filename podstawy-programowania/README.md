@@ -102,7 +102,9 @@ miejsca na taśmie.
 ### Języki i style programowania
 
 *Język programowania* $\mathcal{L}$ jest systemem notacji umożliwiającym
-zapisywanie programów komputerowych.
+zapisywanie programów komputerowych. Jeśli uznać, że $\mathcal{D}$ jest zbiorem
+danych, to program można uznać jako następująca funkcja (częściowa):
+$$\mathcal{P}^{\mathcal{L}}\colon D\rightarrow D$$
 
 Przykładowe style programowania:
   * imperatywny
