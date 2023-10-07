@@ -1,0 +1,5 @@
+graph g {
+  node[shape=ellipse, margin=0]
+  a [label="Początek"]
+  b [label="Koniec"]
+}
