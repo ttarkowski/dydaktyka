@@ -143,6 +143,11 @@ schematów blokowych.
     (np. wczytanie danych z klawiatury) oraz wyjścia (np. wypisanie danych na
     ekran).  
     ![Blok wejścia/wyjścia](/podstawy-programowania/fig/flowchart/in-out.svg)
+  * *Łącznik* i *strzałka* (ang. *flowline*, *arrowhead*) są wykorzystywane do
+    wskazania kolejności wykonywanych w algorytmie operacji. Standardowo
+    korzysta się z łącznika gdy przepływ jest naturalny (od góry do dołu oraz
+    z lewej do prawej). W przeciwnym razie należy użyć strzałki.  
+    ![Łącznik i strzałka](/podstawy-programowania/fig/flowchart/flowline.svg)
 
 ## 2. Generacje języków programowania
 
