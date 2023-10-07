@@ -135,6 +135,7 @@ schematów blokowych.
   * *Blok operacyjny* (ang. *process*) oznacza zestaw operacji zmieniających
     dane, np. przypisanie wartości do zmiennej.
     ![Blok operacyjny](/podstawy-programowania/fig/flowchart/process.svg)
+    Nazwa zmiennej została celowo pozostawiona w języku angielskim.
 
 ## 2. Generacje języków programowania
 
