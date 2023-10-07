@@ -131,7 +131,7 @@ schematów blokowych.
 
   * *Blok graniczny* (ang. *terminal*), nazywany również *etykietą*, służy do
     określania początku lub końca algorytmu.
-    ![Blok graniczny](/fig/flowchart/terminal.svg)
+    ![Blok graniczny](podstawy-programowania/fig/flowchart/terminal.svg)
 
 ## 2. Generacje języków programowania
 
