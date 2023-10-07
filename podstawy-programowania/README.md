@@ -126,7 +126,12 @@ funkcyjnym.
 W celu zapisu algorytmu można wykorzystać *pseudokod*, będący czymś pośrednim
 między potencjalnie nieprecyzyjnym językiem naturalnym a precyzyjnym językiem
 programowania, lub *schemat blokowy*, będący graficzną wizualizacją wykonania
-algorytmu.
+algorytmu. W tym podpunkcie zostaną przedstawione elementy notacji z użyciem
+schematów blokowych.
+
+  * *Blok graniczny* (ang. *terminal*), nazywany również *etykietą*, służy do
+    określania początku lub końca algorytmu.
+    ![Blok graniczny](/fig/flowchart/terminal.svg)
 
 ## 2. Generacje języków programowania
 
