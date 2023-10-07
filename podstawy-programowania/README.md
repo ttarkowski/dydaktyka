@@ -119,6 +119,15 @@ programów napisanych w języku $\mathcal{L}$.
 Wspomniana wyżej maszyna Turinga jest najbardziej podstawową maszyną
 abstrakcyjną.
 
+*Językiem maszynowym* dla maszyny abstrakcyjnej $\mathcal{M}_{\mathcal{L}}$ jest
+taki język $\mathcal{L}$, który jest *zrozumiały* przez interpreter tej maszyny.
+
+Językiem maszynowym dla maszyny Turinga są pewne napisy nad alfabetem złożonym
+z symboli maszyny Turinga.
+
+Językiem maszynowym dla współczesnego komputera są pewne napisy nad alfabetem
+zero-jedynkowym związane z brakiem lub przepływem prądu w procesorze komputera.
+
 ### Style programowania
 
 Przykładowe style programowania:
