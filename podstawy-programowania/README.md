@@ -116,6 +116,9 @@ problem stopu).
 zbiór algorytmów i struktur umożliwiających przechowywanie i wykonywanie
 programów napisanych w języku $\mathcal{L}$.
 
+Wspomniana wyżej maszyna Turinga jest najbardziej podstawową maszyną
+abstrakcyjną.
+
 ### Style programowania
 
 Przykładowe style programowania:
