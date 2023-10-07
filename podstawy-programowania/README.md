@@ -136,6 +136,9 @@ schematów blokowych.
     dane, np. przypisanie wartości do zmiennej. (Nazwa zmiennej w poniższym
     rysunku została celowo pozostawiona w języku angielskim.)  
     ![Blok operacyjny](/podstawy-programowania/fig/flowchart/process.svg)
+  * *Predykat* lub *decyzja* (ang. decision) polega na sprawdzeniu czy dany
+    warunek jest spełniony i wyborze jednej z dwóch możliwości.
+    ![Decyzja](/podstawy-programowania/fig/flowchart/decision.svg)
 
 ## 2. Generacje języków programowania
 
