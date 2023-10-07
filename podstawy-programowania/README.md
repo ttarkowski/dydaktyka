@@ -133,8 +133,8 @@ schematów blokowych.
     określania początku lub końca algorytmu.  
     ![Blok graniczny](/podstawy-programowania/fig/flowchart/terminal.svg)
   * *Blok operacyjny* (ang. *process*) oznacza zestaw operacji zmieniających
-    dane, np. przypisanie wartości do zmiennej. Nazwa zmiennej w poniższym
-    rysunku została celowo pozostawiona w języku angielskim.  
+    dane, np. przypisanie wartości do zmiennej. (Nazwa zmiennej w poniższym
+    rysunku została celowo pozostawiona w języku angielskim.)  
     ![Blok operacyjny](/podstawy-programowania/fig/flowchart/process.svg)
 
 ## 2. Generacje języków programowania
