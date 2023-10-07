@@ -1,4 +1,4 @@
 graph g {
   node[shape=diamond, margin=0]
-  a [label="x > 0?"]
+  a [label="x > 0"]
 }
