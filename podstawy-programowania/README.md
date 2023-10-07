@@ -103,8 +103,10 @@ miejsca na taśmie.
 
 *Język programowania* $\mathcal{L}$ jest systemem notacji umożliwiającym
 zapisywanie programów komputerowych. Jeśli uznać, że $\mathcal{D}$ jest zbiorem
-danych, to program można uznać jako następująca funkcja (częściowa):
+danych, to program można uznać jako następującą funkcję (częściową):
 $$\mathcal{P}^{\mathcal{L}}\colon D\rightarrow D$$
+taką, że: $$\mathcal{P}^{\mathcal{L}}(\textnormal{dane wejściowe}) =
+\textnormal{dane wyjściowe}$$
 
 Przykładowe style programowania:
   * imperatywny
