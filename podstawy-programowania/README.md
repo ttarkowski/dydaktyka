@@ -298,10 +298,49 @@ private:
 };
 ```
 
+#### ▸ Generyczny styl programowania (metaprogramowanie)
+
+W generycznym stylu programowania implementuje się algorytmy w sposób
+uogólniony, zapominając niejako o konkretnych reprezentacjach typów danych.
+W ten sposób tworzy się szablony, które później mogą być zastosowane do
+dowolnych typów danych spełniających konkretne wymogi.
+
+Przykład stylu generycznego w języku Object Pascal
+([sort.pas](/podstawy-programowania/examples/01/sort-pas/sort.pas)):
+```pascal
+type
+  generic BubbleSort<T> = class
+    class procedure sort(var a: array of T);
+  end;
+
+  BubbleSortInteger = specialize BubbleSort<integer>;
+
+  class procedure BubbleSort.sort(var a: array of T);
+  var
+    n, newn, i : integer;
+    temp       : T;
+  begin
+    n := high(a);
+    repeat
+      newn := low(a);
+      for i := low(a) + 1 to n do
+      begin
+        if a[i - 1] > a[i] then
+        begin
+          temp := a[i - 1];
+          a[i - 1] := a[i];
+          a[i] := temp;
+          newn := i;
+        end;
+      end;
+    n := newn;
+    until n = low(a);
+  end;
+```
+
 TODO:
   * deklaratywny
   * funkcyjny
-  * generyczny
   * programowanie w logice
 
 Uwaga: Jeden język programowania może wspierać więcej niż jeden styl
