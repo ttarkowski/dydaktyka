@@ -115,8 +115,9 @@ obliczeń nie jest w stanie wyrazić więcej aniżeli maszyna Turinga.
 zapisywanie programów komputerowych.
 
 Jeśli $\mathcal{D}$ jest zbiorem danych, to program można uznać jako następującą
-funkcję częściową: $$\mathcal{P}^{\mathcal{L}}\colon D\rightarrow D$$ taką,
-że: $$\mathcal{P}^{\mathcal{L}}(\textnormal{dane wejściowe}) =
+funkcję częściową:
+$$\mathcal{P}^{\mathcal{L}}\colon \mathcal{D}\rightarrow \mathcal{D}$$
+taką, że: $$\mathcal{P}^{\mathcal{L}}(\textnormal{dane wejściowe}) =
 \textnormal{dane wyjściowe}$$
 Program $\mathcal{P}^{\mathcal{L}}$ może nigdy nie kończyć się dla niektórych
 danych wejściowych, dlatego też jest on określany jako funkcja częściowa (por.
