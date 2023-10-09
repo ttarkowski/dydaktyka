@@ -123,6 +123,9 @@ Program $\mathcal{P}^{\mathcal{L}}$ może nigdy nie kończyć się dla niektóry
 danych wejściowych, dlatego też jest on określany jako funkcja częściowa (por.
 problem stopu).
 
+Zbiór wszystkich programów w języku $\mathcal{L}$ będzie oznaczany jako
+$\mathcal{Prog}^{\mathcal{L}}$.
+
 *Maszyną abstrakcyjną* $\mathcal{M}_{\mathcal{L}}$ dla języka $\mathcal{L}$ jest
 zbiór algorytmów i struktur umożliwiających przechowywanie i wykonywanie
 programów napisanych w języku $\mathcal{L}$.
@@ -167,6 +170,16 @@ Implementacja danego języka programowania może mieć formę *interpretowaną* 
 
 Niech $\mathcal{M}_{0 \mathcal{L}_0}$ oznacza maszynę abstrakcyjną z językiem
 maszynowym $\mathcal{L}_0$.
+
+Poprzez czysto interpretowaną implementację języka programowania $\mathcal{L}$
+dla maszyny abstrakcyjnej $\mathcal{M}_{0 \mathcal{L}_0}$ rozumie się tzw.
+interpreter, który może być zdefiniowany jako funkcja częściowa:
+$$\mathcal{I}_{\mathcal{L}}^{\mathcal{L}_0}\colon
+\mathcal{Prog}^{\mathcal{L}} \times \mathcal{D} \rightarrow \mathcal{D}$$
+która spełnia warunek:
+$$\mathcal{I}_{\mathcal{L}}^{\mathcal{L}_0}
+(\mathcal{P}^{\mathcal{L}}, \textnormal{dane wejściowe}) =
+\mathcal{P}^{\mathcal{L}} (\textnormal{dane wejściowe})$$
 
 ### Schematy blokowe
 
