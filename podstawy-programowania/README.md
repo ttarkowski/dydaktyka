@@ -152,23 +152,6 @@ architektury komputera.
 
 Współczesny komputer fizyczny jest również przykładem maszyny abstrakcyjnej.
 
-### Style programowania
-
-Przykładowe style programowania:
-  * imperatywny
-  * proceduralny
-  * deklaratywny
-  * funkcyjny
-  * obiektowy
-  * generyczny
-  * programowanie w logice
-
-Uwaga: Jeden język programowania może wspierać więcej niż jeden styl
-programowania. Na przykład C++ wspiera styl imperatywny, proceduralny,
-funkcyjny, obiektowy i generyczny. Istnieją też języki programowania, w których
-programuje się w jednym stylu. Na przykład Haskell jest językiem czysto
-funkcyjnym.
-
 ### Języki interpretowane i kompilowane
 
 Implementacja danego języka programowania może mieć formę *interpretowaną* lub
@@ -204,6 +187,23 @@ która spełnia warunek:
 (\mathcal{P}^{\mathcal{L}}) (\textnormal{dane wejściowe}) =
 \mathcal{P}^{\mathcal{L}} (\textnormal{dane wejściowe})
 ```
+
+### Style programowania
+
+Przykładowe style programowania:
+  * imperatywny
+  * proceduralny
+  * deklaratywny
+  * funkcyjny
+  * obiektowy
+  * generyczny
+  * programowanie w logice
+
+Uwaga: Jeden język programowania może wspierać więcej niż jeden styl
+programowania. Na przykład C++ wspiera styl imperatywny, proceduralny,
+funkcyjny, obiektowy i generyczny. Istnieją też języki programowania, w których
+programuje się w jednym stylu. Na przykład Haskell jest językiem czysto
+funkcyjnym.
 
 ### Schematy blokowe
 
