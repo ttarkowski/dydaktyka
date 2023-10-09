@@ -172,9 +172,8 @@ Niech $\mathcal{M}_{0 \mathcal{L}_0}$ oznacza maszynę abstrakcyjną z językiem
 maszynowym $\mathcal{L}_0$.
 
 Poprzez czysto interpretowaną implementację języka programowania $\mathcal{L}$
-dla maszyny abstrakcyjnej $\mathcal{M}_{0 \mathcal{L}_0}$ rozumie się tzw.
+dla maszyny abstrakcyjnej $`\mathcal{M}_{0 \mathcal{L}_0}`$ rozumie się tzw.
 interpreter, który może być zdefiniowany jako funkcja częściowa:
-
 $$\mathcal{I}_{\mathcal{L}}^{\mathcal{L}_0}\colon
 \mathcal{Prog}^{\mathcal{L}} \times \mathcal{D} \rightarrow \mathcal{D}$$
 która spełnia warunek:
