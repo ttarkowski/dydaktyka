@@ -191,6 +191,20 @@ która spełnia warunek:
 \mathcal{P}^{\mathcal{L}} (\textnormal{dane wejściowe})
 ```
 
+Poprzez czysto kompilowaną implementacją języka programowania $`\mathcal{L}`$
+dla maszyny abstrakcyjnej $`\mathcal{M}_{0 \mathcal{L}_0}`$ rozumie się tzw.
+kompilator, który może być zdefiniowany jako funkcja częściowa:
+```math
+\mathcal{C}_{\mathcal{L}}^{\mathcal{L}_0}\colon
+\mathcal{Prog}^{\mathcal{L}} \rightarrow \mathcal{Prog}^{\mathcal{L}_0}
+```
+która spełnia warunek:
+```math
+\mathcal{C}_{\mathcal{L}}^{\mathcal{L}_0}
+(\mathcal{P}^{\mathcal{L}}) (\textnormal{dane wejściowe}) =
+\mathcal{P}^{\mathcal{L}} (\textnormal{dane wejściowe})
+```
+
 ### Schematy blokowe
 
 W celu zapisu algorytmu można wykorzystać *pseudokod*, będący czymś pośrednim
