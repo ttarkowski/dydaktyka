@@ -100,8 +100,11 @@ programów aniżeli maszyna Turinga, ponieważ ta ostatnia ma nieskończenie wie
 miejsca na taśmie.
 
 *Hipoteza Churcha-Turinga:* Każdy problem intuicyjnie uznawany za obliczalny,
-jest obliczalny przez maszynę Turinga. (Uwaga: Hipoteza nie została udowodniona
-z powodu braku precyzji określenia "**intuicyjnie uznawany** za obliczalny").
+jest obliczalny przez maszynę Turinga.
+
+Chociaż hipoteza Churcha-Turinga nie została udowodniona z powodu braku precyzji
+określenia "**intuicyjnie uznawany** za obliczalny", to jednak żaden znany model
+obliczeń nie jest w stanie wyrazić więcej aniżeli maszyna Turinga.
 
 ### Języki programowania
 
