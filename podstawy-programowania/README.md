@@ -188,7 +188,7 @@ która spełnia warunek:
 
 ### Przykładowe style programowania
 
-#### Imperatywny styl programowania
+#### ▸ Imperatywny styl programowania
 
 W imperatywnym stylu programowania sterowanie programem jest zaprezentowane
 wprost w kodzie źródłowym a stan programu (np. wartości zmiennych) ulegają
