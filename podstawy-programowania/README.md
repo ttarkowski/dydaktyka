@@ -243,6 +243,61 @@ def Barnsley(x, y):
         transformation(cs[3], x, y)
 ```
 
+#### ▸ Obiektowy styl programowania
+
+W obiektowym stylu programowania procedury są zastąpione metodami klas.
+Działanie programu polega m.in. na tworzeniu obiektów i wykonywaniu operacji
+na nich. Dane są kapsułkowane, tzn. ukrywane przed „światem zewnętrznym”
+w obiektach, a same operacje są wykonywane jedynie poprzez ściśle określone
+interfejsy.
+
+Przykład stylu obiektowego w języku C++
+([fractal.py](/podstawy-programowania/examples/01/stack-cc/stack.cc)):
+```cpp
+class stack {
+  struct item {
+    int value;
+    item* lower;
+  };
+  
+public:
+  stack() : top_{nullptr} {}
+
+  void push(int val) {
+    item* aux = top_;
+    top_ = new item;
+    top_->value = val;
+    top_->lower = aux;
+  }
+  
+  void pop() {
+    if (top_) {
+      item* aux = top_->lower;
+      delete top_;
+      top_ = aux;
+    }
+  }
+  
+  int top() const {
+    assert(top_);
+    return top_->value;
+  }
+
+  bool is_empty() const {
+    return top_ == nullptr;
+  }
+
+  ~stack() {
+    while (!this->is_empty()) {
+      this->pop();
+    }
+  }
+
+private:
+  item* top_;
+};
+```
+
 TODO:
   * deklaratywny
   * funkcyjny
