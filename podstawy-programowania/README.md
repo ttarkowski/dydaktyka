@@ -360,7 +360,6 @@ Przykład stylu funkcyjnego w języku Scheme
 ```
 
 TODO:
-  * deklaratywny
   * programowanie w logice
 
 Uwaga: Jeden język programowania może wspierać więcej niż jeden styl
