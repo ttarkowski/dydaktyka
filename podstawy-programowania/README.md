@@ -338,9 +338,29 @@ type
   end;
 ```
 
+#### ▸ Funkcyjny styl programowania
+
+Programowanie w stylu funkcyjnym polega na operowaniu na funkcjach wyższego
+rzędu (tzn. funkcjach, które jako swoje argumenty mogą przyjmować inne funkcje
+a także zwracać funkcje jako swój rezultat).
+
+Przykład stylu funkcyjnego w języku Scheme
+([conditional.scm](/podstawy-programowania/examples/01/conditional-scm/conditional.scm)):
+```lisp
+(define true (lambda (x y) (x)))
+(define false (lambda (x y) (y)))
+(define if_then_else (lambda (a b c) (a b c)))
+
+(define f0 (lambda () (write 'f0)))
+(define f1 (lambda () (write 'f1)))
+
+(if_then_else false f0 f1)
+(newline)
+(exit)
+```
+
 TODO:
   * deklaratywny
-  * funkcyjny
   * programowanie w logice
 
 Uwaga: Jeden język programowania może wspierać więcej niż jeden styl
