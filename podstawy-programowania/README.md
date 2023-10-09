@@ -68,12 +68,10 @@ uruchamianych na urządzeniach elektronicznych.
 
 *Informatyka* jest nauką o przetwarzaniu informacji w sposób automatyczny.
 
-### Algorytm i jego własności
+### Algorytm. Maszyna Turinga
 
 *Algorytm* to skończony ciąg ściśle określonych instrukcji, zazwyczaj używanych
 do rozwiązania jakiegoś problemu lub wykonania obliczeń.
-
-### Maszyna Turinga
 
 *Maszyna Turinga* została zaproponowana przez Alana Turinga w 1936 i jest bardzo
 prostym modelem obecnie stosowanego komputera. Abstrakcja ta składa się
