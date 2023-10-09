@@ -99,6 +99,10 @@ Warto zauważyć, że komputery fizyczne mają mniejsze możliwości wykonywania
 programów aniżeli maszyna Turinga, ponieważ ta ostatnia ma nieskończenie wiele
 miejsca na taśmie.
 
+*Hipoteza Churcha-Turinga:* Każdy problem intuicyjnie uznawany za obliczalny,
+jest obliczalny przez maszynę Turinga. (Uwaga: Hipoteza nie została udowodniona
+z powodu braku precyzji określenia "**intuicyjnie uznawany** za obliczalny").
+
 ### Języki programowania
 
 *Język programowania* $\mathcal{L}$ jest systemem notacji umożliwiającym
