@@ -359,8 +359,38 @@ Przykład stylu funkcyjnego w języku Scheme
 (exit)
 ```
 
-TODO:
-  * programowanie w logice
+#### ▸ Programowanie w logice
+
+Ostatnim stylem programowania do omówienia na ten moment jest programowanie
+w logice. Jest to jeden z najmniej popularnych styli programowania, ale ma
+istotne znaczenie dla rozwoju informatyki. Opiera się on na tzw. klauzulach
+Horna, przestrzeni Herbranda i teorii unifikacji. Programy napisane w tym stylu
+mogą służyć do natychmiastowego rozwiązywania zagadek logicznych.
+
+Rozwiążmy zatem słynną zagadkę opublikowaną 17 grudnia 1962 w amerykańskim
+magazynie *Life International*:
+>   1. Jest pięć domów.
+>   2. Anglik mieszka w czerwonym domu.
+>   3. Hiszpan posiada psa.
+>   4. Kawa jest pijana w zielonym domu.
+>   5. Ukrainiec pija herbatę.
+>   6. Zielony dom znajduje się bezpośrednio na prawo od domu z kości słoniowej.
+>   7. Palacz Old Gold posiada ślimaki.
+>   8. Kools jest palony w żółtym domu.
+>   9. Mleko jest pijane w środkowym domu.
+>   10. Norweg mieszka w pierwszym domu.
+>   11. Mężczyzna, który pali Chesterfieldy, mieszka w domu obok mężczyzny
+>       z lisem.
+>   12. Kools jest palone w domu obok domu, gdzie trzymany jest koń.
+>   13. Palacz Lucky Strike pija sok pomarańczowy.
+>   14. Japończyk pali Parliaments.
+>   15. Norweg mieszka obok niebieskiego domu.
+> Teraz, kto pije wodę? Kto posiada zebrę?
+>
+> Dla przejrzystości należy dodać, że każdy z pięciu domów jest pomalowany na
+> inny kolor, a ich mieszkańcy mają odmienne narodowości, posiadają inne
+> zwierzęta, piją inne napoje i palą amerykańskie papierosy różnych marek
+> [sic!]. Jeszcze jedno: w zdaniu 6 „prawo” oznacza Twoje prawo.
 
 Uwaga: Jeden język programowania może wspierać więcej niż jeden styl
 programowania. Na przykład C++ wspiera styl imperatywny, proceduralny,
