@@ -278,8 +278,8 @@ schematów blokowych.
 ## Bibliografia
 
 Maurizio Gabbrielli & Simone Martini. *Programming Languages: Principles and
-Paradigms*. Springer-Verlag London Limited, 2010.
-[DOI: 10.1007/978-1-84882-914-5](https://doi.org/10.1007/978-1-84882-914-5).
+Paradigms*. Springer-Verlag London Limited, 2010. DOI:
+[10.1007/978-1-84882-914-5](https://doi.org/10.1007/978-1-84882-914-5).
 
 Maciej Ślusarek, Przemysław Broniek, Grzegorz Gutowski, Jan Jeżabek. *Złożoność
 obliczeniowa*. <https://wazniak.mimuw.edu.pl/>.
