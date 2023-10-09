@@ -140,6 +140,8 @@ zero-jedynkowym związane z brakiem lub przepływem prądu w procesorze komputer
 Napisy te są równoważne semantycznie (znaczeniowo) z językiem asemblera danej
 architektury komputera.
 
+Współczesny komputer fizyczny jest również przykładem maszyny abstrakcyjnej.
+
 ### Style programowania
 
 Przykładowe style programowania:
