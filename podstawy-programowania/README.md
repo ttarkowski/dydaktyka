@@ -193,7 +193,7 @@ wprost w kodzie źródłowym a stan programu (np. wartości zmiennych) ulegają
 zmianom.
 
 Przykład stylu imperatywnego w asemblerze (pełny przykład znajduje się w pliku
-[loop.asm](/podstawy-programowania/examples/01/loop-asm/loop.asm>)):
+[loop.asm](/podstawy-programowania/examples/01/loop-asm/loop.asm)):
 ```asm
 _start:
         mov rcx, 1000000000
