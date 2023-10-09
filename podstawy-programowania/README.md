@@ -220,3 +220,6 @@ schematów blokowych.
 
 Maurizio Gabbrielli & Simone Martini. *Programming Languages: Principles and
 Paradigms*. Springer-Verlag London Limited, 2010.
+
+Maciej Ślusarek, Przemysław Broniek, Grzegorz Gutowski, Jan Jeżabek. *Złożoność
+obliczeniowa*. <https://wazniak.mimuw.edu.pl/>.
