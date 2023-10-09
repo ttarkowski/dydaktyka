@@ -385,6 +385,7 @@ magazynie *Life International*:
 >   13. Palacz Lucky Strike pija sok pomarańczowy.
 >   14. Japończyk pali Parliaments.
 >   15. Norweg mieszka obok niebieskiego domu.
+>
 > Teraz, kto pije wodę? Kto posiada zebrę?
 >
 > Dla przejrzystości należy dodać, że każdy z pięciu domów jest pomalowany na
