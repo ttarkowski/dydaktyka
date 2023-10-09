@@ -209,8 +209,14 @@ loop:
 Imperatywny styl programowania jest jednym z najbardziej popularnych. Jest
 szeroko stosowany w różnych językach programowania.
 
+#### ▸ Strukturalny/proceduralny styl programowania
+
+W strukturalnym/proceduralnym stylu programowania wciąż stosuje się techniki
+imperatywne. Są one jednak wzbogacone o bardziej zaawansowane środki kontroli
+przepływu dzięki zastosowaniu instrukcji warunkowych, pętli oraz procedur
+(funkcji). Oznacza to unikanie instrukcji typu *goto*.
+
 TODO:
-  * strukturalny/proceduralny
   * deklaratywny
   * funkcyjny
   * obiektowy
