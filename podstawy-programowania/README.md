@@ -186,11 +186,26 @@ która spełnia warunek:
 \mathcal{P}^{\mathcal{L}} (\textnormal{dane wejściowe})
 ```
 
-### Style programowania
+### Przykładowe style programowania
 
-Przykładowe style programowania:
-  * imperatywny
-  * proceduralny
+W **imperatywnym** stylu programowania sterowanie programem jest zaprezentowane
+wprost w kodzie źródłowym a stan programu (np. wartości zmiennych) ulegają
+zmianom.
+
+Przykład stylu imperatywnego w asemblerze (pełny przykład znajduje się w pliku
+</podstawy-programowania/example/01/loop.asm>):
+```asm
+_start:
+        mov rcx, 1000000000
+
+loop:
+        dec rcx         ; Dekrementacja rejestru rcx (licznika pętli).
+        jnz loop        ; Skok do etykiety rozpoczynającej pętlę.
+        ;; (Powyższe dwie instrukcje można skrócić za pomocą loop.)
+```
+
+TODO:
+  * strukturalny/proceduralny
   * deklaratywny
   * funkcyjny
   * obiektowy
