@@ -188,6 +188,12 @@ która spełnia warunek:
 
 ### Przykładowe style programowania
 
+Uwaga: Jeden język programowania może wspierać więcej niż jeden styl
+programowania. Na przykład C++ wspiera styl imperatywny, proceduralny,
+funkcyjny, obiektowy i generyczny. Istnieją też języki programowania, w których
+programuje się w jednym stylu. Na przykład Haskell jest językiem czysto
+funkcyjnym.
+
 #### ▸ Imperatywny styl programowania
 
 W imperatywnym stylu programowania sterowanie programem jest zaprezentowane
@@ -417,12 +423,6 @@ water_drinker(Drinker) :- houses(Hs), member(h(_, Drinker, woda, _, _), Hs).
 ```
 
 Uwaga: Brak wielkich liter wynika z wymogów języka Prolog.
-
-Uwaga: Jeden język programowania może wspierać więcej niż jeden styl
-programowania. Na przykład C++ wspiera styl imperatywny, proceduralny,
-funkcyjny, obiektowy i generyczny. Istnieją też języki programowania, w których
-programuje się w jednym stylu. Na przykład Haskell jest językiem czysto
-funkcyjnym.
 
 ### Schematy blokowe
 
