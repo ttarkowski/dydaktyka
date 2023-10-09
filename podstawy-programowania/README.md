@@ -252,7 +252,7 @@ w obiektach, a same operacje są wykonywane jedynie poprzez ściśle określone
 interfejsy.
 
 Przykład stylu obiektowego w języku C++
-([fractal.py](/podstawy-programowania/examples/01/stack-cc/stack.cc)):
+([stack.cc](/podstawy-programowania/examples/01/stack-cc/stack.cc)):
 ```cpp
 class stack {
   struct item {
@@ -301,7 +301,6 @@ private:
 TODO:
   * deklaratywny
   * funkcyjny
-  * obiektowy
   * generyczny
   * programowanie w logice
 
