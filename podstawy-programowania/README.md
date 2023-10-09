@@ -93,7 +93,10 @@ znajdującego się w polu pod głowicą. Taką decyzją może być:
   * zmiana zawartości pola taśmy
   * zmiana stanu mechanizmu
 
-**Jak widać maszyna Turinga jest środowiskiem do wykonywania algorytmów.**
+**Jak widać maszyna Turinga jest środowiskiem do wykonywania algorytmów.** Jest
+też ona znacznie prostsza w opisie aniżeli dowolny fizyczny komputer, dlatego
+znacznie łatwiej jest dokonywać rozumowania na temat wykonywania algorytmów.
+Może to być zastosowane w opisie **złożoności obliczeniowej algorytmu**.
 
 Warto zauważyć, że komputery fizyczne mają mniejsze możliwości wykonywania
 programów aniżeli maszyna Turinga, ponieważ ta ostatnia ma nieskończenie wiele
