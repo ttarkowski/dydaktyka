@@ -97,10 +97,10 @@ znajdującego się w polu pod głowicą. Taką decyzją może być:
 też ona znacznie prostsza w opisie aniżeli dowolny fizyczny komputer, dlatego
 znacznie łatwiej jest dokonywać rozumowania na temat wykonywania algorytmów.
 Może to być zastosowane w opisie **złożoności obliczeniowej algorytmu**.
-
-Warto zauważyć, że komputery fizyczne mają mniejsze możliwości wykonywania
-programów aniżeli maszyna Turinga, ponieważ ta ostatnia ma nieskończenie wiele
-miejsca na taśmie.
+Warto przy okazji zauważyć, że komputery fizyczne mają formalnie mniejsze
+możliwości wykonywania programów aniżeli maszyna Turinga, ponieważ ta ostatnia
+ma nieskończenie wiele miejsca na taśmie. W granicy odpowienio małych programów
+komputerowych ta różnica nie ma znaczenia.
 
 *Hipoteza Churcha-Turinga:* Każdy problem intuicyjnie uznawany za obliczalny,
 jest obliczalny przez maszynę Turinga.
