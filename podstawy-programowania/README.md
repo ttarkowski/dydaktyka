@@ -111,30 +111,31 @@ obliczeń nie jest w stanie wyrazić więcej aniżeli maszyna Turinga.
 
 ### Języki programowania
 
-*Język programowania* $\mathcal{L}$ jest systemem notacji umożliwiającym
+*Język programowania* $`\mathcal{L}`$ jest systemem notacji umożliwiającym
 zapisywanie programów komputerowych.
 
-Jeśli $\mathcal{D}$ jest zbiorem danych, to program można uznać jako następującą
+Jeśli $`\mathcal{D}`$ jest zbiorem danych, to program można uznać jako następującą
 funkcję częściową:
-$$\mathcal{P}^{\mathcal{L}}\colon \mathcal{D}\rightarrow \mathcal{D}$$
-taką, że: $$\mathcal{P}^{\mathcal{L}}(\textnormal{dane wejściowe}) =
-\textnormal{dane wyjściowe}$$
-Program $\mathcal{P}^{\mathcal{L}}$ może nigdy nie kończyć się dla niektórych
+$$`\mathcal{P}^{\mathcal{L}}\colon \mathcal{D}\rightarrow \mathcal{D}`$$
+taką, że: $$`\mathcal{P}^{\mathcal{L}}(\textnormal{dane wejściowe}) =
+\textnormal{dane wyjściowe}`$$
+Program $`\mathcal{P}^{\mathcal{L}}`$ może nigdy nie kończyć się dla niektórych
 danych wejściowych, dlatego też jest on określany jako funkcja częściowa (por.
 problem stopu).
 
-Zbiór wszystkich programów w języku $\mathcal{L}$ będzie oznaczany jako
-$\mathcal{Prog}^{\mathcal{L}}$.
+Zbiór wszystkich programów w języku $`\mathcal{L}`$ będzie oznaczany jako
+$`\mathcal{Prog}^{\mathcal{L}}`$.
 
-*Maszyną abstrakcyjną* $\mathcal{M}_{\mathcal{L}}$ dla języka $\mathcal{L}$ jest
-zbiór algorytmów i struktur umożliwiających przechowywanie i wykonywanie
-programów napisanych w języku $\mathcal{L}$.
+*Maszyną abstrakcyjną* $`\mathcal{M}_{\mathcal{L}}`$ dla języka $`\mathcal{L}`$
+jest zbiór algorytmów i struktur umożliwiających przechowywanie i wykonywanie
+programów napisanych w języku $`\mathcal{L}`$.
 
 Wspomniana wyżej maszyna Turinga jest najbardziej podstawową maszyną
 abstrakcyjną.
 
-*Językiem maszynowym* dla maszyny abstrakcyjnej $\mathcal{M}_{\mathcal{L}}$ jest
-taki język $\mathcal{L}$, który jest *zrozumiały* przez interpreter tej maszyny.
+*Językiem maszynowym* dla maszyny abstrakcyjnej $`\mathcal{M}_{\mathcal{L}}`$
+jest taki język $`\mathcal{L}`$, który jest *zrozumiały* przez interpreter tej
+maszyny.
 
 Językiem maszynowym dla maszyny Turinga są pewne napisy nad alfabetem złożonym
 z symboli maszyny Turinga.
@@ -168,18 +169,18 @@ funkcyjnym.
 Implementacja danego języka programowania może mieć formę *interpretowaną* lub
 *kompilowaną*.
 
-Niech $\mathcal{M}_{0 \mathcal{L}_0}$ oznacza maszynę abstrakcyjną z językiem
-maszynowym $\mathcal{L}_0$.
+Niech $`\mathcal{M}_{0 \mathcal{L}_0}`$ oznacza maszynę abstrakcyjną z językiem
+maszynowym $`\mathcal{L}_0`$.
 
-Poprzez czysto interpretowaną implementację języka programowania $\mathcal{L}$
+Poprzez czysto interpretowaną implementację języka programowania $`\mathcal{L}`$
 dla maszyny abstrakcyjnej $`\mathcal{M}_{0 \mathcal{L}_0}`$ rozumie się tzw.
 interpreter, który może być zdefiniowany jako funkcja częściowa:
-$$\mathcal{I}_{\mathcal{L}}^{\mathcal{L}_0}\colon
-\mathcal{Prog}^{\mathcal{L}} \times \mathcal{D} \rightarrow \mathcal{D}$$
+$$`\mathcal{I}_{\mathcal{L}}^{\mathcal{L}_0}\colon
+\mathcal{Prog}^{\mathcal{L}} \times \mathcal{D} \rightarrow \mathcal{D}`$$
 która spełnia warunek:
-$$\mathcal{I}_{\mathcal{L}}^{\mathcal{L}_0}
+$$`\mathcal{I}_{\mathcal{L}}^{\mathcal{L}_0}
 (\mathcal{P}^{\mathcal{L}}, \textnormal{dane wejściowe}) =
-\mathcal{P}^{\mathcal{L}} (\textnormal{dane wejściowe})$$
+\mathcal{P}^{\mathcal{L}} (\textnormal{dane wejściowe})`$$
 
 ### Schematy blokowe
 
