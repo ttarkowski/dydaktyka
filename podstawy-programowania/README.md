@@ -165,6 +165,9 @@ funkcyjnym.
 Implementacja danego języka programowania może mieć formę *interpretowaną* lub
 *kompilowaną*.
 
+Niech $\mathcal{M}_{0 \mathcal{L}_0}$ oznacza maszynę abstrakcyjną z językiem
+maszynowym $\mathcal{L}_0$.
+
 ### Schematy blokowe
 
 W celu zapisu algorytmu można wykorzystać *pseudokod*, będący czymś pośrednim
