@@ -116,9 +116,9 @@ zapisywanie programów komputerowych.
 
 Jeśli $`\mathcal{D}`$ jest zbiorem danych, to program można uznać jako następującą
 funkcję częściową:
-$$`\mathcal{P}^{\mathcal{L}}\colon \mathcal{D}\rightarrow \mathcal{D}`$$
-taką, że: $$`\mathcal{P}^{\mathcal{L}}(\textnormal{dane wejściowe}) =
-\textnormal{dane wyjściowe}`$$
+$$\mathcal{P}^{\mathcal{L}}\colon \mathcal{D}\rightarrow \mathcal{D}$$
+taką, że: $$\mathcal{P}^{\mathcal{L}}(\textnormal{dane wejściowe}) =
+\textnormal{dane wyjściowe}$$
 Program $`\mathcal{P}^{\mathcal{L}}`$ może nigdy nie kończyć się dla niektórych
 danych wejściowych, dlatego też jest on określany jako funkcja częściowa (por.
 problem stopu).
@@ -175,12 +175,12 @@ maszynowym $`\mathcal{L}_0`$.
 Poprzez czysto interpretowaną implementację języka programowania $`\mathcal{L}`$
 dla maszyny abstrakcyjnej $`\mathcal{M}_{0 \mathcal{L}_0}`$ rozumie się tzw.
 interpreter, który może być zdefiniowany jako funkcja częściowa:
-$$`\mathcal{I}_{\mathcal{L}}^{\mathcal{L}_0}\colon
-\mathcal{Prog}^{\mathcal{L}} \times \mathcal{D} \rightarrow \mathcal{D}`$$
+$$\mathcal{I}_{\mathcal{L}}^{\mathcal{L}_0}\colon
+\mathcal{Prog}^{\mathcal{L}} \times \mathcal{D} \rightarrow \mathcal{D}$$
 która spełnia warunek:
-$$`\mathcal{I}_{\mathcal{L}}^{\mathcal{L}_0}
+$$\mathcal{I}_{\mathcal{L}}^{\mathcal{L}_0}
 (\mathcal{P}^{\mathcal{L}}, \textnormal{dane wejściowe}) =
-\mathcal{P}^{\mathcal{L}} (\textnormal{dane wejściowe})`$$
+\mathcal{P}^{\mathcal{L}} (\textnormal{dane wejściowe})$$
 
 ### Schematy blokowe
 
