@@ -452,31 +452,62 @@ schematów blokowych.
     z lewej do prawej). W przeciwnym razie należy użyć strzałki.  
     ![Łącznik i strzałka](/podstawy-programowania/fig/flowchart/flowline.svg)
 
-## 2. Generacje języków programowania
+### Generacje języków programowania
 
-## 3. Typy danych i zmienne
+Współczesna klasyfikacja generacji języków programowania:
 
-## 4. Instrukcje
+  * *Język programowania 1 generacji* (1GL, ang. *1st generation language*) to
+    język maszynowy (zob. definicję wyżej) danego komputera. Komputer jest wtedy
+    programowany bezpośrednio w swoim własnym języku bez potrzeby użycia
+    procedury kompilacji/interpretacji. W przeszłości programowanie odbywało
+    się poprzez użycie odpowiednich interfejsów sprzętowych. Obecnie 1GL jest
+    stosowane np. do programowania sterowników obsługujących sprzęt.
+  * *Język programowania 2 generacji* (2GL) to język asemblera. Język taki jest
+    podobny do 1GL z tą istotną różnicą, że zamiast ciągów binarnych stosuje się
+    mnemoniki, tzn. skróty od wyrazów języka naturalnego (np. `mov` lub `dec`),
+    które z jednej strony ułatwiają pisanie i rozumienie kodów źródłowych,
+    a z drugiej wymagają zastosowania procedury asemblacji (kompilacji z kodu
+    2GL na kod 1GL).  
+    Przykład: asembler x86-64.
+  * *Język programowania 3 generacji* (3GL) to język niezależny od danej
+    architektury sprzętowej znacznie ułatwiający tworzenie programów
+    komputerowych. Język taki jest znacznie bardziej abstrakcyjny aniżeli 2G
+    i ukrywa szczegóły danej architektury przed programistą.  
+    Przykłady: C++, Object Pascal, Python, Scheme.
+  * *Język programowania 4 generacji* (4GL) jest obecnie różnie definiowany.
+    Można go rozumieć jako język, który operuje na zbiorach danych zamiast na
+    bajtach, albo jako język dziedzinowy (mający wąskie zastosowanie
+    aplikacyjne).  
+    Przykład: R.
+  * *Język programowania 5 generacji* (5GL) to język, w którym programista, aby
+    rozwiązać problem, nie implementuje algorytmu a jedynie specyfikuje
+    ograniczenia czego przykładem jest wyżej opisane rozwiązanie
+    zagadki z zebrą.  
+    Przykład: Prolog.
 
-## 5. Wskaźniki i zmienne dynamiczne
+## 2. Typy danych i zmienne
 
-## 6. Wyrażenia
+## 3. Instrukcje
 
-## 7. Złożone typy danych
+## 4. Wskaźniki i zmienne dynamiczne
 
-## 8. Funkcje
+## 5. Wyrażenia
 
-## 9. Zasięg i widoczność
+## 6. Złożone typy danych
 
-## 10. Rekurencja
+## 7. Funkcje
 
-## 11. Metoda wstępująca i zstępująca
+## 8. Zasięg i widoczność
 
-## 12. Klasy i obiekty
+## 9. Rekurencja
 
-## 13. Biblioteki programistyczne
+## 10. Metoda wstępująca i zstępująca
 
-## 14. Pliki
+## 11. Klasy i obiekty
+
+## 12. Biblioteki programistyczne
+
+## 13. Pliki
 
 ## Bibliografia
 
