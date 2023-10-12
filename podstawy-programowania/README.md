@@ -485,6 +485,8 @@ schematów blokowych.
     z lewej do prawej). W przeciwnym razie należy użyć strzałki.  
     ![Łącznik i strzałka](/podstawy-programowania/fig/flowchart/flowline.svg)
 
+### Notacja BNF
+
 ## 2. Typy danych i zmienne
 
 ## 3. Instrukcje
