@@ -502,6 +502,9 @@ gdzie:
 Każda sekwencja w wyrażeniu `__wyrażenie__` jest odseparowana o następnej
 symbolem `|` oznaczającym wybór.
 
+Symbole `<`, `>`, `::=` oraz `|` to symbole metajęzyka. Pozostałe symbole są
+znakami lub symbolami definiowanego języka.
+
 Przykład: Notacja BNF dla zwykłego zapisu liczb całkowitych może być
 następująca:
 ```
