@@ -596,6 +596,18 @@ Twórca języka, Bjarne Stroustrup, napisał również
 
 ## 3. Instrukcje
 
+### Instrukcja pusta i złożona
+
+### Instrukcja przypisania
+
+### Instrukcja warunkowa `if`
+
+### Instrukcja `switch`
+
+### Pętla `while`, `do`-`while` oraz `for`
+
+### Instrukcje `break` oraz `continue`
+
 ## 4. Typy danych i zmienne
 
 ## 5. Wskaźniki i zmienne dynamiczne
