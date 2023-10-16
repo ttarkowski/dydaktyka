@@ -502,6 +502,19 @@ gdzie:
 Każda sekwencja w wyrażeniu `__wyrażenie__` jest odseparowana o następnej
 symbolem `|` oznaczającym wybór.
 
+Przykład: Notacja BNF dla zwykłego zapisu liczb całkowitych może być
+następująca:
+```
+<minus> ::= '-'
+<zero> ::= '0'
+<cyfra niezerowa> ::= '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9'
+<cyfra> ::= <zero> | <cyfra niezerowa>
+<sekwencja cyfr> ::= <cyfra> | <cyfra><sekwencja cyfr>
+<liczba nieujemna> ::= <cyfra> | <cyfra niezerowa><sekwencja cyfr>
+<liczba ujemna> :: <minus><cyfra niezerowa> | <minus><cyfra niezerowa><cyfra>
+<liczba całkowita> ::= <liczba nieujemna> | <liczba ujemna>
+```
+
 ## 2. Typy danych i zmienne
 
 ## 3. Instrukcje
