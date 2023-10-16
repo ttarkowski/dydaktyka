@@ -520,7 +520,7 @@ następująca:
 Symbole `-`, `0`, `1`, `2`, `3`, `4`, `5`, `6`, `7`, `8` oraz `9` są terminalne.
 Pozostałe symbole, tzn. `<minus>`, `<zero>`, `<cyfra niezerowa>`, `<cyfra>`,
 `<sekwencja cyfr>`, `<liczba nieujemna>`, `<liczba ujemna>` oraz `<liczba
-całkowita>`, to symbole nieterminalna.
+całkowita>`, to symbole nieterminalne.
 
 ## 2. Typy danych i zmienne
 
