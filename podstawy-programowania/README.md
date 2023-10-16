@@ -522,11 +522,11 @@ Pozostałe symbole, tzn. `<minus>`, `<zero>`, `<cyfra niezerowa>`, `<cyfra>`,
 `<sekwencja cyfr>`, `<liczba nieujemna>`, `<liczba ujemna>` oraz `<liczba
 całkowita>`, to symbole nieterminalne.
 
-Notacja BNF, choć bardzo użyteczna, ma dwie wady — nie ma możliwości wyrażenia
-wprost powtórzeń (należy użyć rekurencji, por. `<sekwencja cyfr>`) oraz symboli
-opcjonalnych (trzeba w tym celu użyć symboli pośrednich). Dlatego też, w celu
-zaradzenia tym niedogodnościom, stworzono rozszerzenia dla BNF. Jedym z nich
-jest *EBNF* (ang. *extended Backus-Naur form*).
+Notacja BNF, choć bardzo użyteczna, ma pewne wady. Nie ma chociażby możliwości
+wyrażenia wprost powtórzeń (należy użyć rekurencji, por. `<sekwencja cyfr>`)
+oraz symboli opcjonalnych (trzeba w tym celu użyć symboli pośrednich). Dlatego
+też, w celu zaradzenia tym niedogodnościom, stworzono rozszerzenia dla BNF.
+Jedym z nich jest *EBNF* (ang. *extended Backus-Naur form*).
 
 ## 2. Typy danych i zmienne
 
