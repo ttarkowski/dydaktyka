@@ -562,6 +562,18 @@ Standardy języka:
   * 2020 (C++20) — duże rozszerzenie względem C++17
   * 2023 (C++23) — zbliżająca się aktualizacja języka
 
+### Właściwości
+
+C++ jest językiem trzeciej generacji wspierającym imperatywny, proceduralny,
+funkcyjny, obiektowy i generyczny styl programowania. C++ wywodzi się z dwóch
+tradycji programistycznych, które bardzo dobrze opisują czym jest i czym
+powinien pozostać język C++ mimo swojej ciągłej ewolucji:
+  * Pierwsza tradycja jest powiązana z językiem C, BCPL oraz asemblerem. Wniosła
+    ona wysoką wydajność kodu wykonywalnego poprzez *bezpośrednie odwzorowanie
+    w sprzęcie*.
+  * Druga tradycja jest związana z językiem Simula. Wprowadziła ona *abstrakcję
+    bez narzutu*.
+
 ## 3. Instrukcje
 
 ## 4. Typy danych i zmienne
