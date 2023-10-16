@@ -528,9 +528,9 @@ oraz symboli opcjonalnych (trzeba w tym celu użyć symboli pośrednich). Dlateg
 też, w celu zaradzenia tym niedogodnościom, stworzono rozszerzenia dla BNF.
 Jedym z nich jest *EBNF* (ang. *extended Backus-Naur form*).
 
-## 2. Typy danych i zmienne
+## 2. Instrukcje
 
-## 3. Instrukcje
+## 3. Typy danych i zmienne
 
 ## 4. Wskaźniki i zmienne dynamiczne
 
