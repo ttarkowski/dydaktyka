@@ -528,29 +528,31 @@ oraz symboli opcjonalnych (trzeba w tym celu użyć symboli pośrednich). Dlateg
 też, w celu zaradzenia tym niedogodnościom, stworzono rozszerzenia dla BNF.
 Jedym z nich jest *EBNF* (ang. *extended Backus-Naur form*).
 
-## 2. Instrukcje
+## 2. Język C++ — wprowadzenie
 
-## 3. Typy danych i zmienne
+## 3. Instrukcje
 
-## 4. Wskaźniki i zmienne dynamiczne
+## 4. Typy danych i zmienne
 
-## 5. Wyrażenia
+## 5. Wskaźniki i zmienne dynamiczne
 
-## 6. Złożone typy danych
+## 6. Wyrażenia
 
-## 7. Funkcje
+## 7. Złożone typy danych
 
-## 8. Zasięg i widoczność
+## 8. Funkcje
 
-## 9. Rekurencja
+## 9. Zasięg i widoczność
 
-## 10. Metoda wstępująca i zstępująca
+## 10. Rekurencja
 
-## 11. Klasy i obiekty
+## 11. Metoda wstępująca i zstępująca
 
-## 12. Biblioteki programistyczne
+## 12. Klasy i obiekty
 
-## 13. Pliki
+## 13. Biblioteki programistyczne
+
+## 14. Pliki
 
 ## Bibliografia
 
