@@ -607,6 +607,10 @@ Maurizio Gabbrielli & Simone Martini. *Programming Languages: Principles and
 Paradigms*. Springer-Verlag London Limited, 2010. DOI:
 [10.1007/978-1-84882-914-5](https://doi.org/10.1007/978-1-84882-914-5).
 
+Bjarne Stroustrup. *A History of C++: 1979–1991*. History of Programming
+Languages—II 699 (1996). DOI:
+[10.1145/234286.1057836](https://doi.org/10.1145/234286.1057836).
+
 Bjarne Stroustrup. *Bjarne Stroustrup's homepage*. <https://stroustrup.com/>.
 
 Maciej Ślusarek, Przemysław Broniek, Grzegorz Gutowski, Jan Jeżabek. *Złożoność
