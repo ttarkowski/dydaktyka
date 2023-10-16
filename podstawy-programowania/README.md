@@ -592,8 +592,7 @@ można znaleźć na stronie
 <https://stackoverflow.com/questions/388242/the-definitive-c-book-guide-and-list/>.
 
 Twórca języka, Bjarne Stroustrup, napisał również
-[książkę na temat C++ przeznaczoną początkującym programistom]
-(https://stroustrup.com/programming.html).
+[książkę na temat C++ przeznaczoną początkującym programistom](https://stroustrup.com/programming.html).
 
 ## 3. Instrukcje
 
