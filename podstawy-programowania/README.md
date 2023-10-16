@@ -508,9 +508,9 @@ znakami lub symbolami definiowanego języka.
 Przykład: Notacja BNF dla zwykłego zapisu liczb całkowitych może być
 następująca:
 ```
-<minus> ::= '-'
-<zero> ::= '0'
-<cyfra niezerowa> ::= '1' | '2' | '3' | '4' | '5' | '6' | '7' | '8' | '9'
+<minus> ::= -
+<zero> ::= 0
+<cyfra niezerowa> ::= 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9
 <cyfra> ::= <zero> | <cyfra niezerowa>
 <sekwencja cyfr> ::= <cyfra> | <cyfra><sekwencja cyfr>
 <liczba nieujemna> ::= <cyfra> | <cyfra niezerowa><sekwencja cyfr>
