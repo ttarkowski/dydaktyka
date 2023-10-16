@@ -530,6 +530,38 @@ Jedym z nich jest *EBNF* (ang. *extended Backus-Naur form*).
 
 ## 2. Język C++ — wprowadzenie
 
+Językiem programowania używanym w dalszej części wykładu będzie C++. Język ten
+łączy długą historię z nowoczesnymi technikami.
+
+### Historia
+
+Praca nad C++, wtedy jeszcze nazywanym „C z klasami”, rozpoczęła się w 1979.
+Wtedy to duński informatyk Bjarne Stroustrup mierzył się w New Jersey (Stany
+Zjednoczone) z pewnym problemem z zakresu sieci komputerowych i systemów
+operacyjnych a nowy język miał być właśnie rozwiązaniem tego problemu. Stworzony
+język okazał się być rozwiązaniem wszechstronnym i z czasem zaczął być coraz
+bardziej popularny.
+
+Historia przed standardami języka:
+  * 1979 — pierwsza implementacja nowego języka programowania, tzn. C z klasami
+  * 1982 — opublikowano podręcznik użytkownika
+  * 1985 — Cfront 1.0 oraz pierwsze wydanie książki “The C++ Programming
+    Language” (TC++PL)
+  * 1989 — Cfront 2.0
+  * 1990 — “The Annotated C++ Reference Manual”
+  * 1991 — Cfront 3.0 oraz drugie wydanie TC++PL
+
+W 1988 C++ miał około 15 tysięcy użytkowników i pojawił się pomysł na jego
+standardyzację.
+
+Standardy języka:
+  * 1998 (C++98) — pierwszy standard (skorygowany nieznacznie w 2003)
+  * 2011 (C++11) — istotna aktualizacja języka (okres tzw. *nowoczesnego C++*)
+  * 2014 (C++14) — małe rozszerzenie względem C++11
+  * 2017 (C++17) — duże roszerzenie względem C++14
+  * 2020 (C++20) — duże rozszerzenie względem C++17
+  * 2023 (C++23) — zbliżająca się aktualizacja języka
+
 ## 3. Instrukcje
 
 ## 4. Typy danych i zmienne
@@ -556,9 +588,14 @@ Jedym z nich jest *EBNF* (ang. *extended Backus-Naur form*).
 
 ## Bibliografia
 
+cppreference.com. *History of C++*.
+<https://en.cppreference.com/w/cpp/language/history>.
+
 Maurizio Gabbrielli & Simone Martini. *Programming Languages: Principles and
 Paradigms*. Springer-Verlag London Limited, 2010. DOI:
 [10.1007/978-1-84882-914-5](https://doi.org/10.1007/978-1-84882-914-5).
+
+Bjarne Stroustrup. *Bjarne Stroustrup's homepage*. <https://stroustrup.com/>.
 
 Maciej Ślusarek, Przemysław Broniek, Grzegorz Gutowski, Jan Jeżabek. *Złożoność
 obliczeniowa*. <https://wazniak.mimuw.edu.pl/>.
