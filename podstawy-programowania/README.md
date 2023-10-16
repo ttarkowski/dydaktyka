@@ -517,6 +517,10 @@ następująca:
 <liczba ujemna> :: <minus><cyfra niezerowa> | <minus><cyfra niezerowa><cyfra>
 <liczba całkowita> ::= <liczba nieujemna> | <liczba ujemna>
 ```
+Symbole `-`, `0`, `1`, `2`, `3`, `4`, `5`, `6`, `7`, `8` oraz `9` są terminalne.
+Pozostałe symbole, tzn. `<minus>`, `<zero>`, `<cyfra niezerowa>`, `<cyfra>`,
+`<sekwencja cyfr>`, `<liczba nieujemna>`, `<liczba ujemna>` oraz `<liczba
+całkowita>`, to symbole nieterminalna.
 
 ## 2. Typy danych i zmienne
 
