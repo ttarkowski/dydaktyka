@@ -574,6 +574,19 @@ powinien pozostać język C++ mimo swojej ciągłej ewolucji:
   * Druga tradycja jest związana z językiem Simula. Wprowadziła ona *abstrakcję
     bez narzutu*.
 
+### Źródła wiedzy o języku
+
+Językowi C++ jest poświęconych wiele materiałów edukacyjnych. Ważnym
+uzupełnieniem kursu języka C++ jest:
+  * serwis <https://cppreference.com>
+  * konferencja CppCon <https://www.youtube.com/CppCon>
+
+Ponadto warto wspomnieć, że istnieje:
+  * dokument opisujący standard (obecnie z 2020 roku)
+
+Uwaga: Standard jest zasadniczo przydatny tylko dla twórców języka lub twórców
+kompilatorów.
+
 ## 3. Instrukcje
 
 ## 4. Typy danych i zmienne
