@@ -498,6 +498,7 @@ gdzie:
   * znak `::=` oznacza, że `<symbol>` zostanie zastąpiony przez `__wyrażenie__`
   * `__wyrażenie__` składa się z sekwencji symboli terminalnych
     i nieterminalnych
+
 Każda sekwencja w wyrażeniu `__wyrażenie__` jest odseparowana o następnej
 symbolem `|` oznaczającym wybór.
 
