@@ -487,6 +487,20 @@ schematów blokowych.
 
 ### Notacja BNF
 
+*Notacja BNF* (ang. *Backus-Naur form*) jest w informatyce używana m.in. do
+opisu składni języków programowania (jest więc tzw. *metaskładnią*). Polega ona
+na wyspecyfikowaniu tzw. *reguł produkcji*:
+```
+<symbol> ::= __wyrażenie__
+```
+gdzie:
+  * `<symbol>` jest *zmienną nieterminalną*
+  * znak `::=` oznacza, że `<symbol>` zostanie zastąpiony przez `__wyrażenie__`
+  * `__wyrażenie__` składa się z sekwencji symboli terminalnych
+    i nieterminalnych
+Każda sekwencja w wyrażeniu `__wyrażenie__` jest odseparowana o następnej
+symbolem `|` oznaczającym wybór.
+
 ## 2. Typy danych i zmienne
 
 ## 3. Instrukcje
