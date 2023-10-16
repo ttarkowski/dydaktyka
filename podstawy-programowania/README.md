@@ -587,6 +587,14 @@ Ponadto warto wspomnieć, że istnieje:
 Uwaga: Standard jest zasadniczo przydatny tylko dla twórców języka lub twórców
 kompilatorów.
 
+Anglojęzyczne sugestie dotyczące materiałów w postaci książek do przeczytania
+można znaleźć na stronie
+<https://stackoverflow.com/questions/388242/the-definitive-c-book-guide-and-list/>.
+
+Twórca języka, Bjarne Stroustrup, napisał również
+[książkę na temat C++ przeznaczoną początkującym programistom]
+(https://stroustrup.com/programming.html).
+
 ## 3. Instrukcje
 
 ## 4. Typy danych i zmienne
