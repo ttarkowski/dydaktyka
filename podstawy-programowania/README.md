@@ -597,7 +597,9 @@ Twórca języka, Bjarne Stroustrup, napisał również
 ## 3. Instrukcje
 
 Uwaga: Dla uproszczenia w opisie składni poszczególnych instrukcji pominięto
-*atrybuty* a czasami zastosowano składnię nieformalną.
+*atrybuty* a czasami zastosowano składnię nieformalną. Opis elementów składni
+również został uproszczony dla klarowności podstawowego kursu programowania.
+Więcej informacji o składni można znaleźć w serwisie <https://cppreference.com>.
 
 ### Instrukcja pusta i złożona
 
@@ -613,6 +615,14 @@ Składnia pętli `while` jest następująca:
 ```cpp
 while ( warunek ) instrukcja
 ```
+  * `warunek` jest wyrażeniem konwertowalnym na wartość logiczną, które jest
+    ewaluowane przed każdą potencjalną iteracją pętli, lub jest deklaracją
+    zmiennej, która jest inicjowana przed każdą potencjalną iteracją pętli.
+    Jeśli otrzymana przez ewalucaję lub inicjację wartość jest konwertowalna na
+    `true`, wtedy faktycznie wykonywana jest iteracja pętli. W przeciwnym razie
+    pętla jest kończona.
+  * `instrukcja` jest dowolną instrukcją, w tym złożoną. `instrukcja` jest
+    wykonywana w każdej iteracji pętli.
 
 ### Pętla `do`-`while`
 
