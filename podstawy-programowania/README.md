@@ -611,7 +611,7 @@ Więcej informacji o składni można znaleźć w serwisie <https://cppreference.
 
 ### Pętla `while`
 
-Składnia pętli `while` jest następująca:
+Składnia:
 ```cpp
 while ( warunek ) instrukcja
 ```
