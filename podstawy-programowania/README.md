@@ -678,6 +678,17 @@ Sposob nr 2:
 
 ### Pętla `do`-`while`
 
+Składnia:
+```cpp
+do instrukcja while ( warunek ) ;
+```
+
+  * `instrukcja` jest dowolną instrukcją, w tym złożoną. `instrukcja` jest
+    wykonywana w każdej iteracji pętli.
+  * `warunek` jest wyrażeniem konwertowalnym na wartość logiczną, które jest
+    ewaluowane po każdej iteracji pętli. Jeśli otrzymana przez ewalucaję wartość
+    jest konwertowalna na `false`, wtedy pętla jest kończona.
+
 ### Pętla `for`
 
 ### Instrukcje `break` oraz `continue`
