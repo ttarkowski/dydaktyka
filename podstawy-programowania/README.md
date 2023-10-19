@@ -596,6 +596,9 @@ Twórca języka, Bjarne Stroustrup, napisał również
 
 ## 3. Instrukcje
 
+Uwaga: Dla uproszczenia w opisie składni poszczególnych instrukcji pominięto
+*atrybuty* a czasami zastosowano składnię nieformalną.
+
 ### Instrukcja pusta i złożona
 
 ### Instrukcja przypisania
@@ -604,7 +607,16 @@ Twórca języka, Bjarne Stroustrup, napisał również
 
 ### Instrukcja `switch`
 
-### Pętla `while`, `do`-`while` oraz `for`
+### Pętla `while`
+
+Składnia pętli `while` jest następująca:
+```cpp
+while ( warunek ) instrukcja
+```
+
+### Pętla `do`-`while`
+
+### Pętla `for`
 
 ### Instrukcje `break` oraz `continue`
 
