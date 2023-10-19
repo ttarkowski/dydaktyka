@@ -624,6 +624,58 @@ while ( warunek ) instrukcja
   * `instrukcja` jest dowolną instrukcją, w tym złożoną. `instrukcja` jest
     wykonywana w każdej iteracji pętli.
 
+Przykład (pełny przykład znajduje się w pliku
+[while/while.cc](/podstawy-programowania/examples/03/while/while.cc)):
+```cpp
+#include <iostream>
+
+int
+main()
+{
+  std::cout << "Sposob nr 1:\n";
+  int n = 10;
+  while (n > 0) {
+    std::cout << n << "^2 = " << n * n << '\n';
+    --n;
+  }
+
+  std::cout << '\n';
+  
+  std::cout << "Sposob nr 2:\n";
+  int i = 10;
+  while (int j = i * i) {
+    std::cout << i-- << "^2 = " << j << '\n';
+  }
+}
+```
+
+Wynik działania przykładu:
+```
+Sposob nr 1:
+10^2 = 100
+9^2 = 81
+8^2 = 64
+7^2 = 49
+6^2 = 36
+5^2 = 25
+4^2 = 16
+3^2 = 9
+2^2 = 4
+1^2 = 1
+
+Sposob nr 2:
+10^2 = 100
+9^2 = 81
+8^2 = 64
+7^2 = 49
+6^2 = 36
+5^2 = 25
+4^2 = 16
+3^2 = 9
+2^2 = 4
+1^2 = 1
+```
+
 ### Pętla `do`-`while`
 
 ### Pętla `for`
