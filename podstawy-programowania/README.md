@@ -691,6 +691,25 @@ do instrukcja while ( warunek ) ;
 
 ### Pętla `for`
 
+Składnia:
+```cpp
+for ( instrukcja_0 warunek (opcjonalnie) ; wyrażenie (opcjonalnie) ) instrukcja
+```
+
+  * `instrukcja_0` jest instrukcją wyrażenia, w tym instrukcją pustą `;`, lub
+    pewną deklaracją, zazwyczaj zmiennej licznika pętli połączonej z jego
+    zainicjowaniem.
+  * `warunek` jest wyrażeniem konwertowalnym na wartość logiczną, które jest
+    ewaluowane przed każdą potencjalną iteracją pętli, lub jest deklaracją
+    zmiennej, która jest inicjowana przed każdą potencjalną iteracją pętli.
+    Jeśli otrzymana przez ewalucaję lub inicjację wartość jest konwertowalna na
+    `true`, wtedy faktycznie wykonywana jest iteracja pętli. W przeciwnym razie
+    pętla jest kończona.
+  * `wyrażenie` jest dowolnym wyrażeniem, które jest wykonywane po każdej
+    iteracji pętli i zazwyczaj polega ono na inkrementacji licznika pętli.
+  * `instrukcja` jest dowolną instrukcją, w tym złożoną. `instrukcja` jest
+    wykonywana w każdej iteracji pętli.
+
 ### Instrukcje `break` oraz `continue`
 
 ## 4. Typy danych i zmienne
