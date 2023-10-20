@@ -710,6 +710,24 @@ for ( instrukcja_0 warunek (opcjonalnie) ; wyrażenie (opcjonalnie) ) instru
   * `instrukcja` jest dowolną instrukcją, w tym złożoną. `instrukcja` jest
     wykonywana w każdej iteracji pętli.
 
+Powyższy opis może być nieco nieintuicyjny, dlatego warto rozważyć pewne dwa
+szczególne przypadki. Jeśli `instrukcja_0` jest instrukcją pustą a `warunek`
+i `wyrażenie` zostały pominięte to otrzymujemy pętlę nieskończoną, np.:
+```cpp
+for (;;) {
+  // Kod wykonywany w pętli nieskończonej.
+}
+```
+Jeśli `instrukcja_0` jest deklaracją zmiennej licznika połączonej z jego
+zainicjowaniem, `warunek` jest wyrażeniem konwertowalnym na wartość logiczną
+a `wyrażenie` polega na inkrementacji licznika pętli to otrzymujemy klasyczną
+pętlę `for`, np.:
+```cpp
+for (int i = 0; i < 42; ++i) {
+ // Kod wykonywany 42 razy dla i równego odpowiednio 0, 1, ..., 41.
+}
+```
+
 ### Instrukcje `break` oraz `continue`
 
 ## 4. Typy danych i zmienne
