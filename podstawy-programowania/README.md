@@ -728,6 +728,9 @@ for (int i = 0; i < 42; ++i) {
 }
 ```
 
+Uwaga: W standardzie języka C++ z roku 2011 wprowadzono tzw. pętlę zakresową
+i nie jest ona omawiana w tym miejscu.
+
 ### Instrukcje `break` oraz `continue`
 
 ## 4. Typy danych i zmienne
