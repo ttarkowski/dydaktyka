@@ -633,7 +633,25 @@ wyrażenie;
 ```
 
 Skoro wyrażenie jest sekwencją operatorów i operandów, przyjrzyjmy się przy
-okazji niektórym operatorom języka C++.
+okazji operatorom języka C++.
+
+Operator:
+  * przypisania: `a = b`, `a += b`, `a -= b`, `a *=b `, `a /= b`, `a %= b`,
+    `a &= b`, `a |= b`, `a ^= b`, `a <<= b`, `a >>= b`
+  * inkrementacji: `++a`, `a++`
+  * dekrementacji: `--a`, `a--`
+  * arytmetyczny: `+a`, `-a`, `a + b`, `a - b`, `a * b`, `a / b`, `a % b`
+  * arytmetyczny bitowy: `~a`, `a & b`, `a | b`, `a ^ b`, `a << b`, `a >> b`
+  * logiczny: `!a`, `a && b`, `a || b`
+  * porównania: `a == b`, `a != b`, `a < b`, `a > b`, `a <= b`, `a >= b`,
+    `a <=> b`
+  * dostępu: `a[...]`, `*a`, `&a`, `a->b`, `a.b`, `a->*b`, `a.*b`
+  * wywołania funkcji: `a(...)`
+  * przecinek: `a, b`
+  * warunkowy: `a ? b : c`
+  * specjalny: `static_cast`, `dynamic_cast`, `const_cast`, `reinterpret_cast`,
+    operator rzutowania w stylu C, `new`, `delete`, `sizeof`, `sizeof...`,
+    `typeid`, `noexcept`, `alignof`
 
 ### Instrukcja pusta i złożona
 
@@ -790,6 +808,9 @@ i nie jest ona omawiana w tym miejscu.
 ## 14. Pliki
 
 ## Bibliografia
+
+cppreference.com. *Expressions*.
+<https://en.cppreference.com/w/cpp/language/expressions>.
 
 cppreference.com. *History of C++*.
 <https://en.cppreference.com/w/cpp/language/history>.
