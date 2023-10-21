@@ -632,6 +632,11 @@ operatorów i operandów, oraz znaku `;`:
 wyrażenie;
 ```
 
+Instrukcja wyrażenia bez wyrażenia jest nazywana *instrukcją pustą*:
+```cpp
+;
+```
+
 Skoro wyrażenie jest sekwencją operatorów i operandów, przyjrzyjmy się przy
 okazji operatorom języka C++.
 
