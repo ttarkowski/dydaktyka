@@ -601,6 +601,12 @@ Uwaga: Dla uproszczenia w opisie składni poszczególnych instrukcji pominięto
 również został uproszczony dla klarowności podstawowego kursu programowania.
 Więcej informacji o składni można znaleźć w serwisie <https://cppreference.com>.
 
+Można stwierdzić nieprecyzyjnie, że *instrukcja* programu napisanego w języku
+C++ jest fragmentem kodu źródłowego, który po kompilacji wykonuje się
+w sekwencji. Oznacza to, że jeśli fragment kodu źródłowego `instrukcja_B`
+następuje po fragmencie `instrukcja_A`, to w momencie działania programu
+wykonuje się wpierw operacja `A` a następnie operacja `B`.
+
 ### Instrukcja pusta i złożona
 
 ### Instrukcja przypisania
