@@ -623,6 +623,18 @@ numeru 7 wrócimy jeszcze w ramach tego kursu. Numery 8 i 9 pominiemy na ten
 moment — jest to materiał odpowiednio na zaawansowany kurs języka C++ oraz na
 kurs poświęcony przetwarzaniu współbieżnemu w języku C++.
 
+### Instrukcja wyrażenia
+
+*Instrukcja wyrażenia* to jeden z najczęściej spotykanych typów instrukcji
+w języku C++. Instrukcja wyrażenia składa się z wyrażenia, tzn. sekwencji
+operatorów i operandów, oraz znaku `;`:
+```cpp
+wyrażenie;
+```
+
+Skoro wyrażenie jest sekwencją operatorów i operandów, przyjrzyjmy się przy
+okazji niektórym operatorom języka C++.
+
 ### Instrukcja pusta i złożona
 
 ### Instrukcja przypisania
