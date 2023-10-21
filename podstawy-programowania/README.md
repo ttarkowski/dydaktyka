@@ -607,6 +607,22 @@ w sekwencji. Oznacza to, że jeśli fragment kodu źródłowego `instrukcja_B`
 następuje po fragmencie `instrukcja_A`, to w momencie działania programu
 wykonuje się wpierw operacja `A` a następnie operacja `B`.
 
+W języku C++ istnieje 9 typów instrukcji:
+  1. instrukcja wyrażenia (ang. *expression statement*)
+  2. instrukcja złożona (ang. *compound statement*)
+  3. instrukcja wyboru (ang. *selection statement*)
+  4. instrukcja iteracji (ang. *iteration statement*)
+  5. instrukcja skoku (ang. *jump statement*)
+  6. instrukcja z etykietą (ang. *labeled statement*)
+  7. instrukcja deklaracji (ang. *declaration statement*)
+  8. blok `try` (ang. *try block*)
+  9. blok atomowy i synchronizowany (ang. *atomic and synchronized block*)
+
+W następnych podpunktach zostaną omówione typy instrukcji o numerach 1-6. Do
+numeru 7 wrócimy jeszcze w ramach tego kursu. Numery 8 i 9 pominiemy na ten
+moment — jest to materiał odpowiednio na zaawansowany kurs języka C++ oraz na
+kurs poświęcony przetwarzaniu współbieżnemu w języku C++.
+
 ### Instrukcja pusta i złożona
 
 ### Instrukcja przypisania
@@ -765,6 +781,9 @@ i nie jest ona omawiana w tym miejscu.
 
 cppreference.com. *History of C++*.
 <https://en.cppreference.com/w/cpp/language/history>.
+
+cppreference.com. *Statements*.
+<https://en.cppreference.com/w/cpp/language/statements>.
 
 Maurizio Gabbrielli & Simone Martini. *Programming Languages: Principles and
 Paradigms*. Springer-Verlag London Limited, 2010. DOI:
