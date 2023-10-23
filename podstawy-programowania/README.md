@@ -678,7 +678,8 @@ Uwagi:
     warunkowej.
   * Instrukcja złożona wprowadza tzw. *zakres*, który określa widoczność nazwy.
 
-Przykład:
+Przykład (pełny przykład znajduje się w pliku
+[compound/compound.cc](/podstawy-programowania/examples/03/compound/compound.cc)):
 ```cpp
 #include <iostream>
 
