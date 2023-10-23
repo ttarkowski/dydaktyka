@@ -668,7 +668,7 @@ i traktowaną jak jedna instrukcja.
 
 Składnia:
 ```cpp
-{instrukcja... (opcjonalnie)}
+{ instrukcja... (opcjonalnie) }
 ```
   * `instrukcja...` jest sekwencją instrukcji.
 
