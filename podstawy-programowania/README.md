@@ -716,6 +716,53 @@ main()
 
 ### Instrukcja wyboru
 
+*Instrukcja wyboru* steruje przepływem programu wybierając jedną z wielu
+możliwości. Istnieją następujące instrucje wyboru:
+  * instrukcja `if`
+  * instrukcja `if`-`else`
+  * instrukcja `switch`
+
+#### ▸ Instrukcja `if` oraz `if`-`else`
+
+Składnia:
+```cpp
+if (instrukcja_0 (opcjonalnie) warunek) instrukcja_1
+if (instrukcja_0 (opcjonalnie) warunek) instrukcja_1 else instrukcja_2
+```
+
+  * `instrukcja_0` jest instrukcją wyrażenia, w tym instrukcją pustą `;`, lub
+    pewną deklaracją, zazwyczaj pojedynczej zmiennej połączonej z jej
+    zainicjowaniem.
+  * `warunek` jest wyrażeniem konwertowalnym na wartość logiczną lub jest
+    deklaracją zainicjowanej zmiennej nietablicowej.
+  * `instrukcja_1` i `instrukcja_2` są dowolnymi instrukcjami, w tym złożonymi.
+    `instrukcja_1` jest wykonywana jeśli `warunek` ewaluuje się do `true`.
+    `instrukcja_2` jest wykonywana jeśli `warunek` ewaluuje się do `false`.
+
+Uwaga: W przypadku użycia opcjonalnej instrukcji `instrukcja_0` składnię:
+```cpp
+if (instrukcja_0 warunek) instrukcja_1
+if (instrukcja_0 warunek) instrukcja_1 else instrukcja_2
+```
+można *w przybliżeniu* przepisać odpowiednio jako:
+```cpp
+{
+  instrukcja_0
+  if (warunek)
+    instrukcja_1
+}
+```
+oraz:
+```cpp
+{
+  instrukcja_0
+  if (warunek)
+    instrukcja_1
+  else
+    instrukcja_2
+}
+```
+
 ### Pętla `while`
 
 Składnia:
@@ -864,14 +911,11 @@ i nie jest ona omawiana w tym miejscu.
 
 ## Bibliografia
 
-cppreference.com. *Expressions*.
-<https://en.cppreference.com/w/cpp/language/expressions>.
-
-cppreference.com. *History of C++*.
-<https://en.cppreference.com/w/cpp/language/history>.
-
-cppreference.com. *Statements*.
-<https://en.cppreference.com/w/cpp/language/statements>.
+cppreference.com:
+  * <https://en.cppreference.com/w/cpp/language/history>
+  * <https://en.cppreference.com/w/cpp/language/statements>
+  * <https://en.cppreference.com/w/cpp/language/expressions>
+  * <https://en.cppreference.com/w/cpp/language/if>
 
 Maurizio Gabbrielli & Simone Martini. *Programming Languages: Principles and
 Paradigms*. Springer-Verlag London Limited, 2010. DOI:
