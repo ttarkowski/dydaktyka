@@ -927,6 +927,8 @@ skoku:
 
 #### ▸ Instrukcja `return`
 
+Instrukcja `return` zostanie omówiona przy okazji punktu poświęconego funkcjom.
+
 #### ▸ Instrukcja `goto`
 
 ## 4. Typy danych i zmienne
@@ -938,6 +940,8 @@ skoku:
 ## 7. Złożone typy danych
 
 ## 8. Funkcje
+
+TODO: Omówić instrukcję `return`.
 
 ## 9. Zasięg i widoczność
 
