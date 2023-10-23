@@ -658,7 +658,7 @@ Operator:
     operator rzutowania w stylu C, `new`, `delete`, `sizeof`, `sizeof...`,
     `typeid`, `noexcept`, `alignof`
 
-### Instrukcja pusta i złożona
+### Instrukcja złożona
 
 ### Instrukcja przypisania
 
