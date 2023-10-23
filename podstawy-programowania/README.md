@@ -562,6 +562,9 @@ Standardy języka:
   * 2020 (C++20) — duże rozszerzenie względem C++17
   * 2023 (C++23) — zbliżająca się aktualizacja języka
 
+Uwaga: Dla rozwiania ewentualnych wątpliwości warto zaznaczyć, że standardem
+wykorzystanym w dalszej części wykładu będzie C++20.
+
 ### Właściwości
 
 C++ jest językiem trzeciej generacji wspierającym imperatywny, proceduralny,
