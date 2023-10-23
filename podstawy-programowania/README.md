@@ -717,7 +717,7 @@ main()
 ### Instrukcja wyboru
 
 *Instrukcja wyboru* steruje przepływem programu wybierając jedną z wielu
-możliwości. Istnieją następujące instrucje wyboru:
+możliwości. Istnieją następujące instrukcje wyboru:
   * instrukcja `if`
   * instrukcja `if`-`else`
   * instrukcja `switch`
@@ -781,7 +781,19 @@ switch (instrukcja_0 (opcjonalnie) warunek) instrukcja_1
     na etykiety `case:` oraz `default:` a instrukcja `break` ma szczególne
     znaczenie.
 
-### Pętla `while`
+### Instrukcja iteracji
+
+*Instrukcja iteracji* wielokrotnie powtarza ten sam kod. Istnieją następujące
+instrukcje iteracji:
+  * pętla `while`
+  * pętla `do`-`while`
+  * pętla `for`
+  * zakresowa pętla `for`
+
+Uwaga: W standardzie języka C++ z roku 2011 wprowadzono tzw. pętlę zakresową
+i nie jest ona omawiana w tym miejscu.
+
+#### ▸ Pętla `while`
 
 Składnia:
 ```cpp
@@ -848,7 +860,7 @@ Sposob nr 2:
 1^2 = 1
 ```
 
-### Pętla `do`-`while`
+#### ▸ Pętla `do`-`while`
 
 Składnia:
 ```cpp
@@ -861,7 +873,7 @@ do instrukcja while ( warunek ) ;
     ewaluowane po każdej iteracji pętli. Jeśli otrzymana przez ewalucaję wartość
     jest konwertowalna na `false`, wtedy pętla jest kończona.
 
-### Pętla `for`
+#### ▸ Pętla `for`
 
 Składnia:
 ```cpp
@@ -899,9 +911,6 @@ for (int i = 0; i < 42; ++i) {
  // Kod wykonywany 42 razy dla i równego odpowiednio 0, 1, ..., 41.
 }
 ```
-
-Uwaga: W standardzie języka C++ z roku 2011 wprowadzono tzw. pętlę zakresową
-i nie jest ona omawiana w tym miejscu.
 
 ### Instrukcje `break` oraz `continue`
 
