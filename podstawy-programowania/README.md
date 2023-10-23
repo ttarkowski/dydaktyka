@@ -763,6 +763,24 @@ oraz:
 }
 ```
 
+#### ▸ Instrukcja `switch`
+
+Składnia:
+```cpp
+switch (instrukcja_0 (opcjonalnie) warunek) instrukcja_1
+```
+
+  * `instrukcja_0` jest instrukcją wyrażenia, w tym instrukcją pustą `;`, lub
+    pewną deklaracją, zazwyczaj pojedynczej zmiennej połączonej z jej
+    zainicjowaniem.
+  * `warunek` jest wyrażeniem lub jest deklaracją zainicjowanej zmiennej
+    nietablicowej. Wartość wyrażenia lub deklaracji `warunek` powinna być typu
+    całkowitoliczbowego lub enumeracyjnego, lub klasy konwertowalnej na typ
+    całkowitoliczbowy lub enumeracyjny.
+  * `instrukcja_1` jest dowolną instrukcją, w tym złożoną, w której zezwala się
+    na etykiety `case:` oraz `default:` a instrukcja `break` ma szczególne
+    znaczenie.
+
 ### Pętla `while`
 
 Składnia:
@@ -916,6 +934,7 @@ cppreference.com:
   * <https://en.cppreference.com/w/cpp/language/statements>
   * <https://en.cppreference.com/w/cpp/language/expressions>
   * <https://en.cppreference.com/w/cpp/language/if>
+  * <https://en.cppreference.com/w/cpp/language/switch>
 
 Maurizio Gabbrielli & Simone Martini. *Programming Languages: Principles and
 Paradigms*. Springer-Verlag London Limited, 2010. DOI:
