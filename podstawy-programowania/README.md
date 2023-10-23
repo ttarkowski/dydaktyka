@@ -929,8 +929,6 @@ pominięta. Pozostałe dwie instrukcje są wytłumaczone poniżej.
 
 #### ▸ Instrukcja `continue`
 
-#### ▸ Instrukcja `goto`
-
 ## 4. Typy danych i zmienne
 
 ## 5. Wskaźniki i zmienne dynamiczne
