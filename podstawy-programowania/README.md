@@ -713,11 +713,7 @@ main()
 }
 ```
 
-### Instrukcja przypisania
-
-### Instrukcja warunkowa `if`
-
-### Instrukcja `switch`
+### Instrukcja wyboru
 
 ### Pętla `while`
 
