@@ -912,7 +912,22 @@ for (int i = 0; i < 42; ++i) {
 }
 ```
 
-### Instrukcje `break` oraz `continue`
+### Instrukcja skoku
+
+Instrukcja skoku przekazuje przepływ programu. Istnieją następujące instrukcje
+skoku:
+  * instrukcja `break`
+  * instrukcja `continue`
+  * instrukcja `return` z opjonalnym wyrażeniem albo z użyciem listy inicjującej
+  * instrukcja `goto`
+
+#### ▸ Instrukcja `break`
+
+#### ▸ Instrukcja `continue`
+
+#### ▸ Instrukcja `return`
+
+#### ▸ Instrukcja `goto`
 
 ## 4. Typy danych i zmienne
 
