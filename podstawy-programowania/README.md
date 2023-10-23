@@ -921,13 +921,13 @@ skoku:
   * instrukcja `return` z opjonalnym wyrażeniem albo z użyciem listy inicjującej
   * instrukcja `goto`
 
+Instrukcja `return` zostanie omówiona przy okazji punktu poświęconego funkcjom.
+Instrukcja `goto` prawie nigdy nie powinna być używana i zostanie na ten moment
+pominięta. Pozostałe dwie instrukcje są wytłumaczone poniżej.
+
 #### ▸ Instrukcja `break`
 
 #### ▸ Instrukcja `continue`
-
-#### ▸ Instrukcja `return`
-
-Instrukcja `return` zostanie omówiona przy okazji punktu poświęconego funkcjom.
 
 #### ▸ Instrukcja `goto`
 
