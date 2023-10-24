@@ -937,6 +937,39 @@ pominięta. Pozostałe dwie instrukcje są wytłumaczone poniżej.
 
 ## 7. Złożone typy danych
 
+### Tablice
+
+#### ▸ Tablice wielowymiarowe
+
+Przykład:
+```cpp
+int arr[3][2] = {{0, 1}, {2, 3}, {4, 5}};
+```
+
+W przypadku tablic wielowymiarowych podtablice są umieszczane kolejno w pamięci.
+Podobnie zresztą elementy każdej podtablicy są umieszczane kolejno w pamięci.
+Powyższy przykład ma więc następujący układ danych w pamięci:
+```
+0 1 2 3 4 5
+```
+Oznacza to również, że najbardziej wydajny sposób na przetwarzanie elemenentów
+tablicy polega na iterowaniu ostatniego indeksu w najbardziej zagnieżdżonej
+pętli (pozwala to na wykorzystanie mechanizmu tzw. *cache prefetching*):
+```cpp
+const int max_x = 7;
+const int max_y = 42;
+double data[max_x][max_y];
+
+// ...
+
+double sum = 0.;
+for (int x = 0; x < max_x, ++x) {
+  for (int y = 0; y < max_y; ++y) {
+    sum += data[x][y];
+  }
+}
+```
+
 ## 8. Funkcje
 
 TODO: Omówić instrukcję `return`.
