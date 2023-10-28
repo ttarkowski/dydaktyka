@@ -1075,6 +1075,15 @@ Wynik działania przykładu:
 
 #### ▸ Instrukcja `continue`
 
+Składnia:
+```cpp
+continue ;
+```
+
+ * `continue` jest instrukcją, która powoduje ominięcie pozostałej części
+   bieżącej iteracji w pętli `while`, `do`-`while` oraz `for` (w tym
+   zakresowej).
+
 ## 4. Typy danych i zmienne
 
 ## 5. Wskaźniki i zmienne dynamiczne
