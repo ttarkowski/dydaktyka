@@ -1120,6 +1120,13 @@ Wynik działania przykładu:
 
 ## 4. Typy danych i zmienne
 
+W tym miejscu wrócimy jeszcze na chwilę do typów instrukcji omawiając szczególny
+przypadek instrukcji deklaracji — instrukcję prostej deklaracji.
+
+*Instrukcja prostej deklaracji* jest instrukcją, która może pojawić się w bloku
+i która wprowadza jedną lub więcej identyfikatorów, zazwyczaj zmiennych, które
+może opcjonalnie zainicjować.
+
 ## 5. Wskaźniki i zmienne dynamiczne
 
 ## 6. Wyrażenia
