@@ -821,6 +821,12 @@ main()
 }
 ```
 
+Wynik działania przykładu:
+```
+Podaj liczbe naturalna z zakresu [0, 10]: 5
+Liczba pierwsza.
+```
+
 ### Instrukcja iteracji
 
 *Instrukcja iteracji* wielokrotnie powtarza ten sam kod. Istnieją następujące
