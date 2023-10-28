@@ -822,7 +822,7 @@ main()
 ```
 
 Wynik działania przykładu:
-> Podaj liczbe naturalna z zakresu [0, 10]: 5
+> Podaj liczbe naturalna z zakresu [0, 10]: 5  
 > Liczba pierwsza.
 
 ### Instrukcja iteracji
@@ -877,28 +877,29 @@ main()
 }
 ```
 
-> Sposob nr 1:
-> 10^2 = 100
-> 9^2 = 81
-> 8^2 = 64
-> 7^2 = 49
-> 6^2 = 36
-> 5^2 = 25
-> 4^2 = 16
-> 3^2 = 9
-> 2^2 = 4
-> 1^2 = 1
-> 
-> Sposob nr 2:
-> 10^2 = 100
-> 9^2 = 81
-> 8^2 = 64
-> 7^2 = 49
-> 6^2 = 36
-> 5^2 = 25
-> 4^2 = 16
-> 3^2 = 9
-> 2^2 = 4
+Wynik działania przykładu:
+> Sposob nr 1:  
+> 10^2 = 100  
+> 9^2 = 81  
+> 8^2 = 64  
+> 7^2 = 49  
+> 6^2 = 36  
+> 5^2 = 25  
+> 4^2 = 16  
+> 3^2 = 9  
+> 2^2 = 4  
+> 1^2 = 1  
+>   
+> Sposob nr 2:  
+> 10^2 = 100  
+> 9^2 = 81  
+> 8^2 = 64  
+> 7^2 = 49  
+> 6^2 = 36  
+> 5^2 = 25  
+> 4^2 = 16  
+> 3^2 = 9  
+> 2^2 = 4  
 > 1^2 = 1
 
 #### ▸ Pętla `do`-`while`
