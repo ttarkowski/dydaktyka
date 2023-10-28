@@ -1039,7 +1039,7 @@ break ;
 ```
 
   * `break` jest instrukcją, która powoduje zakończenie pętli `while`,
-    `do`-`while`, `for` (w tym zakresowej) oraz instrukcji switch.
+    `do`-`while`, `for` (w tym zakresowej) oraz instrukcji `switch`.
 
 #### ▸ Instrukcja `continue`
 
