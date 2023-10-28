@@ -1041,6 +1041,38 @@ break ;
   * `break` jest instrukcją, która powoduje zakończenie pętli `while`,
     `do`-`while`, `for` (w tym zakresowej) oraz instrukcji `switch`.
 
+Przykład (pełny przykład znajduje się w pliku
+[break/break.cc](/podstawy-programowania/examples/03/break/break.cc)):
+```cpp
+#include <iostream>
+
+int
+main()
+{
+  for (int i = 0; i < 10; ++i) {
+    for (int j = 0;; ++j) {
+      std::cout << "* ";
+      if (j == i) {
+        break; // Zakończenie wewnętrznej pętli.
+      }
+    }
+    std::cout << '\n';
+  }
+}
+```
+
+Wynik działania przykładu:
+> *   
+> * *   
+> * * *   
+> * * * *   
+> * * * * *   
+> * * * * * *   
+> * * * * * * *   
+> * * * * * * * *   
+> * * * * * * * * *   
+> * * * * * * * * * * 
+
 #### ▸ Instrukcja `continue`
 
 ## 4. Typy danych i zmienne
