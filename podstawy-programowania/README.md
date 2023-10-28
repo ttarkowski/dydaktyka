@@ -1033,6 +1033,14 @@ pominięta. Pozostałe dwie instrukcje są wytłumaczone poniżej.
 
 #### ▸ Instrukcja `break`
 
+Składnia:
+```cpp
+break ;
+```
+
+  * `break` jest instrukcją, która powoduje zakończenie pętli `while`,
+    `do`-`while`, `for` (w tym zakresowej) oraz instrukcji switch.
+
 #### ▸ Instrukcja `continue`
 
 ## 4. Typy danych i zmienne
