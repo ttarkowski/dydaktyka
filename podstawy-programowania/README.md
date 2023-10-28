@@ -997,6 +997,27 @@ for (int i = 0; i < 42; ++i) {
 }
 ```
 
+Przykład (pełny przykład znajduje się w pliku
+[for/for.cc](/podstawy-programowania/examples/03/for/for.cc)):
+```cpp
+#include <iostream>
+
+int
+main()
+{
+  for (int i = 0; i < 10; i += 2) {
+    std::cout << i << '\n';
+  }
+}
+```
+
+Wynik działania przykładu:
+> 0  
+> 2  
+> 4  
+> 6  
+> 8
+
 ### Instrukcja skoku
 
 Instrukcja skoku przekazuje przepływ programu. Istnieją następujące instrukcje
