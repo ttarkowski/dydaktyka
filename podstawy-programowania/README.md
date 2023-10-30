@@ -1216,7 +1216,7 @@ typu.
 Może zadziwiać, że typy `short int` oraz `int` mają taką samą szerokość
 minimalną. Z drugiej strony dla komputerów osobistych praktyczna realizacja
 sytuacji gdzie rozmiar `short int` oraz `int` jest jednakowa właściwie już nie
-występuje (miało to miejsce w przypadku wycofanej architektury Win16).
+występuje (miało to miejsce w przypadku wycofanej z użycia architektury Win16).
 
 Szerokości typów na współczesnych 64-bitowych komputerach osobistych:
   * `char` — 8 bitów
