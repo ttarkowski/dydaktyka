@@ -1199,6 +1199,32 @@ przechowywać jedną z dwóch wartości: `true` lub `false`.
 
 #### ▸ Typy całkowitoliczbowe, w tym znakowe
 
+Standard określa minimalną szerokość typów całkowitoliczbowych a rzeczywista
+wielkość bywa czasami większa (zależy to od *modelu danych* stosowanego
+przez daną architekturę komputera i systemu operacyjnego).
+
+Minimalne szerokości poszczególnych typów całkowitoliczbowych z wyłączeniem
+`bool` według standardu języka C++:
+  * `char` — 8 bitów
+  * `short int`, `int` — 16 bitów
+  * `long int` — 32 bity
+  * `long long int` — 64 bity
+
+Uwaga: Specyfikator kodowania znaku `signed`/`unsigned` nie zmienia szerokości
+typu.
+
+Może zadziwiać, że typy `short int` oraz `int` mają taką samą szerokość
+minimalną. Z drugiej strony dla komputerów osobistych praktyczna realizacja
+sytuacji gdzie rozmiar `short int` oraz `int` jest jednakowa właściwie już nie
+występuje (miało to miejsce w przypadku wycofanej architektury Win16).
+
+Szerokości typów na współczesnych 64-bitowych komputerach osobistych:
+  * `char` — 8 bitów
+  * `short int` — 16 bitów
+  * `int` — 32 bity
+  * `long int` — 32 lub 64 bity
+  * `long long int` — 64 bity
+
 #### ▸ Typy zmiennoprzecinkowe
 
 ## 5. Wskaźniki i zmienne dynamiczne
