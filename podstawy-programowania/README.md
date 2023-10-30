@@ -1168,6 +1168,8 @@ const unsigned int answer = 42;
 double temperature;
 ```
 
+### Reguły tworzenia identyfikatorów
+
 Istnieją reguły tworzenia identyfikatorów, w tym nazw zmiennych. Precyzyjne
 określenie tych reguł jest dość długie, dlatego ograniczymy się w tym momencie
 do następującego opisu.
