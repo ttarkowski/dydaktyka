@@ -1149,8 +1149,8 @@ kategorii:
   * kwalifikator `const`
 
 Przykłady prostych specyfikatorów typu:
-  * `char` — typ znakowy (a zarazem całkowitoliczbowy)
   * `bool` — typ logiczny
+  * `char` — typ znakowy (a zarazem całkowitoliczbowy)
   * `int` — typ całkowitoliczbowy
   * `float`, `double` — typy zmiennoprzecinkowe
   * wcześniej zdefiniowana nazwa klasy, np. `std::string`
