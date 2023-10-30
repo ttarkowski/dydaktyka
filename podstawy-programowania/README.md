@@ -1149,7 +1149,7 @@ kategorii:
   * kwalifikator `const`
 
 Przykłady prostych specyfikatorów typu:
-  * `char` — typ znakowy
+  * `char` — typ znakowy (a zarazem całkowitoliczbowy)
   * `bool` — typ logiczny
   * `int` — typ całkowitoliczbowy
   * `float`, `double` — typy zmiennoprzecinkowe
