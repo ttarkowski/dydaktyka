@@ -1120,12 +1120,16 @@ Wynik działania przykładu:
 
 ## 4. Typy danych i zmienne
 
+### Instrukcja prostej deklaracji
+
 W tym miejscu wrócimy jeszcze na chwilę do typów instrukcji omawiając szczególny
 przypadek instrukcji deklaracji — instrukcję prostej deklaracji.
 
 *Instrukcja prostej deklaracji* jest instrukcją, która wprowadza i stwarza jeden
 lub więcej identyfikatorów, zazwyczaj zmiennych, które może opcjonalnie
 zainicjować.
+
+#### ▸ Instrukcja prostej deklaracji zmiennej
 
 Na ten moment ograniczenie do instrukcji prostej deklaracji jest wciąż nazbyt
 obszerne. Rozważmy zatem instrukcję prostej deklaracji zmiennej.
