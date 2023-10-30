@@ -1127,6 +1127,9 @@ przypadek instrukcji deklaracji — instrukcję prostej deklaracji.
 lub więcej identyfikatorów, zazwyczaj zmiennych, które może opcjonalnie
 zainicjować.
 
+Na ten moment ograniczenie do instrukcji prostej deklaracji jest nazbyt
+obszerne. Rozważmy zatem instrukcję prostej deklaracji zmiennej.
+
 ## 5. Wskaźniki i zmienne dynamiczne
 
 ## 6. Wyrażenia
