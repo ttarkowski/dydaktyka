@@ -1153,6 +1153,7 @@ Przykłady prostych specyfikatorów typu:
   * `bool` — typ logiczny
   * `int` — typ całkowitoliczbowy
   * `float`, `double` — typy zmiennoprzecinkowe
+  * wcześniej zdefiniowana nazwa klasy, np. `std::string`
 
 Istnieją także specyfikatory typu całkowitoliczbowego, które modyfikują:
   * rozmiar: `short`, `long`
