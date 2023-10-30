@@ -1140,8 +1140,8 @@ sekwencja_specyfikatorów lista ;
 ```
 
   * `sekwencja_specyfikatorów` jest sekwencją specyfikatorów opisaną poniżej.
-  * `lista` jest listą nazw zmiennych z opcjonalnymi wartościami, którymi te
-    zmienne są inicjowane.
+  * `lista` jest listą nazw zmiennych (identyfikatorów) z opcjonalnymi
+    wartościami, którymi te zmienne są inicjowane.
 
 *Sekwencję specyfikatorów* ograniczymy na ten moment wyłącznie do następujących
 kategorii:
@@ -1167,6 +1167,25 @@ char c = 'A';
 const unsigned int answer = 42;
 double temperature;
 ```
+
+Istnieją reguły tworzenia identyfikatorów, w tym nazw zmiennych. Precyzyjne
+określenie tych reguł jest dość długie, dlatego ograniczymy się w tym momencie
+do następującego opisu.
+
+*Identyfikatorem* może być dowolnie długa sekwencja cyfr, znaków `_`, małych
+i wielkich znaków alfabetu łacińskiego a także znaków Unicode, które posiadają
+właściwość XID_Start lub XID_Continue, z zastrzeżeniem, że:
+  1. pierwszy znak jest małą lub wielką literą alfabetu łacińskiego, znakiem `_`
+     lub znakiem Unicode posiadającym właściwość XID_Start
+  2. pozostałe znaki (jeśli istnieją) są cyframi 0-9, małymi lub wielkimi
+     literami alfabetu łacińskiego, znakami `_` lub znakami Unicode
+     posiadającymi właściwość XID_Continue
+  3. cała sekwencja nie została zarezerwowana przez standard języka
+
+Zauważmy, że powyższy opis byłby kompletną definicją, gdyby nie punkt 3, którego
+nie będziemy tutaj omawiać. Warto też zaznaczyć, że wsparcie kompilatorów dla
+identyfikatorów posiadających znaki Unicode jest ograniczone, dlatego warto
+unikać ich stosowania.
 
 ## 5. Wskaźniki i zmienne dynamiczne
 
