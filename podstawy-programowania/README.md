@@ -1190,6 +1190,8 @@ nie będziemy tutaj omawiać. Warto też zaznaczyć, że wsparcie kompilatorów 
 identyfikatorów posiadających znaki Unicode jest ograniczone, dlatego warto
 unikać ich stosowania.
 
+### Szerokość i zakres danych poszczególnych typów fundamentalnych
+
 ## 5. Wskaźniki i zmienne dynamiczne
 
 ## 6. Wyrażenia
