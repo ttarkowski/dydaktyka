@@ -1194,6 +1194,9 @@ unikać ich stosowania.
 
 #### ▸ Typ logiczny `bool`
 
+Szerokość typu `bool` jest zależna od implementacji. Zmienne tego typu mogą
+przechowywać jedną z dwóch wartości: `true` lub `false`.
+
 #### ▸ Typy całkowitoliczbowe, w tym znakowe
 
 #### ▸ Typy zmiennoprzecinkowe
