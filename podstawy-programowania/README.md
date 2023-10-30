@@ -1161,6 +1161,13 @@ Istnieją także specyfikatory typu całkowitoliczbowego, które modyfikują:
 
 Kwalifikator `const` określa, że typ jest stałą.
 
+Przykład:
+```cpp
+char c = 'A';
+const unsigned int answer = 42;
+double temperature;
+```
+
 ## 5. Wskaźniki i zmienne dynamiczne
 
 ## 6. Wyrażenia
