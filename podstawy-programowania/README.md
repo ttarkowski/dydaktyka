@@ -1225,6 +1225,28 @@ Szerokości typów na współczesnych 64-bitowych komputerach osobistych:
   * `long int` — 32 lub 64 bity
   * `long long int` — 64 bity
 
+Szerokość typu wpływa na zakres reprezentowalnych wartości i dla typów
+całkowitoliczbowych zakres można łatwo wyznaczyć:
+  * W przypadku liczb bez znaku (`unsigned`) wszystkie bity są wykorzystywane do
+    kodowania cyfr. Dla szerokości równej $`n`$ bitów można zaprezentować liczby
+    z zakresu $`[0, 2^n - 1]`$. Poniżej przedstawiono interesujące przypadki
+    szerokości i zakresów wartości:
+      * 8 bitów: $[0, 255]$
+      * 16 bitów: $[0, 65535]$
+      * 32 bity: $[0, 4294967295]$
+      * 64 bity: $[0, 18446744073709551615]$
+  * W przpadku liczb ze znakiem (`signed`) jeden bit jest wykorzystywany do
+    kodowania znaku a pozostałe — do kodowania cyfr. Aby uniknąć problemu
+    podwójnej reprezentacji wartości zero (+0, -0) wprowadzono kod
+    uzupełnieniowy do dwójki i jest to jedyny kod zaakceptowany przez standard
+    języka C++. Z użyciem tego kodu dla szerokości równej $`n`$ bitów można
+    zaprezentować liczby z zakresu $`[2^{n - 1}, 2^{n - 1} - 1]`$. Poniżej
+    przedstawiono interesujące przypadki szerokości i zakresów wartości:
+      * 8 bitów: $`[-128, 127]`$
+      * 16 bitów: $`[-32768, 32767]`$
+      * 32 bitów: $`[-2147483648, 2147483647]`$
+      * 64 bity: $`[-9223372036854775808, 9223372036854775807]`$
+
 #### ▸ Typy zmiennoprzecinkowe
 
 ## 5. Wskaźniki i zmienne dynamiczne
