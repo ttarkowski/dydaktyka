@@ -1192,6 +1192,12 @@ unikać ich stosowania.
 
 ### Szerokość i zakres danych poszczególnych typów fundamentalnych
 
+#### ▸ Typ logiczny `bool`
+
+#### ▸ Typy całkowitoliczbowe, w tym znakowe
+
+#### ▸ Typy zmiennoprzecinkowe
+
 ## 5. Wskaźniki i zmienne dynamiczne
 
 ## 6. Wyrażenia
