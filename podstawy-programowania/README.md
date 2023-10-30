@@ -1127,8 +1127,34 @@ przypadek instrukcji deklaracji — instrukcję prostej deklaracji.
 lub więcej identyfikatorów, zazwyczaj zmiennych, które może opcjonalnie
 zainicjować.
 
-Na ten moment ograniczenie do instrukcji prostej deklaracji jest nazbyt
+Na ten moment ograniczenie do instrukcji prostej deklaracji jest wciąż nazbyt
 obszerne. Rozważmy zatem instrukcję prostej deklaracji zmiennej.
+
+Składnia:
+```cpp
+sekwencja_specyfikatorów lista ;
+```
+
+  * `sekwencja_specyfikatorów` jest sekwencją specyfikatorów opisaną poniżej.
+  * `lista` jest listą nazw zmiennych z opcjonalnymi wartościami, którymi te
+    zmienne są inicjowane.
+
+*Sekwencję specyfikatorów* ograniczymy na ten moment wyłącznie do następujących
+kategorii:
+  * wybrane *proste specyfikatory typu*
+  * kwalifikator `const`
+
+Przykłady prostych specyfikatorów typu:
+  * `char` — typ znakowy
+  * `bool` — typ logiczny
+  * `int` — typ całkowitoliczbowy
+  * `float`, `double` — typy zmiennoprzecinkowe
+
+Istnieją także specyfikatory typu całkowitoliczbowego, które modyfikują:
+  * rozmiar: `short`, `long`
+  * kodowanie znaku: `signed`, `unsigned`
+
+Kwalifikator `const` określa, że typ jest stałą.
 
 ## 5. Wskaźniki i zmienne dynamiczne
 
