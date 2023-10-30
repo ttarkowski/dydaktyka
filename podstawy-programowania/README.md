@@ -1231,6 +1231,7 @@ cppreference.com:
   * <https://en.cppreference.com/w/cpp/language/expressions>
   * <https://en.cppreference.com/w/cpp/language/if>
   * <https://en.cppreference.com/w/cpp/language/switch>
+  * <https://en.cppreference.com/w/cpp/language/declarations>
 
 Maurizio Gabbrielli & Simone Martini. *Programming Languages: Principles and
 Paradigms*. Springer-Verlag London Limited, 2010. DOI:
