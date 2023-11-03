@@ -1303,8 +1303,9 @@ stosuje się jednak przesunięcie wykładnika i od wykładnika o $`n`$ bitach na
 odjąć liczbę $`2^{n - 1} - 1`$. W tym przypadku $`n = 8`$ (reprezentacja
 *binary32*), co oznacza, że należy odjąć liczbę 127.
 
-Finalnie otrzymujemy wartość $`2^{-126} \approx 1{,}175 \cdot 10^{-38}`$, przy
-czym reprezentacja dziesiętna jest przybliżona.
+Finalnie otrzymujemy wartość $`2^{-126} \approx 1{,}175494 \cdot 10^{-38}`$,
+przy czym reprezentacja dziesiętna jest przybliżona z 7 cyframi rozwinięcia
+dziesiętnego (1 cyfra przed separatorem dziesiętnym i 6 cyfr po separatorze).
 
 ## 5. Wskaźniki i zmienne dynamiczne
 
