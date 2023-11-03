@@ -1274,10 +1274,10 @@ dziesiętną można zatem wtedy obliczyć jako
 $`\log_{10} 2^{\textnormal{szerokość mantysy kodowanej + 1}}`$
 co dla poszczególnych sposobów kodowania oznacza następującą liczbę cyfr
 znaczących rozwinięcia dziesiętnego (wartości przybliżone):
-  * binary32 (23 bity mantysy kodowanej): 7
-  * binary64 (52): 15
+  * *binary32* (23 bity mantysy kodowanej): 7
+  * *binary64* (52): 15
   * kodowanie na 80 bitach (64): 19
-  * binary128 (112): 34
+  * *binary128* (112): 34
 
 Zakres wykładników dla reprezentacji normalnej:
   * binary32: [-38, +38]
