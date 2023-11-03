@@ -1264,6 +1264,25 @@ Sposób kodowania liczb zmiennoprzecinkowych określa standard IEEE 754:
 W przypadku szerokości 80 bitów wykorzystuje się 1 bit znaku, 15 bitów
 wykładnika oraz 64 bitów mantysy.
 
+Podczas kodowania liczb zmiennoprzecinkowych może zostać użyta reprezentacja
+*normalna* lub *subnormalna*. Na chwilę obecną pominiemy reprezentację
+subnormalną i skoncentrujemy się jedynie na reprezentacji normalnej.
+
+W reprezentacji normalnej stosuje się mantysę, która zawsze rozpoczyna się od
+wartości 1 i nie jest ona wtedy kodowana w pamięci komputera. Precyzję
+dziesiętną można wtedy obliczyć jako $`\log_10 2^{\textnormal{szerokość mantysy
++ 1}}`$ co dla poszczególnych sposobów kodowania oznacza następującą liczbę cyfr
+znaczących rozwinięcia dziesiętnego:
+  * binary32 (23 bity mantysy): 7
+  * binary64 (52): 15
+  * kodowanie na 80 bitach (64): 19
+  * binary128 (112): 34
+
+Zakres wykładników dla reprezentacji normalnej:
+  * binary32: [-38, +38]
+  * binary64: [-308, +308]
+  * 80 bitów oraz binary128: [-4932, +4932]
+
 ## 5. Wskaźniki i zmienne dynamiczne
 
 ## 6. Wyrażenia
