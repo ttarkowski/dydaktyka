@@ -1284,6 +1284,28 @@ Zakres wykładników dla reprezentacji normalnej:
   * *binary64*: [-308, +308]
   * 80 bitów oraz *binary128*: [-4932, +4932]
 
+Skąd biorą się powyższe wartości? Aby to wyjaśnić rozważmy przykład kodowania
+*binary32*. Poniższa reprezentacja binarna zawiera informację o znaku,
+wykładniku i mantysie i jest reprezentacją normalną pewnej liczby w kodowaniu
+*binary32*:
+```
+0 00000001 00000000000000000000000
+```
+
+Co oznaczają te liczby? Pierwsze zero oznacza, że liczba jest dodatnia a ciąg
+ostatnich 23 zer informuje, że mantysa jest równa 1 zgodnie z wcześniej
+wspomnianą konwencją dla reprezentacji normalnej.
+
+Informacja o wykładniku jest jednak nieco zawoalowana. Jedynka na najmniej
+znaczącym bicie dawałaby wartość wykładnika $`2^0`$, czyli 1, co można byłoby
+błędnie zinterpretować jako finalną wartość. W kodowaniu zmiennoprzecinkowym
+stosuje się jednak przesunięcie wykładnika i od wykładnika o $`n`$ bitach należy
+odjąć liczbę $`2^{n - 1} - 1`$. W tym przypadku $`n = 8`$ (reprezentacja
+*binary32*), co oznacza, że należy odjąć liczbę 127.
+
+Finalnie otrzymujemy wartość $`2^{-126} \approx 1{,}175 \cdot 10^{-38}`$, przy
+czym reprezentacja dziesiętna jest przybliżona.
+
 ## 5. Wskaźniki i zmienne dynamiczne
 
 ## 6. Wyrażenia
