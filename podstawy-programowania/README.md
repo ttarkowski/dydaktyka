@@ -1256,6 +1256,14 @@ Istnieją trzy typy zmiennoprzecinkowe określone w standardzie języka C++:
     platformy (najpopularniejszym obecnie wyborem jest 80 bitów, choć można też
     z łatwością spotkać implementację opartą o 64 bity)
 
+Sposób kodowania liczb zmiennoprzecinkowych określa standard IEEE 754:
+  * *binary32*: 1 bit znaku, 8 bitów wykładnika, 23 bity mantysy
+  * *binary64*: odpowienio 1, 11 i 52 bitów
+  * *binary128*: 1, 15 i 112 bitów
+
+W przypadku szerokości 80 bitów wykorzystuje się 1 bit znaku, 15 bitów
+wykładnika oraz 64 bitów mantysy.
+
 ## 5. Wskaźniki i zmienne dynamiczne
 
 ## 6. Wyrażenia
