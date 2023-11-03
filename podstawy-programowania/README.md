@@ -1280,9 +1280,9 @@ znaczących rozwinięcia dziesiętnego (wartości przybliżone):
   * *binary128* (112): 34
 
 Zakres wykładników dla reprezentacji normalnej:
-  * binary32: [-38, +38]
-  * binary64: [-308, +308]
-  * 80 bitów oraz binary128: [-4932, +4932]
+  * *binary32*: [-38, +38]
+  * *binary64*: [-308, +308]
+  * 80 bitów oraz *binary128*: [-4932, +4932]
 
 ## 5. Wskaźniki i zmienne dynamiczne
 
