@@ -1309,9 +1309,7 @@ dziesiętnego (1 cyfra przed separatorem dziesiętnym i 6 cyfr po separatorze).
 
 ## 5. Wskaźniki i zmienne dynamiczne
 
-## 6. Wyrażenia
-
-## 7. Złożone typy danych
+## 6. Złożone typy danych
 
 ### Tablice
 
@@ -1346,21 +1344,21 @@ for (int x = 0; x < max_x, ++x) {
 }
 ```
 
-## 8. Funkcje
+## 7. Funkcje
 
 TODO: Omówić instrukcję `return`.
 
-## 9. Zasięg i widoczność
+## 8. Zasięg i widoczność
 
-## 10. Rekurencja
+## 9. Rekurencja
 
-## 11. Metoda wstępująca i zstępująca
+## 10. Metoda wstępująca i zstępująca
 
-## 12. Klasy i obiekty
+## 11. Klasy i obiekty
 
-## 13. Biblioteki programistyczne
+## 12. Biblioteki programistyczne
 
-## 14. Pliki
+## 13. Pliki
 
 ## Bibliografia
 
