@@ -1270,8 +1270,9 @@ subnormalną i skoncentrujemy się jedynie na reprezentacji normalnej.
 
 W reprezentacji normalnej stosuje się mantysę, która zawsze rozpoczyna się od
 wartości 1 i nie jest ona wtedy kodowana w pamięci komputera. Precyzję
-dziesiętną można wtedy obliczyć jako $`\log_10 2^{\textnormal{szerokość mantysy
-+ 1}}`$ co dla poszczególnych sposobów kodowania oznacza następującą liczbę cyfr
+dziesiętną można wtedy obliczyć jako
+$`\log_10 2^{\textnormal{szerokość mantysy + 1}}`$
+co dla poszczególnych sposobów kodowania oznacza następującą liczbę cyfr
 znaczących rozwinięcia dziesiętnego:
   * binary32 (23 bity mantysy): 7
   * binary64 (52): 15
