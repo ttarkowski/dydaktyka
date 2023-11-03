@@ -1249,6 +1249,13 @@ całkowitoliczbowych zakres można łatwo wyznaczyć:
 
 #### ▸ Typy zmiennoprzecinkowe
 
+Istnieją trzy typy zmiennoprzecinkowe określone w standardzie języka C++:
+  * `float` — typ zmiennoprzecinkowy o pojedynczej precyzji: 32 bity
+  * `double` — podwójna precyzja: 64 bity
+  * `long double` — rozszerzona precyzja: od 64 do 128 bitów w zależności od
+    platformy (najpopularniejszym obecnie wyborem jest 80 bitów, choć można też
+    z łatwością spotkać implementację opartą o 64 bity)
+
 ## 5. Wskaźniki i zmienne dynamiczne
 
 ## 6. Wyrażenia
