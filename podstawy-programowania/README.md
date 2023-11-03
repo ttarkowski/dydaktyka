@@ -1377,6 +1377,10 @@ Maurizio Gabbrielli & Simone Martini. *Programming Languages: Principles and
 Paradigms*. Springer-Verlag London Limited, 2010. DOI:
 [10.1007/978-1-84882-914-5](https://doi.org/10.1007/978-1-84882-914-5).
 
+David Goldberg. *What Every Computer Scientist Should Know about Floating-Point
+Arithmetic*. ACM Computing Surveys **23**, 5-48 (1991). DOI:
+[10.1145/103162.103163](https://doi.org/10.1145/103162.103163).
+
 Bjarne Stroustrup. *A History of C++: 1979–1991*. History of Programming
 Languages—II 699 (1996). DOI:
 [10.1145/234286.1057836](https://doi.org/10.1145/234286.1057836).
