@@ -1264,6 +1264,8 @@ Sposób kodowania liczb zmiennoprzecinkowych określa standard IEEE 754:
 W przypadku szerokości 80 bitów wykorzystuje się 1 bit znaku, 15 bitów
 wykładnika oraz 64 bitów mantysy.
 
+Uwaga: Pole wykładnika bywa też nazywane cechą liczby zmiennoprzecinkowej.
+
 Podczas kodowania liczb zmiennoprzecinkowych może zostać użyta reprezentacja
 *normalna* lub *subnormalna*. Na chwilę obecną pominiemy reprezentację
 subnormalną i skoncentrujemy się jedynie na reprezentacji normalnej.
