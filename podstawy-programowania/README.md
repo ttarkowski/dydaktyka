@@ -1309,9 +1309,7 @@ Finalnie otrzymujemy wartość $`2^{-126} \approx 1{,}175494 \cdot 10^{-38}`$,
 przy czym reprezentacja dziesiętna jest przybliżona z 7 cyframi rozwinięcia
 dziesiętnego (1 cyfra przed separatorem dziesiętnym i 6 cyfr po separatorze).
 
-## 5. Wskaźniki i zmienne dynamiczne
-
-## 6. Złożone typy danych
+## 5. Złożone typy danych
 
 ### Tablice
 
@@ -1348,21 +1346,23 @@ for (int x = 0; x < max_x, ++x) {
 
 ### Struktury
 
-## 7. Funkcje
+## 6. Funkcje
+
+### Rekurencja
 
 TODO: Omówić instrukcję `return`.
 
-## 8. Zasięg i widoczność
+## 7. Zasięg i widoczność
 
-## 9. Rekurencja
+## 8. Wskaźniki i zmienne dynamiczne
 
-## 10. Metoda wstępująca i zstępująca
+## 9. Klasy i obiekty
 
-## 11. Klasy i obiekty
+## 10. Pliki
 
-## 12. Biblioteki programistyczne
+## 11. Biblioteki programistyczne
 
-## 13. Pliki
+## 12. Metoda wstępująca i zstępująca
 
 ## Bibliografia
 
