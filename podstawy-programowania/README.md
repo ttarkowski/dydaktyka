@@ -1136,12 +1136,15 @@ obszerne. Rozważmy zatem instrukcję prostej deklaracji zmiennej.
 
 Składnia:
 ```cpp
-sekwencja_specyfikatorów lista ;
+sekwencja_specyfikatorów lista_deklaratorów ;
 ```
 
   * `sekwencja_specyfikatorów` jest sekwencją specyfikatorów opisaną poniżej.
-  * `lista` jest listą nazw zmiennych (identyfikatorów) z opcjonalnymi
-    wartościami, którymi te zmienne są inicjowane.
+  * `lista_deklaratorów` jest listą deklaratorów, tzn. identyfikatorów — nazw
+    zmiennych, z opcjonalnymi wartościami, którymi te zmienne są inicjowane.
+
+Uwaga: Deklarator może zostać zmodyfikowany z użyciem pewnych operatorów, np.
+`[]` dla typu tablicowego — będzie to opisane niżej.
 
 *Sekwencję specyfikatorów* ograniczymy na ten moment wyłącznie do następujących
 kategorii:
