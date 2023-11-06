@@ -1348,7 +1348,7 @@ Przykład:
 int arr[42];
 char hello[] = { 'H', 'e', 'l', 'l', 'o', ',', ' ',
                  'w', 'o', 'r', 'l', 'd', '!', '\0' };
-``
+```
 
 #### ▸ Tablice wielowymiarowe
 
