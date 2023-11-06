@@ -1344,6 +1344,8 @@ for (int x = 0; x < max_x, ++x) {
 }
 ```
 
+### `std::vector`
+
 ### Struktury
 
 ## 6. Funkcje
