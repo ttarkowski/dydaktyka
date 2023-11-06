@@ -1343,6 +1343,13 @@ Uwagi:
   * Zamiast zwykłych tablic często lepiej jest korzystać z kontenera
     `std::vector`. Będzie to opisane dalej.
 
+Przykład:
+```cpp
+int arr[42];
+char hello[] = { 'H', 'e', 'l', 'l', 'o', ',', ' ',
+                 'w', 'o', 'r', 'l', 'd', '!', '\0' };
+``
+
 #### ▸ Tablice wielowymiarowe
 
 Przykład:
