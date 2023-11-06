@@ -1316,6 +1316,33 @@ dziesiętnego (1 cyfra przed separatorem dziesiętnym i 6 cyfr po separatorze).
 
 ### Tablice
 
+Przypomnijmy, że instrukcja prostej deklaracji zmiennej ma składnię:
+```cpp
+sekwencja_specyfikatorów lista_deklaratorów ;
+```
+gdzie `lista_deklaratorów` jest listą deklaratorów. Deklarator typu tablicowego
+ma składnię opisaną niżej, gdzie wykorzystano operator `[]`.
+
+Składnia:
+```cpp
+deklarator [wyrażenie (opcjonalnie)]
+```
+
+  * `deklarator` jest deklaratorem, tzn. identyfikatorem.
+  * `wyrażenie` jest wyrażeniem stałym konwertowalnym na typ `std::size_t`
+    i określa rozmiar tablicy, który powinien być większy od zera.
+
+Uwagi:
+  * Wyrażenie stałe oznacza, że jego wartość powinna być możliwa do obliczenia
+    w momencie kompilacji.
+  * Kompilatory mogą rozszerzyć `wyrażenie` na wyrażenie niebędące wyrażeniem
+    stałym — jest to jednak niezgodne ze standardem (choć wykorzystanie tej
+    możliwości bywa nierzadko praktykowane).
+  * Typ `std::size_t` jest typem całkowitoliczbowym bez znaku adekwatnym do
+    reprezentowania rozmiarów kontenerów w języku C++.
+  * Zamiast zwykłych tablic często lepiej jest korzystać z kontenera
+    `std::vector`. Będzie to opisane dalej.
+
 #### ▸ Tablice wielowymiarowe
 
 Przykład:
