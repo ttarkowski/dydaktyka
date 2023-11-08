@@ -1383,6 +1383,58 @@ for (int x = 0; x < max_x, ++x) {
 
 ### `std::vector`
 
+Rozważmy sytuację, w której programista potrzebuje zadeklarować tablicę, której
+rozmiar nie jest znany w momencie kompilacji. Jest to sytuacja często spotykana
+— tablica taka nosi nazwę VLA (ang. *variable length array*). Przykładowy
+program, który demonstruje wykorzystanie VLA jest zaprezentowany poniżej.
+
+Przykład (pełny przykład znajduje się w pliku
+[vla/vla.cc](/podstawy-programowania/examples/05/vla/vla.cc)):
+```cpp
+#include <cstdlib>
+#include <iostream>
+#include <random>
+
+int
+main()
+{
+  std::size_t n;
+  std::cin >> n;
+  int tab[n];
+
+  std::mt19937 engine(std::random_device{}());
+  for (std::size_t i = 0; i < n; ++i) {
+    std::cout << (tab[i] = std::uniform_int_distribution<int>{ 0, 9 }(engine))
+              << '\n';
+  }
+}
+```
+
+Ten program można skompilować i uruchomić. Dociekliwy Czytelnik zauważy jednak,
+że coś jest nie tak z procedurą kompilacji powyższego programu. Kompilator GCC
+wypisuje następujące ostrzeżenie:
+> vla.cc: In function ‘int main()’:  
+> vla.cc:10:7: warning: ISO C++ forbids variable length array ‘tab’ [-Wvla]  
+>    10 |   int tab[n];  
+>       |       ^~~
+
+Okazuje się bowiem, że VLA nie jest częścią standardu języka C++ (choć dopuszcza
+go język C w standardzie z roku 1999) i jest jedynie rozszerzeniem kompilatora.
+Czy można znaleźć lepsze rozwiązanie?
+
+Zanim odpowiemy sobie na to pytanie, rozważmy kolejny problem. Otóż nierzadko
+zdarza się, że nie tylko rozmiar tablicy nie jest znany w momencie kompilacji,
+ale przydałoby się go zmienić w trakcie wykonania programu. Do tego celu służy
+dynamiczna alokacja pamięci, która w C++ może zostać zrealizowana poprzez użycie
+operatorów `new` oraz `delete` w wersji tablicowej, tzn. poprzez `new[]` oraz
+`delete[]`. Niestety taka forma dynamicznej alokacji pamięci jest rozwiązaniem
+niewygodnym i podatnym na poważne błędy programistyczne, które mogą wieść do
+katastrofalnych konsekwencji! Czy można znaleźć lepsze rozwiązanie?
+
+Okazuje się, że zarówno problem VLA jak i dynamicznej alokacji pamięci w formie
+tablic ma rozwiązanie w języku C++, które jest zarówno zgodne ze standardem jak
+i bardzo wygodne w użyciu. Tym rozwiązaniem, jest kontener `std::vector`.
+
 ### Struktury
 
 ## 6. Funkcje
