@@ -1433,6 +1433,19 @@ Okazuje się, że zarówno problem VLA jak i dynamicznej alokacji pamięci w for
 tablic ma rozwiązanie w języku C++, które jest zarówno zgodne ze standardem jak
 i bardzo wygodne w użyciu. Tym rozwiązaniem, jest kontener `std::vector`.
 
+Szczegółowy opis kontenera `std::vector` można znaleźć np. na stronie
+<https://en.cppreference.com/w/cpp/container/vector>. W pozostałej części tego
+podpunktu skoncentrujemy się wyłącznie na wybranych własnościach tego kontenera.
+
+`std::vector` jest jednym z wielu kontenerów dostępnych w języku C++. Swoją
+funkcjonalnością może on w zdecydowanej większości przypadków zastępować zwykłą
+tablicę. Precyzyjnie można ująć, że `std::vector` jest kontenerem sekwencyjnym
+kapsułkującym tablicę o dynamicznym rozmiarze. Warto pamiętać, że `std::vector`
+zajmuje więcej pamięci aniżeli zwykła tablica, ponieważ kontener ten
+wyprzedzająco rezerwuje więcej pamięci aniżeli jest to w danej chwili potrzebne.
+Kontener ten zwiększa ponadto swój rozmiar, gdyby zaalokowana wcześniej pamięć
+nie wystarczała do przechowania dodatkowych danych.
+
 ### Struktury
 
 ## 6. Funkcje
