@@ -1414,9 +1414,7 @@ Ten program można skompilować i uruchomić. Dociekliwy Czytelnik zauważy jedn
 że coś jest nie tak z procedurą kompilacji powyższego programu. Kompilator GCC
 wypisuje następujące ostrzeżenie:
 > vla.cc: In function ‘int main()’:  
-> vla.cc:10:7: warning: ISO C++ forbids variable length array ‘tab’ [-Wvla]  
-> &nbsp;&nbsp;&nbsp;10 | &nbsp;&nbsp;int tab[n];  
-> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;^~~
+> vla.cc:10:7: warning: ISO C++ forbids variable length array ‘tab’ [-Wvla]
 
 Okazuje się bowiem, że VLA nie jest częścią standardu języka C++ (choć dopuszcza
 go język C w standardzie z roku 1999) i jest jedynie rozszerzeniem kompilatora.
