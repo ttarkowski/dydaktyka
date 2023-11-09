@@ -1475,6 +1475,9 @@ main()
 
 ### Struktury
 
+Struktura jest typem złożonym składającym się z elementów zapisanych
+sekwencyjnie według podanej kolejności.
+
 ## 6. Funkcje
 
 ### Rekurencja
