@@ -1452,7 +1452,7 @@ w kanonicznej formie języka C++.
 Przykład (pełny przykład znajduje się w pliku
 [vector/vector.cc](/podstawy-programowania/examples/05/vector/vector.cc)):
 ```cpp
-include <cstdlib>
+#include <cstdlib>
 #include <iostream>
 #include <random>
 #include <vector>
