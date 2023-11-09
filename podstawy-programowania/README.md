@@ -1446,6 +1446,33 @@ wyprzedzająco rezerwuje więcej pamięci aniżeli jest to w danej chwili potrze
 Kontener ten zwiększa ponadto swój rozmiar, gdyby zaalokowana wcześniej pamięć
 nie wystarczała do przechowania dodatkowych danych.
 
+Zobaczmy jak niestandardowy przykład wykorzystania VLA może zostać przepisany
+w kanonicznej formie języka C++.
+
+Przykład (pełny przykład znajduje się w pliku
+[vector/vector.cc](/podstawy-programowania/examples/05/vector/vector.cc)):
+```cpp
+include <cstdlib>
+#include <iostream>
+#include <random>
+#include <vector>
+
+int
+main()
+{
+  std::vector<int> v;
+  std::mt19937 engine(std::random_device{}());
+
+  std::size_t n;
+  std::cin >> n;
+
+  for (std::size_t i = 0; i < n; ++i) {
+    v.push_back(std::uniform_int_distribution<int>{ 0, 9 }(engine));
+    std::cout << v.back() << '\n';
+  }
+}
+```
+
 ### Struktury
 
 ## 6. Funkcje
