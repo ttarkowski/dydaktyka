@@ -1503,6 +1503,7 @@ cppreference.com:
   * <https://en.cppreference.com/w/cpp/language/switch>
   * <https://en.cppreference.com/w/cpp/language/declarations>
   * <https://en.cppreference.com/w/cpp/language/types>
+  * <https://en.cppreference.com/w/cpp/container/vector>
 
 Maurizio Gabbrielli & Simone Martini. *Programming Languages: Principles and
 Paradigms*. Springer-Verlag London Limited, 2010. DOI:
