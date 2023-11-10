@@ -1478,6 +1478,19 @@ main()
 *Struktura* jest typem złożonym składającym się z elementów zapisanych
 sekwencyjnie według podanej kolejności.
 
+Specyfikator typu struktury ma podczaj jej definiowania składnię opisaną niżej.
+
+Składnia:
+```cpp
+struct nazwa (opcjonalnie) { lista_deklaracji }
+```
+
+  * `nazwa` jest nazwą definiowanej struktury.
+  * `lista_deklaracji` jest listą dowolnej długości deklaracji zmiennych i pól
+    bitowych (a także tzw. asercji statycznych, co jest materiałem na
+    zaawansowany kurs języka C++). (Istnieją pewne wyjątki wykluczające niektóre
+    deklaracje.)
+
 ## 6. Funkcje
 
 ### Rekurencja
