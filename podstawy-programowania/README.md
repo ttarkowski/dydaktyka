@@ -1478,7 +1478,9 @@ main()
 *Struktura* jest typem złożonym składającym się z elementów zapisanych
 sekwencyjnie według podanej kolejności.
 
-Specyfikator typu struktury ma podczas jej definiowania składnię opisaną niżej.
+Specyfikator typu struktury ma podczas jej definiowania składnię, której
+uproszczony opis jest podany niżej. Do nieco bardziej kompletnej składni będzie
+można wrócić przy okazji programowania w stylu obiektowym.
 
 Składnia:
 ```cpp
@@ -1486,10 +1488,7 @@ struct nazwa (opcjonalnie) { lista_deklaracji }
 ```
 
   * `nazwa` jest nazwą definiowanej struktury.
-  * `lista_deklaracji` jest listą dowolnej długości deklaracji zmiennych i pól
-    bitowych (a także tzw. asercji statycznych, co jest materiałem na
-    zaawansowany kurs języka C++). (Istnieją pewne wyjątki wykluczające niektóre
-    deklaracje.)
+  * `lista_deklaracji` jest listą dowolnej długości deklaracji zmiennych.
 
 ## 6. Funkcje
 
