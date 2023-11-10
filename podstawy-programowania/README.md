@@ -1479,8 +1479,8 @@ main()
 sekwencyjnie według podanej kolejności.
 
 Specyfikator typu struktury ma podczas jej definiowania składnię, której
-uproszczony opis jest podany niżej. Do nieco bardziej kompletnej składni będzie
-można wrócić przy okazji programowania w stylu obiektowym.
+uproszczony i przybliżony opis jest podany niżej. Do nieco bardziej kompletnej
+składni będzie można wrócić przy okazji programowania w stylu obiektowym.
 
 Składnia:
 ```cpp
@@ -1488,7 +1488,8 @@ struct nazwa (opcjonalnie) { lista_deklaracji }
 ```
 
   * `nazwa` jest nazwą definiowanej struktury.
-  * `lista_deklaracji` jest listą dowolnej długości deklaracji zmiennych.
+  * `lista_deklaracji` jest listą dowolnej długości prostych deklaracji
+    zmiennych.
 
 ## 6. Funkcje
 
