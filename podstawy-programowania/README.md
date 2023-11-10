@@ -1491,6 +1491,11 @@ struct nazwa (opcjonalnie) { lista_deklaracji }
   * `lista_deklaracji` jest listą dowolnej długości prostych deklaracji
     zmiennych.
 
+Powyższy opis jest mocno uproszczony i nie uwzględnia wielu kategorii
+składników, które mogą pojawić się podczas definiowania struktury, m.in. tych
+związanych z programowaniem w stylu obiektowym lub generycznym. Na ten moment
+zadowolimy się jednak taką uproszczoną wersją.
+
 ## 6. Funkcje
 
 ### Rekurencja
