@@ -1478,7 +1478,7 @@ main()
 *Struktura* jest typem złożonym składającym się z elementów zapisanych
 sekwencyjnie według podanej kolejności.
 
-Specyfikator typu struktury ma podczaj jej definiowania składnię opisaną niżej.
+Specyfikator typu struktury ma podczas jej definiowania składnię opisaną niżej.
 
 Składnia:
 ```cpp
