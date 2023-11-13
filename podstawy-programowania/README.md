@@ -1528,9 +1528,19 @@ main()
 
 ## 6. Funkcje
 
-### Rekurencja
+Instrukcja `return` jest instrukcją skoku.
 
-TODO: Omówić instrukcję `return`.
+Składnia:
+```cpp
+return wyrażenie (opcjonalnie) ;
+```
+
+  * `wyrażenie` jest wyrażeniem konwertowalnym na typ zwracany przez funkcję.
+    W ramach instrukcjij skoku `return` wyrażenie `wyrażenie` jest ewaluowane,
+    po czym bieżąca funkcja kończona a wartość zwrócona po ewentualnej konwersji
+    do funkcji wywołującej.
+
+### Rekurencja
 
 ## 7. Zasięg i widoczność
 
