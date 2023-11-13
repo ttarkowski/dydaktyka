@@ -1530,7 +1530,7 @@ main()
 
 Czym są funkcje w języku C++? *Funkcja* to element języka, który umożliwia
 połączenie sekwencji instrukcji z nazwą oraz listą argumentów. Sekwencja
-instrukcji jest nazywana *ciałem funkcji*. Lista argumentów może być również pusta.
+instrukcji jest nazywana *ciałem funkcji*. Lista argumentów może być pusta.
 
 Funkcja może zostać *zadeklarowana* oraz *zdefiniowana*.
 
