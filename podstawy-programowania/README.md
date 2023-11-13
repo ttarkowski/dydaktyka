@@ -1532,7 +1532,12 @@ Czym są funkcje w języku C++? *Funkcja* to element języka, który umożliwia
 połączenie sekwencji instrukcji z nazwą oraz listą argumentów. Sekwencja
 instrukcji jest nazywana *ciałem funkcji*. Lista argumentów może być pusta.
 
-Funkcja może zostać *zadeklarowana* oraz *zdefiniowana*.
+Funkcja może zostać *zadeklarowana* oraz *zdefiniowana*. Deklaracja funkcji
+wprowadza jej nazwę (identyfikator) i umożliwia użycie (wywołanie). Definicja
+funkcji jest potrzebna do opisu wykonywanych czynności (jest to implementacja
+zadeklarowanego identyfikatora). Funkcja może zostać zadeklarowana wielokrotnie
+lecz zdefiniowana tylko jeden raz. Definicja funkcji może pojawić się
+w miejscu, gdzie oczekiwana byłaby deklaracja.
 
 Instrukcja `return` jest instrukcją skoku.
 
