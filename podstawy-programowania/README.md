@@ -1539,6 +1539,8 @@ zadeklarowanego identyfikatora). Funkcja może zostać zadeklarowana wielokrotni
 lecz zdefiniowana tylko jeden raz. Definicja funkcji może pojawić się
 w miejscu, gdzie oczekiwana byłaby deklaracja.
 
+### Deklaracja funkcji
+
 Zacznijmy więc od deklaracji funkcji. Uproszczona składnia deklaracji funkcji
 jest następująca.
 
@@ -1559,6 +1561,10 @@ int f(int);
 double g();
 std::string h(const char* str);
 ```
+
+### Definicja funkcji
+
+### Instrukcja `return`
 
 Instrukcja `return` jest instrukcją skoku.
 
