@@ -1539,6 +1539,27 @@ zadeklarowanego identyfikatora). Funkcja może zostać zadeklarowana wielokrotni
 lecz zdefiniowana tylko jeden raz. Definicja funkcji może pojawić się
 w miejscu, gdzie oczekiwana byłaby deklaracja.
 
+Zacznijmy więc od deklaracji funkcji. Uproszczona składnia deklaracji funkcji
+jest następująca.
+
+Składnia:
+```cpp
+typ_zwracany deklarator ( lista_argumentów )
+```
+
+  * `typ_zwracany`
+  * `deklarator`
+  * `lista_argumentów`
+
+Przykład:
+```cpp
+#include <string>
+
+int f(int);
+double g();
+std::string h(const char* str);
+```
+
 Instrukcja `return` jest instrukcją skoku.
 
 Składnia:
