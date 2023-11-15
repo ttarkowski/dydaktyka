@@ -1549,9 +1549,11 @@ Składnia:
 typ_zwracany deklarator ( lista_argumentów )
 ```
 
-  * `typ_zwracany`
-  * `deklarator`
-  * `lista_argumentów`
+  * `typ_zwracany` jest typem wartości zwracanej przez funkcję z użyciem
+    instrukcji `return` lub jest słowem `void`, jeśli funkcja nic nie zwraca.
+  * `deklarator` jest identyfikatorem funkcji, tzn. jej nazwą.
+  * `lista_argumentów` jest listą argumentów odseparowanych przecinkami. Lista
+    może być pusta.
 
 Przykład:
 ```cpp
