@@ -1566,6 +1566,20 @@ std::string h(const char* str);
 
 ### Definicja funkcji
 
+Uproszczona składnia definicji funkcji jest podobna do jej deklaracji. Jedyna
+istotna na ten moment różnica jest taka, że definicja funkcji posiada *ciało*.
+
+Składnia:
+```cpp
+typ_zwracany deklarator ( lista_argumentów ) ciało
+```
+
+  * `typ_zwracany`, `deklarator` oraz `lista_argumentów` zostały opisane przy
+    okazji deklaracji funkcji.
+  * `ciało` jest ciałem funkcji, tzn. instrukcją złożoną zawierającą zero lub
+    więcej instrukcji otoczonych nawiasami klamrowymi `{` oraz `}`. Instrukcja
+    złożona jest wykonywana w momencie wywołania funkcji.
+
 ### Instrukcja `return`
 
 Instrukcja `return` jest instrukcją skoku.
