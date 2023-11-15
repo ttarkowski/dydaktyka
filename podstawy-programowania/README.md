@@ -1627,6 +1627,10 @@ return wyrażenie (opcjonalnie) ;
 
 ### Rekurencja
 
+### Funkcje lambda
+
+### Szablony funkcji
+
 ## 7. Zasięg i widoczność
 
 ## 8. Wskaźniki i zmienne dynamiczne
