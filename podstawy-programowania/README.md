@@ -1580,6 +1580,37 @@ typ_zwracany deklarator ( lista_argumentów ) ciało
     więcej instrukcji otoczonych nawiasami klamrowymi `{` oraz `}`. Instrukcja
     złożona jest wykonywana w momencie wywołania funkcji.
 
+Przykład:
+```cpp
+#include <cmath>
+#include <string>
+#include <vector>
+
+int id(int x) {
+  return x;
+}
+
+double answer() {
+  return 42;
+}
+
+std::string to_string(const char* str) {
+  return std::string(str);
+}
+
+std::vector<double> quadratic_eq(double a, double b, double c) {
+  std::vector<double> res;
+  double delta = b * b - 4 * a * c;
+  if (delta >= 0) {
+    res.push_back((-b + std::sqrt(delta)) / (2 * a));
+    if (delta > 0) {
+      res.push_back((-b - std::sqrt(delta)) / (2 * a));
+    }
+  }
+  return res;
+}
+```
+
 ### Instrukcja `return`
 
 Instrukcja `return` jest instrukcją skoku.
