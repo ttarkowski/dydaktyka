@@ -1820,6 +1820,13 @@ Wynik działania przykładu:
 > 2\. odwrotnosc stalej struktury subtelnej  
 > Calkowita liczba napisow: 2
 
+Czym powinny się różnić funkcje o tej samej nazwie, aby zostały prawidłowo
+przeciążone? Mogą one się różnić liczbą argumentów formalnych lub ich typem.
+Jeśli dwie funkcje o tej samej nazwie różnią się wyłącznie typem zwracanej
+wartości to nastąpi błąd kompilacji. Lista prawidłowych i nieprawidłowych różnic
+jest dłuższa, lecz na ten moment ograniczymy się wyłącznie do wyżej
+wymienionych.
+
 ## 7. Zasięg i widoczność
 
 ## 8. Wskaźniki i zmienne dynamiczne
