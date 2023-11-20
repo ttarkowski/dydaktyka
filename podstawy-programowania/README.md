@@ -1816,8 +1816,8 @@ Wynik działania przykładu:
 > Liczba calkowita: 42  
 > Liczba zmiennoprzecinkowa: 137.036  
 > Kontener std::vector zawierający napisy std::string:  
-> 1. "Answer to the Ultimate Question of Life, The Universe, and Everything"  
-> 2. odwrotnosc stalej struktury subtelnej  
+> 1\. "Answer to the Ultimate Question of Life, The Universe, and Everything"  
+> 2\. odwrotnosc stalej struktury subtelnej  
 > Calkowita liczba napisow: 2
 
 ## 7. Zasięg i widoczność
