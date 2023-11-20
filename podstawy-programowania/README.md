@@ -1829,6 +1829,9 @@ wymienionych.
 
 ## 7. Zakres
 
+Każda deklaracja w C++ jest widoczna w jakimś zakresie. W tym punkcie zostaną
+omówione czym są *widoczność* oraz *zakres*.
+
 ## 8. Wskaźniki i zmienne dynamiczne
 
 ## 9. Klasy i obiekty
