@@ -1711,6 +1711,33 @@ Wynik działania przykładu:
 > 19! = 121645100408832000  
 > 20! = 2432902008176640000
 
+Przykład (pełny przykład znajduje się w pliku
+[Fibonacci/Fibonacci.cc](/podstawy-programowania/examples/06/Fibonacci/Fibonacci.cc)):
+```cpp
+#include <iostream>
+
+int counter = 0;
+
+int
+Fibonacci(int n)
+{
+  counter++;
+  return n == 0 ? 0 : n == 1 ? 1 : Fibonacci(n - 1) + Fibonacci(n - 2);
+}
+
+int
+main()
+{
+  const int i = 42;
+  const int res = Fibonacci(i);
+  std::cout << "Fibonacci(" << i << ") = " << res << " (" << counter
+            << " wywolan funkcji Fibonacci)\n";
+}
+```
+
+Wynik działania przykładu:
+> Fibonacci(42) = 267914296 (866988873 wywolan funkcji Fibonacci)
+
 ### Funkcje lambda
 
 ### Szablony funkcji
