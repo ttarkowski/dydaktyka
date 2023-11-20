@@ -1827,7 +1827,7 @@ wartości to nastąpi błąd kompilacji. Lista prawidłowych i nieprawidłowych 
 jest dłuższa, lecz na ten moment ograniczymy się wyłącznie do wyżej
 wymienionych.
 
-## 7. Zasięg i widoczność
+## 7. Zakres
 
 ## 8. Wskaźniki i zmienne dynamiczne
 
