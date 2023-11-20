@@ -1611,6 +1611,25 @@ std::vector<double> quadratic_eq(double a, double b, double c) {
 }
 ```
 
+Uwagi:
+  * Lista argumentów w definicji funkcji zawiera tzw. *argumenty formalne*,
+    czyli identyfikatory wykorzystywane ciele definiowanej funkcji.
+  * W momencie wywołania funkcji, w miejsce argumentów formalnych wstawiane są
+    *argumenty właściwe* (*argumenty rzeczywiste*).
+
+Przykład:
+```cpp
+int id(int x) {
+  return x;
+}
+
+int main() {
+  id(42);
+}
+```
+
+W powyższym przykładzie `x` jest argumentem formalnym a `42` — właściwym.
+
 ### Instrukcja `return`
 
 Instrukcja `return` jest instrukcją skoku.
