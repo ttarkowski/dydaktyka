@@ -1738,10 +1738,6 @@ main()
 Wynik działania przykładu:
 > Fibonacci(42) = 267914296 (866988873 wywolan funkcji Fibonacci)
 
-### Funkcje lambda
-
-### Szablony funkcji
-
 ## 7. Zasięg i widoczność
 
 ## 8. Wskaźniki i zmienne dynamiczne
