@@ -1625,10 +1625,13 @@ int id(int x) {
 
 int main() {
   id(42);
+  int n = 7;
+  id(n);
 }
 ```
 
-W powyższym przykładzie `x` jest argumentem formalnym a `42` — właściwym.
+W powyższym przykładzie `x` jest argumentem formalnym a `42` oraz `n` —
+właściwymi.
 
 ### Instrukcja `return`
 
