@@ -1684,6 +1684,8 @@ accumulate(std::vector<double> v)
 
 ### Rekurencja
 
+*Rekurencja* polega na wywołaniu w definicji danej funkcji jej samej.
+
 Przykład (pełny przykład znajduje się w pliku
 [factorial/factorial.cc](/podstawy-programowania/examples/06/factorial/factorial.cc)):
 ```cpp
@@ -1709,6 +1711,9 @@ factorial(ulli_t n)
   return n == 0 ? 1 : n * factorial(n - 1);
 }
 ```
+
+W powyższym przykładzie w definicji funkcji `factorial` następuje wywołanie
+funkcji `factorial` — mamy więc do czynienia z rekurencją.
 
 Wynik działania przykładu:
 > 0! = 1  
