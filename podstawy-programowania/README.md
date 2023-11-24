@@ -1868,7 +1868,8 @@ Wynik działania przykładu:
 Uwaga: O adresowaniu pamięci komputera poświęcony jest osobny punkt tego
 skryptu. Na cwhilę obecną wystarczy wiedzieć, że kod `&a` oznacza adres zmiennej
 `a` to znaczy jej położenie w pamięci komputera oraz że adres jest nieujemną
-liczbą całkowitą notowaną zazwyczaj w systemie szesnastkowym.
+liczbą całkowitą notowaną zazwyczaj w systemie szesnastkowym. Adres zmiennej
+może być różny w różnych uruchomieniach tego samego programu.
 
 Przebieg działania powyższego przykładu jest następujący. Uruchamiana jest
 funkcja `main`, gdzie tworzona jest zmienna o nazwie `a` o wartości `7`. Po
