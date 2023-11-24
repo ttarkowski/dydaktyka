@@ -1894,6 +1894,28 @@ W dalszej części punktu omówiono między innymi różne przykłady zakresów.
 *Zakres globalny* zawiera w sobie cały program. Jest to jedyny zakres, który nie
 zawiera się w żadnym innym zakresie.
 
+### Zakres blokowy
+
+*Zakres blokowy* jest wprowadzany poprzez użycie instrukcji wyboru `if` oraz
+`switch`, pętli `while`, `do`-`while` oraz `for` (w tym zakresowej pętli `for`)
+a także instrukcji złożonej. Zobaczmy to na przykładzie pętli `for`:
+```cpp
+for (int i = 0; i < 42; ++i) // Zmienna i rezyduje w zakresie wprowadzonym przez
+  std::cout << i << '\n';    // pętlę for.
+// Ten punkt jest poza zakresem wprowadzonym przez pętlę for. Zmienna i jest
+// niedostępna.
+```
+
+Instrukcja złożona, nazywana też blokiem, była omówiona wraz z przykładem
+zawartym w pliku
+[compound/compound.cc](/podstawy-programowania/examples/03/compound/compound.cc)).
+W pliku tym widać bloki o numerach od 1 do 5 i każdy z nich wprowadza zakres
+blokowy.
+
+Uwaga: Zakres wprowadzony przez blok numer 5 jest zawarty w zakresie
+wprowadzonym przez blok 4. Zakres wprowadzony przez blok 2 jest zawarty
+w zakresie wprowadzonym przez pętlę `for`.
+
 ## 8. Wskaźniki i zmienne dynamiczne
 
 ## 9. Klasy i obiekty
