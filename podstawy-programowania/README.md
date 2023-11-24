@@ -1830,7 +1830,40 @@ wymienionych.
 ## 7. Zakres
 
 Każda deklaracja w C++ jest widoczna w jakimś zakresie. W tym punkcie zostaną
-omówione czym są *widoczność* oraz *zakres*.
+omówione czym są *widoczność* oraz *zakres*. Zostaną przedstawione wybrane
+przykłady zakresów.
+
+Rozważmy na początek prosty przykład.
+
+Przykład (pełny przykład znajduje się w pliku
+[scope/scope.cc](/podstawy-programowania/examples/07/scope/scope.cc)):
+```
+#include <iostream>
+
+void
+f()
+{
+  int a = 42;
+  std::cout << "Zmienna a (f) ma wartosc " << a << ". "
+            << "Znajduje sie pod adresem " << &a << ".\n";
+}
+
+int
+main()
+{
+  int a = 7;
+  std::cout << "Zmienna a (main) ma wartosc " << a << ". "
+            << "Znajduje sie pod adresem " << &a << ".\n";
+  f();
+  std::cout << "Zmienna a (main) ma wartosc " << a << ". "
+            << "Znajduje sie pod adresem " << &a << ".\n";
+}
+```
+
+Wynik działania przykładu:
+> Zmienna a (main) ma wartosc 7. Znajduje sie pod adresem 0x7ffcc35f1d24.  
+> Zmienna a (f) ma wartosc 42. Znajduje sie pod adresem 0x7ffcc35f1d04.  
+> Zmienna a (main) ma wartosc 7. Znajduje sie pod adresem 0x7ffcc35f1d24.
 
 ## 8. Wskaźniki i zmienne dynamiczne
 
