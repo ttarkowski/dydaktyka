@@ -1870,6 +1870,24 @@ skryptu. Na cwhilę obecną wystarczy wiedzieć, że kod `&a` oznacza adres zmie
 `a` to znaczy jej położenie w pamięci komputera oraz że adres jest nieujemną
 liczbą całkowitą notowaną zazwyczaj w systemie szesnastkowym.
 
+Przebieg działania powyższego przykładu jest następujący. Uruchamiana jest
+funkcja `main`, gdzie tworzona jest zmienna o nazwie `a` o wartości `7`. Po
+wypisaniu komunikatu na temat tej zmiennej wywoływana jest funkcja `f`, gdzie
+tworzona jest zmienna `a` o wartości `42`. Po wypisaniu komunikatu działanie
+funkcji `f` kończy się i następuje powrót do funkcji `main`, gdzie wypisywany
+jest jeszcze jeden komunikat.
+
+Szczegółowa analiza wypisywanych komunikatów pozwala dojść do wniosku, że
+zmienna `a` z funkcji `main` oraz zmienna `a` z funkcji `f` są innymi bytami.
+Widać to wprost dzięki znajomości adresów oraz pośrednio dzięki wypisywanym
+wartościom.
+
+Dlaczego, pomimo identycznej nazwy, obydwie zmienne są różne? Dzieje się tak,
+ponieważ obydwie zmienne znajdują się w różnych *zakresach*. Zmienna
+zadeklarowana w danej funkcji znajduje się w zakresie powiązanym z tą funkcją.
+
+W dalszej części punktu omówiono między innymi różne przykłady zakresów.
+
 ## 8. Wskaźniki i zmienne dynamiczne
 
 ## 9. Klasy i obiekty
