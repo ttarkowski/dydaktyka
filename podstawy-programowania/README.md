@@ -1837,7 +1837,7 @@ Rozważmy na początek prosty przykład.
 
 Przykład (pełny przykład znajduje się w pliku
 [scope/scope.cc](/podstawy-programowania/examples/07/scope/scope.cc)):
-```
+```cpp
 #include <iostream>
 
 void
