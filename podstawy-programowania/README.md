@@ -1865,6 +1865,11 @@ Wynik działania przykładu:
 > Zmienna a (f) ma wartosc 42. Znajduje sie pod adresem 0x7ffcc35f1d04.  
 > Zmienna a (main) ma wartosc 7. Znajduje sie pod adresem 0x7ffcc35f1d24.
 
+Uwaga: O adresowaniu pamięci komputera poświęcony jest osobny punkt tego
+skryptu. Na cwhilę obecną wystarczy wiedzieć, że kod `&a` oznacza adres zmiennej
+`a` to znaczy jej położenie w pamięci komputera oraz że adres jest nieujemną
+liczbą całkowitą notowaną zazwyczaj w systemie szesnastkowym.
+
 ## 8. Wskaźniki i zmienne dynamiczne
 
 ## 9. Klasy i obiekty
