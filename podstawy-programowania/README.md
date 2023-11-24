@@ -1889,6 +1889,11 @@ zadeklarowana w danej funkcji znajduje się w zakresie powiązanym z tą funkcj�
 
 W dalszej części punktu omówiono między innymi różne przykłady zakresów.
 
+## Zakres globalny
+
+*Zakres globalny* zawiera w sobie cały program. Jest to jedyny zakres, który nie
+zawiera się w żadnym innym zakresie.
+
 ## 8. Wskaźniki i zmienne dynamiczne
 
 ## 9. Klasy i obiekty
