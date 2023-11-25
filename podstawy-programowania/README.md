@@ -1916,6 +1916,12 @@ Uwaga: Zakres wprowadzony przez blok numer 5 jest zawarty w zakresie
 wprowadzonym przez blok 4. Zakres wprowadzony przez blok 2 jest zawarty
 w zakresie wprowadzonym przez pętlę `for`.
 
+### Zakres argumentu funkcji
+
+Każdy argument z listy argumentów w deklaracji bądź definicji funkcji wprowadza
+nowy zakres, który rozpoczyna się tym argumentem i kończy się odpowiednio wraz
+z końcem deklaracji lub wraz z końcem ciała definiowanej funkcji.
+
 ## 8. Wskaźniki i zmienne dynamiczne
 
 ## 9. Klasy i obiekty
