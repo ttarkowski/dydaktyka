@@ -1922,6 +1922,26 @@ Każdy argument z listy argumentów w deklaracji bądź definicji funkcji wprowa
 nowy zakres, który rozpoczyna się tym argumentem i kończy się odpowiednio wraz
 z końcem deklaracji lub wraz z końcem ciała definiowanej funkcji.
 
+Przykład:
+```cpp
+void f(
+       int n,    // Rozpoczyna się zakres wprowadzony przez n.
+       double d  // A tutaj rozpoczyna się zakres wprowadzony przez d.
+      );         // Kończy się zakres wprowadzony przez n oraz d.
+
+double
+sum_of_squares(
+               double x, // Początek zakresu wprowadzonego przez x.
+               double y  // . . . . . . . . . . . . . . . . . .  y.
+              ) {
+  double res = x * x + y * y;
+  return res;
+}                        // Koniec zakresów wprowadzonych przez x oraz y.
+```
+
+Uwaga: W powyższym przykładzie celowo nie zachowano stylu kodowania, aby
+wskazać początek i koniec danego zakresu.
+
 ## 8. Wskaźniki i zmienne dynamiczne
 
 ## 9. Klasy i obiekty
