@@ -2,7 +2,9 @@
 
 ## Referencje
 
-**Zadanie 1.** Uzupełnij poniższy kod źródłowy:
+### Zadanie 1
+
+Uzupełnij poniższy kod źródłowy:
 ```cpp
 #include <iostream>
 
@@ -22,7 +24,9 @@ Uzupełniony program powinien wypisywać następujący komunikat:
 > 0 1  
 > 1 0
 
-**Zadanie 2.** Uzupełnij poniższy kod źródłowy:
+### Zadanie 2
+
+Uzupełnij poniższy kod źródłowy:
 ```cpp
 #include <iostream>
 
@@ -39,7 +43,9 @@ main()
 Uzupełniony program powinien wypisywać następujący komunikat:
 > 42
 
-**Zadanie 3.** W języku C++ referencje służą między innymi do tego, aby podczas
+### Zadanie 3
+
+W języku C++ referencje służą między innymi do tego, aby podczas
 przekazywania do funkcji dużych obiektów, nie trzeba było ich kopiować.
 Uzupełnij poniższy kod źródłowy o funkcję, która nazywa się `operator+`. Funkcja
 ta przyjmuje dwie struktury typu `vector2d` i dodaje je zgodnie z matematyczną
