@@ -2001,6 +2001,63 @@ Wynik działania przykładu:
 
 ### Wskaźnik pusty `nullptr`
 
+Do wskaźnika, który nie wskazuje na dane, należy przypisać specjalną wartość
+określaną przez literał `nullptr`. Warto zrobić to już w momencie zainicjowania
+zmiennej wskaźnikowej.
+
+Przykład:
+```cpp
+int* p = nullptr;
+double* q = nullptr;
+```
+
+Wskaźnik pusty nie wskazuje na żadne dane — informuje o tym jego specjalna
+wartość. Co więcej, poprawnie skonstruowany kod źródłowy sprawdza czy ma do
+czynienia z pustym wskaźnikiem.
+
+Jak to może wyglądać w praktyce? Zobaczymy to na przykładzie szkieletu aplikacji
+okienkowej, gdzie wykorzystano tzw. *widget* (*window gadget*).
+
+Przykład:
+```cpp
+struct Widget;
+
+Widget*
+make_widget()
+{
+  Widget* res;
+  // Tutaj może znaleźć się kod tworzący element interfejsu (widget).
+  // W przypadku niepowodzenia tworzenia wykonywana jest poniższa instrukcja.
+  res = nullptr;
+  return res;
+}
+
+void
+update_widget(Widget* w)
+{
+  if (w != nullptr) {
+    // Widget należy zaktualizować tylko jeśli został poprawnie utworzonony.
+    // Tutaj może znaleźć się kod aktualizujący widget.
+  }
+}
+
+void
+destroy_widget(Widget* w)
+{
+  if (w) {
+    // Instrukcja if (w) działa tak samo jak if (w != nullptr).
+  }
+}
+
+int
+main()
+{
+  Widget* w = make_widget();
+  update_widget(w);
+  destroy_widget(w);
+}
+```
+
 ### Wskaźnik typu `void`
 
 Mimo, że nie istnieje typ danych `void` a samo to słowo ma szczególne znaczenie,
