@@ -1942,7 +1942,7 @@ sum_of_squares(
 Uwaga: W powyższym przykładzie celowo nie zachowano stylu kodowania, aby
 wskazać początek i koniec danego zakresu.
 
-## 8. Wskaźniki i zmienne dynamiczne
+## 8. Wskaźniki i referencje
 
 ## 9. Klasy i obiekty
 
