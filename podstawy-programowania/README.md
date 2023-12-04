@@ -1982,6 +1982,29 @@ int const* const p6 = &c; // jw.
 Uwaga: W powyższym przykładzie ograniczono się wyłącznie do wskaźników na typ
 `int` oraz `const int`.
 
+#### ▸ Wskaźniki typu `void`
+
+Mimo, że nie istnieje typ danych `void` a samo to słowo ma szczególne znaczenie,
+istnieje możliwość zdefiniowania wskaźnika typu `void`.
+
+Przykład:
+```cpp
+struct s
+{
+  int n;
+};
+
+double x = 0.5;
+const s y = { 7 };
+
+void* p = &x;
+const void* q = &y;
+```
+
+Uwaga: Wskaźniki typu `void` są wykorzystywane w języku C w celu osiągnięcia
+polimorfizmu. W języku C++ istnieją lepsze rozwiązania takie jak polimorfizm
+statyczny z wykorzystaniem szablonów.
+
 ## 9. Klasy i obiekty
 
 ## 10. Pliki
