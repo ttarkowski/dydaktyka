@@ -1980,6 +1980,8 @@ int const* const p6 = &c; // jw.
 Uwaga: W powyższym przykładzie ograniczono się wyłącznie do wskaźników na typ
 `int` oraz `const int`.
 
+Zauważmy, że w celu pobrania adresu wykorzystano operator `&`.
+
 W celu uzyskania wartości wskazywanej przez wskaźnik należy wykorzystać tzw.
 *dereferencję* (zwaną też *wyłuskaniem*), którą otrzymuje się poprzez
 zastosowanie operatora `*`.
