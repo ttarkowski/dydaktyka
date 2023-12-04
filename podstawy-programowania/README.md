@@ -2021,6 +2021,12 @@ Uwaga: Zamiast `int (*p)(int, int) = &sum;` można opuścić operator `&` i napi
 konwersja nazwy funkcji na adres początku jej kodu wykonywalnego w kontekście
 wymagającym podania adresu.
 
+W celu wywołania funkcji, do której znany jest wskaźnik należy zwyczajowo
+zastosować dereferencję:
+```cpp
+std::cout << (*p)(1, 2) << '\n'; // Wypisze wartość 3.
+```
+
 ## 9. Referencje
 
 ## 10. Klasy i obiekty
