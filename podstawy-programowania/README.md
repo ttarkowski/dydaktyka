@@ -1942,15 +1942,13 @@ sum_of_squares(
 Uwaga: W powyższym przykładzie celowo nie zachowano stylu kodowania, aby
 wskazać początek i koniec danego zakresu.
 
-## 8. Wskaźniki i referencje
+## 8. Wskaźniki
 
 Przypomnijmy, że instrukcja prostej deklaracji zmiennej ma składnię:
 ```cpp
 sekwencja_specyfikatorów lista_deklaratorów ;
 ```
 gdzie `lista_deklaratorów` jest listą deklaratorów.
-
-### Wskaźniki
 
 Deklarator typu wskaźnikowego ma składnię opisaną niżej:
 
@@ -1982,7 +1980,7 @@ int const* const p6 = &c; // jw.
 Uwaga: W powyższym przykładzie ograniczono się wyłącznie do wskaźników na typ
 `int` oraz `const int`.
 
-#### ▸ Wskaźniki typu `void`
+### Wskaźniki typu `void`
 
 Mimo, że nie istnieje typ danych `void` a samo to słowo ma szczególne znaczenie,
 istnieje możliwość zdefiniowania wskaźnika typu `void`.
@@ -2005,7 +2003,7 @@ Uwaga: Wskaźniki typu `void` są wykorzystywane w języku C w celu osiągnięci
 polimorfizmu. W języku C++ istnieją lepsze rozwiązania takie jak polimorfizm
 statyczny z wykorzystaniem szablonów.
 
-#### ▸ Wskaźniki na funkcje
+### Wskaźniki na funkcje
 
 Istnieje możliwość stworzenia wskaźnika na funkcję.
 
@@ -2023,13 +2021,15 @@ Uwaga: Zamiast `int (*p)(int, int) = &sum;` można opuścić operator `&` i napi
 konwersja nazwy funkcji na adres początku jej kodu wykonywalnego w kontekście
 wymagającym podania adresu.
 
-## 9. Klasy i obiekty
+## 9. Referencje
 
-## 10. Pliki
+## 10. Klasy i obiekty
 
-## 11. Biblioteki programistyczne
+## 11. Pliki
 
-## 12. Metoda wstępująca i zstępująca
+## 12. Biblioteki programistyczne
+
+## 13. Metoda wstępująca i zstępująca
 
 ## Bibliografia
 
