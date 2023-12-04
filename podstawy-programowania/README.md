@@ -1887,7 +1887,7 @@ Dlaczego, pomimo identycznej nazwy, obydwie zmienne są różne? Dzieje się tak
 ponieważ obydwie zmienne znajdują się w różnych *zakresach*. Zmienna
 zadeklarowana w danej funkcji znajduje się w zakresie powiązanym z tą funkcją.
 
-W dalszej części punktu omówiono między innymi różne przykłady zakresów.
+W dalszej części punktu omówiono różne przykłady zakresów.
 
 ### Zakres globalny
 
