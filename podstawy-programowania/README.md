@@ -1999,7 +1999,9 @@ Wynik działania przykładu:
 > x = 42  
 > x = 42
 
-### Wskaźniki typu `void`
+### Wskaźnik pusty `nullptr`
+
+### Wskaźnik typu `void`
 
 Mimo, że nie istnieje typ danych `void` a samo to słowo ma szczególne znaczenie,
 istnieje możliwość zdefiniowania wskaźnika typu `void`.
@@ -2022,7 +2024,7 @@ Uwaga: Wskaźniki typu `void` są wykorzystywane w języku C w celu osiągnięci
 polimorfizmu. W języku C++ istnieją lepsze rozwiązania takie jak polimorfizm
 statyczny z wykorzystaniem szablonów.
 
-### Wskaźniki na funkcje
+### Wskaźnik na funkcję
 
 Istnieje możliwość stworzenia wskaźnika na funkcję.
 
