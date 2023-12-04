@@ -1944,6 +1944,41 @@ wskazać początek i koniec danego zakresu.
 
 ## 8. Wskaźniki i referencje
 
+Przypomnijmy, że instrukcja prostej deklaracji zmiennej ma składnię:
+```cpp
+sekwencja_specyfikatorów lista_deklaratorów ;
+```
+gdzie `lista_deklaratorów` jest listą deklaratorów.
+
+### Wskaźniki
+
+Deklarator typu wskaźnikowego ma składnię opisaną niżej:
+
+Składnia:
+```cpp
+* const (opcjonalnie) deklarator
+```
+
+  * `const` jest opcjonalnym kwalifikatorem `const`, który określa, że wskaźnik
+    jest stały.
+  * `deklarator` jest deklaratorem.
+
+Przykłady:
+```cpp
+int x = 42;
+const int c = 7;
+
+int* p0 = &x;             // wskaźnik na zmienną typu int
+
+const int* p2 = &c;       // wskaźnik na stałą typu int
+int const* p3 = &c;       // j.w.
+
+int* const p4 = &x;       // stały wskaźnik na zmienną typu int
+
+const int* const p5 = &c; // stały wskaźnik na stałą typu int
+int const* const p6 = &c; // j.w.
+```
+
 ## 9. Klasy i obiekty
 
 ## 10. Pliki
