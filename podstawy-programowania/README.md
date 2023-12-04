@@ -1971,12 +1971,12 @@ const int c = 7;
 int* p0 = &x;             // wskaźnik na zmienną typu int
 
 const int* p2 = &c;       // wskaźnik na stałą typu int
-int const* p3 = &c;       // j.w.
+int const* p3 = &c;       // jw.
 
 int* const p4 = &x;       // stały wskaźnik na zmienną typu int
 
 const int* const p5 = &c; // stały wskaźnik na stałą typu int
-int const* const p6 = &c; // j.w.
+int const* const p6 = &c; // jw.
 ```
 
 ## 9. Klasy i obiekty
