@@ -2005,6 +2005,24 @@ Uwaga: Wskaźniki typu `void` są wykorzystywane w języku C w celu osiągnięci
 polimorfizmu. W języku C++ istnieją lepsze rozwiązania takie jak polimorfizm
 statyczny z wykorzystaniem szablonów.
 
+#### ▸ Wskaźniki na funkcje
+
+Istnieje możliwość stworzenia wskaźnika na funkcję.
+
+Przykład:
+```cpp
+int sum(int a, int b) { return a + b; }
+int (*p)(int, int) = &sum;
+```
+
+Aby zainicjować wartość wskaźnika na funkcję należy podać nazwę funkcji
+poprzedzoną opcjonalnie operatorem `&`.
+
+Uwaga: Zamiast `int (*p)(int, int) = &sum;` można opuścić operator `&` i napisać
+`int (*p)(int, int) = sum;`. Dzieje się tak, ponieważ następuje niejawna
+konwersja nazwy funkcji na adres początku jej kodu wykonywalnego w kontekście
+wymagającym podania adresu.
+
 ## 9. Klasy i obiekty
 
 ## 10. Pliki
