@@ -1980,6 +1980,19 @@ int const* const p6 = &c; // jw.
 Uwaga: W powyższym przykładzie ograniczono się wyłącznie do wskaźników na typ
 `int` oraz `const int`.
 
+W celu uzyskania wartości wskazywanej przez wskaźnik należy wykorzystać tzw.
+*dereferencję* (zwaną też *wyłuskaniem*), którą otrzymuje się poprzez
+zastosowanie operatora `*`.
+
+Przykład:
+```cpp
+int x = 42;
+std::cout << "x = " << x << '\n';
+
+int* p = &x;
+std::cout << "x = " << *p << '\n';
+```
+
 ### Wskaźniki typu `void`
 
 Mimo, że nie istnieje typ danych `void` a samo to słowo ma szczególne znaczenie,
