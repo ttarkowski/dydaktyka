@@ -2113,6 +2113,10 @@ i bardziej znajomej postaci `F* p[7];`.
 
 ## 9. Referencje
 
+Istnieją dwa rodzaje referencji w języku C++. Są to referencje do l-wartości
+oraz do r-wartości. Na ten moment ograniczymy się do tego pierwszego (i zarazem
+starszego) rodzaju.
+
 ## 10. Klasy i obiekty
 
 ## 11. Pliki
@@ -2136,6 +2140,7 @@ cppreference.com:
   * <https://en.cppreference.com/w/cpp/language/function>
   * <https://en.cppreference.com/w/cpp/language/scope>
   * <https://en.cppreference.com/w/cpp/language/pointer>
+  * <https://en.cppreference.com/w/cpp/language/reference>
 
 Maurizio Gabbrielli & Simone Martini. *Programming Languages: Principles and
 Paradigms*. Springer-Verlag London Limited, 2010. DOI:
