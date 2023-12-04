@@ -1979,6 +1979,9 @@ const int* const p5 = &c; // stały wskaźnik na stałą typu int
 int const* const p6 = &c; // jw.
 ```
 
+Uwaga: W powyższym przykładzie ograniczono się wyłącznie do wskaźników na typ
+`int` oraz `const int`.
+
 ## 9. Klasy i obiekty
 
 ## 10. Pliki
