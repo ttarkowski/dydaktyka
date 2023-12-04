@@ -2105,6 +2105,12 @@ zastosować dereferencję:
 std::cout << (*p)(1, 2) << '\n'; // Wypisze wartość 3.
 ```
 
+Uwaga: A jak stworzyć tablicę wskaźników? Oto przykład tablicy (rozmiaru 7)
+wskaźników na funkcje przyjmujące dwa argumenty typu double i nie zwracające
+niczego: `void (*p[7])(double, double);`. Składnię można uprościć stosując alias
+`using F = void(double, double);`. Wtedy wystarczy deklaracja o skróconej
+i bardziej znajomej postaci `F* p[7]`.
+
 ## 9. Referencje
 
 ## 10. Klasy i obiekty
