@@ -2117,6 +2117,36 @@ Istnieją dwa rodzaje referencji w języku C++. Są to referencje do l-wartości
 oraz do r-wartości. Na ten moment ograniczymy się do tego pierwszego (i zarazem
 starszego) rodzaju.
 
+Przypomnijmy, że instrukcja prostej deklaracji zmiennej ma składnię:
+```cpp
+sekwencja_specyfikatorów lista_deklaratorów ;
+```
+gdzie `lista_deklaratorów` jest listą deklaratorów.
+
+Deklarator typu referencyjnego ma składnię opisaną niżej:
+
+Składnia:
+```cpp
+& deklarator
+```
+
+  * `deklarator` jest deklaratorem.
+
+Uwaga: Referencja musi zostać zainicjowana.
+
+Przykłady:
+```cpp
+int n = 0;
+int& r = n;
+r = 42;
+std::cout << n << '\n'; // Wypisze wartość 42.
+```
+
+Jak widać na powyższym przykładzie referencje służą do tworzenia *aliasów*
+(nowych nazw) dla zmiennych. Referencja `r` jest nową nazwą dla `n`
+i modyfikacja wartości `r` oznacza modyfikację `n`, ponieważ `n` oraz `r` są tym
+samym obiektem.
+
 ## 10. Klasy i obiekty
 
 ## 11. Pliki
