@@ -1993,6 +1993,10 @@ int* p = &x;
 std::cout << "x = " << *p << '\n';
 ```
 
+Wynik działania przykładu:
+> x = 42  
+> x = 42
+
 ### Wskaźniki typu `void`
 
 Mimo, że nie istnieje typ danych `void` a samo to słowo ma szczególne znaczenie,
