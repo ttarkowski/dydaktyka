@@ -2147,6 +2147,39 @@ Jak widać na powyższym przykładzie referencje służą do tworzenia *aliasów
 i modyfikacja wartości `r` oznacza modyfikację `n`, ponieważ `n` oraz `r` są tym
 samym obiektem.
 
+Jakie jest typowe zastosowanie referencji? Zobaczmy to na przykładzie argumentów
+funkcji.
+
+Przykład (pełny przykład znajduje się w pliku
+[replace/replace.cc](/podstawy-programowania/examples/09/replace/replace.cc)):
+```cpp
+#include <iostream>
+#include <string>
+
+void
+replace(std::string& s, char from, char to)
+{
+  for (std::size_t i = 0; i < s.size(); ++i) {
+    if (s.at(i) == from) {
+      s.at(i) = to;
+    }
+  }
+}
+
+int
+main()
+{
+  std::string s = "Programowanie w C++";
+  std::cout << "Napis oryginalny:    " << s << '\n';
+  replace(s, ' ', '*');
+  std::cout << "Napis zmodyfikowany: " << s << '\n';
+}
+```
+
+Wynik działania przykładu:
+> Napis oryginalny:    Programowanie w C++  
+> Napis zmodyfikowany: Programowanie*w*C++
+
 ## 10. Klasy i obiekty
 
 ## 11. Pliki
