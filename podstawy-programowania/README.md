@@ -2186,6 +2186,60 @@ funkcja `replace` modyfikuje oryginał, co było w tym przypadku zamierzone. Co
 więcej, brak kopiowania obiektu oznacza niejednokrotnie oszczędność (w pamięci
 oraz w czasie wykonania). Dlatego referencje warto wykorzystywać.
 
+Trzeba tylko wiedzieć jak prawidłowo użyć referencji. Rozważmy poniższy
+przykład.
+
+Przykład:
+```cpp
+#include <iostream>
+#include <string>
+
+std::string
+join(std::string& s1, std::string& s2)
+{
+  return s1 + s2;
+}
+
+int
+main()
+{
+  std::string s = "Programowanie ";
+  std::string t = "jest proste!\n";
+  std::cout << join(s, t);
+}
+```
+
+Wynik działania przykładu:
+> Programowanie jest proste!
+
+Funkcja `join` łączy dwa napisy podane jako referencje. Dzięki temu nie
+następuje kopiowanie napisów typu `std::string` do funkcji. Wszystko działa
+bardzo dobrze… do czasu gdy nie zmodyfikujemy lekko wywołania funkcji. Oto więc
+nowa funkcja `main`:
+
+```cpp
+int
+main()
+{
+  std::string s = "Programowanie ";
+  std::cout << join(s, "jest proste!\n");
+}
+```
+
+Co się zmieniło? Zamiast podać drugi argument jako zmienną `t` postanowiliśmy
+przekazać go do funkcji `join` jako napis w stylu języka C z intencją, aby
+w międzyczasie został wywołany konstruktor `std::string` a wynik przypisany do
+argumentu `s2` funkcji `join`. I faktycznie konstruktor `std::string` został
+wywołany — została stworzona tymczasowa nienazwana wartość typu `std::string`.
+Po tym próbowano przypisać tę tymczasową wartość do referencji `s2` a to się nie
+udało — oto odpowiednie fragmenty błędu generowanego przez kompilator GCC:
+
+> error: cannot bind non-const lvalue reference of type ‘std::string&’ […] to an
+> rvalue of type ‘std::string’
+
+Płynie stąd ważny wniosek: do referencji (do l-wartości) nie można przypisać
+wartości tymczasowej.
+
 ## 10. Klasy i obiekty
 
 ## 11. Pliki
