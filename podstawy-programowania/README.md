@@ -2170,14 +2170,14 @@ int
 main()
 {
   std::string s = "Programowanie w C++";
-  std::cout << "Napis oryginalny:    " << s << '\n';
+  std::cout << "Napis oryginalny: " << s << '\n';
   replace(s, ' ', '*');
   std::cout << "Napis zmodyfikowany: " << s << '\n';
 }
 ```
 
 Wynik działania przykładu:
-> Napis oryginalny: \ \ \ Programowanie w C++  
+> Napis oryginalny: Programowanie w C++  
 > Napis zmodyfikowany: Programowanie\*w\*C++
 
 ## 10. Klasy i obiekty
