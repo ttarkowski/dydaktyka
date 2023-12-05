@@ -2180,6 +2180,12 @@ Wynik działania przykładu:
 > Napis oryginalny: Programowanie w C++  
 > Napis zmodyfikowany: Programowanie\*w\*C++
 
+Zauważmy, że dzięki zastosowaniu referencji obiekt `s` z funkcji `main`
+powyższego przykładu nie jest kopiowany do funkcji `replace`. Dzięki temu
+funkcja `replace` modyfikuje oryginał, co było w tym przypadku zamierzone. Co
+więcej, brak kopiowania obiektu oznacza niejednokrotnie oszczędność (w pamięci
+oraz w czasie wykonania). Dlatego referencje warto wykorzystywać.
+
 ## 10. Klasy i obiekty
 
 ## 11. Pliki
