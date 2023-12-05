@@ -2178,7 +2178,7 @@ main()
 
 Wynik działania przykładu:
 > Napis oryginalny:    Programowanie w C++  
-> Napis zmodyfikowany: Programowanie*w*C++
+> Napis zmodyfikowany: Programowanie\*w\*C++
 
 ## 10. Klasy i obiekty
 
