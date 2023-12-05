@@ -2170,7 +2170,7 @@ int
 main()
 {
   std::string s = "Programowanie w C++";
-  std::cout << "Napis oryginalny:    " << s << '\n';
+  std::cout << "Napis oryginalny: \ \ \ " << s << '\n';
   replace(s, ' ', '*');
   std::cout << "Napis zmodyfikowany: " << s << '\n';
 }
