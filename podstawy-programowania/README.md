@@ -2279,7 +2279,7 @@ main()
 
 Powyższy przykład działa już poprawnie. Prawda, że programowanie jest proste?
 
-## 10. Klasy i obiekty
+## 10. Programowanie obiektowe (klasy i obiekty)
 
 ## 11. Pliki
 
