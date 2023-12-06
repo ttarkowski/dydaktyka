@@ -2338,9 +2338,7 @@ Mimo, że powyższy program jest krótki, to pojawiło się w nim kilka nowości
 
 ## 11. Pliki
 
-## 12. Biblioteki programistyczne
-
-## 13. Metoda wstępująca i zstępująca
+## 12. Biblioteka standardowa
 
 ## Bibliografia
 
