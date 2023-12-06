@@ -2257,6 +2257,28 @@ referencją (aliasem, nową nazwą dla `n`), ale z jej użyciem nie można
 zmodyfikować wartości zmiennej `n`. Korzystając z tej wiedzy można już rozwiązać
 poprawnie wcześniejszy przykład.
 
+Przykład (pełny przykład znajduje się w pliku
+[join/join.cc](/podstawy-programowania/examples/09/join/join.cc)):
+```cpp
+#include <iostream>
+#include <string>
+
+std::string
+join(const std::string& s1, const std::string& s2)
+{
+  return s1 + s2;
+}
+
+int
+main()
+{
+  std::string s = "Programowanie ";
+  std::cout << join(s, "jest proste!\n");
+}
+```
+
+Powyższy przykład działa już poprawnie. Prawda, że programowanie jest proste?
+
 ## 10. Klasy i obiekty
 
 ## 11. Pliki
