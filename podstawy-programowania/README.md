@@ -2358,6 +2358,8 @@ cppreference.com:
   * <https://en.cppreference.com/w/cpp/language/scope>
   * <https://en.cppreference.com/w/cpp/language/pointer>
   * <https://en.cppreference.com/w/cpp/language/reference>
+  * <https://en.cppreference.com/w/cpp/language/classes>
+  * <https://en.cppreference.com/w/cpp/language/class>
 
 Maurizio Gabbrielli & Simone Martini. *Programming Languages: Principles and
 Paradigms*. Springer-Verlag London Limited, 2010. DOI:
