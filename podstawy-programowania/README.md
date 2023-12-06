@@ -2281,6 +2281,11 @@ Powyższy przykład działa już poprawnie. Prawda, że programowanie jest prost
 
 ## 10. Programowanie obiektowe (klasy i obiekty)
 
+W języku C++ istnieje możliwość definiowania własnych typów danych. Widzieliśmy
+to na przykładzie struktur, gdzie zdefiniowaliśmy typ `point_2d` (zob. przykład
+[struct/struct.cc](/podstawy-programowania/examples/05/struct/struct.cc)).
+Rozszerzmy typ `point_2d`.
+
 ## 11. Pliki
 
 ## 12. Biblioteki programistyczne
