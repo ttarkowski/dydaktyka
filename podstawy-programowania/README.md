@@ -2238,7 +2238,24 @@ udało — oto odpowiednie fragmenty błędu generowanego przez kompilator GCC:
 > rvalue of type ‘std::string’
 
 Płynie stąd ważny wniosek: do referencji (do l-wartości) nie można przypisać
-wartości tymczasowej.
+wartości tymczasowej. Istnieją dwa rozwiązania tego problemu — można zastosować
+stałą referencję do l-wartości lub referencję do r-wartości. Na ten moment
+ograniczymy się do pierwszego rozwiązania.
+
+Czym jest stała referencja (do l-wartości)? Rozważmmy poniższy przykład.
+
+Przykład:
+```cpp
+int n = 42;
+const int& r = n;
+n++; // Teraz n jest równe 43.
+r--; // Błąd! Ta linijka się nie skompiluje.
+```
+
+Fragment `const int& r = n;` jest stałą referencją, co oznacza, że `r` jest
+referencją (aliasem, nową nazwą dla `n`), ale z jej użyciem nie można
+zmodyfikować wartości zmiennej `n`. Korzystając z tej wiedzy można już rozwiązać
+poprawnie wcześniejszy przykład.
 
 ## 10. Klasy i obiekty
 
