@@ -2329,6 +2329,13 @@ main()
 }
 ```
 
+Mimo, że powyższy program jest krótki, to pojawiło się w nim kilka nowości:
+  * słowo `class` służące do deklarowania i definiowania klas
+  * specyfikatory dostępu `public` oraz `private`
+  * konstruktor (`point_2d::point_2d`)
+  * metody klasy (`get_x`, `get_y`, `distance_from_zero`)
+  * kapsułkowanie danych (`x_`, `y_`)
+
 ## 11. Pliki
 
 ## 12. Biblioteki programistyczne
