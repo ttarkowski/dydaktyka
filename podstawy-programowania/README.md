@@ -2360,6 +2360,9 @@ cppreference.com:
   * <https://en.cppreference.com/w/cpp/language/reference>
   * <https://en.cppreference.com/w/cpp/language/classes>
   * <https://en.cppreference.com/w/cpp/language/class>
+  * <https://en.cppreference.com/w/cpp/language/access>
+  * <https://en.cppreference.com/w/cpp/language/constructor>
+  * <https://en.cppreference.com/w/cpp/language/member_functions>
 
 Maurizio Gabbrielli & Simone Martini. *Programming Languages: Principles and
 Paradigms*. Springer-Verlag London Limited, 2010. DOI:
