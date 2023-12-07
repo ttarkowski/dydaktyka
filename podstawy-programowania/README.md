@@ -2365,6 +2365,21 @@ obiektów danej klasy.
 
 ### Kapsułkowanie danych i specyfikatory dostępu
 
+*Kapsułkowanie* (*hermetyzacja*) polega na ograniczeniu dostępu do danych
+przechowywanych przez obiekt poprzez ukrycie ich w części prywatnej. Zauważmy,
+że dane składowe `x_` oraz `y_` przykładu
+[point_2d/point_2d.cc](/podstawy-programowania/examples/10/point_2d/point_2d.cc)
+nie są dostępne wprost poza kodem klasy. W szczególności próba odwołania się do
+pola `x_` lub `y_` np. z poziomu funkcji `main()` poprzez kod `e_x.x_` zakończy
+się błędem kompilacji.
+
+Kapsułkowanie wraz z metodami klasy umożliwia precyzyjną kontrolę dostępu do
+przechowywanych damych. W ww. przykładzie po zainicjowaniu obiektu danymi nie
+było możliwości ich modyfikacji a dostęp do nich był ograniczony wyłącznie do
+ich odczytu poprzez metody `point_2d::get_x` oraz `point_2d::get_y`. Programista
+może modyfikować zestaw metod aby umożliwiać i uniemożliwiać odczyt
+i modyfikację prywatnych (zakapsułkowanych) danych.
+
 #### ▸ `public`, `private`
 
 #### ▸ `class` a `struct`
