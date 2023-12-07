@@ -2345,7 +2345,8 @@ Mowi się, że *klasa jest modelem dla zbioru obiektów*. Tylko co to oznacza?
 Przyjrzyjmy się ponownie przykładowi
 [point_2d/point_2d.cc](/podstawy-programowania/examples/10/point_2d/point_2d.cc).
 Została tam zdefiniowana klasa `point_2d` oraz kilka obiektów tej klasy
-o nazwach `zero`, `e_x`, `e_y` oraz `p`.
+o nazwach `zero`, `e_x`, `e_y` oraz `p`. Możemy więc w ramach języka C++
+stwierdzić, że klasa jest typem a obiekty są zmiennymi tego typu.
 
 #### ▸ `class`
 
