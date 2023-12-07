@@ -80,3 +80,114 @@ Uwagi:
      `v0 + v1`.
   2. Funkcja `operator+` nie powinna kopiować swoich argumentów podczas
      wywołania.
+
+## Przestrzenie nazw, przeciążanie funkcji, parametry domyślne
+
+### Zadanie 4
+
+Obejrzyj poniższy program:
+```cpp
+#include "lib/util.h"
+#include <cstdlib>
+#include <iostream>
+
+int
+main()
+{
+  const std::size_t n = 7;
+
+  int tab0[n] = { 0, 7, 3, 42, 12, 100, 50 };
+  util::sort(tab0, n);
+  std::cout << "Elementy posortowane rosnaco: \n";
+  for (auto x : tab0) {
+    std::cout << ' ' << x << '\n';
+  }
+
+  std::cout << "\nElementy posortowane malejaco: \n";
+  util::sort(tab0, n, false);
+  for (auto x : tab0) {
+    std::cout << ' ' << x << '\n';
+  }
+
+  const char* tab1[n] = { "fonon",  "plazmon",  "ekscyton", "polaryton",
+                          "dziura", "elektron", "foton" };
+  util::sort(tab1, n, true);
+  std::cout << "\n\nElementy posortowane rosnaco: \n";
+  for (auto x : tab1) {
+    std::cout << ' ' << x << '\n';
+  }
+
+  std::cout << "\nElementy posortowane malejaco: \n";
+  util::sort(tab1, n, false);
+  for (auto x : tab1) {
+    std::cout << ' ' << x << '\n';
+  }
+}
+```
+
+Stwórz funkcję sortującą o nazwie `sort` umieszczoną w przestrzeni nazw `util`.
+Niech funkcja `sort` przyjmuje następujące argumenty:
+  * tablicę elementów typu `int` lub `const char*`
+  * długość ww. tablicy
+  * opcjonalny argument logiczny, który określi, czy sortowanie ma odbywać się
+    rosnąco czy malejąco (domyślne sortowanie jest rosnące)
+
+Można wybrać dowolny algorytm sortowania, np. sortowanie bąbelkowe lub przez
+wybieranie.
+
+Rozwiązanie powinno składać się trzech plików — oto ich lista:
+  * główny plik programu, np. `main.cc` lub `main.cpp` o treści podanej wyżej
+    (nie należy jej modyfikować)
+  * plik nagłówkowy umieszczonyw w osobnym katalogu, np. `lib/util.h`
+  * plik implementacji umieszczony w ww. katalogu, np. `lib/util.cc` lub
+    `lib/util.cpp`
+
+W pliku nagłówkowym powinien znaleźć się tzw. *include (header) guard*, np.:
+```cpp
+#ifndef LIB_UTIL_H
+#define LIB_UTIL_H
+
+// Tutaj powinna znaleźć się treść pliku nagłówkowego, np. dyrektywa include
+// oraz deklaracje funkcji zdefiniowanych w lib/util.{cc,cpp}.
+
+#endif // LIB_UTIL_H
+```
+
+Po skompilowaniu i uruchomieniu program powinien wypisywać następująco
+komunikat:
+> Elementy posortowane rosnaco:   
+>  0  
+>  3  
+>  7  
+>  12  
+>  42  
+>  50  
+>  100  
+>   
+> Elementy posortowane malejaco:   
+>  100  
+>  50  
+>  42  
+>  12  
+>  7  
+>  3  
+>  0  
+>   
+>   
+> Elementy posortowane rosnaco:   
+>  dziura  
+>  ekscyton  
+>  elektron  
+>  fonon  
+>  foton  
+>  plazmon  
+>  polaryton  
+>   
+> Elementy posortowane malejaco:   
+>  polaryton  
+>  plazmon  
+>  foton  
+>  fonon  
+>  elektron  
+>  ekscyton  
+>  dziura
