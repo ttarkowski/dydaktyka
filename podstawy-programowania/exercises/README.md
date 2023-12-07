@@ -156,38 +156,38 @@ W pliku nagłówkowym powinien znaleźć się tzw. *include (header) guard*, np.
 Po skompilowaniu i uruchomieniu program powinien wypisywać następująco
 komunikat:
 > Elementy posortowane rosnaco:   
-> \ 0  
-> \ 3  
-> \ 7  
-> \ 12  
-> \ 42  
-> \ 50  
-> \ 100  
-> \  
+> &nbsp;0  
+> &nbsp;3  
+> &nbsp;7  
+> &nbsp;12  
+> &nbsp;42  
+> &nbsp;50  
+> &nbsp;100  
+>   
 > Elementy posortowane malejaco:   
-> \ 100  
-> \ 50  
-> \ 42  
-> \ 12  
-> \ 7  
-> \ 3  
-> \ 0  
+> &nbsp;100  
+> &nbsp;50  
+> &nbsp;42  
+> &nbsp;12  
+> &nbsp;7  
+> &nbsp;3  
+> &nbsp;0  
 >   
 >   
 > Elementy posortowane rosnaco:   
-> \ dziura  
-> \ ekscyton  
-> \ elektron  
-> \ fonon  
-> \ foton  
-> \ plazmon  
-> \ polaryton  
+> &nbsp;dziura  
+> &nbsp;ekscyton  
+> &nbsp;elektron  
+> &nbsp;fonon  
+> &nbsp;foton  
+> &nbsp;plazmon  
+> &nbsp;polaryton  
 >   
 > Elementy posortowane malejaco:   
-> \ polaryton  
-> \ plazmon  
-> \ foton  
-> \ fonon  
-> \ elektron  
-> \ ekscyton  
-> \ dziura
+> &nbsp;polaryton  
+> &nbsp;plazmon  
+> &nbsp;foton  
+> &nbsp;fonon  
+> &nbsp;elektron  
+> &nbsp;ekscyton  
+> &nbsp;dziura
