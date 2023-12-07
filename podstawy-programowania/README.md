@@ -2336,6 +2336,23 @@ Mimo, że powyższy program jest krótki, to pojawiło się w nim kilka nowości
   * metody klasy (`get_x`, `get_y`, `distance_from_zero`)
   * kapsułkowanie danych (`x_`, `y_`)
 
+W dalszej części tego punktu przyjrzymy się dokładniej wyżej wymienionym
+pojęciom.
+
+### Klasy i obiekty
+
+#### ▸ `class`
+
+### Kapsułkowanie danych i specyfikatory dostępu
+
+#### ▸ `public`, `private`
+
+#### ▸ `class` a `struct`
+
+### Konstruktory
+
+### Metody klas (funkcje składowe)
+
 ## 11. Pliki
 
 ## 12. Biblioteka standardowa
