@@ -2363,7 +2363,7 @@ jak nazwa wskazuje, funkcjami. Jednakże funkcje składowe mają pewnę szczegó
 własność odróżniającą je od zwykłych funkcji — są one wywoływane na rzecz
 obiektów danej klasy.
 
-### Kapsułkowanie danych i specyfikatory dostępu
+### Kapsułkowanie danych
 
 *Kapsułkowanie* (*hermetyzacja*) polega na ograniczeniu dostępu do danych
 przechowywanych przez obiekt poprzez ukrycie ich w części prywatnej. Zauważmy,
@@ -2380,7 +2380,10 @@ ich odczytu poprzez metody `point_2d::get_x` oraz `point_2d::get_y`. Programista
 może modyfikować zestaw metod aby umożliwiać i uniemożliwiać odczyt
 i modyfikację prywatnych (zakapsułkowanych) danych.
 
-#### ▸ `public`, `private`
+Kapsułkowanie danych jest w języku C++ realizowane poprzez specyfikator dostępu
+`private`.
+
+### Specyfikatory dostępu `public` oraz `private`
 
 #### ▸ `class` a `struct`
 
