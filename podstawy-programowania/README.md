@@ -2438,3 +2438,6 @@ obliczeniowa*. <https://wazniak.mimuw.edu.pl/>.
 
 Ray Toal. *Classifying Programming Languages*.
 <https://cs.lmu.edu/~ray/notes/pltypes/>.
+
+Tomasz R. Werner, *Programowanie 2. Język C++*.
+<https://www.fuw.edu.pl/~werner/pmn/CPP_HTML/CPP.html>
