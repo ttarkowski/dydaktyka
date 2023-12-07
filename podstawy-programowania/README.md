@@ -2279,7 +2279,7 @@ main()
 
 Powyższy przykład działa już poprawnie. Prawda, że programowanie jest proste?
 
-## 10. Programowanie obiektowe (klasy i obiekty)
+## 10. Programowanie obiektowe
 
 W języku C++ istnieje możliwość definiowania własnych typów danych. Widzieliśmy
 to na przykładzie struktur, gdzie zdefiniowaliśmy typ `point_2d` (zob. przykład
