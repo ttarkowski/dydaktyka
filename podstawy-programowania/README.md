@@ -2346,7 +2346,22 @@ Przyjrzyjmy się ponownie przykładowi
 [point_2d/point_2d.cc](/podstawy-programowania/examples/10/point_2d/point_2d.cc).
 Została tam zdefiniowana klasa `point_2d` oraz kilka obiektów tej klasy
 o nazwach `zero`, `e_x`, `e_y` oraz `p`. Możemy więc w ramach języka C++
-stwierdzić, że klasa jest typem a obiekty są zmiennymi tego typu.
+stwierdzić, że klasa jest typem a obiekty są zmiennymi (instancjami) tego typu.
+
+Klasa posiada identyfikującą ją nazwę, np. `point_2d` lub `std::vector<int>`.
+Dzięki tej nazwie można tworzyć obiekty tej klasy. Do tego celu wykorzystywane
+są konstruktory, o których powiemy sobie więcej za chwilę.
+
+Klasa określa jakie dane są przechowywane w jej instancjach. W przypadku
+`point_2d` są to dwie dane typu `double` o nazwach `x_` oraz `y_`. Określone są
+też prawa dostępu do tych danych i w naszym przykładzie te dane są dostępne
+wyłącznie z poziomu kodu samej klasy. Zostanie to omówione obszerniej nieco
+dalej.
+
+Klasa posiada metody, nazywane też funkcjami składowymi. Funkcje składowe są,
+jak nazwa wskazuje, funkcjami. Jednakże funkcje składowe mają pewnę szczególną
+własność odróżniającą je od zwykłych funkcji — są one wywoływane na rzecz
+obiektów danej klasy.
 
 #### ▸ `class`
 
