@@ -2363,8 +2363,6 @@ jak nazwa wskazuje, funkcjami. Jednakże funkcje składowe mają pewnę szczegó
 własność odróżniającą je od zwykłych funkcji — są one wywoływane na rzecz
 obiektów danej klasy.
 
-#### ▸ `class`
-
 ### Kapsułkowanie danych i specyfikatory dostępu
 
 #### ▸ `public`, `private`
@@ -2374,6 +2372,8 @@ obiektów danej klasy.
 ### Konstruktory
 
 ### Metody klas (funkcje składowe)
+
+### `class` — składnia
 
 ## 11. Pliki
 
