@@ -2396,6 +2396,33 @@ a prywatne prawa dostępu — wyłącznie dostęp z poziomu danej klasy. Chronio
 prawa dostępu zostaną na ten moment pominięte. Zobaczmy jak publiczne i prywatne
 prawa dostępu działają w praktyce na poniższym przykładzie.
 
+Przykład:
+```cpp
+class test
+{
+public:
+  void public_f() const { private_f(); }
+
+private:
+  void private_f() const {}
+};
+
+int
+main()
+{
+  test t;
+  t.public_f();
+  t.private_f(); // Ten wiersz jest błędny!
+}
+```
+
+Powyższy przykład nie skompiluje się. Fragment komunikatu błędu zgłoszonego
+przez kompilator GCC jest następujący:
+> error: ‘void test::private_f() const’ is private within this context
+
+Można zobaczyć na tym przykładzie, że składowe publiczne są dostępne wszędzie,
+ale prywatne są dostępne tylko z poziomu kodu samej klasy.
+
 #### ▸ `class` a `struct`
 
 ### Konstruktory
