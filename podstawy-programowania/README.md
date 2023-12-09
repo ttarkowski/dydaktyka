@@ -2460,7 +2460,16 @@ private: składowe }`.
 
 Czym jest konstruktor? Konstruktor jest specjalną funkcją składową klasy, która
 jest wywoływana automatycznie podczas tworzenia obiektów tej klasy i służy do
-inicjowania tych obiektów.
+inicjowania tych obiektów. Wrócmy do przykładu z pliku
+[point_2d/point_2d.cc](/podstawy-programowania/examples/10/point_2d/point_2d.cc)
+i przyjrzyjmy się bliżej konstruktorowi klasy `point_2d`:
+```cpp
+  point_2d(double x, double y)
+    : x_(x)
+    , y_(y)
+  {
+  }
+```
 
 ### Metody klas (funkcje składowe)
 
