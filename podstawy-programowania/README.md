@@ -2458,6 +2458,10 @@ private: składowe }`.
 
 ### Konstruktory
 
+Czym jest konstruktor? Konstruktor jest specjalną funkcją składową klasy, która
+jest wywoływana automatycznie podczas tworzenia obiektów tej klasy i służy do
+inicjowania tych obiektów.
+
 ### Metody klas (funkcje składowe)
 
 ### `class` — składnia
