@@ -2385,6 +2385,17 @@ Kapsułkowanie danych jest w języku C++ realizowane poprzez specyfikator dostę
 
 ### Specyfikatory dostępu `public` oraz `private`
 
+Nazwa każdego składnika klasy ma przypisane prawa dostępu. Dostęp może być:
+  * publiczny (`public`)
+  * chroniony (`protected`)
+  * prywatny (`private`)
+
+Kiedy nazwa składnika klasy jest używana gdzieś w programie, sprawdzane są prawa
+dostępu. Publiczne prawa dostępu umożliwiają dostęp z dowolnego miejsca programu
+a prywatne prawa dostępu — wyłącznie dostęp z poziomu danej klasy. Chronione
+prawa dostępu zostaną na ten moment pominięte. Zobaczmy jak publiczne i prywatne
+prawa dostępu działają w praktyce na poniższym przykładzie.
+
 #### ▸ `class` a `struct`
 
 ### Konstruktory
