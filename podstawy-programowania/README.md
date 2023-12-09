@@ -2480,6 +2480,10 @@ Korzystająz z innego stylu kodowania można ten konstruktor przepisać tak:
 Nazwa konstruktora klasy `point_2d` to `point_2d`. Jest regułą, że nazwa
 konstruktora jest nazwą klasy.
 
+Konstruktor jest funkcją (choć specjalną), dlatego może on przyjmować argumenty.
+W przykładzie konstruktor `point_2d` przyjmuje dwa argumenty typu `double`,
+które służą do zainicjowania danych składowych obiektu `point_2d`.
+
 ### Metody klas (funkcje składowe)
 
 ### `class` — składnia
