@@ -2495,12 +2495,19 @@ od znaku dwukropka i składa się z elementów inicjujących poszczególne skła
 Konstruktor jest funkcją (choć specjalną), dlatego posiada ciało, które jest
 zawarte między klamerkami `{` oraz `}`. Często się zdarza, że ciało jest puste.
 
+Konstruktor jest funkcją (choć specjalną). Przy okazji specyfikowania
+konstruktora nie podaje się typu zwracanego przez tę funkcję tak jak robi się to
+przy zwykłych funkcjach.
+
+Na zakończenie warto jeszcze przytoczyć jedną uwagę dotyczącą listy inicjującej
+oraz ciała funkcji.
+
 Uwaga: Niektórzy programiści C++ unikają listy inicjującej i zamiast napisać:
 ```cpp
   point_2d(double x, double y) : x_(x), y_(y) {
   }
 ```
-wolą napisać:
+wolą użyć:
 ```cpp
   point_2d(double x, double y) {
     x_ = x;
@@ -2514,10 +2521,6 @@ private:
   const double x_;
   const double y_;
 ```
-
-Konstruktor jest funkcją (choć specjalną). Przy okazji specyfikowania
-konstruktora nie podaje się typu zwracanego przez tę funkcję tak jak robi się to
-przy zwykłych funkcjach.
 
 ### Metody klas (funkcje składowe)
 
