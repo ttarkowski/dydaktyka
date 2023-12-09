@@ -2482,7 +2482,15 @@ konstruktora jest nazwą klasy.
 
 Konstruktor jest funkcją (choć specjalną), dlatego może on przyjmować argumenty.
 W przykładzie konstruktor `point_2d` przyjmuje dwa argumenty typu `double`,
-które służą do zainicjowania danych składowych obiektu `point_2d`.
+które służą do zainicjowania danych składowych obiektu `point_2d`, tzn. `x_`
+oraz `y_`. Do zainiacjowania służy tzw. *lista inicjująca*, która rozpoczyna się
+od znaku dwukropka i składa się z elementów inicjujących poszczególne składowe:
+```cpp
+  point_2d(double x, double y) : x_(x), y_(y) {
+  //                           ^^^^^^^^^^^^^^
+  //                           To  jest lista
+  //                           inicjująca.
+```
 
 ### Metody klas (funkcje składowe)
 
