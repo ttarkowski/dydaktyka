@@ -2425,6 +2425,37 @@ ale prywatne są dostępne tylko z poziomu kodu samej klasy.
 
 #### ▸ `class` a `struct`
 
+Ze specyfikatorami dostępu wiąże się pewien fakt. Otóż w języku C++ struktury
+i klasy są tym samym z dokładnością do domyślnych praw dostępu. Jeśli
+w definicji struktury nie zostanie użyty specyfikator dostępu, to jej składniki
+są dostępne publicznie:
+```cpp
+struct point {
+  double x;
+  double y;
+};
+
+point p;
+p.x = 0.0;
+p.y = 1.0;
+```
+
+Jeśli w definicji klasy nie zostanie użyty specyfikator dostępu, to jej
+składniki mają dostępność prywatną:
+```cpp
+class point {
+  double x;
+  double y;
+};
+
+point p;
+// Nie można dostać się do p.x ani p.y z poziomu tego miejsca!
+```
+
+Można stwierdzić, że `struct x { składowe }` jest tym samym co `class x {
+public: składowe }` zaś `class y { składowe }` jest tym samym co `struct y {
+private: składowe }`.
+
 ### Konstruktory
 
 ### Metody klas (funkcje składowe)
