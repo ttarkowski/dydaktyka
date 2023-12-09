@@ -2492,6 +2492,29 @@ od znaku dwukropka i składa się z elementów inicjujących poszczególne skła
   //                           inicjująca.
 ```
 
+Konstruktor jest funkcją (choć specjalną), dlatego posiada ciało, które jest
+zawarte między klamerkami `{` oraz `}`. Często się zdarza, że ciało jest puste.
+
+Uwaga: Niektórzy programiści C++ unikają listy inicjującej i zamiast napisać:
+```cpp
+  point_2d(double x, double y) : x_(x), y_(y) {
+  }
+```
+wolą napisać:
+```cpp
+  point_2d(double x, double y) {
+    x_ = x;
+    y_ = y;
+  }
+```
+Jest to jednak błędna strategia. Można to łatwo sprawdzić testując obydwa
+rozwiązania ze zmienioną częścią prywatną ww. przykładu:
+```cpp
+private:
+  const double x_;
+  const double y_;
+```
+
 ### Metody klas (funkcje składowe)
 
 ### `class` — składnia
