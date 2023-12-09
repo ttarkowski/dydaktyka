@@ -2477,6 +2477,9 @@ Korzystająz z innego stylu kodowania można ten konstruktor przepisać tak:
   }
 ```
 
+Nazwa konstruktora klasy `point_2d` to `point_2d`. Jest regułą, że nazwa
+konstruktora jest nazwą klasy.
+
 ### Metody klas (funkcje składowe)
 
 ### `class` — składnia
