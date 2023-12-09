@@ -2515,6 +2515,10 @@ private:
   const double y_;
 ```
 
+Konstruktor jest funkcją (choć specjalną). Przy okazji specyfikowania
+konstruktora nie podaje się typu zwracanego przez tę funkcję tak jak robi się to
+przy zwykłych funkcjach.
+
 ### Metody klas (funkcje składowe)
 
 ### `class` — składnia
