@@ -2471,7 +2471,7 @@ i przyjrzyjmy się bliżej konstruktorowi klasy `point_2d`:
   }
 ```
 
-Korzystająz z innego stylu kodowania można ten konstruktor przepisać tak:
+Korzystając z innego stylu kodowania można ten konstruktor przepisać tak:
 ```cpp
   point_2d(double x, double y) : x_(x), y_(y) {
   }
