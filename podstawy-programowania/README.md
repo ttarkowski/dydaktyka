@@ -2533,6 +2533,10 @@ x.f();
 oznacza użycie metody `f` na rzecz `x` a operator `.` użyty do wywołania jest
 operatorem dostępu do składowej.
 
+W przykładzie z pliku
+[point_2d/point_2d.cc](/podstawy-programowania/examples/10/point_2d/point_2d.cc)
+metodami klasy `point_2d` są `get_x`, `get_y` oraz `distance_from_zero`.
+
 #### ▸ Metody klas z kwalifikatorem `const`
 
 ### `this`
