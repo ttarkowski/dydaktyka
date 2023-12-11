@@ -2535,7 +2535,12 @@ operatorem dostępu do składowej.
 
 W przykładzie z pliku
 [point_2d/point_2d.cc](/podstawy-programowania/examples/10/point_2d/point_2d.cc)
-metodami klasy `point_2d` są `get_x`, `get_y` oraz `distance_from_zero`.
+metodami klasy `point_2d` są `get_x`, `get_y` oraz `distance_from_zero`. Widać
+tutaj, że metody klasy definiuje się w sposób podobny do zwykłych funkcji,
+aczkolwiek z pewnymi wyjątkami. Pierwszy jest raczej dość oczywisty — metoda
+klasy należy do klasy, więc można zdefiniować ją wewnątrz definicji klasy. Drugi
+wyjątek jest mniej oczywisty — metoda klasy może mieć kwalifikator `const`, co
+będzie wyjaśnione dalej.
 
 #### ▸ Metody klas z kwalifikatorem `const`
 
