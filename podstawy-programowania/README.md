@@ -2533,6 +2533,8 @@ x.f();
 oznacza użycie metody `f` na rzecz `x` a operator `.` użyty do wywołania jest
 operatorem dostępu do składowej.
 
+#### ▸ Metody klas z kwalifikatorem `const`
+
 ### `this`
 
 ### `class` — składnia
