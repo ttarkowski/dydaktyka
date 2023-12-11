@@ -2533,6 +2533,8 @@ x.f();
 oznacza użycie metody `f` na rzecz `x` a operator `.` użyty do wywołania jest
 operatorem dostępu do składowej.
 
+### `this`
+
 ### `class` — składnia
 
 ## 11. Pliki
