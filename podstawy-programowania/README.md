@@ -2524,6 +2524,15 @@ private:
 
 ### Metody klas (funkcje składowe)
 
+*Metoda klasy* jest funkcją, którą można wywołać na rzecz obiektu stosując
+notację z operatorem dostępu do składowej. Jeśli `X` jest klasą, to dla obiektu
+`x` tej klasy wywołanie:
+```cpp
+x.f();
+```
+oznacza użycie metody `f` na rzecz `x` a operator `.` użyty do wywołania jest
+operatorem dostępu do składowej.
+
 ### `class` — składnia
 
 ## 11. Pliki
