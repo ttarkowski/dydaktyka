@@ -75,7 +75,7 @@ Wykonaj poniższe polecenia.
       maksymalna była poniżej zera. Dodaj odpowiednie opisy.
     * Wszystkie opisy powinny być sformatowane stylem innym niż domyślny.
   * Stwórz wykres zależności temperatury minimalnej i maksymalnej od dnia:
-    * Oś pozioma powinna odpowiadać dacie kalendarzowej a oś pionowa
+    * Oś pozioma powinna odpowiadać dacie kalendarzowej a oś pionowa —
       temperaturze.
     * Na jednym rysunku powinny znaleźć się przebieg dobowej temperatury
       minimalnej oraz maksymalnej.
