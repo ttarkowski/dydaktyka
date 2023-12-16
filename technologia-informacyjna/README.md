@@ -65,3 +65,14 @@ Wykonaj poniższe polecenia.
       wybranego dnia tak, aby temperatura minimalna była większa od maksymalnej.
       Powinno wygenerować się hasło *Błąd*. Po teście przywróć oryginalną
       wartość temperatury.
+  * Przeanalizuj dane termometryczne:
+    * Wyznacz z użyciem odpowiednich formuł minimalną oraz maksymalną
+      temperaturę miesięczną. Dodaj odpowiednie opisy (np. w postaci nagłówków)
+      informujące, że są to temperatury minimalna i maksymalna.
+    * Wykonaj podobne obliczenia i wyznacz: średnią z minimalnych temperatur
+      dobowych oraz średnią z maksymalnych temperatur dobowych. Dodaj
+      odpowiednie opisy.
+    * Z użyciem odpowiednich formuł wyznacz liczbę dni w których temperatura
+      minimalna była powyżej zera oraz liczbę dni w których temperatura
+      maksymalna była poniżej zera. Dodaj odpowiednie opisy.
+    * Wszystkie opisy powinny być sformatowane stylem innym niż domyślny.
