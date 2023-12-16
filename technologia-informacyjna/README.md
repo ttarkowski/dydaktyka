@@ -45,13 +45,11 @@ Celsjusza).
 Wykonaj poniższe polecenia.
 
   1. Zacznij od prawidłowego zaimportowania danych:
-  
     * Zaimportuj powyższe dane termometryczne do arkusza kalkulacyjnego.
     * Upewnij się, że masz trzy kolumny danych: pierwsza z nich reprezentuje
       wartości w postaci dat a pozostałe dwie — liczby.
     * Upewnij się, że w arkuszu kalkulacyjnym nie znajdują się średniki.
     
   2. Dodaj nagłówki do poszczególnych kolumn:
-  
     * Wstaw przed danymi jeden wiersz arkusza i umieść w nim opisy danych, np.
      *Data*, *Temp. min.*, *Temp. maks.*.
