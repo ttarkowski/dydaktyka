@@ -51,3 +51,7 @@ Wykonaj poniższe polecenia.
   * Dodaj nagłówki do poszczególnych kolumn:
     * Wstaw przed danymi jeden wiersz arkusza i umieść w nim opisy danych, np.
      *Data*, *Temp. min.*, *Temp. maks.*.
+    * W trakcie pracy uzupełniaj nagłówki poszczególnych kolumn tak, aby
+      odzwierciedlały one zawartość poszczególnych kolumn.
+    * Sformatuj poszczególne nagłówki według własnego uznania, jednak stosując
+      styl inny niż domyślny.
