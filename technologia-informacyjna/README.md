@@ -55,3 +55,13 @@ Wykonaj poniższe polecenia.
       odzwierciedlały one zawartość poszczególnych kolumn.
     * Sformatuj poszczególne nagłówki według własnego uznania, jednak stosując
       styl inny niż domyślny.
+  * Sprawdź prawidłowość danych termometrycznych:
+    * Dobowa temperatura maksymalna powinna być nie niższa niż dobowa
+      temperatura minimalna. W wybranej przez siebie kolumnie umieść odpowiednie
+      formuły sprawdzające to.
+    * Jeżeli dane są prawidłowe to formuła powinna wypisywać w komórce hasło
+      *OK*. W przeciwnym razie formuła powinna wypisywać hasło *Błąd*.
+    * Przetestuj swoje rozwiązanie modyfikując jedną temperaturę dla dowolnie
+      wybranego dnia tak, aby temperatura minimalna była większa od maksymalnej.
+      Powinno wygenerować się hasło *Błąd*. Po teście przywróć oryginalną
+      wartość temperatury.
