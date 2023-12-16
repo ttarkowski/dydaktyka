@@ -42,3 +42,10 @@ Celsjusza).
 30.01.2001; 2,5; 9,0  
 31.01.2001; 2,9; 9,8
 
+Wykonaj poniższe polecenia.
+
+Zacznij od prawidłowego zaimportowania danych:
+  * Zaimportuj powyższe dane termometryczne do arkusza kalkulacyjnego.
+  * Upewnij się, że masz trzy kolumny danych: pierwsza z nich reprezentuje
+    wartości w postaci dat a pozostałe dwie — liczby.
+  * Upewnij się, że w arkuszu kalkulacyjnym nie znajdują się średniki.
