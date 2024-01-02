@@ -2449,7 +2449,7 @@ class point {
 };
 
 point p;
-// Nie można dostać się do p.x ani p.y z poziomu tego miejsca!
+// Nie można odwołać się do p.x ani p.y z poziomu tego miejsca!
 ```
 
 Można stwierdzić, że `struct x { składowe }` jest tym samym co `class x {
