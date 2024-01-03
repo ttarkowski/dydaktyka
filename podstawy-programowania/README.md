@@ -2546,6 +2546,9 @@ będzie wyjaśnione dalej.
 
 ### `this`
 
+Wyrażenie `this` ma wartość równą adresowi obiektu, na rzecz którego wywoływana
+jest funkcja składowa (z pewnymi wyjątkami, które na ten moment musimy pominąć).
+
 ### `class` — składnia
 
 ## 11. Pliki
