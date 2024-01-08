@@ -2590,7 +2590,7 @@ zdefiniowany niejawnie ma puste ciało.
 Uwaga: W przypadku ręcznego zarządzania zasobami, destruktor nie powinien mieć
 pustego ciała.
 
-Nazwa destruktora jest nazwą klasy poprzedzoną znakiem tylda (`~`).
+Nazwa destruktora jest nazwą klasy poprzedzoną znakiem tyldy (`~`).
 
 ### `this`
 
