@@ -2741,6 +2741,8 @@ cppreference.com:
   * <https://en.cppreference.com/w/cpp/language/member_functions>
   * <https://en.cppreference.com/w/cpp/language/destructor>
   * <https://en.cppreference.com/w/cpp/language/this>
+  * <https://en.cppreference.com/w/cpp/header/fstream>
+  * <https://en.cppreference.com/w/cpp/io/manip/skipws>
 
 Maurizio Gabbrielli & Simone Martini. *Programming Languages: Principles and
 Paradigms*. Springer-Verlag London Limited, 2010. DOI:
