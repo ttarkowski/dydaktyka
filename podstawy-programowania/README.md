@@ -2719,6 +2719,10 @@ umożliwia wczytanie białych znaków (takich jak znak spacji).
 
 Wynikiem działania przykładu jest wypisanie kodu źródłowego programu przykładu.
 
+Obiekt strumienia plikowego (nie tylko `std::ifstream`) w kontekście logicznym
+zwraca wartość logiczną, która informuje czy strumień nadaje się do operacji
+wejścia/wyjścia.
+
 ### Klasa `std::ofstream`
 
 Przykład (pełny przykład znajduje się w pliku
