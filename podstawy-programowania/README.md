@@ -2708,6 +2708,11 @@ main()
 }
 ```
 
+Uwaga: W powyższym przykładzie konstruktor `std::ifstream` otwiera plik
+`ifstream.cc` do odczytu (tzn. z obiektu `file` można teraz korzystać podobnie
+jak z obiektu `cin`) a destruktor wywołany automatycznie przed zakończeniem
+funkcji `main` zamyka ten plik.
+
 Wynikiem działania przykładu jest wypisanie kodu źródłowego programu przykładu.
 
 ## 12. Biblioteka standardowa
