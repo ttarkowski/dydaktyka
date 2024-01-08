@@ -2587,8 +2587,6 @@ jest funkcja składowa (z pewnymi wyjątkami, które na ten moment musimy pomin�
 Jeśli funkcja składowa posiada kwalifikator `const` wtedy wyrażenie `*this` jest
 traktowane jako stałe.
 
-### `class` — składnia
-
 ## 11. Pliki
 
 ## 12. Biblioteka standardowa
