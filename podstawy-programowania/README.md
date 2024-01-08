@@ -2626,6 +2626,10 @@ main()
 
 Wynik działania przykładu jest taki sam jak wcześniej.
 
+Uwaga: W tym momencie powinien być już zrozumiały przykład
+[stack-cc/stack.cc](/podstawy-programowania/examples/01/stack-cc/stack.cc)
+z początku kursu.
+
 ## 11. Pliki
 
 ## 12. Biblioteka standardowa
