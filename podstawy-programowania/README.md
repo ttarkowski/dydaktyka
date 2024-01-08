@@ -2748,9 +2748,10 @@ Wynikiem działania przykładu jest plik wyjściowy z bieżącym czasem (zob. pu
 *Notes* na stronie dokumentacji funkcji
 [std::time](https://en.cppreference.com/w/cpp/chrono/c/time)).
 
-### Klasa `std::fstream` i tryby otwarcia pliku
+### Klasa `std::fstream`
 
-Tryby otwarcia pliku:
+### Tryby otwarcia pliku
+
   * `in` — otwiera do plik do odczytu (domyślne zachowanie `std::ifstream`)
   * `out` — otwiera plik do zapisu (domyślne zachowanie `std::ofstream`)
   * `binary` — otwiera plik w trybie binarnym
