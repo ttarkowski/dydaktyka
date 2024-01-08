@@ -2691,6 +2691,25 @@ Klasy odpowiedzialne za obsługę strumieni plikowych to `std::ifstream`
 (strumienie wejściowe), `std::ofstream` (strumienie wyjściowe) oraz
 `std::fstream` (strumienie dwukierunkowe).
 
+Przykład (pełny przykład znajduje się w pliku
+[ifstream/ifstream.cc](/podstawy-programowania/examples/11/ifstream/ifstream.cc)):
+```cpp
+#include <fstream>
+#include <iostream>
+
+int
+main()
+{
+  char c;
+  std::ifstream file{ "ifstream.cc" };
+  while (file >> std::noskipws >> c) {
+    std::cout << c;
+  }
+}
+```
+
+Wynikiem działania przykładu jest wypisanie kodu źródłowego programu przykładu.
+
 ## 12. Biblioteka standardowa
 
 ## Bibliografia
