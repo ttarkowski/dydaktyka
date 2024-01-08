@@ -2682,7 +2682,14 @@ z początku kursu.
 Obsługa plików ma wiele wspólnego z poznaną już w międzyczasie obsługą wejścia
 (strumień `cin`) oraz wyjścia (strumień `cout`).
 
-Plik nagłówkowy odpowiedzialny za obsługę plików to `fstream`.
+Plik nagłówkowy odpowiedzialny za obsługę plików to `fstream`:
+```cpp
+#include <fstream>
+```
+
+Klasy odpowiedzialne za obsługę strumieni plikowych to `std::ifstream`
+(strumienie wejściowe), `std::ofstream` (strumienie wyjściowe) oraz
+`std::fstream` (strumienie dwukierunkowe).
 
 ## 12. Biblioteka standardowa
 
