@@ -2740,6 +2740,10 @@ katalogu, aby program działał poprawnie. Jeśli taki plik istnieje to jego
 zawartość zostanie nadpisana co można sprawdzić uruchamiając wielokrotnie
 program i sprawdzając zawartość pliku wynikowego.
 
+Wynikiem działania przykładu jest plik wyjściowy z bieżącym czasem (zob. punkt
+*Notes* na stronie dokumentacji funkcji
+[std::time](https://en.cppreference.com/w/cpp/chrono/c/time)).
+
 ## 12. Biblioteka standardowa
 
 ## Bibliografia
