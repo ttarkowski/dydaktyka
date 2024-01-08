@@ -2748,6 +2748,8 @@ Wynikiem działania przykładu jest plik wyjściowy z bieżącym czasem (zob. pu
 *Notes* na stronie dokumentacji funkcji
 [std::time](https://en.cppreference.com/w/cpp/chrono/c/time)).
 
+### Klasa `std::fstream` i tryby otwarcia pliku
+
 ## 12. Biblioteka standardowa
 
 ## Bibliografia
@@ -2775,6 +2777,7 @@ cppreference.com:
   * <https://en.cppreference.com/w/cpp/language/this>
   * <https://en.cppreference.com/w/cpp/header/fstream>
   * <https://en.cppreference.com/w/cpp/io/manip/skipws>
+  * <https://en.cppreference.com/w/cpp/io/ios_base/openmode>
 
 Maurizio Gabbrielli & Simone Martini. *Programming Languages: Principles and
 Paradigms*. Springer-Verlag London Limited, 2010. DOI:
