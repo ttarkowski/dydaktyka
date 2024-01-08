@@ -2579,6 +2579,8 @@ Wynik działania przykładu:
 > 3  
 > 0
 
+### Destruktory
+
 ### `this`
 
 Wyrażenie `this` ma wartość równą adresowi obiektu, na rzecz którego wywoływana
