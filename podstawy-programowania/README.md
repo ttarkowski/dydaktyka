@@ -201,7 +201,7 @@ wprost w kodzie źródłowym a stan programu (np. wartości zmiennych) ulegają
 zmianom.
 
 Przykład stylu imperatywnego w asemblerze (pełny przykład znajduje się w pliku
-[loop.asm](/podstawy-programowania/examples/01/loop-asm/loop.asm)):
+[loop-asm/loop.asm](/podstawy-programowania/examples/01/loop-asm/loop.asm)):
 ```asm
 _start:
         mov rcx, 1000000000
@@ -223,7 +223,7 @@ przepływu dzięki zastosowaniu instrukcji warunkowych, pętli oraz procedur
 (funkcji). Oznacza to unikanie instrukcji typu *goto*.
 
 Przykład stylu strukturalnego/proceduralnego w języku Python
-([fractal.py](/podstawy-programowania/examples/01/fractal-py/fractal.py)):
+([fractal-py/fractal.py](/podstawy-programowania/examples/01/fractal-py/fractal.py)):
 ```python
 # Transformacja przekształcająca wektor [x, y] na nowy.
 def transformation(c, x, y):
@@ -258,7 +258,7 @@ w obiektach, a same operacje są wykonywane jedynie poprzez ściśle określone
 interfejsy.
 
 Przykład stylu obiektowego w języku C++
-([stack.cc](/podstawy-programowania/examples/01/stack-cc/stack.cc)):
+([stack-cc/stack.cc](/podstawy-programowania/examples/01/stack-cc/stack.cc)):
 ```cpp
 class stack {
   struct item {
@@ -312,7 +312,7 @@ W ten sposób tworzy się szablony, które później mogą być zastosowane do
 dowolnych typów danych spełniających konkretne wymogi.
 
 Przykład stylu generycznego w języku Object Pascal
-([sort.pas](/podstawy-programowania/examples/01/sort-pas/sort.pas)):
+([sort-pas/sort.pas](/podstawy-programowania/examples/01/sort-pas/sort.pas)):
 ```pascal
 type
   generic BubbleSort<T> = class
@@ -351,7 +351,7 @@ rzędu (tzn. funkcjach, które jako swoje argumenty mogą przyjmować inne funkc
 a także zwracać funkcje jako swój rezultat).
 
 Przykład stylu funkcyjnego w języku Scheme
-([conditional.scm](/podstawy-programowania/examples/01/conditional-scm/conditional.scm)):
+([conditional-scm/conditional.scm](/podstawy-programowania/examples/01/conditional-scm/conditional.scm)):
 ```lisp
 (define true (lambda (x y) (x)))
 (define false (lambda (x y) (y)))
@@ -400,7 +400,7 @@ magazynie *Life International*:
 > [sic!]. Jeszcze jedno: w zdaniu 6 „prawo” oznacza Twoje prawo.
 
 Przykład programowania w logice w języku Prolog
-([zebra.pl](/podstawy-programowania/examples/01/zebra-pl/zebra.pl)):
+([zebra-pl/zebra.pl](/podstawy-programowania/examples/01/zebra-pl/zebra.pl)):
 ```prolog
 houses(Hs) :- length(Hs, 5),
   member(h(czerwony, anglik, _, _, _), Hs),
