@@ -2762,6 +2762,26 @@ umożliwiając obsługę wejścia/wyjścia plikowego.
      zapisem (dla `app`) lub bezpośrednio po otwarciu (dla `ate`)
   * `trunc` — pomija zawartość strumienia w momencie otwarcia
 
+Poniżej znajduje się lekko zmodyfikowany program jednego z wcześniejszych
+przykładów.
+
+Przykład (pełny przykład znajduje się w pliku
+[ios_app/ios_app.cc](/podstawy-programowania/examples/11/ios_app/ios_app.cc)):
+```cpp
+#include <ctime>
+#include <fstream>
+
+int
+main()
+{
+  std::ofstream file{ "time.txt", std::ios::out | std::ios::app };
+  file << std::time(nullptr) << '\n';
+}
+```
+
+Tym razem wynikiem działania przykładu jest dodawanie do końca stworzonego pliku
+wyjściowego nowej informacji o czasie.
+
 ## 12. Biblioteka standardowa
 
 ## Bibliografia
