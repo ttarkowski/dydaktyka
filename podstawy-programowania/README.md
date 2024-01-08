@@ -2544,6 +2544,41 @@ będzie wyjaśnione dalej.
 
 #### ▸ Metody klas z kwalifikatorem `const`
 
+Przykład (pełny przykład znajduje się w pliku
+[const/const.cc](/podstawy-programowania/examples/10/const/const.cc)):
+```cpp
+#include <iostream>
+
+class counter
+{
+public:
+  void increment() { ++n_; }
+  void reset() { n_ = 0; }
+  int get() const { return n_; }
+
+private:
+  int n_;
+};
+
+int
+main()
+{
+  counter c{};
+  for (int i = 0; i < 3; ++i) {
+    c.increment();
+    std::cout << c.get() << '\n';
+  }
+  c.reset();
+  std::cout << c.get() << '\n';
+}
+```
+
+Wynik działania przykładu:
+> 1  
+> 2  
+> 3  
+> 0
+
 ### `this`
 
 Wyrażenie `this` ma wartość równą adresowi obiektu, na rzecz którego wywoływana
