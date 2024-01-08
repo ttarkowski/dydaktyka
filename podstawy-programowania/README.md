@@ -2583,7 +2583,12 @@ Wynik działania przykładu:
 
 Destruktor jest specjalną funkcją składową. Jest on wywoływany w momencie
 zakończenia czasu istnienia obiektu, aby zwolnić zasoby zaalokowane ten przez
-obiekt.
+obiekt. Jeżeli klasa nie posiada zdefiniowanego destruktora może zostać on
+wygenerowany przez kompilator (tzw. *definicja niejawna*). Destruktor
+zdefiniowany niejawnie ma puste ciało.
+
+Uwaga: W przypadku ręcznego zarządzania zasobami, destruktor nie powinien mieć
+pustego ciała.
 
 ### `this`
 
