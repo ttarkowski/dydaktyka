@@ -2750,6 +2750,14 @@ Wynikiem działania przykładu jest plik wyjściowy z bieżącym czasem (zob. pu
 
 ### Klasa `std::fstream` i tryby otwarcia pliku
 
+Tryby otwarcia pliku:
+  * `in` — otwiera do plik do odczytu (domyślne zachowanie `std::ifstream`)
+  * `out` — otwiera plik do zapisu (domyślne zachowanie `std::ofstream`)
+  * `binary` — otwiera plik w trybie binarnym
+  * `app`, `ate` — przechodzi do końca strumienia odpowiednio przed każdym
+     zapisem (dla `app`) lub bezpośrednio po otwarciu (dla `ate`)
+  * `trunc` — pomija zawartość strumienia w momencie otwarcia
+
 ## 12. Biblioteka standardowa
 
 ## Bibliografia
