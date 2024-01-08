@@ -2750,6 +2750,9 @@ Wynikiem działania przykładu jest plik wyjściowy z bieżącym czasem (zob. pu
 
 ### Klasa `std::fstream`
 
+Klasa `std::fstream` łączy własności klas `std::ifstream` oraz `std::ofstream`
+umożliwiając obsługę wejścia/wyjścia plikowego.
+
 ### Tryby otwarcia pliku
 
   * `in` — otwiera do plik do odczytu (domyślne zachowanie `std::ifstream`)
