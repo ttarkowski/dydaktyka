@@ -2677,6 +2677,8 @@ Uwaga: W tym momencie powinien być już zrozumiały przykład
 [stack-cc/stack.cc](/podstawy-programowania/examples/01/stack-cc/stack.cc)
 z początku kursu.
 
+### Deklaracja przyjaźni
+
 ## 11. Pliki
 
 Obsługa plików ma wiele wspólnego z poznaną już w międzyczasie obsługą wejścia
