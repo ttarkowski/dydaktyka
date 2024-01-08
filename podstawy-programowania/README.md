@@ -2587,6 +2587,45 @@ jest funkcja składowa (z pewnymi wyjątkami, które na ten moment musimy pomin�
 Jeśli funkcja składowa posiada kwalifikator `const` wtedy wyrażenie `*this` jest
 traktowane jako stałe.
 
+Przykład (pełny przykład znajduje się w pliku
+[this/this.cc](/podstawy-programowania/examples/10/this/this.cc)):
+```cpp
+#include <iostream>
+
+class counter
+{
+public:
+  counter& increment()
+  {
+    ++n_;
+    return *this;
+  }
+
+  counter& reset()
+  {
+    n_ = 0;
+    return *this;
+  }
+
+  int get() const { return n_; }
+
+private:
+  int n_;
+};
+
+int
+main()
+{
+  counter c{};
+  for (int i = 0; i < 3; ++i) {
+    std::cout << c.increment().get() << '\n';
+  }
+  std::cout << c.reset().get() << '\n';
+}
+```
+
+Wynik działania przykładu jest taki sam jak wcześniej.
+
 ## 11. Pliki
 
 ## 12. Biblioteka standardowa
