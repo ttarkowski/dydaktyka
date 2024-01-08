@@ -2581,6 +2581,10 @@ Wynik działania przykładu:
 
 ### Destruktory
 
+Destruktor jest specjalną funkcją składową. Jest on wywoływany w momencie
+zakończenia czasu istnienia obiektu, aby zwolnić zasoby zaalokowane ten przez
+obiekt.
+
 ### `this`
 
 Wyrażenie `this` ma wartość równą adresowi obiektu, na rzecz którego wywoływana
