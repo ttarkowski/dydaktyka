@@ -2662,6 +2662,7 @@ cppreference.com:
   * <https://en.cppreference.com/w/cpp/language/access>
   * <https://en.cppreference.com/w/cpp/language/constructor>
   * <https://en.cppreference.com/w/cpp/language/member_functions>
+  * <https://en.cppreference.com/w/cpp/language/destructor>
   * <https://en.cppreference.com/w/cpp/language/this>
 
 Maurizio Gabbrielli & Simone Martini. *Programming Languages: Principles and
