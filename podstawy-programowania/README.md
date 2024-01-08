@@ -2592,6 +2592,39 @@ pustego ciała.
 
 Nazwa destruktora jest nazwą klasy poprzedzoną znakiem tyldy (`~`).
 
+Przykład (pełny przykład znajduje się w pliku
+[destructor/destructor.cc](/podstawy-programowania/examples/10/destructor/destructor.cc)):
+```cpp
+#include <iostream>
+
+class verbose
+{
+public:
+  verbose() { std::cout << "Konstruktor\n"; }
+  ~verbose() { std::cout << "Destruktor\n"; }
+  void get() const { std::cout << "Metoda skladowa\n"; }
+};
+
+int
+main()
+{
+  for (int i = 0; i < 3; ++i) {
+    verbose v{};
+    v.get();
+  }
+}
+```
+Wynik działania przykładu:
+> Konstruktor  
+> Metoda skladowa  
+> Destruktor  
+> Konstruktor  
+> Metoda skladowa  
+> Destruktor  
+> Konstruktor  
+> Metoda skladowa  
+> Destruktor
+
 ### `this`
 
 Wyrażenie `this` ma wartość równą adresowi obiektu, na rzecz którego wywoływana
