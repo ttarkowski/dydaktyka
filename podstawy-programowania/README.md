@@ -2798,3 +2798,7 @@ Ray Toal. *Classifying Programming Languages*.
 
 Tomasz R. Werner, *Programowanie 2. Język C++*.
 <https://www.fuw.edu.pl/~werner/pmn/CPP_HTML/CPP.html>.
+
+wikibooks.org:
+  * <https://en.wikibooks.org/wiki/C%2B%2B_Programming>
+  * <https://en.wikibooks.org/wiki/More_C%2B%2B_Idioms>
