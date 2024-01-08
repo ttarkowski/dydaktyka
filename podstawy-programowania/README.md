@@ -2719,6 +2719,22 @@ umożliwia wczytanie białych znaków (takich jak znak spacji).
 
 Wynikiem działania przykładu jest wypisanie kodu źródłowego programu przykładu.
 
+### Klasa `std::ofstream`
+
+Przykład (pełny przykład znajduje się w pliku
+[ofstream/ofstream.cc](/podstawy-programowania/examples/11/ofstream/ofstream.cc)):
+```cpp
+#include <ctime>
+#include <fstream>
+
+int
+main()
+{
+  std::ofstream file{ "time.txt" };
+  file << std::time(nullptr) << '\n';
+}
+```
+
 ## 12. Biblioteka standardowa
 
 ## Bibliografia
