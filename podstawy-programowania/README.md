@@ -2630,7 +2630,8 @@ main()
 }
 ```
 
-Wynik działania przykładu jest taki sam jak wcześniej.
+Wynik działania przykładu jest taki sam jak przykładu
+[const/const.cc](/podstawy-programowania/examples/10/const/const.cc).
 
 Uwaga: W tym momencie powinien być już zrozumiały przykład
 [stack-cc/stack.cc](/podstawy-programowania/examples/01/stack-cc/stack.cc)
