@@ -2735,6 +2735,11 @@ main()
 }
 ```
 
+Uwaga: W powyższym przykładzie plik `time.txt` nie musi istnieć w bieżącym
+katalogu, aby program działał poprawnie. Jeśli taki plik istnieje to jego
+zawartość zostanie nadpisana co można sprawdzić uruchamiając wielokrotnie
+program i sprawdzając zawartość pliku wynikowego.
+
 ## 12. Biblioteka standardowa
 
 ## Bibliografia
