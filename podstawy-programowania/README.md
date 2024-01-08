@@ -2632,6 +2632,11 @@ z początku kursu.
 
 ## 11. Pliki
 
+Obsługa plików ma wiele wspólnego z poznaną już w międzyczasie obsługą wejścia
+(strumień `cin`) oraz wyjścia (strumień `cout`).
+
+Plik nagłówkowy odpowiedzialny za obsługę plików to `fstream`.
+
 ## 12. Biblioteka standardowa
 
 ## Bibliografia
