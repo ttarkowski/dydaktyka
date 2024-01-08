@@ -2712,7 +2712,8 @@ Uwaga: W powyższym przykładzie konstruktor `std::ifstream` otwiera plik
 `ifstream.cc` do odczytu (tzn. z obiektu `file` można teraz korzystać podobnie
 jak z obiektu `cin`) a destruktor wywołany automatycznie przed zakończeniem
 funkcji `main` zamyka ten plik. Program działa poprawnie ponieważ plik
-`ifstream.cc` znajduje się w bieżącym katalogu.
+`ifstream.cc` znajduje się w bieżącym katalogu. Funkcja `std::noskipws`
+umożliwia wczytanie białych znaków (takich jak znak spacji).
 
 Wynikiem działania przykładu jest wypisanie kodu źródłowego programu przykładu.
 
