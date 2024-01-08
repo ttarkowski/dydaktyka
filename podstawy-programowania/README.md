@@ -2816,6 +2816,14 @@ main()
 }
 ```
 
+Wynik działania przykładu:
+> 42
+
+Poza wypisaniem na standardowy strumień wyjściowy wynikiem działania programu
+jest też stworzenie pliku binarnego zawierającego binarną reprezentację liczby
+42 w systemie kodowania odpowiednim dla maszyny, na którym program został
+uruchomiony.
+
 ## 12. Biblioteka standardowa
 
 ## Bibliografia
