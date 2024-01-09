@@ -2867,6 +2867,38 @@ jest też stworzenie pliku binarnego zawierającego binarną reprezentację licz
 42 w systemie kodowania odpowiednim dla maszyny, na którym program został
 uruchomiony.
 
+### Wskaźniki strumienia
+
+Przykład (pełny przykład znajduje się w pliku
+[size/size.cc](/podstawy-programowania/examples/11/size/size.cc)):
+```cpp
+#include <fstream>
+#include <iostream>
+#include <string>
+
+std::streamsize
+file_size(const std::string& filename)
+{
+  // Uwaga: Lepiej jest korzystać ze strumienia wejściowego std::ifstream
+  // aniżeli ze strumienia wyjściowego std::ofstream do pomiaru rozmiaru pliku.
+  // Czy wiesz dlaczego?
+  std::ifstream file{ filename };
+  file.seekg(0, std::ios::end); // Ustawienie wskaźnika wejściowego.
+  return file.tellg();          // Pobranie pozycji wskaźnika wejściowego.
+}
+
+int
+main()
+{
+  std::cout << "Rozmiar pliku: " << file_size("size.cc") << '\n';
+}
+```
+
+Wynik działania przykładu:
+> Rozmiar pliku: 564
+
+Jest to prawidłowy rozmiar pliku w bajtach.
+
 ## 12. Biblioteka standardowa
 
 ## Bibliografia
