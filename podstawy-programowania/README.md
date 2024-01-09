@@ -2854,6 +2854,7 @@ cppreference.com:
   * <https://en.cppreference.com/w/cpp/language/member_functions>
   * <https://en.cppreference.com/w/cpp/language/destructor>
   * <https://en.cppreference.com/w/cpp/language/this>
+  * <https://en.cppreference.com/w/cpp/language/friend>
   * <https://en.cppreference.com/w/cpp/header/fstream>
   * <https://en.cppreference.com/w/cpp/io/manip/skipws>
   * <https://en.cppreference.com/w/cpp/io/ios_base/openmode>
