@@ -2679,6 +2679,9 @@ z początku kursu.
 
 ### Deklaracja przyjaźni
 
+*Deklaracja przyjaźni* może wystąpić w ciele klasy. Umożliwia ona funkcji lub
+innej klasie dostęp do prywatnych (i chronionych) składowych klasy.
+
 ## 11. Pliki
 
 Obsługa plików ma wiele wspólnego z poznaną już w międzyczasie obsługą wejścia
