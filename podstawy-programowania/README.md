@@ -2869,6 +2869,13 @@ uruchomiony.
 
 ### Wskaźniki strumienia
 
+Strumień wejścia/wyjścia posiada dwa wskaźniki:
+  * wejścia `g` (*get*)
+  * wyjścia `p` (*put*)
+
+Do obsługi wskaźników wejścia/wyjścia można wykorzystać metody odczytujące
+(`tellg`, `tellp`) oraz ustawiające pozycję wskaźnika (`seekg`, `seekp`).
+
 Przykład (pełny przykład znajduje się w pliku
 [size/size.cc](/podstawy-programowania/examples/11/size/size.cc)):
 ```cpp
