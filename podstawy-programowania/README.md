@@ -2935,6 +2935,10 @@ cppreference.com:
   * <https://en.cppreference.com/w/cpp/header/fstream>
   * <https://en.cppreference.com/w/cpp/io/manip/skipws>
   * <https://en.cppreference.com/w/cpp/io/ios_base/openmode>
+  * <https://en.cppreference.com/w/cpp/io/basic_istream/tellg>
+  * <https://en.cppreference.com/w/cpp/io/basic_ostream/tellp>
+  * <https://en.cppreference.com/w/cpp/io/basic_istream/seekg>
+  * <https://en.cppreference.com/w/cpp/io/basic_ostream/seekp>
 
 Maurizio Gabbrielli & Simone Martini. *Programming Languages: Principles and
 Paradigms*. Springer-Verlag London Limited, 2010. DOI:
