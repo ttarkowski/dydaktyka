@@ -2867,6 +2867,10 @@ jest też stworzenie pliku binarnego zawierającego binarną reprezentację licz
 42 w systemie kodowania odpowiednim dla maszyny, na którym program został
 uruchomiony.
 
+Uwaga: Operator `reinterpret_cast` w powyższym przykładzie służy do *paronomazji
+typów* (*type punning*) i jest potencjalnie niebezpieczny — paranomazja może
+wieść do naruszenia *ścisłych zasad aliasowania* (*strict aliasing rule*).
+
 ### Wskaźniki strumienia
 
 Strumień wejścia/wyjścia posiada dwa wskaźniki:
