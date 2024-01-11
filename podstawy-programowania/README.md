@@ -2959,19 +2959,22 @@ David Goldberg. *What Every Computer Scientist Should Know about Floating-Point
 Arithmetic*. ACM Computing Surveys **23**, 5-48 (1991). DOI:
 [10.1145/103162.103163](https://doi.org/10.1145/103162.103163).
 
+Scott Meyers. <https://www.aristeia.com/>.
+
 Bjarne Stroustrup. *A History of C++: 1979–1991*. History of Programming
 Languages—II 699 (1996). DOI:
 [10.1145/234286.1057836](https://doi.org/10.1145/234286.1057836).
 
 Bjarne Stroustrup. *Bjarne Stroustrup's homepage*. <https://stroustrup.com/>.
 
+Herb Sutter. *Sutter’s Mill. Herb Sutter on software development*.
+<https://herbsutter.com/>.
+
 Maciej Ślusarek, Przemysław Broniek, Grzegorz Gutowski, Jan Jeżabek. *Złożoność
 obliczeniowa*. <https://wazniak.mimuw.edu.pl/>.
 
 Ray Toal. *Classifying Programming Languages*.
 <https://cs.lmu.edu/~ray/notes/pltypes/>.
-
-Scott Meyers. <https://www.aristeia.com/>.
 
 Silicon Graphics Computer Systems, Inc. *Standard Template Library Programmer's
 Guide*. <https://www.boost.org/sgi/stl/index.html>.
