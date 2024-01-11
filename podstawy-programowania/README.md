@@ -2969,10 +2969,13 @@ obliczeniowa*. <https://wazniak.mimuw.edu.pl/>.
 Ray Toal. *Classifying Programming Languages*.
 <https://cs.lmu.edu/~ray/notes/pltypes/>.
 
+Silicon Graphics Computer Systems, Inc. *Standard Template Library Programmer's
+Guide*. <https://www.boost.org/sgi/stl/index.html>.
+
 stackoverflow.com:
   * <https://stackoverflow.com/questions/98650/what-is-the-strict-aliasing-rule>
 
-Tomasz R. Werner, *Programowanie 2. Język C++*.
+Tomasz R. Werner. *Programowanie 2. Język C++*.
 <https://www.fuw.edu.pl/~werner/pmn/CPP_HTML/CPP.html>.
 
 wikibooks.org:
