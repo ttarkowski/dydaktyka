@@ -2868,7 +2868,7 @@ jest też stworzenie pliku binarnego zawierającego binarną reprezentację licz
 uruchomiony.
 
 Uwaga: Operator `reinterpret_cast` w powyższym przykładzie służy do *paronomazji
-typów* (*type punning*) i jest potencjalnie niebezpieczny — paranomazja może
+typów* (*type punning*) i jest potencjalnie niebezpieczny — paronomazja może
 wieść do naruszenia *ścisłych zasad aliasowania* (*strict aliasing rule*).
 
 ### Wskaźniki strumienia
