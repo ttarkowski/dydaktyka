@@ -2910,7 +2910,7 @@ Wynik działania przykładu:
 
 Jest to prawidłowy rozmiar pliku w bajtach.
 
-## 12. Biblioteka standardowa
+## 12. Biblioteka standardowa — kontenery i algorytmy
 
 ## Bibliografia
 
