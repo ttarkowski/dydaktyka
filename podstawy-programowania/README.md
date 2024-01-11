@@ -2910,7 +2910,9 @@ Wynik działania przykładu:
 
 Jest to prawidłowy rozmiar pliku w bajtach.
 
-## 12. Biblioteka standardowa — kontenery i algorytmy
+## 12. Szablony
+
+## 13. Biblioteka standardowa — kontenery i algorytmy
 
 Biblioteka standardowa języka C++ (*C++ Standard Library*) jest kolekcją
 funkcjonalności (przede wszystkim szablonów klas i funkcji) napisanych w języku
