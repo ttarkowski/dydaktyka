@@ -2964,6 +2964,9 @@ obliczeniowa*. <https://wazniak.mimuw.edu.pl/>.
 Ray Toal. *Classifying Programming Languages*.
 <https://cs.lmu.edu/~ray/notes/pltypes/>.
 
+stackoverflow.com:
+  * <https://stackoverflow.com/questions/98650/what-is-the-strict-aliasing-rule>
+
 Tomasz R. Werner, *Programowanie 2. Język C++*.
 <https://www.fuw.edu.pl/~werner/pmn/CPP_HTML/CPP.html>.
 
