@@ -2950,6 +2950,9 @@ cppreference.com:
   * <https://en.cppreference.com/w/cpp/io/basic_ostream/tellp>
   * <https://en.cppreference.com/w/cpp/io/basic_istream/seekg>
   * <https://en.cppreference.com/w/cpp/io/basic_ostream/seekp>
+  * <https://en.cppreference.com/w/cpp/language/templates>
+  * <https://en.cppreference.com/w/cpp/language/class_template>
+  * <https://en.cppreference.com/w/cpp/language/function_template>
 
 Maurizio Gabbrielli & Simone Martini. *Programming Languages: Principles and
 Paradigms*. Springer-Verlag London Limited, 2010. DOI:
