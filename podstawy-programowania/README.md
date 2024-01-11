@@ -2971,6 +2971,8 @@ obliczeniowa*. <https://wazniak.mimuw.edu.pl/>.
 Ray Toal. *Classifying Programming Languages*.
 <https://cs.lmu.edu/~ray/notes/pltypes/>.
 
+Scott Meyers. <https://www.aristeia.com/>.
+
 Silicon Graphics Computer Systems, Inc. *Standard Template Library Programmer's
 Guide*. <https://www.boost.org/sgi/stl/index.html>.
 
