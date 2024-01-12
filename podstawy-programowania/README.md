@@ -2915,6 +2915,10 @@ Jest to prawidłowy rozmiar pliku w bajtach.
 Szablony są funkcjonalnością języka C++ umożliwiającą tworzenie rodzin klas lub
 funkcji.
 
+### Szablony funkcji
+
+### Szablony klas
+
 ## 13. Biblioteka standardowa — kontenery i algorytmy
 
 Biblioteka standardowa języka C++ (*C++ Standard Library*) jest kolekcją
