@@ -2915,6 +2915,11 @@ Jest to prawidłowy rozmiar pliku w bajtach.
 Szablony są funkcjonalnością języka C++ umożliwiającą tworzenie rodzin klas lub
 funkcji.
 
+Uwaga: Szablony C++ są mechanizmem czasu kompilacji kompletnym w sensie Turinga.
+Oznacza to, że można z ich użyciem symulować dowolną maszynę Turinga i w efekcie
+wykonać dowolne jej obliczenia (por. hipotezę Churcha-Turinga) już w trakcie
+kompilacji.
+
 ### Szablony funkcji
 
 ### Szablony klas
