@@ -2983,6 +2983,28 @@ Wynik działania przykładu:
 > fonon plazmon ekscyton polaryton dziura elektron foton   
 > dziura ekscyton elektron fonon foton plazmon polaryton 
 
+Przyjrzyjmy się wywołaniu funkcji sortujących (a dokładniej ich specjalizacji
+szablonu funkcji). Okazuje się, że prawidłowymi byłyby również wywołania:
+```cpp
+  sort<int>(tab0, std::size(tab0));
+```
+lub:
+```cpp
+  sort<>(tab1, std::size(tab1));
+```
+Oznacza to, że w składni języka C++ istnieją trzy sposoby na odwołanie się do
+szablonu (nie tylko zresztą funkcji):
+  * `nazwa_szablonu<lista_parametrów>`
+  * `nazwa_szablonu<>`
+  * `nazwa_szablonu`
+
+Ostatnia forma jest najkrótsza w związku z tym najbardziej korzystna, ale nie
+zawsze jest możliwa do zastosowania (ponieważ może zawieść dedukcja typów).
+W takich sytuacjach przydatna jest pierwsza forma, gdzie *explicite* podaje się
+wszystkie typy specjalizacji. Drugą formę (z pustymi nawiasami ostrymi) na ten
+moment pozostawimy, ponieważ jest ona najbardziej przydatna w zaawansowanym
+metaprogramowaniu.
+
 ### Szablony klas
 
 ## 13. Biblioteka standardowa — kontenery i algorytmy
