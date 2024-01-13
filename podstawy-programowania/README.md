@@ -2929,7 +2929,7 @@ w języku C++.
 ### Szablony funkcji
 
 Przykład (pełny przykład znajduje się w pliku
-[size/size.cc](/podstawy-programowania/examples/12/sort/sort.cc)):
+[sort/sort.cc](/podstawy-programowania/examples/12/sort/sort.cc)):
 ```cpp
 #include <cstddef>
 #include <iostream>
