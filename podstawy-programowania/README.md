@@ -2920,6 +2920,12 @@ Oznacza to, że można z ich użyciem symulować dowolną maszynę Turinga i w e
 wykonać dowolne jej obliczenia (por. hipotezę Churcha-Turinga) już w trakcie
 kompilacji.
 
+Szablony służą do realizacji stylu generycznego, którego przykład w języku
+Object Pascal
+([sort-pas/sort.pas](/podstawy-programowania/examples/01/sort-pas/sort.pas))
+widzieliśmy już na początku kursu. Zobaczmy odpowiednik tego przykładu napisany
+w języku C++.
+
 ### Szablony funkcji
 
 ### Szablony klas
