@@ -3007,7 +3007,9 @@ metaprogramowaniu.
 
 ### Szablony klas
 
-## 13. Biblioteka standardowa — kontenery i algorytmy
+## 13. Funkcje lambda
+
+## 14. Biblioteka standardowa — kontenery i algorytmy
 
 Biblioteka standardowa języka C++ (*C++ Standard Library*) jest kolekcją
 funkcjonalności (przede wszystkim szablonów klas i funkcji) napisanych w języku
