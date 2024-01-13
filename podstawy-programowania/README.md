@@ -2920,6 +2920,9 @@ Oznacza to, że można z ich użyciem symulować dowolną maszynę Turinga i w e
 wykonać dowolne jej obliczenia (por. hipotezę Churcha-Turinga) już w trakcie
 kompilacji.
 
+Uwaga: W przypadku podziału programu komputerowego na pliki nagłówkowe
+i implementacji, szablony są umieszczane w plikach nagłówkowych.
+
 Szablony służą do realizacji stylu generycznego, którego przykład w języku
 Object Pascal
 ([sort-pas/sort.pas](/podstawy-programowania/examples/01/sort-pas/sort.pas))
