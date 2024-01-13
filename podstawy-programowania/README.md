@@ -3102,6 +3102,8 @@ cppreference.com:
   * <https://en.cppreference.com/w/cpp/language/templates>
   * <https://en.cppreference.com/w/cpp/language/function_template>
   * <https://en.cppreference.com/w/cpp/language/class_template>
+  * <https://en.cppreference.com/w/cpp/error/assert>
+  * <https://en.cppreference.com/w/cpp/language/cv>
 
 Maurizio Gabbrielli & Simone Martini. *Programming Languages: Principles and
 Paradigms*. Springer-Verlag London Limited, 2010. DOI:
