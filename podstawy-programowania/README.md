@@ -3009,6 +3009,19 @@ wszystkie typy specjalizacji. Drugą formę (z pustymi nawiasami ostrymi) na ten
 moment pozostawimy, ponieważ jest ona najbardziej przydatna w zaawansowanym
 metaprogramowaniu.
 
+Uwaga: Nazwę typu wykorzystanego w szablonie można użyć w ciele funkcji
+szablonowej dokładnie tak samo jak nazwy zwykłych typów:
+```cpp
+template<typename T>
+void
+swap(T& a, T& b)
+{
+  T temp = a;
+  a = b;
+  b = temp;
+}
+```
+
 ### Szablony klas
 
 Przykład (pełny przykład znajduje się w pliku
