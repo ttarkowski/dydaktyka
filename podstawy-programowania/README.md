@@ -2934,6 +2934,7 @@ w języku C++.
 Przykład (pełny przykład znajduje się w pliku
 [sort/sort.cc](/podstawy-programowania/examples/12/sort/sort.cc)):
 ```cpp
+#include <algorithm>
 #include <cstddef>
 #include <iostream>
 #include <iterator>
