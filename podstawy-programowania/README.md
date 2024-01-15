@@ -3108,6 +3108,8 @@ ponieważ liczba 0.1 nie ma dobrej reprezentacji binarnej.
 
 Uwaga: Programista, który lubi asercje, ma więcej wolnego czasu.
 
+### Parametry szablonów niebędące typami
+
 ## 13. Funkcje lambda
 
 ## 14. Biblioteka standardowa — kontenery i algorytmy
