@@ -3110,6 +3110,9 @@ Uwaga: Programista, który lubi asercje, ma więcej wolnego czasu.
 
 ### Parametry szablonów niebędące typami
 
+Parametrem szablonu może być również, z pewnymi ograniczeniami, argument
+niebędący typem.
+
 ## 13. Funkcje lambda
 
 ## 14. Biblioteka standardowa — kontenery i algorytmy
