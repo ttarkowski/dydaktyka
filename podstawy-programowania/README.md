@@ -3097,14 +3097,12 @@ main()
   assert(a + a == 1.0);
 
   const double b = 0.1;
-  assert(5 * (b * b) == 1.0);
+  assert(3 * b == 0.3);
 }
 ```
 można otrzymać na wyjściu:
 > int main(): Assertion `5 * (b * b) == 1.0' failed.  
 > Przerwane (zrzut pamięci)
-
-ponieważ liczba 0.1 nie ma dobrej reprezentacji binarnej.
 
 Uwaga: Programista, który lubi asercje, ma więcej wolnego czasu.
 
