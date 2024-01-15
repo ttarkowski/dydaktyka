@@ -3059,6 +3059,38 @@ main()
 }
 ```
 
+Uwaga: Instrukcja `assert(wyrażenie)` stwierdza, że `wyrażenie` ma wartość
+`true`, co implikuje dalsze wykonanie programu. Gdyby jednak `wyrażenie` miało
+wartość `false` to program kończy swoje wykonanie z błędem. Oznacza to, że:
+```cpp
+assert(true);
+```
+jest instrukcją, przez którą program przechodzi bezbłędnie. Natomiast:
+```cpp
+assert(false);
+```
+jest instrukcją, która spowoduje zakończenie programu z błędem. Asercje
+są elementem *defensywnego* stylu programowania, służacego do wczesnego
+wyłapywania błędów. Służą one jako podstawa *automatycznych testów
+jednostkowych*. Na przykład, dla programu:
+```cpp
+#include <cassert>
+
+int
+main()
+{
+  const double a = 0.5;
+  assert(a + a == 1.0);
+
+  const double b = 0.1;
+  assert(5 * (b * b) == 1.0);
+}
+```
+można otrzymać na wyjściu:
+> int main(): Assertion `5 * (b * b) == 1.0' failed.  
+> Przerwane (zrzut pamięci)
+ponieważ liczba 0.1 nie ma dobrej reprezentacji binarnej.
+
 ## 13. Funkcje lambda
 
 ## 14. Biblioteka standardowa — kontenery i algorytmy
