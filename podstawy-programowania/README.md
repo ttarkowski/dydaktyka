@@ -3088,7 +3088,7 @@ main()
 ```
 można otrzymać na wyjściu:
 > int main(): Assertion `5 * (b * b) == 1.0' failed.  
-> Przerwane (zrzut pamięci)
+> Przerwane (zrzut pamięci)  
 ponieważ liczba 0.1 nie ma dobrej reprezentacji binarnej.
 
 ## 13. Funkcje lambda
