@@ -3179,7 +3179,8 @@ Churcha i stanowią istotny element programowania funkcyjnego (Alonzo Church,
 Haskell Curry).
 
 Uwaga: Rachunek $`\lambda`$ może zostać bardzo zwięźle sformułowany w notacji
-BNF.
+BNF. Można to zobaczyć np. na stronie
+<https://www.cs.cornell.edu/courses/cs3110/2008fa/recitations/rec26.html>.
 
 W języku C++ funkcje lambda mają bardzo szerokie możliwości. Dlatego na ten
 moment skoncentrujemy się wyłącznie na wybranych aspektach.
