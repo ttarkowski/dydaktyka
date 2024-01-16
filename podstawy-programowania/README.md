@@ -3174,6 +3174,10 @@ main()
 *Funkcja lambda* (nazywana też *funkcją anonimową*) jest funkcją, która nie
 posiada nazwy.
 
+Funkcja lambda są elementem rachunku lambda zapoczątkowanego przez Alonzo
+Churcha i stanowią istotny element programowania funkcyjnego (Alonzo Church,
+Haskell Curry).
+
 ## 14. Biblioteka standardowa — kontenery i algorytmy
 
 Biblioteka standardowa języka C++ (*C++ Standard Library*) jest kolekcją
