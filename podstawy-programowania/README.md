@@ -3181,6 +3181,19 @@ Haskell Curry).
 W języku C++ funkcje lambda mają bardzo szerokie możliwości. Dlatego na ten
 moment skoncentrujemy się wyłącznie na wybranych aspektach.
 
+Pusta funkcja lambda to `[]() {}`. Niczego ona nie robi. Możemy to zobaczyć
+w poniższym przykładzie, gdzie została ona wywołana:
+```cpp
+int
+main()
+{
+  []() {}();
+}
+```
+Instrukcja `[]() {}();` składa się z funkcji lambda `[]() {}`, która została
+wywołana z użyciem operatora nawiasy okrągłe `()` leżącego bezpośrednio przed
+znakiem średnika.
+
 ## 14. Biblioteka standardowa — kontenery i algorytmy
 
 Biblioteka standardowa języka C++ (*C++ Standard Library*) jest kolekcją
