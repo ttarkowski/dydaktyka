@@ -3101,7 +3101,7 @@ main()
 }
 ```
 można otrzymać na wyjściu:
-> int main(): Assertion `5 * (b * b) == 1.0' failed.  
+> a.out: example.cc:10: int main(): Assertion `3 * b == 0.3' failed.  
 > Przerwane (zrzut pamięci)
 
 Uwaga: Programista, który lubi asercje, ma więcej wolnego czasu.
