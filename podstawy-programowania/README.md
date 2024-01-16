@@ -3171,6 +3171,9 @@ main()
 
 ## 13. Funkcje lambda
 
+*Funkcja lambda* (nazywana też *funkcją anonimową*) jest funkcją, która nie
+posiada nazwy.
+
 ## 14. Biblioteka standardowa — kontenery i algorytmy
 
 Biblioteka standardowa języka C++ (*C++ Standard Library*) jest kolekcją
