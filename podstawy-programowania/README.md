@@ -3206,6 +3206,9 @@ w standardzie języka.
 
 ## Bibliografia
 
+Cornell University. *CS 3110. Data Structures and Functional Programming*.
+<https://www.cs.cornell.edu/courses/cs3110/>.
+
 cppreference.com:
   * <https://en.cppreference.com/w/cpp/language/history>
   * <https://en.cppreference.com/w/cpp/language/statements>
