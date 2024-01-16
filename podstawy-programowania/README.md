@@ -3178,6 +3178,9 @@ Funkcja lambda są elementem rachunku lambda zapoczątkowanego przez Alonzo
 Churcha i stanowią istotny element programowania funkcyjnego (Alonzo Church,
 Haskell Curry).
 
+Uwaga: Rachunek $`\lambda`$ może zostać bardzo zwięźle sformułowany w notacji
+BNF.
+
 W języku C++ funkcje lambda mają bardzo szerokie możliwości. Dlatego na ten
 moment skoncentrujemy się wyłącznie na wybranych aspektach.
 
