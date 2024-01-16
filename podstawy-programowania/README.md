@@ -3178,6 +3178,9 @@ Funkcja lambda są elementem rachunku lambda zapoczątkowanego przez Alonzo
 Churcha i stanowią istotny element programowania funkcyjnego (Alonzo Church,
 Haskell Curry).
 
+W języku C++ funkcje lambda mają bardzo szerokie możliwości. Dlatego na ten
+moment skoncentrujemy się wyłącznie na wybranych aspektach.
+
 ## 14. Biblioteka standardowa — kontenery i algorytmy
 
 Biblioteka standardowa języka C++ (*C++ Standard Library*) jest kolekcją
