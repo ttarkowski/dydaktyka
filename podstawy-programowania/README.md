@@ -2809,7 +2809,7 @@ Poniżej znajduje się lekko zmodyfikowany program jednego z wcześniejszych
 przykładów.
 
 Przykład (pełny przykład znajduje się w pliku
-[ios_app/ios_app.cc](/podstawy-programowania/examples/11/ios_app/ios_app.cc)):
+[ios-app/ios-app.cc](/podstawy-programowania/examples/11/ios-app/ios-app.cc)):
 ```cpp
 #include <ctime>
 #include <fstream>
