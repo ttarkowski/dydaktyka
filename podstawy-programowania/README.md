@@ -3214,6 +3214,9 @@ Uwaga: Materiał z *Dodatków* nie wchodzi w skład egzaminu końcowego.
 Poniżej znajduje się rozwiązanie problemu skoczka szachowego z wykorzystaniem
 rekurencji oraz programowania obiektowego.
 
+Sformułowanie problemu skoczka szachowego można znaleźć np. na stronie
+<https://en.wikipedia.org/wiki/Knight's_tour>.
+
 Uwaga: Dla niewielkiego uproszczenia przyjęto w rozwiązaniu, że skoczek
 rozpoczyna swoją drogę w jednym z wierzchołków szachownicy.
 
