@@ -3214,6 +3214,9 @@ Uwaga: Materiał z *Dodatków* nie wchodzi w skład egzaminu końcowego.
 Poniżej znajduje się rozwiązanie problemu skoczka szachowego z wykorzystaniem
 rekurencji oraz programowania obiektowego.
 
+Uwaga: Dla niewielkiego uproszczenia przyjęto w rozwiązaniu, że skoczek
+rozpoczyna swoją drogę w jednym z wierzchołków szachownicy.
+
 Przykład (pełny przykład znajduje się w pliku
 [knights-tour/knights-tour.cc](/podstawy-programowania/examples/appendix/knights-tour/knights-tour.cc)):
 ```cpp
