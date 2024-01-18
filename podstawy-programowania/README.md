@@ -3174,7 +3174,7 @@ main()
 *Funkcja lambda* (nazywana też *funkcją anonimową*) jest funkcją, która nie
 posiada nazwy.
 
-Funkcja lambda są elementem rachunku lambda zapoczątkowanego przez Alonzo
+Funkcje lambda są elementem rachunku lambda zapoczątkowanego przez Alonzo
 Churcha i stanowią istotny element programowania funkcyjnego (Alonzo Church,
 Haskell Curry).
 
