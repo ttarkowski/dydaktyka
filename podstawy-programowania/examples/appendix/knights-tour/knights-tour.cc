@@ -4,21 +4,21 @@
 #include <iomanip>
 #include <vector>
 
-class knight_tour_problem
+class knights_tour_problem
 {
   using row_t = std::vector<int>;
   using chessboard_t = std::vector<row_t>;
   using solutions_t = std::vector<chessboard_t>;
 
 public:
-  explicit knight_tour_problem(int size)
+  explicit knights_tour_problem(int size)
     : size_{ size }
   {
   }
 
   bool solved() const { return solved_; }
 
-  knight_tour_problem& find_all_solutions()
+  knights_tour_problem& find_all_solutions()
   {
     if (!solved_) {
       search(1, 0, 0);
@@ -99,7 +99,7 @@ private:
 };
 
 std::ostream&
-operator<<(std::ostream& os, const knight_tour_problem& rhs)
+operator<<(std::ostream& os, const knights_tour_problem& rhs)
 {
   rhs.print_all_solutions(os);
   return os;
@@ -111,6 +111,6 @@ main()
   std::ofstream file{ "solutions.txt" };
   for (int i = 1; i < 6; ++i) {
     file << "> Szachownica " << i << " x " << i << std::endl
-         << knight_tour_problem{ i }.find_all_solutions() << std::endl;
+         << knights_tour_problem{ i }.find_all_solutions() << std::endl;
   }
 }
