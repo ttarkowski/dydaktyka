@@ -3209,6 +3209,14 @@ main()
 }
 ```
 
+Uwaga: W powyższym przykładzie wykorzystano dedukcję typów `auto`, której
+omówienie nie wchodzi w skład niniejszego kursu. Wystarczy założyć na ten
+moment, że słowem `auto` można zastąpić sekwencją specyfikatorów w instrukcji
+prostej deklaracji zmiennej. A więc, zamiast np. `int i = 42;` można napisać
+`auto i = 42;` i typ `i` zostanie wydedukowany na podstawie wartości, którą
+została zainicjowana zmienna `i`. Użycie `auto` w przypadku funkcji lambda jest
+konieczne, ponieważ każda funkcja lambda ma swój własny unikalny typ.
+
 ## 14. Biblioteka standardowa — kontenery i algorytmy
 
 Biblioteka standardowa języka C++ (*C++ Standard Library*) jest kolekcją
