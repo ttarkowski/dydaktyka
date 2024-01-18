@@ -3217,6 +3217,9 @@ prostej deklaracji zmiennej. A więc, zamiast np. `int i = 42;` można napisać
 została zainicjowana zmienna `i`. Użycie `auto` w przypadku funkcji lambda jest
 konieczne, ponieważ każda funkcja lambda ma swój własny unikalny typ.
 
+W powyższym przykładzie wyrażenie lambda zostało przypisane do zmiennej `f`, po
+czym zmienną tą można wykorzystać tak jak zwykłą funkcję.
+
 ## 14. Biblioteka standardowa — kontenery i algorytmy
 
 Biblioteka standardowa języka C++ (*C++ Standard Library*) jest kolekcją
