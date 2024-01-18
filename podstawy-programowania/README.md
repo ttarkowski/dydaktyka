@@ -3198,6 +3198,17 @@ Instrukcja `[]() {}();` składa się z funkcji lambda `[]() {}`, która została
 wywołana z użyciem operatora nawiasy okrągłe `()` leżącego bezpośrednio przed
 znakiem średnika.
 
+Pusta funkcja lambda nie jest szczególnie użyteczna. Zobaczmy więc funkcję,
+która przyjmuje argument i go zwraca (w tym przypadku do systemu operacyjnego):
+```cpp
+int
+main()
+{
+  auto f = [](int x) { return x; };
+  return f(0);
+}
+```
+
 ## 14. Biblioteka standardowa — kontenery i algorytmy
 
 Biblioteka standardowa języka C++ (*C++ Standard Library*) jest kolekcją
