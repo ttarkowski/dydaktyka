@@ -3221,6 +3221,9 @@ W powyższym przykładzie wyrażenie lambda zostało przypisane do zmiennej `f`,
 czym zmienną tą można wykorzystać tak jak zwykłą funkcję, tzn. wywołać z użyciem
 operatora nawiasy okrągłe.
 
+Zanim przejdziemy do kolejnych możliwości udostępnianych przez mechanizm funkcji
+lambda, zastanówmy się, gdzie takie funkcje mogą się przydać.
+
 ## 14. Biblioteka standardowa — kontenery i algorytmy
 
 Biblioteka standardowa języka C++ (*C++ Standard Library*) jest kolekcją
