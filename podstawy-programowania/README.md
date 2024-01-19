@@ -3275,6 +3275,10 @@ Wynik działania przykładu:
 > 0 3 7 12 42 50 100   
 > 100 50 42 12 7 3 0 
 
+Podobną funkcjonalność można osiągnąć stosując zwykłe funkcje lub funktory
+(struktury ze zdefiniowaną funkcją składową `operator()`). Jednak obydwa
+rozwiązania są zazwyczaj znacznie dłuższe aniżeli zastosowanie funkcji lambda.
+
 ## 14. Biblioteka standardowa — kontenery i algorytmy
 
 Biblioteka standardowa języka C++ (*C++ Standard Library*) jest kolekcją
