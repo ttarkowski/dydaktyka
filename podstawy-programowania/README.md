@@ -3296,6 +3296,11 @@ który jest wydajnym sposobem sortowania. Jednak dzięki postępowi w algorytmic
 zasadnym była zmiana implementacji `std::sort` na jeszcze wydajnieszą hybrydową
 metodę sortowania *Introsort*.
 
+Uwaga: O ile nie ma się uzasadnionego powodu to we własnych programach warto
+stosować `std::sort`. Przytaczany w skrypcie algorytm sortowania bąbelkowego ma
+wartość dydaktyczną, ale nie jest wydajny i dlatego nie należy go stosować
+w profesjonalny rozwiązaniach programistycznych.
+
 ## Dodatki
 
 Uwaga: Materiał z *Dodatków* nie wchodzi w skład egzaminu końcowego.
