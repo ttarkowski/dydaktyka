@@ -3286,6 +3286,8 @@ funkcjonalności (przede wszystkim szablonów klas i funkcji) napisanych w języ
 C++ (a dokładniej z użyciem jego „centralnej” części) i umieszczonych
 w standardzie języka.
 
+### `std::sort`
+
 ## Dodatki
 
 Uwaga: Materiał z *Dodatków* nie wchodzi w skład egzaminu końcowego.
