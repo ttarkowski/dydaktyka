@@ -3224,6 +3224,9 @@ operatora nawiasy okrągłe.
 Zanim przejdziemy do kolejnych możliwości udostępnianych przez mechanizm funkcji
 lambda, zastanówmy się, gdzie takie funkcje mogą się przydać.
 
+Skorzystajmy z omówionego wcześniej przy okazji szablonów przykładu
+z sortowaniem.
+
 Przykład (pełny przykład znajduje się w pliku
 [sort/sort.cc](/podstawy-programowania/examples/13/sort/sort.cc)):
 ```cpp
