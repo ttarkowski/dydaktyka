@@ -3218,7 +3218,8 @@ została zainicjowana zmienna `i`. Użycie `auto` w przypadku funkcji lambda jes
 konieczne, ponieważ każda funkcja lambda ma swój własny unikalny typ.
 
 W powyższym przykładzie wyrażenie lambda zostało przypisane do zmiennej `f`, po
-czym zmienną tą można wykorzystać tak jak zwykłą funkcję.
+czym zmienną tą można wykorzystać tak jak zwykłą funkcję, tzn. wywołać z użyciem
+operatora nawiasy okrągłe.
 
 ## 14. Biblioteka standardowa — kontenery i algorytmy
 
