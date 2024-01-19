@@ -3288,6 +3288,11 @@ w standardzie języka.
 
 ### `std::sort`
 
+W przeszłości `std::sort` był implementowany z użyciem algorytmu *Quicksort*,
+który jest wydajnym sposobem sortowania. Jednak dzięki postępowi w algorytmice
+zasadnym była zmiana implementacji `std::sort` na jeszcze wydajnieszą hybrydową
+metodę sortowania *Introsort*.
+
 ## Dodatki
 
 Uwaga: Materiał z *Dodatków* nie wchodzi w skład egzaminu końcowego.
