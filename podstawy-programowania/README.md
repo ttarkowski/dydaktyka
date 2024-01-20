@@ -3286,6 +3286,8 @@ funkcjonalności (przede wszystkim szablonów klas i funkcji) napisanych w języ
 C++ (a dokładniej z użyciem jego „centralnej” części) i umieszczonych
 w standardzie języka.
 
+### Pliki nagłówkowe biblioteki standardowej
+
 ### `std::sort`
 
 W przeszłości `std::sort` był implementowany z użyciem algorytmu *Quicksort*,
