@@ -3419,19 +3419,14 @@ Funkcjonalność udostępniana przez ww. pliki nagłówkowe to w szczególności
 ### Kontenery
 
 Kontenery biblioteki standardowej języka C++ można podzielić na dwie grupy:
-  * kontenery sekwencyjne
-  * kontenery asocjacyjne
+  * kontenery sekwencyjne (`std::array`, `std::deque`, `std::forward_list`,
+    `std::list`, `std::vector`)
+  * kontenery asocjacyjne (`std::map` oraz `std::multiset`, `std::set` oraz
+    `std::multimap`)
   * nieuporządkowane kontenery asocjacyjne
 
 Kontener sekwencyjny to taki, który samodzielnie nie zmienia kolejności
 wstawionych elementów. Kontener asocjacyjny może zmieniać kolejność elementów.
-
-Kontenery sekwencyjne:
-  * `std::array`
-  * `std::vector`
-  * `std::deque`
-  * `std::forward_list`
-  * `std::list`
 
 #### ▸ `std::vector` (kontener sekwencyjny)
 
