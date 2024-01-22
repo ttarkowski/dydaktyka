@@ -3426,6 +3426,13 @@ Kontenery biblioteki standardowej języka C++ można podzielić na dwie grupy:
 Kontener sekwencyjny to taki, który samodzielnie nie zmienia kolejności
 wstawionych elementów. Kontener asocjacyjny może zmieniać kolejność elementów.
 
+Kontenery sekwencyjne:
+  * `std::array`
+  * `std::vector`
+  * `std::deque`
+  * `std::forward_list`
+  * `std::list`
+
 #### ▸ `std::vector` (kontener sekwencyjny)
 
 Uwaga: Kontener sekwencyjny `std::vector` został już omówiony wcześniej.
