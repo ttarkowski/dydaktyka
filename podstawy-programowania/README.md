@@ -3418,6 +3418,11 @@ Funkcjonalność udostępniana przez ww. pliki nagłówkowe to w szczególności
 
 ### Kontenery
 
+Kontenery biblioteki standardowej języka C++ można podzielić na dwie grupy:
+  * kontenery sekwencyjne
+  * kontenery asocjacyjne
+  * nieuporządkowane kontenery asocjacyjne
+
 #### ▸ `std::vector` (kontener sekwencyjny)
 
 #### ▸ `std::set` (kontener asocjacyjny)
