@@ -3416,7 +3416,11 @@ Funkcjonalność udostępniana przez ww. pliki nagłówkowe to w szczególności
   * wyrażenia regularne (<https://en.cppreference.com/w/cpp/regex>)
   * zakresy/*ranges* (<https://en.cppreference.com/w/cpp/ranges>)
 
-### `std::sort`
+### Kontenery
+
+### Algorytmy
+
+#### ▸ `std::sort`
 
 W przeszłości `std::sort` był implementowany z użyciem algorytmu *Quicksort*,
 który jest wydajnym sposobem sortowania. Jednak dzięki postępowi w algorytmice
@@ -3427,6 +3431,8 @@ Uwaga: O ile nie ma się uzasadnionego powodu to we własnych programach warto
 stosować `std::sort`. Przytaczany w skrypcie algorytm sortowania bąbelkowego ma
 wartość dydaktyczną, ale nie jest wydajny i dlatego nie należy go stosować
 w profesjonalny rozwiązaniach programistycznych.
+
+### Obliczenia numeryczne
 
 ## Dodatki
 
