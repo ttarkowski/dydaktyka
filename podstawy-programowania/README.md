@@ -3399,6 +3399,23 @@ Pliki nagłówkowe języka C++:
   * `<vector>` (C++98)
   * `<version>` (C++20)
 
+Funkcjonalność udostępniana przez ww. pliki nagłówkowe to w szczególności:
+  * algorytmy (<https://en.cppreference.com/w/cpp/algorithm>)
+  * iteratory (<https://en.cppreference.com/w/cpp/iterator>)
+  * koncepty/*concepts* (<https://en.cppreference.com/w/cpp/concepts>)
+  * kontenery (<https://en.cppreference.com/w/cpp/string>)
+  * lokalizacja (<https://en.cppreference.com/w/cpp/locale>)
+  * metaprogramowanie (<https://en.cppreference.com/w/cpp/meta>)
+  * napisy (<https://en.cppreference.com/w/cpp/string>)
+  * narzędzia (<https://en.cppreference.com/w/cpp/utility>)
+  * obliczenia numeryczne (<https://en.cppreference.com/w/cpp/numeric>)
+  * obsługa błędów (<https://en.cppreference.com/w/cpp/error>)
+  * system plików (<https://en.cppreference.com/w/cpp/filesystem>)
+  * wejscie/wyjście (<https://en.cppreference.com/w/cpp/io>)
+  * współbieżność (<https://en.cppreference.com/w/cpp/thread>)
+  * wyrażenia regularne (<https://en.cppreference.com/w/cpp/regex>)
+  * zakresy/*ranges* (<https://en.cppreference.com/w/cpp/ranges>)
+
 ### `std::sort`
 
 W przeszłości `std::sort` był implementowany z użyciem algorytmu *Quicksort*,
