@@ -3423,7 +3423,9 @@ Kontenery biblioteki standardowej języka C++ można podzielić na dwie grupy:
     `std::list`, `std::vector`)
   * kontenery asocjacyjne (`std::map` oraz `std::multiset`, `std::set` oraz
     `std::multimap`)
-  * nieuporządkowane kontenery asocjacyjne
+  * nieuporządkowane kontenery asocjacyjne (`std::unordered_map` oraz
+    `std::unordered_multimap`, `std::unordered_set` oraz
+    `std::unordered_multiset`)
 
 Kontener sekwencyjny to taki, który samodzielnie nie zmienia kolejności
 wstawionych elementów. Kontener asocjacyjny może zmieniać kolejność elementów.
