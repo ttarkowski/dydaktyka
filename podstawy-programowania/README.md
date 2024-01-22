@@ -3428,6 +3428,8 @@ wstawionych elementów. Kontener asocjacyjny może zmieniać kolejność element
 
 #### ▸ `std::vector` (kontener sekwencyjny)
 
+Uwaga: Kontener sekwencyjny `std::vector` został już omówiony wcześniej.
+
 #### ▸ `std::set` (kontener asocjacyjny)
 
 Uwaga: `std::multiset`
