@@ -3403,7 +3403,7 @@ Funkcjonalność udostępniana przez ww. pliki nagłówkowe to w szczególności
   * algorytmy (<https://en.cppreference.com/w/cpp/algorithm>)
   * iteratory (<https://en.cppreference.com/w/cpp/iterator>)
   * koncepty/*concepts* (<https://en.cppreference.com/w/cpp/concepts>)
-  * kontenery (<https://en.cppreference.com/w/cpp/string>)
+  * kontenery (<https://en.cppreference.com/w/cpp/container>)
   * lokalizacja (<https://en.cppreference.com/w/cpp/locale>)
   * metaprogramowanie (<https://en.cppreference.com/w/cpp/meta>)
   * napisy (<https://en.cppreference.com/w/cpp/string>)
