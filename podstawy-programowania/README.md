@@ -3486,6 +3486,26 @@ w profesjonalny rozwiązaniach programistycznych.
 
 #### ▸ `std::valarray`
 
+#### ▸ `std::accumulate`
+
+#### ▸ `std::inner_product`
+
+#### ▸ `std::adjacent_difference`
+
+#### ▸ `std::partial_sum`
+
+#### ▸ `std::reduce`
+
+#### ▸ `std::transform_reduce`
+
+#### ▸ `<cmath>`
+
+#### ▸ `<numbers>`
+
+#### ▸ `<random>`
+
+#### ▸ `std::complex`
+
 ## Dodatki
 
 Uwaga: Materiał z *Dodatków* nie wchodzi w skład egzaminu końcowego.
