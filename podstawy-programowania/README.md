@@ -3697,6 +3697,7 @@ cppreference.com:
   * <https://en.cppreference.com/w/cpp/language/cv>
   * <https://en.cppreference.com/w/cpp/language/lambda>
   * <https://en.cppreference.com/w/cpp/container>
+  * <https://en.cppreference.com/w/cpp/container/set>
 
 Maurizio Gabbrielli & Simone Martini. *Programming Languages: Principles and
 Paradigms*. Springer-Verlag London Limited, 2010. DOI:
