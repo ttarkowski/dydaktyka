@@ -3436,6 +3436,56 @@ Uwaga: Kontener sekwencyjny `std::vector` został już omówiony wcześniej.
 
 #### ▸ `std::set` (kontener asocjacyjny)
 
+Przykład (pełny przykład znajduje się w pliku
+[set/set.cc](/podstawy-programowania/examples/14/set/set.cc)):
+```cpp
+#include <iostream>
+#include <random>
+#include <set>
+
+std::mt19937 engine{ std::random_device{}() };
+
+int
+random(int a, int b)
+{
+  return std::uniform_int_distribution<int>{ a, b }(engine);
+}
+
+int
+main()
+{
+  std::set<int> numbers;
+
+  for (int i = 0; i < 10; ++i) {
+    const int draw = random(0, 100);
+    std::cout << "Wylosowano liczbe " << draw << ".\n";
+    numbers.insert(draw);
+  }
+
+  std::cout << "Zawartosc kontenera set: ";
+  for (auto x : numbers) {
+    std::cout << x << ' ';
+  }
+  std::cout << std::endl;
+}
+```
+
+Wynik działania przykładu:
+> Wylosowano liczbe 89.  
+> Wylosowano liczbe 37.  
+> Wylosowano liczbe 95.  
+> Wylosowano liczbe 22.  
+> Wylosowano liczbe 10.  
+> Wylosowano liczbe 18.  
+> Wylosowano liczbe 84.  
+> Wylosowano liczbe 33.  
+> Wylosowano liczbe 37.  
+> Wylosowano liczbe 9.  
+> Zawartosc kontenera set: 9 10 18 22 33 37 84 89 95 
+
+Uwaga: Wynik działania powyższego przykładu może różnić się pomiędzy
+poszczególnymi wywołaniami programu.
+
 Uwaga: `std::multiset`
 
 Uwaga: `std::unordered_set`, `std::unordered_multiset`
