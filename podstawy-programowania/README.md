@@ -3279,7 +3279,7 @@ Podobną funkcjonalność można osiągnąć stosując zwykłe funkcje lub funkt
 (struktury ze zdefiniowaną funkcją składową `operator()`). Jednak obydwa
 rozwiązania są zazwyczaj znacznie dłuższe aniżeli zastosowanie funkcji lambda.
 
-## 14. Biblioteka standardowa — kontenery i algorytmy
+## 14. Biblioteka standardowa
 
 Biblioteka standardowa języka C++ (*C++ Standard Library*) jest kolekcją
 funkcjonalności (przede wszystkim szablonów klas i funkcji) napisanych w języku
