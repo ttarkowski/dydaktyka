@@ -3471,17 +3471,17 @@ main()
 ```
 
 Wynik działania przykładu:
-> Wylosowano liczbe 89.  
-> Wylosowano liczbe 37.  
-> Wylosowano liczbe 95.  
-> Wylosowano liczbe 22.  
-> Wylosowano liczbe 10.  
-> Wylosowano liczbe 18.  
-> Wylosowano liczbe 84.  
-> Wylosowano liczbe 33.  
-> Wylosowano liczbe 37.  
-> Wylosowano liczbe 9.  
-> Zawartosc kontenera set: 9 10 18 22 33 37 84 89 95 
+> Wylosowano liczbe 11.  
+> Wylosowano liczbe 39.  
+> Wylosowano liczbe 90.  
+> Wylosowano liczbe 64.  
+> Wylosowano liczbe 93.  
+> Wylosowano liczbe 48.  
+> Wylosowano liczbe 30.  
+> Wylosowano liczbe 93.  
+> Wylosowano liczbe 42.  
+> Wylosowano liczbe 41.  
+> Zawartosc kontenera set: 11 30 39 41 42 48 64 90 93 
 
 Uwaga: Wynik działania powyższego przykładu może różnić się pomiędzy
 poszczególnymi wywołaniami programu.
