@@ -3434,6 +3434,38 @@ Uwaga: `unordered_map`, `unordered_multimap`
 
 ### Algorytmy
 
+#### ▸ `std::for_each`
+
+#### ▸ `std::all_of`, `std::any_of`, `std::none_of`
+
+#### ▸ `std::find`, `std::find_if`, `std::find_if_not`
+
+#### ▸ `std::count`, `std::count_if`
+
+#### ▸ `std::copy`, `std::copy_if`
+
+#### ▸ `std::swap`
+
+#### ▸ `std::transform`
+
+#### ▸ `std::fill`
+
+#### ▸ `std::generate`
+
+#### ▸ `std::unique`
+
+#### ▸ `std::reverse`
+
+#### ▸ `std::rotate`
+
+#### ▸ `std::shift_left`, `std::shift_right`
+
+#### ▸ `std::random_shuffle`, `std::shuffle`
+
+#### ▸ `std::sample`
+
+#### ▸ `std::partition`
+
 #### ▸ `std::sort`
 
 W przeszłości `std::sort` był implementowany z użyciem algorytmu *Quicksort*,
@@ -3445,6 +3477,10 @@ Uwaga: O ile nie ma się uzasadnionego powodu to we własnych programach warto
 stosować `std::sort`. Przytaczany w skrypcie algorytm sortowania bąbelkowego ma
 wartość dydaktyczną, ale nie jest wydajny i dlatego nie należy go stosować
 w profesjonalny rozwiązaniach programistycznych.
+
+#### ▸ `std::lower_bound`, `std::upper_bound`
+
+#### ▸ `std::max_element`, `std::min_element`
 
 ### Obliczenia numeryczne
 
