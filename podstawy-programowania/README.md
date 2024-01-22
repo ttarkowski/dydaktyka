@@ -3418,6 +3418,20 @@ Funkcjonalność udostępniana przez ww. pliki nagłówkowe to w szczególności
 
 ### Kontenery
 
+#### ▸ `std::vector` (kontener sekwencyjny)
+
+#### ▸ `std::set` (kontener asocjacyjny)
+
+Uwaga: `std::multiset`
+
+Uwaga: `std::unordered_set`, `std::unordered_multiset`
+
+#### ▸ `std::map` (kontener asocjacyjny)
+
+Uwaga: `std::multimap`
+
+Uwaga: `unordered_map`, `unordered_multimap`
+
 ### Algorytmy
 
 #### ▸ `std::sort`
@@ -3433,6 +3447,8 @@ wartość dydaktyczną, ale nie jest wydajny i dlatego nie należy go stosować
 w profesjonalny rozwiązaniach programistycznych.
 
 ### Obliczenia numeryczne
+
+#### ▸ `std::valarray`
 
 ## Dodatki
 
