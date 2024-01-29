@@ -3708,6 +3708,9 @@ main()
 
 ## Bibliografia
 
+Wolfgang Bangerth. *MATH 676: Finite element methods in scientific computing*.
+<https://www.math.colostate.edu/~bangerth/videos.html>.
+
 Cornell University. *CS 3110. Data Structures and Functional Programming*.
 <https://www.cs.cornell.edu/courses/cs3110/>.
 
