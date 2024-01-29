@@ -3652,36 +3652,12 @@ Uwaga: `std::shuffle` zmienia kolejność elementów w zakresie w sposób losowy
 
 ### Obliczenia numeryczne
 
-#### ▸ `std::valarray`
+Uwaga: Materiał z podpunktu *Obliczenia numeryczne* nie wchodzi w skład egzaminu
+końcowego.
 
-`std::valarray` jest szablonem umożliwiającym wygodne obliczenia dla tablic
-wartości. Jeśli `v1` i `v2` są typu `std::valarray<double>` to np. wyrażenie
-`std::cos(v1) + std::sin(v2)` umożliwia wykonanie wielu operacji
-trygonometrycznych i arytmetycznych w zwartej formie.
-
-#### ▸ `std::accumulate`
-
-`std::accumulate` umożliwia zsumowanie elementów w zakresie.
-
-#### ▸ `std::inner_product`
-
-`std::inner_product` umożliwia obliczenie iloczynu skalarnego.
-
-#### ▸ `std::adjacent_difference`
-
-#### ▸ `std::partial_sum`
-
-#### ▸ `std::reduce`
-
-#### ▸ `std::transform_reduce`
-
-#### ▸ `<cmath>`
-
-#### ▸ `<numbers>`
-
-#### ▸ `<random>`
-
-#### ▸ `std::complex`
+TODO: `std::valarray`, `std::accumulate`, `std::inner_product`,
+`std::adjacent_difference`, `std::partial_sum`, `std::reduce`,
+`std::transform_reduce`, `<cmath>`, `<numbers>`, `<random>`, `std::complex`
 
 ## Dodatki
 
