@@ -3543,7 +3543,10 @@ oraz `unordered_multimap`.
 ### Algorytmy
 
 Uwaga: `std::for_each` aplikuje dany obiekt funkcyjny do każdego elemenentu
-kontenera.
+wskazywanego przez zakres.
+
+Uwaga: `std::generate` przypisuje każdemu elementowi zakresu wynik otrzymany
+przez dany obiekt funkcyjny.
 
 #### ▸ `std::all_of`, `std::any_of`, `std::none_of`
 
@@ -3558,8 +3561,6 @@ kontenera.
 #### ▸ `std::transform`
 
 #### ▸ `std::fill`
-
-#### ▸ `std::generate`
 
 #### ▸ `std::unique`
 
