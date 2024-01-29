@@ -3542,7 +3542,8 @@ oraz `unordered_multimap`.
 
 ### Algorytmy
 
-#### ▸ `std::for_each`
+Uwaga: `std::for_each` aplikuje dany obiekt funkcyjny do każdego elemenentu
+kontenera.
 
 #### ▸ `std::all_of`, `std::any_of`, `std::none_of`
 
