@@ -3562,8 +3562,6 @@ Uwaga: `std::reverse` odwraca kolejność elementów w zakresie.
 
 #### ▸ `std::unique`
 
-#### ▸ `std::rotate`
-
 #### ▸ `std::shift_left`, `std::shift_right`
 
 #### ▸ `std::random_shuffle`, `std::shuffle`
