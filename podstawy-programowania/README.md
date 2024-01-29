@@ -3496,6 +3496,44 @@ porządku sortowania.
 
 #### ▸ `std::map` (kontener asocjacyjny)
 
+Przykład (pełny przykład znajduje się w pliku
+[map/map.cc](/podstawy-programowania/examples/14/map/map.cc)):
+```cpp
+#include <iostream>
+#include <map>
+#include <string>
+
+int
+main()
+{
+  std::map<char, unsigned int> counter;
+  std::string str{ "Hello, kitty! I love milk too!" };
+  for (char c : str) {
+    counter[c]++;
+  }
+  for (auto pair : counter) {
+    std::cout << "Znak: " << pair.first << " Liczba wystapien: " << pair.second
+              << '\n';
+  }
+}
+```
+
+Wynik działania przykładu:
+> Znak: &nbsp; Liczba wystapien: 5  
+> Znak: ! Liczba wystapien: 2  
+> Znak: , Liczba wystapien: 1  
+> Znak: H Liczba wystapien: 1  
+> Znak: I Liczba wystapien: 1  
+> Znak: e Liczba wystapien: 2  
+> Znak: i Liczba wystapien: 2  
+> Znak: k Liczba wystapien: 2  
+> Znak: l Liczba wystapien: 4  
+> Znak: m Liczba wystapien: 1  
+> Znak: o Liczba wystapien: 4  
+> Znak: t Liczba wystapien: 3  
+> Znak: v Liczba wystapien: 1  
+> Znak: y Liczba wystapien: 1
+
 Uwaga: `std::multimap`
 
 Uwaga: `unordered_map`, `unordered_multimap`
