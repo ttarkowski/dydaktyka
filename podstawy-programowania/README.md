@@ -3578,8 +3578,6 @@ w profesjonalny rozwiązaniach programistycznych.
 
 Uwaga: `std::shuffle` zmienia kolejność elementów w zakresie w sposób losowy.
 
-#### ▸ `std::sample`
-
 ### Obliczenia numeryczne
 
 #### ▸ `std::valarray`
