@@ -3576,8 +3576,6 @@ stosować `std::sort`. Przytaczany w skrypcie algorytm sortowania bąbelkowego m
 wartość dydaktyczną, ale nie jest wydajny i dlatego nie należy go stosować
 w profesjonalny rozwiązaniach programistycznych.
 
-#### ▸ `std::unique`
-
 #### ▸ `std::random_shuffle`, `std::shuffle`
 
 #### ▸ `std::sample`
