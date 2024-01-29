@@ -3654,6 +3654,11 @@ Uwaga: `std::shuffle` zmienia kolejność elementów w zakresie w sposób losowy
 
 #### ▸ `std::valarray`
 
+`std::valarray` jest szablonem umożliwiającym wygodne obliczenia dla tablic
+wartości. Jeśli `v1` i `v2` są typu `std::valarray<double>` to np. wyrażenie
+`std::cos(v1) + std::sin(v2)` umożliwia wykonanie wielu operacji
+trygonometrycznych i arytmetycznych w zwartej formie.
+
 #### ▸ `std::accumulate`
 
 #### ▸ `std::inner_product`
