@@ -3552,8 +3552,6 @@ Uwaga: (i) `std::all_of`, (ii) `std::any_of`, (iii) `std::none_of` sprawdzają
 czy predykat podany jako obiekt funkcyjny jest spełniony dla odpowiednio
 (i) wszystkich, (ii) co najmniej jednego lub (iii) żadnego elementu zakresu.
 
-#### ▸ `std::find`, `std::find_if`, `std::find_if_not`
-
 #### ▸ `std::count`, `std::count_if`
 
 #### ▸ `std::copy`, `std::copy_if`
