@@ -3558,8 +3558,6 @@ funkcyjny.
 
 #### ▸ `std::swap`
 
-#### ▸ `std::transform`
-
 #### ▸ `std::fill`
 
 #### ▸ `std::unique`
