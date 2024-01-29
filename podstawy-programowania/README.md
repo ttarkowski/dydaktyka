@@ -3556,6 +3556,10 @@ Uwaga: (i) `std::count` oraz (ii) `std::count_if` zliczają elementy zakresu
 odpowiednio (i) równe danemu lub (ii) spełniające warunek dany przez obiekt
 funkcyjny.
 
+Uwaga: `std::max_element` oraz `std::min_element` zwracają iterator (uogólniony
+wskaźnik) do pierszego odpowiednio największego i najmniejszego elementu
+w zakresie.
+
 Uwaga: `std::reverse` odwraca kolejność elementów w zakresie.
 
 #### ▸ `std::swap`
@@ -3581,8 +3585,6 @@ wartość dydaktyczną, ale nie jest wydajny i dlatego nie należy go stosować
 w profesjonalny rozwiązaniach programistycznych.
 
 #### ▸ `std::lower_bound`, `std::upper_bound`
-
-#### ▸ `std::max_element`, `std::min_element`
 
 ### Obliczenia numeryczne
 
