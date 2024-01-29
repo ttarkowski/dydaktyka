@@ -3566,23 +3566,21 @@ Uwaga: `std::partition` zmienia kolejność elementów w zakresie w taki sposób
 aby elementy spełniające predykat dany przez obiekt funkcyjny znalazły się przed
 pozostałymi elementami.
 
+Uwaga: `std::sort` sortuje elementy w zakresie.
+W przeszłości `std::sort` był implementowany z użyciem algorytmu *Quicksort*,
+który jest wydajnym sposobem sortowania. Jednak dzięki postępowi w algorytmice
+zasadnym była zmiana implementacji `std::sort` na jeszcze wydajnieszą hybrydową
+metodę sortowania *Introsort*.
+O ile nie ma się uzasadnionego powodu to we własnych programach warto
+stosować `std::sort`. Przytaczany w skrypcie algorytm sortowania bąbelkowego ma
+wartość dydaktyczną, ale nie jest wydajny i dlatego nie należy go stosować
+w profesjonalny rozwiązaniach programistycznych.
+
 #### ▸ `std::unique`
 
 #### ▸ `std::random_shuffle`, `std::shuffle`
 
 #### ▸ `std::sample`
-
-#### ▸ `std::sort`
-
-W przeszłości `std::sort` był implementowany z użyciem algorytmu *Quicksort*,
-który jest wydajnym sposobem sortowania. Jednak dzięki postępowi w algorytmice
-zasadnym była zmiana implementacji `std::sort` na jeszcze wydajnieszą hybrydową
-metodę sortowania *Introsort*.
-
-Uwaga: O ile nie ma się uzasadnionego powodu to we własnych programach warto
-stosować `std::sort`. Przytaczany w skrypcie algorytm sortowania bąbelkowego ma
-wartość dydaktyczną, ale nie jest wydajny i dlatego nie należy go stosować
-w profesjonalny rozwiązaniach programistycznych.
 
 ### Obliczenia numeryczne
 
