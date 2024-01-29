@@ -3556,8 +3556,6 @@ Uwaga: (i) `std::count` oraz (ii) `std::count_if` zliczają elementy zakresu
 odpowiednio (i) równe danemu lub (ii) spełniające warunek dany przez obiekt
 funkcyjny.
 
-#### ▸ `std::copy`, `std::copy_if`
-
 #### ▸ `std::swap`
 
 #### ▸ `std::transform`
