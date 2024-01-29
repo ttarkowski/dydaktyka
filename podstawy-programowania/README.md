@@ -3661,6 +3661,8 @@ trygonometrycznych i arytmetycznych w zwartej formie.
 
 #### ▸ `std::accumulate`
 
+`std::accumulate` umożliwia zsumowanie elementów w zakresie.
+
 #### ▸ `std::inner_product`
 
 #### ▸ `std::adjacent_difference`
