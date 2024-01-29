@@ -3566,7 +3566,7 @@ Uwaga: `std::partition` zmienia kolejność elementów w zakresie w taki sposób
 aby elementy spełniające predykat dany przez obiekt funkcyjny znalazły się przed
 pozostałymi elementami.
 
-Uwaga: `std::sort` sortuje elementy w zakresie.
+Uwaga: `std::sort` sortuje elementy w zakresie w porządku niemalejącym.
 W przeszłości `std::sort` był implementowany z użyciem algorytmu *Quicksort*,
 który jest wydajnym sposobem sortowania. Jednak dzięki postępowi w algorytmice
 zasadnym była zmiana implementacji `std::sort` na jeszcze wydajnieszą hybrydową
