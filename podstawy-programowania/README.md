@@ -3586,8 +3586,6 @@ stosować `std::sort`. Przytaczany w skrypcie algorytm sortowania bąbelkowego m
 wartość dydaktyczną, ale nie jest wydajny i dlatego nie należy go stosować
 w profesjonalny rozwiązaniach programistycznych.
 
-#### ▸ `std::lower_bound`, `std::upper_bound`
-
 ### Obliczenia numeryczne
 
 #### ▸ `std::valarray`
