@@ -3534,9 +3534,11 @@ Wynik działania przykładu:
 > Znak: v Liczba wystapien: 1  
 > Znak: y Liczba wystapien: 1
 
-Uwaga: `std::multimap`
+Uwaga: W powyższym przykładzie typem klucza jest `char` a typem wartości jest
+`unsigned int`. W kontenerze `std::map` klucze nie mogą się powtarzać.
 
-Uwaga: `unordered_map`, `unordered_multimap`
+Uwaga: Poza kontenerem `std::map` istnieją też `std::multimap`, `unordered_map`
+oraz `unordered_multimap`.
 
 ### Algorytmy
 
