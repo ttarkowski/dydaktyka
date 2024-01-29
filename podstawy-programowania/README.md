@@ -3566,8 +3566,6 @@ Uwaga: `std::partition` zmienia kolejność elementów w zakresie w taki sposób
 aby elementy spełniające predykat dany przez obiekt funkcyjny znalazły się przed
 pozostałymi elementami.
 
-#### ▸ `std::swap`
-
 #### ▸ `std::unique`
 
 #### ▸ `std::random_shuffle`, `std::shuffle`
