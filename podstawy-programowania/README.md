@@ -3665,6 +3665,8 @@ trygonometrycznych i arytmetycznych w zwartej formie.
 
 #### ▸ `std::inner_product`
 
+`std::inner_product` umożliwia obliczenie iloczynu skalarnego.
+
 #### ▸ `std::adjacent_difference`
 
 #### ▸ `std::partial_sum`
