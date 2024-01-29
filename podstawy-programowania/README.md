@@ -3489,7 +3489,10 @@ poszczególnymi wywołaniami programu.
 Uwaga: `std::multiset` jest podobny do kontenera `std::set` z tą różnicą, że
 `std::multiset` zezwala na wielokrotne wystąpienia klucza o tej samej wartości.
 
-Uwaga: `std::unordered_set`, `std::unordered_multiset`
+Uwaga: Kontenery `std::unordered_set` oraz `std::unordered_multiset` są
+odpowiednikami odpowiednio kontenerów `std::set` oraz `std::multiset` z tą
+różnicą, że `std::unordered_set` oraz `std::unordered_multiset` nie zachowują
+porządku sortowania.
 
 #### ▸ `std::map` (kontener asocjacyjny)
 
