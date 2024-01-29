@@ -3562,6 +3562,10 @@ w zakresie.
 
 Uwaga: `std::reverse` odwraca kolejność elementów w zakresie.
 
+Uwaga: `std::partition` zmienia kolejność elementów w zakresie w taki sposób,
+aby elementy spełniające predykat dany przez obiekt funkcyjny znalazły się przed
+pozostałymi elementami.
+
 #### ▸ `std::swap`
 
 #### ▸ `std::unique`
@@ -3569,8 +3573,6 @@ Uwaga: `std::reverse` odwraca kolejność elementów w zakresie.
 #### ▸ `std::random_shuffle`, `std::shuffle`
 
 #### ▸ `std::sample`
-
-#### ▸ `std::partition`
 
 #### ▸ `std::sort`
 
