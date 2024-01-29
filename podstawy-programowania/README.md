@@ -3548,7 +3548,9 @@ wskazywanego przez zakres.
 Uwaga: `std::generate` przypisuje każdemu elementowi zakresu wynik otrzymany
 przez dany obiekt funkcyjny.
 
-#### ▸ `std::all_of`, `std::any_of`, `std::none_of`
+Uwaga: (i) `std::all_of`, (ii) `std::any_of`, (iii) `std::none_of` sprawdzają
+czy predykat podany jako obiekt funkcyjny jest spełniony dla odpowiednio
+(i) wszystkich, (ii) co najmniej jednego lub (iii) żadnego elementu zakresu.
 
 #### ▸ `std::find`, `std::find_if`, `std::find_if_not`
 
