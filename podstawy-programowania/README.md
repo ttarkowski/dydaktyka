@@ -3556,11 +3556,11 @@ Uwaga: (i) `std::count` oraz (ii) `std::count_if` zliczają elementy zakresu
 odpowiednio (i) równe danemu lub (ii) spełniające warunek dany przez obiekt
 funkcyjny.
 
+Uwaga: `std::reverse` odwraca kolejność elementów w zakresie.
+
 #### ▸ `std::swap`
 
 #### ▸ `std::unique`
-
-#### ▸ `std::reverse`
 
 #### ▸ `std::rotate`
 
