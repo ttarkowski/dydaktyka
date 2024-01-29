@@ -3486,7 +3486,8 @@ Wynik działania przykładu:
 Uwaga: Wynik działania powyższego przykładu może różnić się pomiędzy
 poszczególnymi wywołaniami programu.
 
-Uwaga: `std::multiset`
+Uwaga: `std::multiset` jest podobny do kontenera `std::set` z tą różnicą, że
+`std::multiset` zezwala na wielokrotne wystąpienia klucza o tej samej wartości.
 
 Uwaga: `std::unordered_set`, `std::unordered_multiset`
 
