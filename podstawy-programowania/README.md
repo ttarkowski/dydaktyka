@@ -3558,7 +3558,7 @@ void
 print_container(std::ostream& os, const std::string& str, const C& c)
 {
   os << str << ": ";
-  std::for_each(c.begin(), c.end(), [](auto x) { std::cout << x << ' '; });
+  std::for_each(c.begin(), c.end(), [&](auto x) { os << x << ' '; });
   os << '\n';
 }
 
@@ -3604,15 +3604,15 @@ main()
 ```
 
 > Poczatkowa zawartosc kontenera: 0 0 0 0 0 0 0 0 0 0   
-> Kontener po losowaniu zawartosci: 5 4 7 4 1 6 7 2 3 5   
+> Kontener po losowaniu zawartosci: 7 4 9 2 8 8 8 2 6 2   
 > W kontenerze jest co najmniej jeden element parzysty.  
 > Liczba elementow podzielnych przez 3: 2  
-> Minimum: 1  
-> Maksimum: 7  
-> Kontener po odwroceniu zawartosci: 5 3 2 7 6 1 4 7 4 5   
-> Kontener po partycjonowaniu (parzystosc): 4 4 2 6 7 1 3 7 5 5   
-> Kontener po sortowaniu: 1 2 3 4 4 5 5 6 7 7   
-> Kontener po losowej zmianie kolejnosci: 5 5 4 1 6 4 3 7 7 2 
+> Minimum: 2  
+> Maksimum: 9  
+> Kontener po odwroceniu zawartosci: 2 6 2 8 8 8 2 9 4 7   
+> Kontener po partycjonowaniu (parzystosc): 2 6 2 8 8 8 2 4 9 7   
+> Kontener po sortowaniu: 2 2 2 4 6 7 8 8 8 9   
+> Kontener po losowej zmianie kolejnosci: 9 8 6 2 4 8 7 8 2 2 
 
 Uwaga: `std::for_each` aplikuje dany obiekt funkcyjny do każdego elemenentu
 wskazywanego przez zakres.
