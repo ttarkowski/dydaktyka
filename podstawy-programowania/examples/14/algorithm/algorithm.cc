@@ -11,7 +11,7 @@ void
 print_container(std::ostream& os, const std::string& str, const C& c)
 {
   os << str << ": ";
-  std::for_each(c.begin(), c.end(), [](auto x) { std::cout << x << ' '; });
+  std::for_each(c.begin(), c.end(), [&](auto x) { os << x << ' '; });
   os << '\n';
 }
 
