@@ -847,7 +847,7 @@ while ( warunek ) instrukcja
   * `warunek` jest wyrażeniem konwertowalnym na wartość logiczną, które jest
     ewaluowane przed każdą potencjalną iteracją pętli, lub jest deklaracją
     zmiennej, która jest inicjowana przed każdą potencjalną iteracją pętli.
-    Jeśli otrzymana przez ewalucaję lub inicjację wartość jest konwertowalna na
+    Jeśli otrzymana przez ewaluację lub inicjację wartość jest konwertowalna na
     `true`, wtedy faktycznie wykonywana jest iteracja pętli. W przeciwnym razie
     pętla jest kończona.
   * `instrukcja` jest dowolną instrukcją, w tym złożoną. `instrukcja` jest
@@ -913,7 +913,7 @@ do instrukcja while ( warunek ) ;
   * `instrukcja` jest dowolną instrukcją, w tym złożoną. `instrukcja` jest
     wykonywana w każdej iteracji pętli.
   * `warunek` jest wyrażeniem konwertowalnym na wartość logiczną, które jest
-    ewaluowane po każdej iteracji pętli. Jeśli otrzymana przez ewalucaję wartość
+    ewaluowane po każdej iteracji pętli. Jeśli otrzymana przez ewaluację wartość
     jest konwertowalna na `false`, wtedy pętla jest kończona.
 
 Przykład (pełny przykład znajduje się w pliku
@@ -972,7 +972,7 @@ for ( instrukcja_0 warunek (opcjonalnie) ; wyrażenie (opcjonalnie) ) instru
   * `warunek` jest wyrażeniem konwertowalnym na wartość logiczną, które jest
     ewaluowane przed każdą potencjalną iteracją pętli, lub jest deklaracją
     zmiennej, która jest inicjowana przed każdą potencjalną iteracją pętli.
-    Jeśli otrzymana przez ewalucaję lub inicjację wartość jest konwertowalna na
+    Jeśli otrzymana przez ewaluację lub inicjację wartość jest konwertowalna na
     `true`, wtedy faktycznie wykonywana jest iteracja pętli. W przeciwnym razie
     pętla jest kończona.
   * `wyrażenie` jest dowolnym wyrażeniem, które jest wykonywane po każdej
