@@ -85,6 +85,22 @@ Wynik działania przykładu:
 > Podaj wartość b: 1  
 > Wylosowana wartość: 1.1054802036741138
 
+### Dodatek: Graficzny interfejs użytkownika
+
+Przykład (pełny przykład znajduje się w katalogu
+[GUI/](/programowanie-obiektowe/examples/01/GUI/)):
+```java
+import javax.swing.JOptionPane;
+
+public class GUI {
+    public static void main(String[] args) {
+        double x =
+            Double.parseDouble(JOptionPane.showInputDialog("Podaj wartość zmiennoprzecinkową"));
+        JOptionPane.showMessageDialog(null, Double.toString(x));
+    }
+}
+```
+
 ### Zadania
 
 ### Dokumentacja
