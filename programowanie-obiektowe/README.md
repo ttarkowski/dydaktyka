@@ -128,7 +128,7 @@ instrukcji warunkowej:
   * *otyłość II stopnia* ($`\textnormal{BMI} \in [35; 40)`$)
   * *otyłość III stopnia* ($`\textnormal{BMI} \geq 40`$)
 
-### Dokumentacja
+### Bibliografia
 
   * <https://docs.oracle.com/javase/tutorial/java/nutsandbolts/if.html>
   * <https://docs.oracle.com/javase/tutorial/java/javaOO/classes.html>
