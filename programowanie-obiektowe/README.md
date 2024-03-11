@@ -113,7 +113,7 @@ Wartość parametru BMI oblicza się według wzoru:
 \frac{\textnormal{masa}_{\textnormal{kg}}}{\textnormal{wzrost}_{\textnormal{m}}^2}
 ```
 Masa oraz wzrost powinny zostać zakapsułkowane, tzn. powinny one być zmiennymi
-prywatnymi.
+prywatnymi. Ich wartości powinny być inicjowane z użyciem konstruktora.
 
 Wykorzystaj ww. klasę do obliczeń na podstawie danych wczytanych z klawiatury
 w trakcie działania programu. Program powinien wyświetlać nie tylko rezultat
@@ -130,9 +130,9 @@ instrukcji warunkowej:
 
 ### Dokumentacja
 
+  * <https://docs.oracle.com/javase/tutorial/java/nutsandbolts/if.html>
   * <https://docs.oracle.com/javase/tutorial/java/javaOO/classes.html>
   * <https://docs.oracle.com/javase/8/docs/api/java/util/Scanner.html>
-  * <https://docs.oracle.com/javase/tutorial/java/nutsandbolts/if.html>
 
 ## Zastrzeżenia
 
