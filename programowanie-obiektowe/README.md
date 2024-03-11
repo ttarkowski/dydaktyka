@@ -1,10 +1,10 @@
 # Programowanie obiektowe
 
-## 0. Wstęp
+## Moduł 0
 
 *Nieoceniane zajęcia wstępne.*
 
-## 1.
+## Moduł 1
 
 ### Zmienne składowe klasy. Konstruktor
 
