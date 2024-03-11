@@ -112,7 +112,10 @@ Wartość parametru BMI oblicza się według wzoru:
 \textnormal{BMI} =
 \frac{\textnormal{masa}_{\textnormal{kg}}}{\textnormal{wzrost}_{\textnormal{m}}^2}
 ```
-Wykorzystaj tę klasę do obliczeń na podstawie danych wczytanych z klawiatury
+Masa oraz wzrost powinny zostać zakapsułkowane, tzn. powinny one być zmiennymi
+prywatnymi.
+
+Wykorzystaj ww. klasę do obliczeń na podstawie danych wczytanych z klawiatury
 w trakcie działania programu. Program powinien wyświetlać nie tylko rezultat
 obliczeń BMI, ale też następujący wynik opisowy otrzymany poprzez zastosowanie
 instrukcji warunkowej:
