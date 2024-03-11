@@ -47,6 +47,10 @@ public class Rectangle {
 }
 ```
 
+Wynik działania przykładu:
+> Wymiary: 4.2 x 1.0  
+> Powierzchnia: 4.2
+
 ### Wczytywanie danych
 
 ### Liczby pseudolosowe
