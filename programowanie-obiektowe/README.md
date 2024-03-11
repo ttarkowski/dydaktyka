@@ -138,7 +138,7 @@ gdzie $`l`$ jest długością nici a
 $`g = 9{,}80665\,\textnormal{m}/\textnormal{s}^2`$ — przyspieszeniem ziemskim.
 
 Stwórz klasę *Pendulum* opisującą ww. wahadło, które będzie posiadać:
-  * prywatną składową zmienną z wartością długości nici $`l`$
+  * prywatną zmienną składową z wartością długości nici $`l`$
   * konstruktor inicjujący ww. zmienną
   * dwie metody składowe: zwracającą (*get_length*) i zmieniającą (*set_length*)
     długość nici $`l`$
