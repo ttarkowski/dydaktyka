@@ -128,9 +128,34 @@ instrukcji warunkowej:
   * *otyłość II stopnia* ($`\textnormal{BMI} \in [35; 40)`$)
   * *otyłość III stopnia* ($`\textnormal{BMI} \geq 40`$)
 
+#### 1.2 Wahadało matematyczne
+
+Okres drgań wahadła matematycznego w przybliżeniu małych drgań jest równy:
+```math
+T = 2 \pi \sqrt{\frac{l}{g}}
+```
+gdzie $`l`$ jest długością nici a
+$`g = 9{,}80665\,\textnormal{m}/\textnormal{s}^2`$ — przyspieszeniem ziemskim.
+
+Stwórz klasę *Pendulum* opisującą ww. wahadło, które będzie posiadać:
+  * prywatną składową zmienną z wartością długości nici $`l`$
+  * konstruktor inicjujący ww. zmienną
+  * dwie metody składowe: zwracającą (*get_length*) i zmieniającą (*set_length*)
+    długość nici $`l`$
+  * kolejną metodę składową o nazwie *get_period* zwracającą długość okresu
+    $`T`$
+
+Stwórz zmienną klasy *Pendulum* dla długości nici wylosowanej z przedziału
+$`[1\,\textnormal{cm}; 10\,\textnormal{cm}]`$ i wypisz długość okresu dla tego
+wahadła. Następnie, korzystając z pętli *for*, prześledź wypisując na ekranie
+zależność długości okresu od długości nici rozpoczynając od uprzednio
+wylosowanej długości a następnie wielokrotnie zwiększając za każdym razem tę
+wielkość o połowę aktualnej wartości.
+
 ### Bibliografia
 
   * <https://docs.oracle.com/javase/tutorial/java/nutsandbolts/if.html>
+  * <https://docs.oracle.com/javase/tutorial/java/nutsandbolts/for.html>
   * <https://docs.oracle.com/javase/tutorial/java/javaOO/classes.html>
   * <https://docs.oracle.com/javase/8/docs/api/java/util/Scanner.html>
 
