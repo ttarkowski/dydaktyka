@@ -103,7 +103,36 @@ public class GUI {
 
 ### Zadania
 
+#### 1.1 *Body Mass Index*
+
+Napisz klasę przechowującą masę (w kilogramach) oraz wzrost (w metrach)
+i posiadającą metodę obliczającą wartość parametru BMI (*body mass index*).
+Wartość parametru BMI oblicza się według wzoru:
+```math
+\textnormal{BMI} =
+\frac{\textnormal{masa}_{\textnormal{kg}}}{\textnormal{wzrost}_{\textnormal{m}}^2}
+```
+Wykorzystaj tę klasę do obliczeń na podstawie danych wczytanych z klawiatury
+w trakcie działania programu. Program powinien wyświetlać nie tylko rezultat
+obliczeń BMI, ale też następujący wynik opisowy otrzymany poprzez zastosowanie
+instrukcji warunkowej:
+  * *wygłodzenie* ($`\textnormal{BMI} < 16`$)
+  * *wychudzenie* ($`\textnormal{BMI} \in [16; 17)`$)
+  * *niedowaga* ($`\textnormal{BMI} \in [17; 18{,}5)`$)
+  * *optimum* ($`\textnormal{BMI} \in [18{,}5; 25)`$)
+  * *nadwaga* ($`\textnormal{BMI} \in [25; 30)`$)
+  * *otyłość I stopnia* ($`\textnormal{BMI} \in [30; 35)`$)
+  * *otyłość II stopnia* ($`\textnormal{BMI} \in [35; 40)`$)
+  * *otyłość III stopnia* ($`\textnormal{BMI} \geq 40`$)
+
 ### Dokumentacja
 
   * <https://docs.oracle.com/javase/tutorial/java/javaOO/classes.html>
   * <https://docs.oracle.com/javase/8/docs/api/java/util/Scanner.html>
+  * <https://docs.oracle.com/javase/tutorial/java/nutsandbolts/if.html>
+
+## Zastrzeżenia
+
+Informacje zawarte na tej stronie nie powinny być interpretowane jako próba
+przedstawienia czy wyrażenia opinii medycznej lub w inny sposób zaangażowania
+się w praktykę medyczną.
