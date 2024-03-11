@@ -53,7 +53,11 @@ Wynik działania przykładu:
 
 ### Wczytywanie danych
 
-Dokumentacja:
-  * <https://docs.oracle.com/javase/8/docs/api/java/util/Scanner.html>
-
 ### Liczby pseudolosowe
+
+### Zadania
+
+### Dokumentacja
+
+  * <https://docs.oracle.com/javase/tutorial/java/javaOO/classes.html>
+  * <https://docs.oracle.com/javase/8/docs/api/java/util/Scanner.html>
