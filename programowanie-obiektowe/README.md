@@ -165,7 +165,7 @@ wielkość o połowę aktualnej wartości.
 
 ### Klasa `String`
 
-### Modyfikator `final` dla zmiennych
+### Dodatek: Modyfikator `final` dla zmiennych
 
 ## Zastrzeżenia
 
