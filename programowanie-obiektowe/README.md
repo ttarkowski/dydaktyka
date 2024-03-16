@@ -159,6 +159,8 @@ wielkość o połowę aktualnej wartości.
   * <https://docs.oracle.com/javase/tutorial/java/javaOO/classes.html>
   * <https://docs.oracle.com/javase/8/docs/api/java/util/Scanner.html>
 
+## Moduł 2
+
 ## Zastrzeżenia
 
 Informacje zawarte na tej stronie nie powinny być interpretowane jako próba
