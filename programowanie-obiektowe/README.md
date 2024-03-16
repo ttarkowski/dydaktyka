@@ -1,6 +1,6 @@
 # Programowanie obiektowe
 
-Przejdź do treści modułu [0](#m0), [1](#m1), [2](#m2).
+Przejdź do treści modułu [0](#moduł-0), [1](#moduł-1), [2](#moduł-2).
 
 ## Informacje organizacyjne
 
@@ -14,11 +14,11 @@ Przejdź do treści modułu [0](#m0), [1](#m1), [2](#m2).
   * Pierwsze zajęcia nie są oceniane a ostatnie służą do omówienia wyników
     projektu indywidualnego.
 
-## Moduł 0 {#m0}
+## Moduł 0
 
 *Nieoceniane zajęcia wstępne.*
 
-## Moduł 1 {#m1}
+## Moduł 1
 
 ### Zmienne składowe klasy. Konstruktory. Metody składowe
 
@@ -161,7 +161,7 @@ wielkość o połowę aktualnej wartości.
   * <https://docs.oracle.com/javase/tutorial/java/javaOO/classes.html>
   * <https://docs.oracle.com/javase/8/docs/api/java/util/Scanner.html>
 
-## Moduł 2 {#m2}
+## Moduł 2
 
 ### Tablice
 
