@@ -161,6 +161,8 @@ wielkość o połowę aktualnej wartości.
 
 ## Moduł 2
 
+### Tablice
+
 ## Zastrzeżenia
 
 Informacje zawarte na tej stronie nie powinny być interpretowane jako próba
