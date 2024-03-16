@@ -163,6 +163,8 @@ wielkość o połowę aktualnej wartości.
 
 ### Tablice
 
+### Klasa `String`
+
 ## Zastrzeżenia
 
 Informacje zawarte na tej stronie nie powinny być interpretowane jako próba
