@@ -247,6 +247,26 @@ Wynik działania przykładu:
 
 ### Dodatek: Modyfikator `final` dla zmiennych
 
+Przykład (pełny przykład znajduje się w katalogu
+[Final/](/programowanie-obiektowe/examples/02/Final/)):
+```java
+public class Final {
+    public final static int answer = 42;
+    
+    public static void main(String[] args) {
+        final int my_answer = 42;
+        if (my_answer == answer) {
+            System.out.println("Odpowiedź prawidłowa!");
+        }
+        // answer++;    // Błąd!
+        // my_answer++; // Błąd!
+    }
+}
+```
+
+Wynik działania przykładu:
+> Odpowiedź prawidłowa!
+
 ## Zastrzeżenia
 
 Informacje zawarte na tej stronie nie powinny być interpretowane jako próba
