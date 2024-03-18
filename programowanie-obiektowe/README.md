@@ -319,6 +319,12 @@ public class Final {
 Wynik działania przykładu:
 > Odpowiedź prawidłowa!
 
+### Zadania
+
+#### 2.1
+
+#### 2.2
+
 ### Bibliografia
 
   * <https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html>
