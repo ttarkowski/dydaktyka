@@ -321,7 +321,34 @@ Wynik działania przykładu:
 
 ### Zadania
 
-#### 2.1
+#### 2.1 Macierze diagonalne
+
+Napisz program, w którym stworzysz klasę odpowiedzialną za kwadratową macierz
+diagonalną:
+```math
+A = \left[
+\begin{array}
+d_1 & 0 & 0 & 0 & \cdots & 0 \\
+0 & d_2 & 0 & 0 & \cdots & 0 \\
+0 & 0 & d_3 & 0 & \cdots & 0 \\
+\vdots & \vdots & \vdots & \vdots & \vdots & \vdots \\
+0 & 0 & 0 & 0 & \cdots & d_n \\
+\end{array}
+\right]
+```
+
+Klasa ta powinna mieć:
+  * konstruktor przyjmujący liczbę elementów na diagonali $`n`$
+  * metodę obliczającą tzw. ślad macierzy (ang. *trace*; ślad macierzy jest
+    równy sumie elementów umieszczonych na diagonali)
+  * metodę statyczną obliczającą iloczyn dwóch kwadratowych macierzy
+    diagonalnych
+
+W programie wykorzystaj stworzoną przez siebie klasę do przykładowych obliczeń,
+do których wartości zostaną podane przez użytkownika na klawiaturze.
+
+Uwaga: Zauważ, że do rozwiązania tego zadania nie trzeba (nie warto)
+wykorzystywać tablic dwuwymiarowych.
 
 #### 2.2
 
