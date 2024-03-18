@@ -328,11 +328,11 @@ diagonalną:
 ```math
 A = \left[
 \begin{array}{cccccc}
-d_1 & 0 & 0 & 0 & \cdots & 0 \\
-0 & d_2 & 0 & 0 & \cdots & 0 \\
-0 & 0 & d_3 & 0 & \cdots & 0 \\
-\vdots & \vdots & \vdots & \vdots & \ddots & \vdots \\
-0 & 0 & 0 & 0 & \cdots & d_n
+d_1 & 0 & 0 & \cdots & 0 \\
+0 & d_2 & 0 & \cdots & 0 \\
+0 & 0 & d_3 & \cdots & 0 \\
+\vdots & \vdots & \vdots & \ddots & \vdots \\
+0 & 0 & 0 & \cdots & d_n
 \end{array}
 \right]
 ```
