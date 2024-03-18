@@ -327,12 +327,12 @@ Napisz program, w którym stworzysz klasę odpowiedzialną za kwadratową macier
 diagonalną:
 ```math
 A = \left[
-\begin{array}
+\begin{array}{cccccc}
 d_1 & 0 & 0 & 0 & \cdots & 0 \\
 0 & d_2 & 0 & 0 & \cdots & 0 \\
 0 & 0 & d_3 & 0 & \cdots & 0 \\
 \vdots & \vdots & \vdots & \vdots & \vdots & \vdots \\
-0 & 0 & 0 & 0 & \cdots & d_n \\
+0 & 0 & 0 & 0 & \cdots & d_n
 \end{array}
 \right]
 ```
