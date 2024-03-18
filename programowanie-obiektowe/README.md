@@ -331,13 +331,13 @@ A = \left[
 d_1 & 0 & 0 & 0 & \cdots & 0 \\
 0 & d_2 & 0 & 0 & \cdots & 0 \\
 0 & 0 & d_3 & 0 & \cdots & 0 \\
-\vdots & \vdots & \vdots & \vdots & \vdots & \vdots \\
+\vdots & \vdots & \vdots & \vdots & \ddots & \vdots \\
 0 & 0 & 0 & 0 & \cdots & d_n
 \end{array}
 \right]
 ```
 
-Klasa ta powinna mieć:
+Klasa ta powinna posiadać:
   * konstruktor przyjmujący liczbę elementów na diagonali $`n`$
   * metodę obliczającą tzw. ślad macierzy (ang. *trace*; ślad macierzy jest
     równy sumie elementów umieszczonych na diagonali)
