@@ -381,6 +381,10 @@ zastępowane innymi oddalonymi o 13 znaków (a podstawowy alfabet łaciński pos
   * <https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html>
   * <https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html>
 
+## Moduł 3
+
+### Dodatek: Formatowanie liczb zmiennoprzecinkowych
+
 ## Zastrzeżenia
 
 Informacje zawarte na tej stronie nie powinny być interpretowane jako próba
