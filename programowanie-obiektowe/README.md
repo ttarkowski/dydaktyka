@@ -379,6 +379,7 @@ zastępowane innymi oddalonymi o 13 znaków (a podstawowy alfabet łaciński pos
 ### Bibliografia
 
   * <https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html>
+  * <https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html>
 
 ## Zastrzeżenia
 
