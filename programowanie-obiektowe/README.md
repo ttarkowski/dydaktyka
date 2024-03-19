@@ -350,7 +350,31 @@ do których wartości zostaną podane przez użytkownika na klawiaturze.
 Uwaga: Zauważ, że do rozwiązania tego zadania nie trzeba (nie warto)
 wykorzystywać tablic dwuwymiarowych.
 
-#### 2.2
+#### 2.2 ROT13
+
+Zaimplementuj program, który pobierze jedną linijkę tekstu od użytkownika
+i zaszyfruje ją algorytmem ROT13. Algorytm ROT13 jest prostym szyfrem
+podstawieniowym, w którym litera *A* jest zastępowana przez *N*, *B* przez *O*
+itd. W analogiczny sposób szyfruje się małe litery alfabetu łacińskiego. Inne
+znaki (np. białe lub interpunkcyjne) nie są szyfrowane. Załóż, że dane na
+wejściu będą zawierać wyłącznie znaki z podstawowego alfabetu łacińskiego
+oraz ewentualnie znaki białe lub interpunkcyjne.
+
+Wynik działania programu:
+> Podaj tekst: Tekst do zaszyfrowania.  
+> Wynik: Grxfg qb mnfmlsebjnavn.
+
+Uwaga: Jeśli `s` jest obiektem typu `Scanner` to kod:
+```java
+String line = s.nextLine();
+```
+umożliwia wczytanie pojedynczego wiersza z klawiatury.
+
+Uwaga: Szyfrowanie ROT13 nie jest bezpieczne z oczywistych względów. Ten sam
+algorytm służy zarówno do szyfrowania jak i deszyfrowania (tzn. algorytm posiada
+tylko jeden klucz). Nazwa algorytmu wynika z faktu, że poszczególne litery są
+zastępowane innymi oddalonymi o 13 znaków (a podstawowy alfabet łaciński posiada
+26 znaków).
 
 ### Bibliografia
 
