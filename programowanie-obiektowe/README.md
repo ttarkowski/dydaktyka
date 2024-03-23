@@ -391,6 +391,8 @@ zastępowane innymi oddalonymi o 13 znaków (a podstawowy alfabet łaciński pos
 
 ### Bibliografia
 
+  * <https://docs.oracle.com/javase/8/docs/api/java/lang/Exception.html>
+
 ## Zastrzeżenia
 
 Informacje zawarte na tej stronie nie powinny być interpretowane jako próba
