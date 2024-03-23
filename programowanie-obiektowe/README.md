@@ -383,6 +383,8 @@ zastępowane innymi oddalonymi o 13 znaków (a podstawowy alfabet łaciński pos
 
 ## Moduł 3
 
+### Wyjątki
+
 ### Dodatek: Formatowanie liczb zmiennoprzecinkowych
 
 ## Zastrzeżenia
