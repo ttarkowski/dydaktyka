@@ -389,6 +389,8 @@ zastępowane innymi oddalonymi o 13 znaków (a podstawowy alfabet łaciński pos
 
 ### Zadania
 
+### Bibliografia
+
 ## Zastrzeżenia
 
 Informacje zawarte na tej stronie nie powinny być interpretowane jako próba
