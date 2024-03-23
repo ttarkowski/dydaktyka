@@ -387,6 +387,8 @@ zastępowane innymi oddalonymi o 13 znaków (a podstawowy alfabet łaciński pos
 
 ### Dodatek: Formatowanie liczb zmiennoprzecinkowych
 
+### Zadania
+
 ## Zastrzeżenia
 
 Informacje zawarte na tej stronie nie powinny być interpretowane jako próba
