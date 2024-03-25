@@ -512,6 +512,7 @@ Wynik działania programu:
   * <https://docs.oracle.com/javase/8/docs/api/java/lang/Exception.html>
   * <https://docs.oracle.com/javase/8/docs/api/java/lang/Throwable.html>
   * <https://docs.oracle.com/javase/8/docs/api/java/lang/ArithmeticException.html>
+  * <https://docs.oracle.com/javase/8/docs/api/java/lang/ArrayIndexOutOfBoundsException.html>
   * <https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html>
   * <https://docs.oracle.com/javase/8/docs/api/java/text/DecimalFormat.html>
 
