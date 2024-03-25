@@ -497,6 +497,26 @@ Wynik działania programu:
 > Szczegóły wyjątku: Index 42 out of bounds for length 42  
 > Szczegóły wyjątku: Index -1 out of bounds for length 42
 
+Przykład (pełny przykład znajduje się w katalogu
+[Division_by_zero/](/programowanie-obiektowe/examples/03/Division_by_zero/)):
+```java
+public class Division_by_zero {
+    public static void main(String[] args) {
+        try {
+            int a = 42;                // Uwaga: Dla typu double nie nastąpi
+            int b = 0;                 // rzucanie wyjątku! (Obliczenia
+            System.out.println(a / b); // zmiennoprzecinkowe obsługują specjalną
+                                       // wartość "nieskończoność".)
+        } catch (ArithmeticException e) {
+            System.out.println("Szczegóły wyjątku: " + e.getMessage());
+        }
+    }
+}
+```
+
+Wynik działania programu:
+> Szczegóły wyjątku: / by zero
+
 ### Dodatek: Formatowanie liczb zmiennoprzecinkowych
 
 Przykład (pełny przykład znajduje się w katalogu
