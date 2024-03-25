@@ -471,6 +471,32 @@ Wynik działania programu:
 > Przechwycono wyjątek.  
 > \#\#\# Koniec przykładu 3 \#\#\#
 
+Przykład (pełny przykład znajduje się w katalogu
+[Array_bounds/](/programowanie-obiektowe/examples/03/Array_bounds/)):
+```java
+public class Array_bounds {
+    public static void main(String[] args) {
+        int arr[] = new int[42];
+        
+        try {
+            System.out.println(arr[42]);
+        } catch (ArrayIndexOutOfBoundsException e) {
+            System.out.println("Szczegóły wyjątku: " + e.getMessage());
+        }
+        
+        try {
+            System.out.println(arr[-1]);
+        } catch (ArrayIndexOutOfBoundsException e) {
+            System.out.println("Szczegóły wyjątku: " + e.getMessage());
+        }
+    }
+}
+```
+
+Wynik działania programu:
+> Szczegóły wyjątku: Index 42 out of bounds for length 42  
+> Szczegóły wyjątku: Index -1 out of bounds for length 42
+
 ### Dodatek: Formatowanie liczb zmiennoprzecinkowych
 
 Przykład (pełny przykład znajduje się w katalogu
