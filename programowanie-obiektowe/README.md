@@ -517,6 +517,34 @@ public class Division_by_zero {
 Wynik działania programu:
 > Szczegóły wyjątku: / by zero
 
+Przykład (pełny przykład znajduje się w katalogu
+[Input/](/programowanie-obiektowe/examples/03/Input/)):
+```java
+import java.util.Scanner;
+
+public class Input {
+    public static void main(String[] args) {
+        Scanner s = new Scanner(System.in);
+        System.out.print("Podaj wartość całkowitą: ");
+        try {
+          int a = s.nextInt();
+          System.out.println("Podano wartość: " + a);
+        } catch (java.util.InputMismatchException e) {
+            System.out.println("Podana wartość nie jest prawidłowa.");
+        }
+        s.close();
+    }
+}
+```
+
+Wynik działania programu (przykład 1):
+> Podaj wartość całkowitą: 42  
+> Podano wartość: 42
+
+Wynik działania programu (przykład 2):
+> Podaj wartość całkowitą: 42.0  
+> Podana wartość nie jest prawidłowa.
+
 ### Dodatek: Formatowanie liczb zmiennoprzecinkowych
 
 Przykład (pełny przykład znajduje się w katalogu
@@ -549,34 +577,6 @@ Wynik działania programu:
 > Wartość: 137  
 > Wartość: 137,04  
 > Wartość: 137,0
-
-Przykład (pełny przykład znajduje się w katalogu
-[Input/](/programowanie-obiektowe/examples/03/Input/)):
-```java
-import java.util.Scanner;
-
-public class Input {
-    public static void main(String[] args) {
-        Scanner s = new Scanner(System.in);
-        System.out.print("Podaj wartość całkowitą: ");
-        try {
-          int a = s.nextInt();
-          System.out.println("Podano wartość: " + a);
-        } catch (java.util.InputMismatchException e) {
-            System.out.println("Podana wartość nie jest prawidłowa.");
-        }
-        s.close();
-    }
-}
-```
-
-Wynik działania programu (przykład 1):
-> Podaj wartość całkowitą: 42  
-> Podano wartość: 42
-
-Wynik działania programu (przykład 2):
-> Podaj wartość całkowitą: 42.0  
-> Podana wartość nie jest prawidłowa.
 
 ### Zadania
 
