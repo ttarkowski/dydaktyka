@@ -561,6 +561,7 @@ Wynik działania programu:
   * <https://docs.oracle.com/javase/8/docs/api/java/lang/ArrayIndexOutOfBoundsException.html>
   * <https://docs.oracle.com/javase/8/docs/api/java/lang/NumberFormatException.html>
   * <https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html>
+  * <https://docs.oracle.com/javase/8/docs/api/java/util/InputMismatchException.html>
   * <https://docs.oracle.com/javase/8/docs/api/java/text/DecimalFormat.html>
 
 ## Zastrzeżenia
