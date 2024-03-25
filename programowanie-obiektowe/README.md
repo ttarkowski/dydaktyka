@@ -472,6 +472,37 @@ Wynik działania programu:
 
 ### Dodatek: Formatowanie liczb zmiennoprzecinkowych
 
+Przykład (pełny przykład znajduje się w katalogu
+[FP_formatting/](/programowanie-obiektowe/examples/03/FP_formatting/)):
+```java
+import java.text.DecimalFormat;
+
+public class FP_formatting {
+    public static void main(String[] args) {
+        final double val = 137.035999084; // odwrócona stała struktury subtelnej
+        
+        // (1a)
+        DecimalFormat df1a = new DecimalFormat("#.#");
+        String str1a = df1a.format(val);
+        System.out.println("Wartość: " + str1a);
+
+        // (1b)
+        DecimalFormat df1b = new DecimalFormat("#.##");
+        String str1b = df1b.format(val);
+        System.out.println("Wartość: " + str1b);
+        
+        // (2)
+        String str2 = String.format("%.1f", val);
+        System.out.println("Wartość: " + str2);
+    }
+}
+```
+
+Wynik działania programu:
+> Wartość: 137  
+> Wartość: 137,04  
+> Wartość: 137,0
+
 ### Zadania
 
 ### Bibliografia
@@ -479,6 +510,7 @@ Wynik działania programu:
   * <https://docs.oracle.com/javase/tutorial/essential/exceptions/index.html>
   * <https://docs.oracle.com/javase/8/docs/api/java/lang/Exception.html>
   * <https://docs.oracle.com/javase/8/docs/api/java/lang/Throwable.html>
+  * <https://docs.oracle.com/javase/8/docs/api/java/text/DecimalFormat.html>
 
 ## Zastrzeżenia
 
