@@ -1,6 +1,7 @@
 # Programowanie obiektowe
 
-Przejdź do treści modułu [0](#moduł-0), [1](#moduł-1), [2](#moduł-2).
+Przejdź do treści modułu [0](#moduł-0), [1](#moduł-1), [2](#moduł-2),
+[3](#moduł-3).
 
 ## Informacje organizacyjne
 
