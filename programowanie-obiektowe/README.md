@@ -471,6 +471,8 @@ Wynik działania programu:
 > Przechwycono wyjątek.  
 > \#\#\# Koniec przykładu 3 \#\#\#
 
+### Wyjątek `ArrayIndexOutOfBoundsException`
+
 Przykład (pełny przykład znajduje się w katalogu
 [Array_bounds/](/programowanie-obiektowe/examples/03/Array_bounds/)):
 ```java
@@ -497,6 +499,8 @@ Wynik działania programu:
 > Szczegóły wyjątku: Index 42 out of bounds for length 42  
 > Szczegóły wyjątku: Index -1 out of bounds for length 42
 
+### Wyjątek `ArithmeticException`
+
 Przykład (pełny przykład znajduje się w katalogu
 [Division_by_zero/](/programowanie-obiektowe/examples/03/Division_by_zero/)):
 ```java
@@ -516,6 +520,8 @@ public class Division_by_zero {
 
 Wynik działania programu:
 > Szczegóły wyjątku: / by zero
+
+### Wyjątek `InputMismatchException`
 
 Przykład (pełny przykład znajduje się w katalogu
 [Input/](/programowanie-obiektowe/examples/03/Input/)):
