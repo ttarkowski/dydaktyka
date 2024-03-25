@@ -551,6 +551,32 @@ Wynik działania programu (przykład 2):
 > Podaj wartość całkowitą: 42.0  
 > Podana wartość nie jest prawidłowa.
 
+### Wyjątek `NumberFormatException`
+
+Przykład (pełny przykład znajduje się w katalogu
+[String_to_number/](/programowanie-obiektowe/examples/03/String_to_number/)):
+```java
+public class String_to_number {
+    public static void main(String[] args) {
+        try {
+            String str1 = "42";
+            int number1 = Integer.parseInt(str1);
+            System.out.println("Udało się!");
+            
+            String str2 = "#42";
+            int number2 = Integer.parseInt(str2);
+            System.out.println("A tu już nie…");
+        } catch (NumberFormatException e) {
+            System.out.println("Szczegóły wyjątku: " + e.getMessage());
+        }
+    }
+}
+```
+
+Wynik działania programu:
+> Udało się!  
+> Szczegóły wyjątku: For input string: "#42"
+
 ### Dodatek: Formatowanie liczb zmiennoprzecinkowych
 
 Przykład (pełny przykład znajduje się w katalogu
@@ -593,6 +619,7 @@ Wynik działania programu:
   * <https://docs.oracle.com/javase/8/docs/api/java/lang/Throwable.html>
   * <https://docs.oracle.com/javase/8/docs/api/java/lang/ArithmeticException.html>
   * <https://docs.oracle.com/javase/8/docs/api/java/lang/ArrayIndexOutOfBoundsException.html>
+  * <https://docs.oracle.com/javase/8/docs/api/java/lang/NumberFormatException.html>
   * <https://docs.oracle.com/javase/8/docs/api/java/lang/NumberFormatException.html>
   * <https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html>
   * <https://docs.oracle.com/javase/8/docs/api/java/util/InputMismatchException.html>
