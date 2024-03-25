@@ -456,19 +456,19 @@ public class Exceptions_showcase {
 ```
 
 Wynik działania programu:
-> \#\#\# Przykład 1 ###  
+> \#\#\# Przykład 1 \#\#\#  
 > Zaraz zostanie rzucony wyjątek.  
 > Przechwycono wyjątek.  
 > Ten komunikat wypisze się w ostatniej kolejności.  
-> \#\#\# Koniec przykładu 1 ###  
-> \#\#\# Przykład 2 ###  
+> \#\#\# Koniec przykładu 1 \#\#\#  
+> \#\#\# Przykład 2 \#\#\#  
 > Zaraz zostanie rzucony wyjątek.  
-> Ten komunikat *nie* wypisze się w ostatniej kolejności.  
+> Ten komunikat \*nie\* wypisze się w ostatniej kolejności.  
 > Przechwycono wyjątek.  
-> \#\#\# Koniec przykładu 2 ###  
-> \#\#\# Przykład 3 ###  
+> \#\#\# Koniec przykładu 2 \#\#\#  
+> \#\#\# Przykład 3 \#\#\#  
 > Przechwycono wyjątek.  
-> \#\#\# Koniec przykładu 3 ###
+> \#\#\# Koniec przykładu 3 \#\#\#
 
 ### Dodatek: Formatowanie liczb zmiennoprzecinkowych
 
