@@ -623,11 +623,11 @@ którego wyróżnik:
 \Delta = b^2 - 4ac
 ```
 określa liczbę pierwiastków rzeczywistych:
-  * jeśli $`Delta > 0`$ to równanie ma dwa pierwiastki:
+  * jeśli $`\Delta > 0`$ to równanie ma dwa pierwiastki:
     $`x = (-b \pm \sqrt{\Delta}) / (2a)`$
-  * jeśli $`Delta = 0`$ to równanie ma jeden pierwiastek:
+  * jeśli $`\Delta = 0`$ to równanie ma jeden pierwiastek:
     $`x = -b / 2a`$
-  * jeśli $`Delta < 0`$ to równanie nie ma pierwiastków rzeczywistych
+  * jeśli $`\Delta < 0`$ to równanie nie ma pierwiastków rzeczywistych
 
 Napisz klasę `Qudratic_equation`, która będzie posiadała:
   * konstruktor przyjmujący wartości parametrów $`a`$, $`b`$ oraz $`c`$ równania
