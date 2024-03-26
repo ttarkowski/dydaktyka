@@ -624,7 +624,7 @@ którego wyróżnik:
 ```
 określa liczbę pierwiastków rzeczywistych:
   * jeśli $`\Delta > 0`$ to równanie ma dwa pierwiastki:
-    $`x = (-b \pm \sqrt{\Delta}) / (2a)`$
+    $`x_{1, 2} = (-b \pm \sqrt{\Delta}) / 2a`$
   * jeśli $`\Delta = 0`$ to równanie ma jeden pierwiastek:
     $`x = -b / 2a`$
   * jeśli $`\Delta < 0`$ to równanie nie ma pierwiastków rzeczywistych
