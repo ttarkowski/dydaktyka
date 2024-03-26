@@ -612,6 +612,39 @@ Wynik działania programu:
 
 ### Zadania
 
+#### 3.1 Równanie kwadratowe
+
+Przed nami *stare dobre* równanie kwadratowe:
+```math
+ax^2 + bx + c = 0, a \neq 0
+```
+którego wyróżnik:
+```math
+\Delta = b^2 - 4ac
+```
+określa liczbę pierwiastków rzeczywistych:
+  * jeśli $`Delta > 0`$ to równanie ma dwa pierwiastki:
+    $`x = (-b \pm \sqrt{\Delta}) / (2a)`$
+  * jeśli $`Delta = 0`$ to równanie ma jeden pierwiastek:
+    $`x = -b / 2a`$
+  * jeśli $`Delta < 0`$ to równanie nie ma pierwiastków rzeczywistych
+
+Napisz klasę `Qudratic_equation`, która będzie posiadała:
+  * konstruktor przyjmujący wartości parametrów $`a`$, $`b`$ oraz $`c`$ równania
+    kwadratowego i rzucający wyjątek w przypadku, gdy $`a = 0`$
+  * metodę `delta` obliczającą wyróżnik równania kwadratowego
+  * metodę obliczającą pierwszy pierwiastek i rzucającą wyjątek jeśli
+    $`\Delta < 0`$
+  * metodę obliczającą drugi pierwiastek i rzucającą wyjątek jeśli
+    $`\Delta \leq 0`$
+
+Wszystkie funkcje składowe, które rzucają wyjątek powinny być odpowiednio
+wyspecyfikowane z użyciem `throws`.
+
+Wykorzystaj klasę `Quadratic_equation` w konstrukcji `try`-`catch`. Wartości
+$`a`$, $`b`$ oraz $`c`$ wczytaj ze standardowego wejścia. Pokaż wyniki obliczeń
+pierwiastka/pierwiastków.
+
 ### Bibliografia
 
   * <https://docs.oracle.com/javase/tutorial/essential/exceptions/index.html>
