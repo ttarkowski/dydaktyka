@@ -645,6 +645,19 @@ Wykorzystaj klasę `Quadratic_equation` w konstrukcji `try`-`catch`. Wartości
 $`a`$, $`b`$ oraz $`c`$ wczytaj ze standardowego wejścia. Pokaż wyniki obliczeń
 pierwiastka/pierwiastków.
 
+#### 3.2 Wyjątki łańcuchowe
+
+Sprawdż co się stanie, gdy wyrzucisz wyjątek w bloku `catch` po złapaniu
+poprzedniego wyjątku.
+
+Napisz program, w którym w bloku `catch` złapiesz wyjątek typu `Exception`
+stworzony z napisem `Hello`. W tym samym bloku `catch` rzuć kolejny wyjątek
+stworzony na bazie pierwszego, do którego dokleisz napisz `, kitty!`. Złap nowy
+wyjątek w nowym bloku `catch` i sprawdź, czy otrzymujesz napis `Hello, kitty!`.
+
+Wskazówka: Do rozwiązania tego zadania przyda się
+[ten konstruktor](https://docs.oracle.com/javase/8/docs/api/java/lang/Exception.html#Exception-java.lang.String-java.lang.Throwable-).
+
 ### Bibliografia
 
   * <https://docs.oracle.com/javase/tutorial/essential/exceptions/index.html>
