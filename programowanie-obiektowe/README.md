@@ -813,8 +813,6 @@ Wyjątek `International_Pitch_Notation_Exception` powinien być rzucany wtedy, g
 jakaś metoda klasy `International_Pitch_Notation` próbuje zapisać nutę w sposób
 niezgodny z notacją IPN, np. próbując ustawić wartość M♯4.
 
-### Bibliografia
-
 ## Zastrzeżenia
 
 Zobacz plik [LICENSE](/LICENSE).
