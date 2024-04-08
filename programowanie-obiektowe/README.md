@@ -819,6 +819,4 @@ niezgodny z notacją IPN, np. próbując ustawić wartość M♯4.
 
 ## Zastrzeżenia
 
-Informacje zawarte na tej stronie nie powinny być interpretowane jako próba
-przedstawienia czy wyrażenia opinii medycznej lub w inny sposób zaangażowania
-się w praktykę medyczną.
+Zobacz plik [LICENSE](/LICENSE).
