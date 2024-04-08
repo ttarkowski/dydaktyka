@@ -755,7 +755,63 @@ Wynik działania programu:
 
 ### Zadania
 
-#### 4.1
+#### 4.1 Międzynarodowa notacja nutowa
+
+Międzynarodowa notacja nutowa (ang. *International Pitch Notation*) służy do
+kodowania tonów dźwięków w muzyce.
+
+Nuta w zapisie IPN jest kodowana z użyciem:
+  * tradycyjnej nazwy tonu (C, D, E, F, G, A, B)
+  * ewentualnego znaku chromatycznego (♯, ♭)
+  * numeru oktawy będącego liczbą całkowitą zapisywanej w indeksie dolnym
+
+Uwaga: Na potrzeby tego zadania zrezygnujemy z zapisywania numeru oktawy
+w indeksie dolnym i będziemy stosować liczbę o zwykłej wysokości.
+
+Oktawa składa się z następujących 12 nut:
+  * C
+  * C♯ (D♭)
+  * D
+  * D♯ (E♭)
+  * E
+  * F
+  * F♯ (G♭)
+  * G
+  * G♯ (A♭)
+  * A
+  * A♯ (B♭)
+  * B
+
+Uwaga: Na potrzeby tego zadania zrezygnujemy z użycia symbolu ♭.
+
+Przykład: Ton dźwięku jest związany z częstotliwością. Nuta A4 ma od 1834 roku
+rekomendowaną częstotliwość 440 Hz. Nuta oktawę wyżej (czyli A5) ma dwukrotnie
+wyższą częstotliwość równą 880 Hz. Z kolei A3 ma częstotliwość 220 Hz.
+
+Napisz program, który będzie zawierał co najmniej dwie klasy. Pierwsza z nich
+(`International_Pitch_Notation`) niech będzie odpowiedzialna za przechowywanie
+zapisu nutowego IPN a druga (`International_Pitch_Notation_Exception`) niech
+będzie klasą wyjątku zgłaszanego przy próbie zapisania nieprawidłowo zakodowanej
+nuty.
+
+Klasa odpowiedzialna za przechowywanie zapisu nutowego
+`International_Pitch_Notation` powinna posiadać:
+  * konstruktor przyjmujący argument typu `String` z zapisem tonu nuty podanym
+    w międzynarodowej notacji nutowej, np. G♯3
+  * metodę zwracającą wartość typu `String` odpowiadającą przechowywanej nazwie
+    tonu (bez oktawy) wraz z ewentualnym znakiem chromatycznym, np. G♯
+  * metodę zwracającą wartość typu `int` odpowiadającą przechowywanemu numerowi
+    oktawy, np. 3
+  * metody modyfikujące przechowywany ton (z użyciem argumentu typu `String`)
+    oraz oktawę (z użyciem argumentu typu `int`)
+
+Klasa wyjątku `International_Pitch_Notation_Exception` powinna posiadać dwa
+konstruktory zgodnie z przykładem
+[Custom_exception_2/](/programowanie-obiektowe/examples/04/Custom_exception_2/).
+
+Wyjątek `International_Pitch_Notation_Exception` powinien być rzucany wtedy, gdy
+jakaś metoda klasy `International_Pitch_Notation` próbuje zapisać nutę w sposób
+niezgodny z notacją IPN, np. próbując ustawić wartość M♯4.
 
 #### 4.2
 
