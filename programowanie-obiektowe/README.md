@@ -670,6 +670,97 @@ Wskazówka: Do rozwiązania tego zadania przyda się
   * <https://docs.oracle.com/javase/8/docs/api/java/util/InputMismatchException.html>
   * <https://docs.oracle.com/javase/8/docs/api/java/text/DecimalFormat.html>
 
+## Moduł 4
+
+### Własne klasy wyjątków
+
+Własne klasy wyjątków można wprowadzić, gdy potrzebne jest doprecyzowanie
+informacji o problemie w sytuacji gdy standardowe klasy są niewystarczające.
+
+### Przykład minimalny
+
+Przykład (pełny przykład znajduje się w katalogu
+[Custom_exception_1/](/programowanie-obiektowe/examples/04/Custom_exception_1/)):
+
+#### Plik `Custom_exception_1.java`
+```java
+public class Custom_exception_1 extends Exception {
+    public Custom_exception_1(String msg) {
+        super(msg);
+    }
+}
+```
+
+#### Plik `Main.java`
+```java
+public class Main {
+    public static void main(String[] args) {
+        try {
+            throw new Custom_exception_1("Własny wyjątek");
+        } catch (Custom_exception_1 e) {
+            System.out.println("Złapano własny wyjątek.");
+        } catch (Exception e) {
+            System.out.println("Złapano wyjątek Exception.");
+        }
+    }
+}
+```
+
+Wynik działania programu:
+> Złapano własny wyjątek.
+
+### Przykład rozszerzony
+
+Przykład (pełny przykład znajduje się w katalogu
+[Custom_exception_2/](/programowanie-obiektowe/examples/04/Custom_exception_2/)):
+
+#### Plik `Custom_exception_2.java`
+```java
+public class Custom_exception_2 extends Exception {
+    public Custom_exception_2(String msg) {
+        super(msg);
+    }
+    
+    public Custom_exception_2(String msg, Throwable e) {
+        super(msg, e);
+    }
+}
+```
+
+#### Plik `Main.java`
+```java
+public class Main {
+    public static void main(String[] args) {
+        try {
+            try {
+                throw new Exception("42");
+            } catch (Exception e) {
+                if (e.getMessage().equals("42")) {
+                    throw new Custom_exception_2("Własny wyjątek", e);
+                }
+            }
+        } catch (Custom_exception_2 e) {
+            System.out.println("Złapano: " + e.getMessage());
+            System.out.println("Szczegóły: " + e.getCause());
+        } catch (Exception e) {
+            System.out.println("Złapano wyjątek Exception.");
+        }
+    }
+}
+```
+
+Wynik działania programu:
+> Złapano: Własny wyjątek  
+> Szczegóły: java.lang.Exception: 42
+
+### Zadania
+
+#### 4.1
+
+#### 4.2
+
+### Bibliografia
+
 ## Zastrzeżenia
 
 Informacje zawarte na tej stronie nie powinny być interpretowane jako próba
