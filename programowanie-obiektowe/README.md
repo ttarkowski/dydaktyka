@@ -1,7 +1,7 @@
 # Programowanie obiektowe
 
 Przejdź do treści modułu [0](#moduł-0), [1](#moduł-1), [2](#moduł-2),
-[3](#moduł-3), [4](#moduł-4).
+[3](#moduł-3), [4](#moduł-4), [5](#moduł-5).
 
 ## Informacje organizacyjne
 
@@ -816,6 +816,8 @@ konstruktory zgodnie z przykładem
 Wyjątek `International_Pitch_Notation_Exception` powinien być rzucany wtedy, gdy
 jakaś metoda klasy `International_Pitch_Notation` próbuje zapisać nutę w sposób
 niezgodny z notacją IPN, np. próbując ustawić wartość M♯4.
+
+## Moduł 5
 
 ## Zastrzeżenia
 
