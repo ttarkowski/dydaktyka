@@ -964,6 +964,20 @@ public class Serialize {
 Wynik działania przykładu:
 > Kitty's favorite drink: milk, of course
 
+### Bibliografia
+
+  * <https://docs.oracle.com/javase/8/docs/api/java/io/FileReader.html>
+  * <https://docs.oracle.com/javase/8/docs/api/java/io/FileWriter.html>
+  * <https://docs.oracle.com/javase/8/docs/api/java/nio/file/Files.html>
+  * <https://docs.oracle.com/javase/8/docs/api/java/nio/file/Path.html>
+  * <https://docs.oracle.com/javase/8/docs/api/java/nio/file/Paths.html>
+  * <https://docs.oracle.com/javase/8/docs/api/java/util/List.html>
+  * <https://docs.oracle.com/javase/8/docs/api/java/io/FileInputStream.html>
+  * <https://docs.oracle.com/javase/8/docs/api/java/io/FileOutputStream.html>
+  * <https://docs.oracle.com/javase/8/docs/api/java/io/ObjectInputStream.html>
+  * <https://docs.oracle.com/javase/8/docs/api/java/io/ObjectOutputStream.html>
+  * <https://docs.oracle.com/javase/8/docs/api/java/io/Serializable.html>
+
 ## Zastrzeżenia
 
 Zobacz plik [LICENSE](/LICENSE).
