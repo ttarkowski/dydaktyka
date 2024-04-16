@@ -964,6 +964,8 @@ public class Serialize {
 Wynik działania przykładu:
 > Kitty's favorite drink: milk, of course
 
+### Zadania
+
 ### Bibliografia
 
   * <https://docs.oracle.com/javase/8/docs/api/java/io/FileReader.html>
