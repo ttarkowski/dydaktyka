@@ -966,6 +966,22 @@ Wynik działania przykładu:
 
 ### Zadania
 
+#### 5.1 `uniq`
+
+Napisz program, który będzie wczytywał wierszami plik tekstowy i wypisywał jego
+zawartość do innego pliku tekstowego. Jeśli w pliku wejściowym dwie (lub więcej)
+następujące po sobie linie są identyczne, to w pliku wyjściowym należy zapisać
+taką linię tylko raz (pomijając następujące bezpośrednio po oryginale
+duplikaty).
+
+Nazwy plików powinny być podawane przez użytkownika w trakcie działania
+programu. Jeśli plik wejściowy nie istnieje, to program powinien wypisywać
+komunikat:
+> Plik o podanej nazwie nie istnieje.
+
+Uwaga: Program w swoim działania jest do pewnego stopnia podobny do polecenia
+`uniq` z pakietu *GNU coreutils*.
+
 ### Bibliografia
 
   * <https://docs.oracle.com/javase/8/docs/api/java/io/FileReader.html>
