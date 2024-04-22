@@ -998,6 +998,10 @@ Uwaga: Program w swoim działania jest do pewnego stopnia podobny do polecenia
 
 ## Moduł 6
 
+### Bibliografia
+
+  * <https://docs.oracle.com/javase/tutorial/java/concepts/inheritance.html>
+
 ## Zastrzeżenia
 
 Zobacz plik [LICENSE](/LICENSE).
