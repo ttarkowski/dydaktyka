@@ -1076,9 +1076,10 @@ Wynik działania przykładu:
 
 #### 6.1 Wielomiany
 
-Stwórz klasę `Polynomial` reprezentującą dowolny wielomian
-$`p(x) = a_n x^n + \dots + a_1 x + a_0 = \sum_{i=0}^{n} a_i x^i`$
-($`a_n \neq 0`$).
+Stwórz klasę `Polynomial` reprezentującą dowolny wielomian ($`a_n \neq 0`$):
+```math
+p(x) = a_n x^n + \dots + a_1 x + a_0 = \sum_{i=0}^{n} a_i x^i
+```
 Niech klasa ta posiada:
   * prywatną tablicę wartości `double` reprezentującą współczynniki wielomianu
   * konstruktor inicjujący ww. tablicę
