@@ -1072,6 +1072,12 @@ Wynik działania przykładu:
 > Wild Cat with black fur and claws with sharpness of 100%  
 > black
 
+### Zadania
+
+#### 6.1
+
+#### 6.2
+
 ### Bibliografia
 
   * <https://docs.oracle.com/javase/tutorial/java/concepts/inheritance.html>
