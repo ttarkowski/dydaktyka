@@ -1074,7 +1074,35 @@ Wynik działania przykładu:
 
 ### Zadania
 
-#### 6.1
+#### 6.1 Wielomiany
+
+Stwórz klasę `Polynomial` reprezentującą dowolny wielomian
+$`p(x) = a_n x^n + \dots + a_1 x + a_0 = \sum_{i=0}^{n} a_i x^i`$
+($`a_n \neq 0`$).
+Niech klasa ta posiada:
+  * prywatną tablicę wartości `double` reprezentującą współczynniki wielomianu
+  * konstruktor inicjujący ww. tablicę
+  * metodę `eval` obliczającą wartość wielomianu $`p(x)`$ w punkcie $`x`$
+    podanym jako argument tej metody
+  * metodę `deg` zwracającą stopień wielomianu, tzn. wartość $`n`$
+  * metodę `description` zwracającą opis wielomianu, np. *wielomian stopnia 4*
+
+Stwórz dwie klasy dziedziczące po `Polynomial`: `Linear_Polynomial`
+(reprezentującą wielomian stopnia pierwszego, tzn. funkcję liniową) oraz
+`Quadratic_Polynomial` (reprezentującą wielomian stopnia drugiego, tzn. funkcję
+kwadratową).
+
+Klasa `Linear_Polynomial` powinna umożliwić obliczenie nachylenia prostej
+względem osi $`x`$ na wykresie reprezentującym funkcję liniową (zdefiniuj do
+tego celu odpowiednią metodę). Wywołanie metody `description` powinno zwrócić
+napis *wielomian liniowy*.
+
+Klasa `Quadratic_Polynomial` powinna umożliwić obliczenie ekstremum funkcji
+kwadratowej (zdefiniuj do tego celu odpowiednią metodę). Wywołanie metody
+`description` powinno zwrócić napis *wielomian kwadratowy*.
+
+Stwórz przykładowy program korzystający z klas `Polynomial`, `Linear_Polynomial`
+oraz `Quadratic_Polynomial`.
 
 #### 6.2
 
