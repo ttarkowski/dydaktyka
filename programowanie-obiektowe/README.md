@@ -998,6 +998,8 @@ Uwaga: Program w swoim działania jest do pewnego stopnia podobny do polecenia
 
 ## Moduł 6
 
+### Dziedziczenie klas
+
 Przykład (pełny przykład znajduje się w katalogu
 [Cat_Example/](/programowanie-obiektowe/examples/06/Cat_Example/)):
 ```java
