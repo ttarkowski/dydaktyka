@@ -1105,7 +1105,16 @@ kwadratowej (zdefiniuj do tego celu odpowiednią metodę). Wywołanie metody
 Stwórz przykładowy program korzystający z klas `Polynomial`, `Linear_Polynomial`
 oraz `Quadratic_Polynomial`.
 
-#### 6.2
+#### 6.2 `JButton`
+
+Stwórz klasę dziedziczącą po `JButton` o wybranej przez siebie nazwie. Niech ta
+nowa klasa posiada konstruktor, który przyjmuje dwa argumenty:
+  * pierwszy ustawiający napis na przycisku (niech będzie on przekazywany do
+    klasy bazowej)
+  * drugi ustawiający napis podpowiedzi wyświetlanej po najechaniu kursorem na
+    przycisk (użyj funkcji `setToolTipText`)
+
+Napisz przykładowy program, który wykorzystuje nową klasę oraz klasę `JFrame`.
 
 ### Bibliografia
 
