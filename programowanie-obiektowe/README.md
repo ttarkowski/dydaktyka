@@ -1,7 +1,7 @@
 # Programowanie obiektowe
 
 Przejdź do treści modułu [0](#moduł-0), [1](#moduł-1), [2](#moduł-2),
-[3](#moduł-3), [4](#moduł-4), [5](#moduł-5).
+[3](#moduł-3), [4](#moduł-4), [5](#moduł-5), [6](#moduł-6).
 
 ## Informacje organizacyjne
 
@@ -995,6 +995,8 @@ Uwaga: Program w swoim działania jest do pewnego stopnia podobny do polecenia
   * <https://docs.oracle.com/javase/8/docs/api/java/io/ObjectInputStream.html>
   * <https://docs.oracle.com/javase/8/docs/api/java/io/ObjectOutputStream.html>
   * <https://docs.oracle.com/javase/8/docs/api/java/io/Serializable.html>
+
+## Moduł 6
 
 ## Zastrzeżenia
 
