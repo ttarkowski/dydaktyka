@@ -19,6 +19,8 @@ Przejdź do treści modułu [0](#moduł-0), [1](#moduł-1), [2](#moduł-2),
 
   * <https://en.wikibooks.org/wiki/Java_Programming>
 
+## Projekt indywidualny
+
 ## Moduł 0
 
 *Nieoceniane zajęcia wstępne.*
