@@ -21,6 +21,46 @@ Przejdź do treści modułu [0](#moduł-0), [1](#moduł-1), [2](#moduł-2),
 
 ## Projekt indywidualny
 
+[W trakcie przygotowania]
+
+  * Projekt indywidualny jest jednorazowym większym zadaniem na przedmiocie
+    *Programowanie obiektowe* rozwiązującym dany problem z użyciem graficznego
+    interfejsu użytkowinika. Rozwiązanie tego zadania naleźy oddać do oceny
+    najpóźniej w dniu przedostatnich zajęć.
+  * Propozycje treści projektów indywidualnych znajdują się poniżej. Treść
+    projektu indywidualnego może też zostać zaproponowana przez osobę
+    rozwiązującą zadanie, aczkolwiek wymaga ona akceptacji osoby prowadzącej
+    zajęcia laboratoryjne.
+  * Wybrany przez siebie temat projektu indywidualnego należy zgłosić do osoby
+    prowadzącej zajęcia laboratoryjne.
+  * Rozwiązanie zadania powinno składać się z następujących elementów:
+      * kompilujący się kod źródłowy w formie plików o rozszerzeniu `.java`
+      * komentarze zawarte w ww. kodzie źródłowym dokumentujące przeznaczenie
+        klas oraz funkcji
+      * dokument opisujący cel i sposób użycia programu w formie pliku
+        `README.pdf`
+  * Plik `README.pdf` powinien zawierać przynajmniej około 2 stron tekstu (dla
+    formatu A4) oraz od jednego do kilku zrzutów ekranu z przykładowej sesji
+    działania programu.
+  * Rozwiązanie należy wysłać na adres poczty elektronicznej osoby prowadzącej
+    zajęcia.
+  * Rozwiązanie powinno mieć formę archiwum `.zip`, `.tar`, `.tar.gz` lub
+    `.tar.xz`. Archiwum powinno zawierać jedynie kod źródłowy z komentarzami
+    oraz plik `README.pdf`. Nie należy w archiwum umieszczać innych plików,
+    w szególności wykonywalnych. Przesłane archwium (po ewentualnej kompresji)
+    powinno mieć rozmiar co najwyżej 1 MB.
+  * Rozwiązanie podlega ocenie przez wzgląd na:
+      * zgodność z ww. wymaganiami
+      * funkcjonalność
+      * jakość i ilość kodu źródłowego
+      * jakość i ilość komentarzy w kodzie źródłowym
+      * zawartość pliku `README.pdf`
+  * Uwaga! Rozwiązanie niekompilujące się otrzymuje ocenę zerową.
+
+### Propozycje treści projektów indywidualnych
+
+[W trakcie przygotowania]
+
 ## Moduł 0
 
 *Nieoceniane zajęcia wstępne.*
