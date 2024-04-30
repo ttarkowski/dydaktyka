@@ -24,9 +24,10 @@ Przejdź do treści modułu [0](#moduł-0), [1](#moduł-1), [2](#moduł-2),
 [W trakcie przygotowania]
 
   * Projekt indywidualny jest jednorazowym większym zadaniem na przedmiocie
-    *Programowanie obiektowe* rozwiązującym dany problem z użyciem graficznego
-    interfejsu użytkowinika. Rozwiązanie tego zadania naleźy oddać do oceny
-    najpóźniej w dniu przedostatnich zajęć.
+    *Programowanie obiektowe*, w którym rozwiązuje się dany problem z użyciem
+    graficznego interfejsu użytkowinika.
+  * Rozwiązanie tego zadania należy oddać do oceny najpóźniej w dniu
+    przedostatnich zajęć.
   * Propozycje treści projektów indywidualnych znajdują się poniżej. Treść
     projektu indywidualnego może też zostać zaproponowana przez osobę
     rozwiązującą zadanie, aczkolwiek wymaga ona akceptacji osoby prowadzącej
