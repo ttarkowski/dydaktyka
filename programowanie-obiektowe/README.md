@@ -25,7 +25,7 @@ Przejdź do treści modułu [0](#moduł-0), [1](#moduł-1), [2](#moduł-2),
 
   * Projekt indywidualny jest jednorazowym większym zadaniem na przedmiocie
     *Programowanie obiektowe*, w którym rozwiązuje się dany problem z użyciem
-    graficznego interfejsu użytkowinika.
+    graficznego interfejsu użytkownika.
   * Rozwiązanie tego zadania należy oddać do oceny najpóźniej w dniu
     przedostatnich zajęć.
   * Propozycje treści projektów indywidualnych znajdują się poniżej. Treść
