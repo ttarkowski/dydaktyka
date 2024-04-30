@@ -40,6 +40,13 @@ Przejdź do treści modułu [0](#moduł-0), [1](#moduł-1), [2](#moduł-2),
         klas oraz funkcji
       * dokument opisujący cel i sposób użycia programu w formie pliku
         `README.pdf`
+  * W implementacji rozwiązania należy wykorzystać w odpowiedni sposób:
+      * graficzny interfejs użytkownika
+      * klasy (zmienne składowe, konstruktory, metody składowe)
+      * dziedziczenie klas
+      * napisy (`String`) oraz wybrane kolekcje (np. `List`)
+      * zapis i odczyt plików (obsługa strumieni)
+      * wyjątki (włącznie ze stworzeniem własnej klasy wyjątków)
   * Plik `README.pdf` powinien zawierać przynajmniej około 2 stron tekstu (dla
     formatu A4) oraz od jednego do kilku zrzutów ekranu z przykładowej sesji
     działania programu.
