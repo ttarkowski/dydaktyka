@@ -28,7 +28,7 @@ Przejdź do treści modułu [0](#moduł-0), [1](#moduł-1), [2](#moduł-2),
     graficznego interfejsu użytkownika.
   * Rozwiązanie tego zadania należy oddać do oceny najpóźniej w dniu
     przedostatnich zajęć.
-  * Propozycje treści projektów indywidualnych znajdują się poniżej. Treść
+  * Propozycje tematów projektów indywidualnych znajdują się poniżej. Treść
     projektu indywidualnego może też zostać zaproponowana przez osobę
     rozwiązującą zadanie, aczkolwiek wymaga ona akceptacji osoby prowadzącej
     zajęcia laboratoryjne.
@@ -38,18 +38,29 @@ Przejdź do treści modułu [0](#moduł-0), [1](#moduł-1), [2](#moduł-2),
       * kompilujący się kod źródłowy w formie plików o rozszerzeniu `.java`
       * komentarze zawarte w ww. kodzie źródłowym dokumentujące przeznaczenie
         klas oraz funkcji
-      * dokument opisujący cel i sposób użycia programu w formie pliku
-        `README.pdf`
+      * plik `README.pdf`
   * W implementacji rozwiązania należy wykorzystać w odpowiedni sposób:
-      * graficzny interfejs użytkownika
+      * graficzny interfejs użytkownika, obsługa zdarzeń
       * klasy (zmienne składowe, konstruktory, metody składowe)
-      * dziedziczenie klas
+      * dziedziczenie klas, nadpisywanie metod oraz polimorfizm
+      * interfejsy, klasy i metody abstrakcyjne
       * napisy (`String`) oraz wybrane kolekcje (np. `List`)
       * zapis i odczyt plików (obsługa strumieni)
       * wyjątki (włącznie ze stworzeniem własnej klasy wyjątków)
+  * Komentarze zawarte w kodzie źródłowym powinny opisywać krótko przeznaczenie:
+      * każdej klasy oraz interfejsu
+      * większości metod (można pominąć opis oczywistych metod, np.
+        konstruktorów)
+      * innych elementów kodu istotnych do zrozumienia intencji programisty
   * Plik `README.pdf` powinien zawierać przynajmniej około 2 stron tekstu (dla
     formatu A4) oraz od jednego do kilku zrzutów ekranu z przykładowej sesji
-    działania programu.
+    działania programu. W pliku `README.pdf` należy:
+      * opisać rozwiązywany przez program problem
+      * opisać sposób użycia programu w formie krótkiej instrukcji użytkownika
+      * zawrzeć przykładowy rezultat działania programu na wybranych przez
+        siebie danych wejściowych udokumentowany przynajmniej jednym zrzutem
+        ekranu
+      * zawrzeć diagram UML
   * Rozwiązanie należy wysłać na adres poczty elektronicznej osoby prowadzącej
     zajęcia.
   * Rozwiązanie powinno mieć formę archiwum `.zip`, `.tar`, `.tar.gz` lub
@@ -65,9 +76,61 @@ Przejdź do treści modułu [0](#moduł-0), [1](#moduł-1), [2](#moduł-2),
       * zawartość pliku `README.pdf`
   * Uwaga! Rozwiązanie niekompilujące się otrzymuje ocenę zerową.
 
-### Propozycje treści projektów indywidualnych
+### Propozycje tematów projektów indywidualnych
 
 [W trakcie przygotowania]
+
+Poniżej przedstawiono propozycje tematów projektów indywidualnych. W trakcie
+rozwiązywania zadania wybrany przez siebie temat należy rozwinąć tak, aby
+w implementacji rozwiązania znalazły się wszystkie wymagane elementy opisane
+wcześniej.
+
+Uwaga! W rozwiązaniu zadania należy w pierwszej kolejności skupić się na
+zastosowaniu reguł programowania obiektowego. (Algorytmika, choć jest bardzo
+cenna, nie jest przedmiotem tego zadania.)
+
+  * *Automat sprzedający* — program symulujący działanie automatu sprzedającego
+    towary danego rodzaju (np. bilety albo napoje i przekąski)
+  * *Bank* — symulacja działania banku z obsługą klientów oraz ich rachunków
+    i transakcji
+  * *Chemia* — baza danych związków chemicznych wraz z ich klasyfikacją
+  * *Dziennik sportowy* — program dla osób uprawiających sport umożliwiający
+    zapisywanie i analizowanie codziennych postępów w ćwiczeniach (np. długości
+    przebytych tras wraz z odpowiadającym czasem)
+  * *Fiszki* — nauka słów w różnych językach obcych
+  * *Gra planszowa* — wybrana prosta gra planszowa (np. kółko i krzyżyk)
+    z historią rozegranych partii i profilami graczy
+  * *Kalkulator naukowy* — program kalkulatora w wersji naukowej umożliwiający
+    m.in. konwersję jednostek
+  * *Klasyfikacja biologiczna* — program służący do zarządzania bazą danych
+    gatunków biologicznych
+  * *Konfigurator PC* — program przeznaczony do samodzielnej konfiguracji
+    komputera składanego z wybranych przez użytkownika podzespołów
+  * *Książka kucharska* — program umożliwiający przechowywanie przepisów
+    kucharskich wraz z informacjami o wartościach odżywczych posiłków
+    i subiektywną oceną smaku potraw
+  * *Menedżer haseł* — menedżer umożliwiający zapisywanie, odczytywanie
+    i modyfikację haseł wykorzystywanych przez użytkownika w usługach
+    internetowych
+  * *Menedżer plików* — program umożliwiający najbardziej podstawowe operacje
+     na plikach i katalogach (folderach)
+  * *Menedżer zakładek* — niezależny od przeglądarki internetowej menedżer
+    zakładek URL umożliwiający zapisywanie odnośników wraz z tytułami
+    i kategoriami tematycznymi
+  * *Odtwarzacz MIDI* — program umożliwiający generowanie dźwięku na podstawie
+    tekstowych plików wejściowych wykorzystujących notację MIDI
+  * *Odtwarzacz muzyczny* — program umożliwiający odtwarzanie plików dźwiękowych
+    w formacie WAV
+  * *Rezerwacja sal* — program symulujący system rezerwacji sal w budynku (np.
+    uczelni) umożliwiający różnym grupom osób uprawnionych rezerwację sal
+    o odpowiednich parametrach (liczbie stanowisk, wyposażeniu)
+  * *Teatr* — program ułatwiający zarządzanie teatrem poprzez możliwość edycji
+    wystawianych sztuk, wymaganych rekwizytów oraz zatrudnienia obsady
+  * *Układ okresowy pierwiastków* — program służący do prezentacji danych na
+    temat pierwiastków układu okresowego
+  * *Wąż* — gra w węża
+    ([Snake](https://en.wikipedia.org/wiki/Snake_(video_game_genre)))
+    z możliwością konfiguracji i zapamiętywania wyników
 
 ## Moduł 0
 
