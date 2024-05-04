@@ -1245,7 +1245,7 @@ Napisz przykładowy program, który wykorzystuje nową klasę oraz klasę `JFram
 
 Przykład (pełny przykład znajduje się w katalogu
 [Meow/](/programowanie-obiektowe/examples/07/Meow/)):
-```javac
+```java
 interface Meowable {
     // Interfejs może zawierać:
     // - stałe
