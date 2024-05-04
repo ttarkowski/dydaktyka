@@ -1241,8 +1241,6 @@ Napisz przykładowy program, który wykorzystuje nową klasę oraz klasę `JFram
 
 ## Moduł 7
 
-### Polimorfizm
-
 ### Interfejsy
 
 Przykład (pełny przykład znajduje się w katalogu
@@ -1369,6 +1367,8 @@ public class Abstract_Meow {
 Wynik działania przykładu:
 > Meowowowow!  
 > Meow!
+
+### Polimorfizm
 
 ### Zadania
 
