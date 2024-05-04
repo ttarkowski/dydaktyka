@@ -1,7 +1,7 @@
 # Programowanie obiektowe
 
 Przejdź do treści modułu [0](#moduł-0), [1](#moduł-1), [2](#moduł-2),
-[3](#moduł-3), [4](#moduł-4), [5](#moduł-5), [6](#moduł-6).
+[3](#moduł-3), [4](#moduł-4), [5](#moduł-5), [6](#moduł-6), [7](#moduł-7).
 
 ## Informacje organizacyjne
 
@@ -930,6 +930,10 @@ Wyjątek `International_Pitch_Notation_Exception` powinien być rzucany wtedy, g
 jakaś metoda klasy `International_Pitch_Notation` próbuje zapisać nutę w sposób
 niezgodny z notacją IPN, np. próbując ustawić wartość M♯4.
 
+### Bibliografia
+
+  * <https://docs.oracle.com/javase/tutorial/java/IandI/super.html>
+
 ## Moduł 5
 
 ### Pliki tekstowe: zapis i odczyt (wersja klasyczna)
@@ -1232,6 +1236,28 @@ Napisz przykładowy program, który wykorzystuje nową klasę oraz klasę `JFram
 ### Bibliografia
 
   * <https://docs.oracle.com/javase/tutorial/java/concepts/inheritance.html>
+
+## Moduł 7
+
+### Polimorfizm
+
+### Interfejsy
+
+### Klasy i metody abstrakcyjne
+
+### Zadania
+
+#### 7.1
+
+#### 7.2
+
+#### 7.3
+
+### Bibliografia
+
+  * <https://docs.oracle.com/javase/tutorial/java/IandI/polymorphism.html>
+  * <https://docs.oracle.com/javase/tutorial/java/IandI/createinterface.html>
+  * <https://docs.oracle.com/javase/tutorial/java/IandI/abstract.html>
 
 ## Zastrzeżenia
 
