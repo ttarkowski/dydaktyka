@@ -17,6 +17,7 @@ Przejdź do treści modułu [0](#moduł-0), [1](#moduł-1), [2](#moduł-2),
 
 ## Źródła wiedzy
 
+  * <https://docs.oracle.com/javase/tutorial/java/TOC.html>
   * <https://en.wikibooks.org/wiki/Java_Programming>
 
 ## Projekt indywidualny
