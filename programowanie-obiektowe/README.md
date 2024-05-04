@@ -1237,6 +1237,7 @@ Napisz przykładowy program, który wykorzystuje nową klasę oraz klasę `JFram
 ### Bibliografia
 
   * <https://docs.oracle.com/javase/tutorial/java/concepts/inheritance.html>
+  * <https://docs.oracle.com/javase/tutorial/java/annotations/predefined.html>
 
 ## Moduł 7
 
