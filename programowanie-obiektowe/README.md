@@ -22,8 +22,6 @@ Przejdź do treści modułu [0](#moduł-0), [1](#moduł-1), [2](#moduł-2),
 
 ## Projekt indywidualny
 
-[W trakcie przygotowania]
-
   * Projekt indywidualny jest jednorazowym większym zadaniem na przedmiocie
     *Programowanie obiektowe*, w którym rozwiązuje się dany problem z użyciem
     graficznego interfejsu użytkownika.
@@ -78,8 +76,6 @@ Przejdź do treści modułu [0](#moduł-0), [1](#moduł-1), [2](#moduł-2),
   * Uwaga! Rozwiązanie niekompilujące się otrzymuje ocenę zerową.
 
 ### Propozycje tematów projektów indywidualnych
-
-[W trakcie przygotowania]
 
 Poniżej przedstawiono propozycje tematów projektów indywidualnych. W trakcie
 rozwiązywania zadania wybrany przez siebie temat należy rozwinąć tak, aby
