@@ -1352,7 +1352,7 @@ class Cat extends Meow {
     @Override String satisfied() {
         return "Meow!";
     }
-};
+}
 
 public class Abstract_Meow {
     public static void main(String[] args) {
