@@ -1425,7 +1425,43 @@ Zastosuj wiedzę z zakresu klas i metod abstrakcyjnych (interfejsy nie są
 potrzebne do rozwiązania zadania). Pamiętaj, że używanie `@Override` jest dobrą
 praktyką.
 
-#### 7.3
+#### 7.3 Interfejsy a abstrakcyjne klasy bazowe
+
+Interfejsy mogą być do pewnego stopnia zamienione przez abstrakcyjne klasy
+bazowe. W szczególności odpowiedni fragment z przykładu
+[Meow/](/programowanie-obiektowe/examples/07/Meow/) można zastąpić przez kod:
+```java
+abstract class Meowable {
+    public final int no_of_legs = 4;
+    
+    abstract String meow();
+    
+    public String eat() {
+        return "O mnom mnom!";
+    }
+
+    static String purr() {
+        return "Purr!";
+    }
+
+    class Kitty {}
+}
+
+class Cat extends Meowable {
+    @Override public String meow() {
+        return "Meow!";
+    }
+
+    int legs() {
+        return no_of_legs;
+    }
+}
+```
+
+Wskaż przykład wykorzystania pojęcia interfejsu, gdzie **nie można** zastąpić go
+abstrakcyjną klasą bazową. (Zaprezentuj przykład kodu, który kompiluje się gdy
+użyto interfejsu, ale nie można go skompilować po zmianie na abstrakcyjną
+klasę bazową.)
 
 ### Bibliografia
 
