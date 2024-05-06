@@ -1409,7 +1409,21 @@ lat temu, *Ga* — miliard lat temu):
 Uwaga: Określenie *historia naturalna* jest obecnie zbyt ogólnikowe, choć wciąż
 bywa używane, np. w biologii ewolucyjnej.
 
-#### 7.2
+#### 7.2 Kolekcja płyt
+
+Napisz program symulujący kolekcję płyt CD (albumy muzyczne) i DVD (filmy).
+Zarówno płyta CD jak i DVD ma tytuł i długość zawartego w niej materiału
+(liczoną w sekundach). Płyta CD posiada nazwę artysty/zespołu, natomiast płyta
+DVD dysponuje kodem regionu, do którego jest przeznaczona.
+
+Swtórz klasę bazową `Disc` i odpowiednie klasy pochodne dla płyty CD oraz płyty
+DVD. Napisz program wykorzystujący `List<Disc>`, który tworzy małą kolekcję płyt
+i na ekranie wypisuje wszystkie informacje o wszystkich płytach w tej kolekcji
+niezależnie od ich rodzaju.
+
+API każdej z klas zaprojektuj tak, aby umożliwiało ono pobranie wartości każdego
+pola danych z osobna. Stosuj kapsułkowanie danych i unikaj dostępu chronionego.
+Pamiętaj, że używanie `@Override` jest dobrą praktyką.
 
 #### 7.3
 
