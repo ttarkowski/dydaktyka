@@ -1372,7 +1372,42 @@ Wynik działania przykładu:
 
 ### Zadania
 
-#### 7.1
+#### 7.1 Historia naturalna
+
+Napisz program, który sortuje wydarzenia w historii naturalnej przez wzgląd na
+czas w którym one nastąpiły. W tym celu stwórz klasę `Natural_history_event`,
+która przechowuje opis wydarzenia oraz datę rozumianą jako liczbę lat, która od
+jego zaistnienia upłynęła. Dane typu `Natural_history_event` wczytaj do listy,
+którą posortujesz z użyciem instrukcji `Collections.sort(list);`. Pamiętaj, że
+obiekty klasy `Natural_history_event` można sortować pod warunkiem, że klasa ta
+implementuje interfejs `Comparable`. Dane wczytaj według własnego uznania
+z klawiatury bądź pliku a rezultat sortowania wyświetl na ekranie lub zapisz do
+pliku. Oto kilka przykładowych danych, których możesz użyć do testowania swojego
+rozwiązania (*a* oznacza rok temu, *ka* — tysiąc lat temu, *Ma* — milion lat
+temu, *Ga* — miliard lat temu):
+  * 315 ka — *Homo sapiens*
+  * 300 Ma — ssaki
+  * 243 Ma — dinozaury
+  * 11,6 Ma — chód na dwóch nogach
+  * 170 ka — ubrania
+  * 66,043 Ma — krater Chicxulub
+  * 4,54 Ga — uformowanie Ziemi
+  * 3,4 Ma — narzędzia kamienne
+  * 13,8 Ga — Wielki Wybuch
+  * 2,5 Ma — *Homo*
+  * 90 Ma — naczelne
+  * 20 Ma — człowiekowate
+  * 800 Ma — zwierzęta
+  * 35 Ma — wiechlinowate (trawy)
+  * 270 ka — II wyjście z Afryki
+  * 1,5 Ga — rozpad superkontynentu
+  * 1,5 Ga — grzyby
+  * 2,12 Ma — I wyjście z Afryki
+  * 2,5 Ga — katastrofa tlenowa
+  * 650 Ma — zamarznięta Ziemia
+
+Uwaga: Określenie *historia naturalna* jest obecnie zbyt ogólnikowe, choć wciąż
+bywa używane, np. w biologii ewolucyjnej.
 
 #### 7.2
 
@@ -1383,6 +1418,7 @@ Wynik działania przykładu:
   * <https://docs.oracle.com/javase/tutorial/java/IandI/polymorphism.html>
   * <https://docs.oracle.com/javase/tutorial/java/IandI/createinterface.html>
   * <https://docs.oracle.com/javase/tutorial/java/IandI/abstract.html>
+  * <https://docs.oracle.com/javase/8/docs/api/java/lang/Comparable.html>
 
 ## Zastrzeżenia
 
