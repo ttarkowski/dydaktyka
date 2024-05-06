@@ -1382,9 +1382,9 @@ którą posortujesz z użyciem instrukcji `Collections.sort(list);`. Pamiętaj, 
 obiekty klasy `Natural_history_event` można sortować pod warunkiem, że klasa ta
 implementuje interfejs `Comparable`. Dane wczytaj według własnego uznania
 z klawiatury bądź pliku a rezultat sortowania wyświetl na ekranie lub zapisz do
-pliku. Oto kilka przykładowych danych, których możesz użyć do testowania swojego
-rozwiązania (*a* oznacza rok temu, *ka* — tysiąc lat temu, *Ma* — milion lat
-temu, *Ga* — miliard lat temu):
+pliku. Oto zestaw przykładowych danych, których możesz użyć do testowania
+swojego rozwiązania (*a* oznacza rok temu, *ka* — tysiąc lat temu, *Ma* — milion
+lat temu, *Ga* — miliard lat temu):
   * 315 ka — *Homo sapiens*
   * 300 Ma — ssaki
   * 243 Ma — dinozaury
