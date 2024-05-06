@@ -1423,7 +1423,9 @@ niezależnie od ich rodzaju.
 
 API każdej z klas zaprojektuj tak, aby umożliwiało ono pobranie wartości każdego
 pola danych z osobna. Stosuj kapsułkowanie danych i unikaj dostępu chronionego.
-Pamiętaj, że używanie `@Override` jest dobrą praktyką.
+Zastosuj wiedzę z zakresu klas i metod abstrakcyjnych (interfejsy nie są
+potrzebne do rozwiązania zadania). Pamiętaj, że używanie `@Override` jest dobrą
+praktyką.
 
 #### 7.3
 
