@@ -1368,8 +1368,6 @@ Wynik działania przykładu:
 > Meowowowow!  
 > Meow!
 
-### Polimorfizm
-
 ### Zadania
 
 #### 7.1 Historia naturalna
