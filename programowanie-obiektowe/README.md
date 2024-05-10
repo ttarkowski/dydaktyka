@@ -22,7 +22,15 @@ Przejdź do treści modułu [0](#moduł-0), [1](#moduł-1), [2](#moduł-2),
 ## Źródła wiedzy
 
   * <https://docs.oracle.com/javase/tutorial/java/TOC.html>
+  * <https://docs.oracle.com/javase/tutorial/uiswing/TOC.html>
+  * <https://docs.oracle.com/javase/8/docs/api/>
+  * <https://docs.oracle.com/en/java/javase/22/docs/api/index.html>
   * <https://en.wikibooks.org/wiki/Java_Programming>
+  * <https://en.wikibooks.org/wiki/Java_Swings>
+  * <https://www.youtube.com/java>
+  * <https://dev.java/>
+  * <https://inside.java/>
+  * <https://openjfx.io/>
 
 ## Projekt indywidualny
 
