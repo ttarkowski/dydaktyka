@@ -4,7 +4,8 @@ Poniżej znajdują się materiały dydaktyczne dla kursu programowania obiektowe
 w języku Java.
 
 Przejdź do treści modułu [0](#moduł-0), [1](#moduł-1), [2](#moduł-2),
-[3](#moduł-3), [4](#moduł-4), [5](#moduł-5), [6](#moduł-6), [7](#moduł-7).
+[3](#moduł-3), [4](#moduł-4), [5](#moduł-5), [6](#moduł-6), [7](#moduł-7),
+[8](#moduł-8).
 
 ## Informacje organizacyjne
 
@@ -1468,6 +1469,8 @@ klasę bazową.)
   * <https://docs.oracle.com/javase/tutorial/java/IandI/createinterface.html>
   * <https://docs.oracle.com/javase/tutorial/java/IandI/abstract.html>
   * <https://docs.oracle.com/javase/8/docs/api/java/lang/Comparable.html>
+
+## Moduł 8
 
 ## Zastrzeżenia
 
