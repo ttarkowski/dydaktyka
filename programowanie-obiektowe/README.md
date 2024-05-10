@@ -1,5 +1,8 @@
 # Programowanie obiektowe
 
+Poniżej znajdują się materiały dydaktyczne dla kursu programowania obiektowego
+w języku Java.
+
 Przejdź do treści modułu [0](#moduł-0), [1](#moduł-1), [2](#moduł-2),
 [3](#moduł-3), [4](#moduł-4), [5](#moduł-5), [6](#moduł-6), [7](#moduł-7).
 
