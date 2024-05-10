@@ -1480,6 +1480,12 @@ klasę bazową.)
 
 ## Moduł 8
 
+### Graficzny interfejs użytkownika
+
+  * Abstract Window Toolkit (AWT)
+  * Swing
+  * JavaFX
+
 ### Bibliografia
 
   * <https://docs.oracle.com/javase/8/docs/technotes/guides/awt/>
