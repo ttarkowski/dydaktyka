@@ -1491,6 +1491,11 @@ Na ten moment ograniczymy się do interfejsu Swing.
 
 ### Swing
 
+API interfejsu Swing zawiera wiele pakietów. Jednak w większości przypadków
+wystarczą dwa:
+  * `javax.swing`
+  * `javax.swing.event`
+
 ### Bibliografia
 
   * <https://docs.oracle.com/javase/8/docs/technotes/guides/awt/>
