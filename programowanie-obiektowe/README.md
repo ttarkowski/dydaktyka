@@ -1496,6 +1496,19 @@ wystarczą dwa:
   * `javax.swing`
   * `javax.swing.event`
 
+### Hierarchia przechowywania
+
+  * Każdy program Swing posiada co najmniej jeden kontener najwyższego poziomu,
+    taki jak `JFrame` (główne okno aplikacji), `JDialog` (okno dialogowe) lub
+    `JApplet` (aplety; znaczenie historyczne — zob. uwagę poniżej).
+  * Każdy komponent może zostać zawarty tylko w jednym kontenerze nadrzędnym.
+
+Uwaga: Aplety Java były w przeszłości popularnym rozwiązaniem do publikowania
+interaktywnej zawartości w internecie. Zrezygnowano jednak z nich z powodów
+bezpieczeństwa oraz kompatybilności. Funkcjonalność apletów Java uruchamianych
+z poziomu przeglądarki internetowej została przejęta przez HTML, CSS oraz
+JavaScript (a także przez WebAssembly).
+
 ### Bibliografia
 
   * <https://docs.oracle.com/javase/8/docs/technotes/guides/awt/>
