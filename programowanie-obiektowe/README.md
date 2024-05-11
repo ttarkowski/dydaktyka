@@ -1485,7 +1485,7 @@ klasę bazową.)
   * Abstract Window Toolkit (AWT) — pierwotny interfejs graficzny języka Java
     zbudowany w oparciu o komponenty natywne danego systemu operacyjnego
   * Swing — niezależny od systemu operacyjnego interfejs oparty na AWT
-  * JavaFX — najnownszy interfejs graficzny
+  * JavaFX — najnowszy interfejs graficzny
 
 Na ten moment ograniczymy się do interfejsu Swing.
 
