@@ -1504,6 +1504,7 @@ wystarczą dwa:
   * <https://docs.oracle.com/en/java/javase/22/docs/api/java.desktop/javax/swing/package-summary.html>
   * <https://www.oracle.com/technical-resources/articles/java/mixing-components.html>
   * <https://www.oracle.com/java/technologies/painting.html>
+  * <https://docs.oracle.com/javase/8/javase-clienttechnologies.htm>
   * Kirill Grouchnikov (Maj 2008), *Swing, RIA and JavaFX – interview with Amy
     Fowler*.
     <https://www.pushing-pixels.org/2008/05/19/swing-ria-and-javafx-interview-with-amy-fowler.html>
