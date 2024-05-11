@@ -1489,6 +1489,8 @@ klasę bazową.)
 
 Na ten moment ograniczymy się do interfejsu Swing.
 
+### Swing
+
 ### Bibliografia
 
   * <https://docs.oracle.com/javase/8/docs/technotes/guides/awt/>
