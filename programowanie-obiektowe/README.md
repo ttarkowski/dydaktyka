@@ -1601,6 +1601,7 @@ w przycisk.
 
   * <https://docs.oracle.com/javase/8/docs/technotes/guides/awt/>
   * <https://docs.oracle.com/javase/8/docs/technotes/guides/swing/>
+  * <https://docs.oracle.com/javase/tutorial/uiswing/events/>
   * <https://docs.oracle.com/en/java/javase/22/docs/api/java.desktop/java/awt/package-summary.html>
   * <https://docs.oracle.com/en/java/javase/22/docs/api/java.desktop/javax/swing/package-summary.html>
   * <https://www.oracle.com/technical-resources/articles/java/mixing-components.html>
