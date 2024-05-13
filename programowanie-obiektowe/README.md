@@ -1514,7 +1514,7 @@ bezpieczeństwa oraz kompatybilności. Funkcjonalność apletów Java uruchamian
 z poziomu przeglądarki internetowej została przejęta przez HTML, CSS oraz
 JavaScript (a także przez WebAssembly).
 
-### Przykład
+### Przykłady
 
 Poniżej znajduje się przykład z wykorzystaniem pozycjonowania bezwzględnego,
 elementów interfejsu Swing oraz obsługi wydarzeń z interfejsu AWT.
@@ -1600,6 +1600,48 @@ Wynik działania przykładu:
 
 Uwaga: Obramowanie wokół symbolu znaku równości jest artefaktem po kliknięciu
 w przycisk.
+
+Poniżej znajduje się przykład wykorzystujący menu.
+
+Przykład (pełny przykład znajduje się w katalogu
+[Menu_example/](/programowanie-obiektowe/examples/08/Menu_example/)):
+```java
+import javax.swing.*;
+
+public class Menu_example extends JFrame {
+    private JMenuBar menubar = new JMenuBar();
+    private JMenu menu = new JMenu("Menu");
+    private JMenuItem item1 = new JMenuItem("Element 1");
+    private JMenuItem item2 = new JMenuItem("Element 2");
+
+    private final void set_icon() {
+        ImageIcon img = new ImageIcon("../../../../fig/Kitty32x32.jpg");
+        setIconImage(img.getImage());
+    }
+    
+    private final void add_components() {
+        setJMenuBar(menubar);
+        menubar.add(menu);
+        menu.add(item1);
+        menu.add(item2);
+    }
+    
+    public Menu_example() {
+        super("Program z menu");
+        set_icon();
+        add_components();
+        setBounds(0, 0, 250, 125);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+    }
+    
+    public static void main(String[] args) {
+        new Menu_example().setVisible(true);
+    }
+}
+```
+
+Wynik działania przykładu:  
+![Wynik działania przykładu](/programowanie-obiektowe/examples/08/Menu_example/result.png)
 
 ### Bibliografia
 
