@@ -1516,6 +1516,9 @@ JavaScript (a także przez WebAssembly).
 
 ### Przykład
 
+Poniżej znajduje się przykład z wykorzystaniem pozycjonowania bezwzględnego,
+elementów interfejsu Swing oraz obsługi wydarzeń z interfejsu AWT.
+
 Przykład (pełny przykład znajduje się w katalogu
 [Degree_to_radian/](/programowanie-obiektowe/examples/08/Degree_to_radian/)):
 ```java
@@ -1590,6 +1593,9 @@ public class Degree_to_radian extends JFrame {
 
 Wynik działania przykładu:  
 ![Wynik działania przykładu](/programowanie-obiektowe/examples/08/Degree_to_radian/result.png)
+
+Uwaga: Obramowanie wokół symbolu znaku równości jest artefaktem po kliknięciu
+w przycisk.
 
 ### Bibliografia
 
