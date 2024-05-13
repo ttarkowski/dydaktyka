@@ -30,8 +30,8 @@ public class Degree_to_radian extends JFrame {
         final int dy =  5; // wysokość odstępu pionowego
         final int h  = 75; // wysokość ramki
         setBounds(0, 0, 4 * xx + 3 * dx + 2 * mx, h);
-        value_field   .setBounds(                mx, my, xx, yy);        
-        degree_label  .setBounds(      mx + xx + dx, my, xx, yy);        
+        value_field   .setBounds(                mx, my, xx, yy);
+        degree_label  .setBounds(      mx + xx + dx, my, xx, yy);
         convert_button.setBounds(mx + 2 * (xx + dx), my, xx, yy);
         result_label  .setBounds(mx + 3 * (xx + dx), my, xx, yy);
     }
@@ -63,5 +63,5 @@ public class Degree_to_radian extends JFrame {
     
     public static void main(String args[]) {
         new Degree_to_radian().setVisible(true);
-    }     
+    }
 }
