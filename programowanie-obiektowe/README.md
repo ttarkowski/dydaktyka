@@ -1608,7 +1608,7 @@ w przycisk.
   * <https://www.oracle.com/java/technologies/painting.html>
   * <https://docs.oracle.com/javase/8/javase-clienttechnologies.htm>
   * <https://docs.oracle.com/javase/tutorial/java/javaOO/anonymousclasses.html>
-  * <https://docs.oracle.com/javase/tutorial/uiswing/layout/none.html>
+  * <https://docs.oracle.com/javase/tutorial/uiswing/layout/>
   * Kirill Grouchnikov (Maj 2008), *Swing, RIA and JavaFX – interview with Amy
     Fowler*.
     <https://www.pushing-pixels.org/2008/05/19/swing-ria-and-javafx-interview-with-amy-fowler.html>
