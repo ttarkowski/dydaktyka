@@ -1499,6 +1499,8 @@ wystarczą dwa:
 Uwaga: Symbol `javax` oznacza “Java Extension”, który to termin ma obecnie
 znaczenie historyczne. Z czasem API `javax` stało się integralną częścią Java.
 
+Uwaga: Zamiast `javax.swing.event` można wykorzystywać `java.awt.event`.
+
 ### Hierarchia przechowywania
 
   * Każdy program Swing posiada co najmniej jeden kontener najwyższego poziomu,
