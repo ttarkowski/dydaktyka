@@ -1519,6 +1519,10 @@ JavaScript (a także przez WebAssembly).
 Poniżej znajduje się przykład z wykorzystaniem pozycjonowania bezwzględnego,
 elementów interfejsu Swing oraz obsługi wydarzeń z interfejsu AWT.
 
+Uwaga: Mimo, że przykład wykorzystuje pozycjonowanie bezwzględne, należy mieć
+na uwadze, że w tworzeniu zaawansowanych aplikacji rekomenduje się wykorzystanie
+menedżera układu.
+
 Przykład (pełny przykład znajduje się w katalogu
 [Degree_to_radian/](/programowanie-obiektowe/examples/08/Degree_to_radian/)):
 ```java
