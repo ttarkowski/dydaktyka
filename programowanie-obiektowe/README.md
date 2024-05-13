@@ -1487,7 +1487,7 @@ klasę bazową.)
   * Swing — niezależny od systemu operacyjnego interfejs oparty na AWT
   * JavaFX — najnowszy interfejs graficzny
 
-Na ten moment ograniczymy się do interfejsu Swing.
+Na ten moment ograniczymy się do interfejsów Swing oraz AWT.
 
 ### Swing
 
