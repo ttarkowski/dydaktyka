@@ -1643,6 +1643,41 @@ public class Menu_example extends JFrame {
 Wynik działania przykładu:  
 ![Wynik działania przykładu](/programowanie-obiektowe/examples/08/Menu_example/result.png)
 
+### Dodatek: Klasy anonimowe
+
+Przykład (pełny przykład znajduje się w katalogu
+[Anonymous_class/](/programowanie-obiektowe/examples/08/Anonymous_class/)):
+```java
+class My_class {
+    public void f() {
+        System.out.println("My_class.f");
+    }
+}
+
+interface My_interface {
+    void f();
+}
+
+public class Anonymous_class {
+    public static void main(String args[]) {
+        new My_class() {
+            @Override public void f() {
+                System.out.println("<anonymous class/class>.f");
+            }
+        }.f();
+
+        new My_interface() {
+            @Override public void f() {
+                System.out.println("<anonymous class/interface>.f");
+            }
+        }.f();
+    }
+}
+```
+Wynik działania przykładu:
+> <anonymous class/class>.f  
+> <anonymous class/interface>.f
+
 ### Bibliografia
 
   * <https://docs.oracle.com/javase/8/docs/technotes/guides/awt/>

@@ -20,6 +20,6 @@ public class Anonymous_class {
             @Override public void f() {
                 System.out.println("<anonymous class/interface>.f");
             }
-        }.f();        
+        }.f();
     }
 }
