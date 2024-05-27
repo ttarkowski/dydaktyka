@@ -1700,9 +1700,7 @@ Wynik działania przykładu:
     Fowler*.
     <https://www.pushing-pixels.org/2008/05/19/swing-ria-and-javafx-interview-with-amy-fowler.html>
 
-### Zadania
-
-#### Pojedynczy projekt indywidualny
+### Projekt
 
 Zadanie polega na zrealizowaniu jednego projektu indywidualnego zgodnie
 z instrukcjami zawartymi w sekcji [Projekt indywidualny](#projekt-indywidualny)
