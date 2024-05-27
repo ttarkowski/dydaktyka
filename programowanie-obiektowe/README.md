@@ -5,7 +5,7 @@ w języku Java.
 
 Przejdź do treści modułu [0](#moduł-0), [1](#moduł-1), [2](#moduł-2),
 [3](#moduł-3), [4](#moduł-4), [5](#moduł-5), [6](#moduł-6), [7](#moduł-7),
-[8](#moduł-8).
+[8](#moduł-8), [9](#moduł-9).
 
 ## Informacje organizacyjne
 
@@ -1705,6 +1705,8 @@ Wynik działania przykładu:
 Zadanie polega na zrealizowaniu jednego projektu indywidualnego zgodnie
 z instrukcjami zawartymi w sekcji [Projekt indywidualny](#projekt-indywidualny)
 i w terminie tam podanym.
+
+## Moduł 9
 
 ## Zastrzeżenia
 
