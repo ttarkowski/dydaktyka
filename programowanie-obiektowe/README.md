@@ -1708,6 +1708,13 @@ i w terminie tam podanym.
 
 ## Moduł 9
 
+### Wzorce projektowe
+
+### Bibliografia
+
+  * Gamma Erich, Helm Richard, Johnson Ralph, Vlissides John. *Design Patterns:
+    Elements of Reusable Object-Oriented Software*. Addison-Wesley (1994)
+
 ## Zastrzeżenia
 
 Zobacz plik [LICENSE](/LICENSE).
