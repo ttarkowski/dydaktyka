@@ -1710,6 +1710,15 @@ i w terminie tam podanym.
 
 ### Wzorce projektowe
 
+Podział wzorców:
+  * behawioralne (czynnościowe)
+  * kreacyjne (konstrukcyjne)
+  * strukturalne
+
+Wzorce mogą być klasowe i obiektowe.
+
+Dalej znajdują się przykłady wzorców projektowych.
+
 ### Bibliografia
 
   * Gamma Erich, Helm Richard, Johnson Ralph, Vlissides John. *Design Patterns:
