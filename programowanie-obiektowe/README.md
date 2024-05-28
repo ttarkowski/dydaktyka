@@ -1821,6 +1821,8 @@ Wynik działania przykładu:
 > Lasagne_al_forno  
 > Panna_cotta
 
+![Diagram klas UML przykładu](/programowanie-obiektowe/examples/09/Cuisine/uml.svg)
+
 ### Bibliografia
 
   * Gamma Erich, Helm Richard, Johnson Ralph, Vlissides John. *Design Patterns:
