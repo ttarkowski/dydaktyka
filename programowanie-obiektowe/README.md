@@ -1836,6 +1836,9 @@ Wynik działania przykładu:
 > Uciekam  
 > Przybywam do: Y
 
+Diagram UML klas przykładu:
+![Diagram UML klas przykładu](/programowanie-obiektowe/examples/09/Travelling/uml.svg)
+
 ### Fabryka abstrakcyjna (kreacyjny, obiektowy)
 
 Fabryka abstrakcyjna (*abstract factory*) jest kreacyjnym obiektowym wzorcem
