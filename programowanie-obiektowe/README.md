@@ -1764,7 +1764,7 @@ class Kotlet_schabowy implements Main_course {
 }
 
 class Sernik implements Dessert {
-    public String main_ingredient() { return "curd cheese"; }
+    public String main_ingredient() { return "twaróg"; }
 }
 
 class Polish_cuisine implements Regional_cuisine {
