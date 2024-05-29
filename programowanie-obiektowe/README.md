@@ -1946,7 +1946,7 @@ Diagram UML klas przykładu:
 
 ### Bibliografia
 
-  * Gamma Erich, Helm Richard, Johnson Ralph, Vlissides John. *Design Patterns:
+  * Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides. *Design Patterns:
     Elements of Reusable Object-Oriented Software*. Addison-Wesley (1994)
 
 ## Zastrzeżenia
