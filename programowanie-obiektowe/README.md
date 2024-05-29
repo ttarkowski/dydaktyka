@@ -1960,7 +1960,7 @@ Przykład (pełny przykład znajduje się w katalogu
 class Item {
     private double value;
     public Item(double value) { this.value = value; }
-    public double value() { return value; } // Metoda operacji wzorca komponent.
+    public double value() { return value; } // Metoda operacji wzorca kompozyt.
 }
 
 // Klasy liści o nazwach `Phone`, `Charger` i `Headphones`.
