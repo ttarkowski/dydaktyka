@@ -2048,6 +2048,8 @@ Diagram UML klas przykładu:
   * <https://refactoring.guru/design-patterns/template-method>
   * <https://refactoring.guru/design-patterns/abstract-factory>
   * <https://refactoring.guru/design-patterns/composite>
+  * <http://agilemodeling.com/artifacts/classDiagram.htm>
+  * <https://developer.ibm.com/articles/the-class-diagram/>
 
 ## Zastrzeżenia
 
