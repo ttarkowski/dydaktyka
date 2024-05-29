@@ -295,7 +295,7 @@
 </symbol>
 </g>
 </defs>
-<g id="surface87590">
+<g id="surface4556">
 <rect x="0" y="0" width="858" height="371" style="fill:rgb(100%,100%,100%);fill-opacity:1;stroke:none;"/>
 <path style="fill-rule:evenodd;fill:rgb(100%,100%,100%);fill-opacity:1;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:10;" d="M 8.5 5.05 L 30.175 5.05 L 30.175 7.25 L 8.5 7.25 Z M 8.5 5.05 " transform="matrix(20,0,0,20,43,-99)"/>
 <g style="fill:rgb(0%,0%,0%);fill-opacity:1;">
@@ -786,18 +786,14 @@
   <use xlink:href="#glyph0-16" x="36.111111" y="318.409559"/>
   <use xlink:href="#glyph0-14" x="43.888889" y="318.409559"/>
   <use xlink:href="#glyph0-15" x="51.666667" y="318.409559"/>
-  <use xlink:href="#glyph0-15" x="59.444444" y="318.409559"/>
-  <use xlink:href="#glyph0-19" x="67.222222" y="318.409559"/>
-  <use xlink:href="#glyph0-20" x="75" y="318.409559"/>
-  <use xlink:href="#glyph0-17" x="82.777778" y="318.409559"/>
-  <use xlink:href="#glyph0-18" x="90.555556" y="318.409559"/>
-  <use xlink:href="#glyph0-24" x="98.333333" y="318.409559"/>
-  <use xlink:href="#glyph0-22" x="106.111111" y="318.409559"/>
-  <use xlink:href="#glyph0-25" x="113.888889" y="318.409559"/>
-  <use xlink:href="#glyph0-26" x="121.666667" y="318.409559"/>
-  <use xlink:href="#glyph0-21" x="129.444444" y="318.409559"/>
-  <use xlink:href="#glyph0-19" x="137.222222" y="318.409559"/>
-  <use xlink:href="#glyph0-27" x="145" y="318.409559"/>
+  <use xlink:href="#glyph0-18" x="59.444444" y="318.409559"/>
+  <use xlink:href="#glyph0-24" x="67.222222" y="318.409559"/>
+  <use xlink:href="#glyph0-22" x="75" y="318.409559"/>
+  <use xlink:href="#glyph0-25" x="82.777778" y="318.409559"/>
+  <use xlink:href="#glyph0-26" x="90.555556" y="318.409559"/>
+  <use xlink:href="#glyph0-21" x="98.333333" y="318.409559"/>
+  <use xlink:href="#glyph0-19" x="106.111111" y="318.409559"/>
+  <use xlink:href="#glyph0-27" x="113.888889" y="318.409559"/>
 </g>
 <path style="fill:none;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:10;" d="M 19.3375 14.361719 L 19.3375 15.05 L 8.017578 15.05 L 8.017578 15.85 " transform="matrix(20,0,0,20,43,-99)"/>
 <path style="fill-rule:evenodd;fill:rgb(100%,100%,100%);fill-opacity:1;stroke-width:0.1;stroke-linecap:butt;stroke-linejoin:miter;stroke:rgb(0%,0%,0%);stroke-opacity:1;stroke-miterlimit:10;" d="M 19.7375 14.361719 L 19.3375 13.561719 L 18.9375 14.361719 Z M 19.7375 14.361719 " transform="matrix(20,0,0,20,43,-99)"/>
