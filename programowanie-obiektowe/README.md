@@ -1758,7 +1758,7 @@ class Car_driver extends Traveller {
     @Override protected void cover_the_distance(String starting_point,
                                                 String destination_point) {
         if (empty_tank()) {
-            refuelling();
+            refuel();
         }
     }
 
@@ -1766,7 +1766,7 @@ class Car_driver extends Traveller {
         return new java.util.Random().nextBoolean();
     }
 
-    private void refuelling() {
+    private void refuel() {
         System.out.println("Tankowanie");
     }
 }
