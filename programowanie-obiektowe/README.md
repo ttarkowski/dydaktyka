@@ -2045,6 +2045,9 @@ Diagram UML klas przykładu:
   * Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides. *Design Patterns:
     Elements of Reusable Object-Oriented Software*. Addison-Wesley (1994)
   * <https://docs.oracle.com/javase/8/docs/api/java/util/Stack.html>
+  * <https://refactoring.guru/design-patterns/template-method>
+  * <https://refactoring.guru/design-patterns/abstract-factory>
+  * <https://refactoring.guru/design-patterns/composite>
 
 ## Zastrzeżenia
 
