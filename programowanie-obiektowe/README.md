@@ -2040,6 +2040,8 @@ Wynik działania przykładu:
 Diagram UML klas przykładu:
 ![Diagram UML klas przykładu](/programowanie-obiektowe/examples/09/Packaging/uml.svg)
 
+### Zadania
+
 ### Bibliografia
 
   * Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides. *Design Patterns:
