@@ -2042,6 +2042,12 @@ Diagram UML klas przykładu:
 
 ### Zadania
 
+#### 9.1
+
+#### 9.2
+
+#### 9.3
+
 ### Bibliografia
 
   * Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides. *Design Patterns:
@@ -2050,7 +2056,7 @@ Diagram UML klas przykładu:
   * <https://refactoring.guru/design-patterns/template-method>
   * <https://refactoring.guru/design-patterns/abstract-factory>
   * <https://refactoring.guru/design-patterns/composite>
-  * <http://agilemodeling.com/artifacts/classDiagram.htm>
+  * <https://agilemodeling.com/artifacts/classDiagram.htm>
   * <https://developer.ibm.com/articles/the-class-diagram/>
 
 ## Zastrzeżenia
