@@ -2074,11 +2074,11 @@ W przypadku metody trapezów stosuje się przybliżenie:
 \approx
 \frac{1}{2} \frac{b - a}{n}
 \sum_{i = 0}^{n - 1}
-\left(
+\left[
 f\left( a + i \cdot \frac{b - a}{n} \right)
 +
 f\left( a + (i + 1) \cdot \frac{b - a}{n} \right)
-\right)
+\right]
 ```
 
 #### 9.2
