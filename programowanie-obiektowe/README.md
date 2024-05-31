@@ -2042,7 +2042,44 @@ Diagram UML klas przykładu:
 
 ### Zadania
 
-#### 9.1
+#### 9.1 Całkowanie numeryczne
+
+Korzystając ze wzorca projektowego *metoda szablonowa* stwórz odpowiednią
+hierarchię klas odpowiedzialną za numeryczne całkowanie funkcji:
+  * Stwórz klasę bazową `Numerical_integration`, która posiada m.in. metodę
+    `integrate` odpowiedzialną za całkowanie.
+  * Stwórz klasy pochodne `Rectangle_rule` oraz `Trapezoidal_rule`, które
+    umożliwiają całkowanie odpowiednio metodą prostokątów oraz trapezów.
+
+Na podstawie ww. hierarchii klas stwórz program, który całkuje numerycznie
+dowolnie wybraną przez siebie funkcję. Funkcja do całkowania może być:
+  * zakodowana na stałe w rozwiązaniu albo
+  * przekazywana jako argument konstruktora typu `DoubleFunction<double>`
+
+Zaprezentuj wynik całkowania funkcji obliczony metodą prostokątów oraz trapezów
+na wybranym przez siebie przedziale.
+
+Uwaga: Całkowanie funkcji $`f(x)`$ na przedziale od $`a`$ do $`b`$ metodą
+prostokątów polega na zastosowaniu przybliżenia:
+```math
+\int_a^b f(x)\, dx
+\approx
+\frac{b - a}{n}
+\sum_{i = 0}^{n - 1} f\left( a + ( i + \alpha ) \cdot \frac{b - a}{n} \right)
+```
+gdzie $`\alpha \in [0, 1]`$ i proponowaną wartością jest $`\alpha = 1`$.
+W przypadku metody trapezów stosuje się przybliżenie:
+```math
+\int_a^b f(x)\, dx
+\approx
+\frac{1}{2} \frac{b - a}{n}
+\sum_{i = 0}^{n - 1}
+\left(
+f\left( a + i \cdot \frac{b - a}{n} \right)
++
+f\left( a + (i + 1) \cdot \frac{b - a}{n} \right)
+\right)
+```
 
 #### 9.2
 
@@ -2058,6 +2095,7 @@ Diagram UML klas przykładu:
   * <https://refactoring.guru/design-patterns/composite>
   * <https://agilemodeling.com/artifacts/classDiagram.htm>
   * <https://developer.ibm.com/articles/the-class-diagram/>
+  * <https://docs.oracle.com/javase/8/docs/api/java/util/function/DoubleFunction.html>
 
 ## Zastrzeżenia
 
