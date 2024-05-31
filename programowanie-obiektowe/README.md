@@ -2067,7 +2067,7 @@ prostokątów polega na zastosowaniu przybliżenia:
 \frac{b - a}{n}
 \sum_{i = 0}^{n - 1} f\left( a + ( i + \alpha ) \cdot \frac{b - a}{n} \right)
 ```
-gdzie $`\alpha \in [0, 1]`$ i proponowaną wartością jest $`\alpha = 1 / 2`$.
+gdzie $`\alpha \in [0, 1]`$ i proponowaną wartością jest $`\alpha = \frac{1}{2}`$.
 W przypadku metody trapezów stosuje się przybliżenie:
 ```math
 \int_a^b f(x)\, dx
