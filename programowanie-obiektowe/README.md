@@ -2083,7 +2083,17 @@ f\left( a + (i + 1) \cdot \frac{b - a}{n} \right)
 
 #### 9.2
 
-#### 9.3
+#### 9.3 Powierzchnia użytkowa domu
+
+Dom może składać się z pokoi mieszkalnych, przedpokoi, kuchni, spiżarek,
+łazienek i garaży (dalej nazywanych *komponentami* domu). Powierzchnia użytkowa
+domu jest równa sumie wchodzących w jej skład powierzchni użytkowych
+poszczególnych komponentów. Korzystając ze wzorca projektowego *kompozyt* stwórz
+odpowiednią hierarchię klas modelującą podany problem. Napisz program
+wykorzystujący opracowaną hierarchię umożliwiający stworzenie instancji klasy
+odpowiadającej za dom pytając o liczbę i powierzchnie użytkowe poszczególnych
+komponentów. Niech program obliczy powierzchnię użytkową domu korzystając
+z odpowiedniej metody wzorca kompozyt.
 
 ### Bibliografia
 
