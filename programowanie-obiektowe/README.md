@@ -2081,9 +2081,32 @@ f\left( a + (i + 1) \cdot \frac{b - a}{n} \right)
 \right]
 ```
 
-#### 9.2
+#### 9.2 Sonda von Neumanna
+
+Przeczytaj poniższy tekst z kategorii science-fiction.
+
+> Jakiś czas temu upłynął rok 2100 i ludzkość wreszcie stała się cywilizacją
+> typu I według klasyfikacji Kardasheva. Do osiągnięcia typu II (a tym bardziej
+> III) jeszcze bardzo długa droga. Jednak już taki postęp naukowo-technologiczny
+> umożliwił wykorzystywanie całej energii równoważnej tej, która dociera do
+> Ziemi ze Słońca. Ilość dostępnej energii umożliwia opanowanie wybuchów
+> wulkanów i trzęsień ziemi czy też kolonizowanie kosmosu. Ostatnią rewelacją
+> było zbudowanie sondy von Neumanna, która po osiągnięciu celu swojej
+> kosmicznej podróży potrafi wykonać pewnę pracę a także samodzielnie się
+> zreplikować. Kilka potężnych korporacji z sektora górnictwa kosmicznego
+> przystąpiło więc do rywalizacji o nowy segment rynku…
+
+Firmy *A*, *B* oraz *C* produkują sondy von Neumanna do celów górnictwa
+kosmicznego. Każda z nich dysponuje własnościowymi rozwiązaniami w zakresie
+silników, mechanizmów replikujących sondę oraz narzędzi wydobywczych.
+Rozwiązania nie są uniwersalne i komponenty danej firmy współpracują jedynie
+z innymi komponentami tej samej firmy. Z użyciem wzorca projektowego *fabryka
+abstrakcyjna* napisz program, który umożliwi zamodelowanie wytworzenia zestawu
+zgodnych ze sobą podzespołów sondy von Neumanna według wyboru użytkownika.
 
 #### 9.3 Powierzchnia użytkowa domu
+
+Wróćmy do czasów współczesnych i nieco bardziej przyziemnych problemów.
 
 Dom może składać się z pokoi mieszkalnych, przedpokoi, kuchni, spiżarek,
 łazienek i garaży (dalej nazywanych *komponentami* domu). Powierzchnia użytkowa
