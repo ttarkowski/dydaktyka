@@ -2132,6 +2132,20 @@ z odpowiedniej metody wzorca kompozyt.
 
 ## Moduł 10
 
+### Wzorce projektowe cz. 2
+
+### Zadania
+
+#### 10.1 Pola powierzchni figur
+
+Korzystając ze wzorca projektowego *odwiedzający* (*visitor*) napisz program,
+który zademonstruje obliczanie pól powierzchni kilku figur geometrycznych
+różnego rodzaju.
+
+### Bibliografia
+
+  * <https://refactoring.guru/design-patterns/visitor>
+
 ## Zastrzeżenia
 
 Zobacz plik [LICENSE](/LICENSE).
