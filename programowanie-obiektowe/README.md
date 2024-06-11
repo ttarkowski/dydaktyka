@@ -5,7 +5,7 @@ w języku Java.
 
 Przejdź do treści modułu [0](#moduł-0), [1](#moduł-1), [2](#moduł-2),
 [3](#moduł-3), [4](#moduł-4), [5](#moduł-5), [6](#moduł-6), [7](#moduł-7),
-[8](#moduł-8), [9](#moduł-9), [10](#moduł-10).
+[8](#moduł-8), [9](#moduł-9), [10](#moduł-10), dodatku [A](#dodatek-a).
 
 ## Informacje organizacyjne
 
@@ -2145,6 +2145,8 @@ różnego rodzaju.
 ### Bibliografia
 
   * <https://refactoring.guru/design-patterns/visitor>
+
+## Dodatek A
 
 ## Zastrzeżenia
 
