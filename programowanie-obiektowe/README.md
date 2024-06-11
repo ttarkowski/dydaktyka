@@ -2148,6 +2148,8 @@ różnego rodzaju.
 
 ## Dodatek A
 
+W niniejszym dodatku porównano wybrane aspekty języka Java oraz C++.
+
 ## Zastrzeżenia
 
 Zobacz plik [LICENSE](/LICENSE).
