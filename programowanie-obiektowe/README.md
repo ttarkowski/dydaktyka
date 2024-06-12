@@ -2295,10 +2295,10 @@ Poziomy:
   2. Gwarancja silna (*strong*): procedura rzuciła wyjątek, ale stan programu
      się nie zmienił (w naszym przykładzie: kontener jest taki, jak przed próbą
      wypełnienia go danymi).
-  3. Gwarancja podstawowa (*basic*): niezmienniki są zachowane a zasoby nie
-     wyciekły (w naszym przykładzie: kontener jest częściowo wypełniony nowymi
-     danymi).
-  4. Brak gwarancji: mógł nastąpić wyciek zasobów.
+  3. Gwarancja podstawowa (*basic*): procedura rzuciła wyjątek, ale niezmienniki
+     są zachowane a zasoby nie wyciekły (w naszym przykładzie: kontener jest
+     częściowo wypełniony nowymi danymi).
+  4. Brak gwarancji: procedura rzuciła wyjątek i mógł nastąpić wyciek zasobów.
 
 ### Bibliografia
 
