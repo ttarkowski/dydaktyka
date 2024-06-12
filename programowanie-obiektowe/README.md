@@ -2300,6 +2300,14 @@ Poziomy:
      danymi).
   4. Brak gwarancji: mógł nastąpić wyciek zasobów.
 
+### Bibliografia
+
+  * David Abrahams, *Exception-Safety in Generic Components. Lessons Learned
+    from Specifying Exception-Safety for the C++ Standard Library*.
+    Lecture Notes in Computer Science **1766**, 69-79 (2001).
+    <https://doi.org/10.1007%2F3-540-39953-4_6>,
+    <https://www.boost.org/community/exception_safety.html>
+
 ## Zastrzeżenia
 
 Zobacz plik [LICENSE](/LICENSE).
