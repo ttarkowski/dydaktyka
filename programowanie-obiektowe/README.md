@@ -2300,6 +2300,12 @@ Poziomy:
      częściowo wypełniony nowymi danymi).
   4. Brak gwarancji: procedura rzuciła wyjątek i mógł nastąpić wyciek zasobów.
 
+### Polimorfizm
+
+W języku Java metody niestatyczne są domyślnie wirtualne, podczas gdy w C++ tak
+nie jest i dla osiągnięcia polimorfizmu należy oznaczyć je z użyciem słowa
+`virtual`.
+
 ### Bibliografia
 
   * David Abrahams, *Exception-Safety in Generic Components. Lessons Learned
