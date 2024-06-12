@@ -2342,6 +2342,8 @@ Wynik działania przykładu:
 
 ### Dziedziczenie wielokrotne
 
+### Odwołanie do składników klasy bazowej
+
 ### Bibliografia
 
   * David Abrahams, *Exception-Safety in Generic Components. Lessons Learned
