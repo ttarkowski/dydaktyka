@@ -2199,12 +2199,14 @@ Wynik działania przykładu:
 Zarówno w języku Java jak i C++ `this` odwołuje się do bieżącego obiektu. Jednak
 w Java jest to odwołanie przez referencję a w C++ — przez wskaźnik.
 
+Java:
 ```java
 class X {
     X f() { return this; }
 }
 ```
 
+C++:
 ```cpp
 class X
 {
