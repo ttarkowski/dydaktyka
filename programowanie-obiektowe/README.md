@@ -2194,6 +2194,8 @@ Wynik działania przykładu:
 > Wymiary: 4.2 x 1  
 > Powierzchnia: 4.2
 
+### `this`
+
 ## Zastrzeżenia
 
 Zobacz plik [LICENSE](/LICENSE).
