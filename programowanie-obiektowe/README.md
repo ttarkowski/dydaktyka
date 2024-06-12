@@ -2196,6 +2196,9 @@ Wynik działania przykładu:
 
 ### `this`
 
+Zarówno w języku Java jak i C++ `this` odwołuje się do bieżącego obiektu. Jednak
+w Java jest to odwołanie przez referencję a w C++ — przez wskaźnik.
+
 ## Zastrzeżenia
 
 Zobacz plik [LICENSE](/LICENSE).
