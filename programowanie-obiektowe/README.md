@@ -2205,6 +2205,14 @@ class X {
 }
 ```
 
+```cpp
+class X
+{
+public:
+  X f() const { return *this; }
+};
+```
+
 ## Zastrzeżenia
 
 Zobacz plik [LICENSE](/LICENSE).
