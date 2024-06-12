@@ -2282,6 +2282,24 @@ Wynik działania przykładu:
 > Zlapano wyjatek: std::exception  
 > Zlapano cos blizej nieokreslonego
 
+#### Dygresja: Gwarancje odporności na wyjątki (David Abrahams)
+
+Jakie są możliwe gwarancje w sytuacji, gdy chcemy wykonać jakąś procedurę (np.
+wypełnić jakiś kontener wieloma danymi) i gdzieś w trakcie wykonania został
+rzucony wyjątek?
+
+Poziomy:
+  1. Gwarancja *no-throw*: procedura rzuciła wyjątek i go samodzielnie obsłużyła
+     a sama procedura zakończyła się pomyślnie (w naszym przykładzie: kontener
+     został odpowiednio wypełniony).
+  2. Gwarancja silna (*strong*): procedura rzuciła wyjątek, ale stan programu
+     się nie zmienił (w naszym przykładzie: kontener jest taki, jak przed próbą
+     wypełnienia go danymi).
+  3. Gwarancja podstawowa (*basic*): niezmienniki są zachowane a zasoby nie
+     wyciekły (w naszym przykładzie: kontener jest częściowo wypełniony nowymi
+     danymi).
+  4. Brak gwarancji: mógł nastąpić wyciek zasobów.
+
 ## Zastrzeżenia
 
 Zobacz plik [LICENSE](/LICENSE).
