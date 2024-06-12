@@ -2340,6 +2340,8 @@ main()
 Wynik działania przykładu:
 > 42
 
+### Dziedziczenie wielokrotne
+
 ### Bibliografia
 
   * David Abrahams, *Exception-Safety in Generic Components. Lessons Learned
