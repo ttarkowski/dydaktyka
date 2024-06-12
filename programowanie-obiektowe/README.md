@@ -2152,6 +2152,9 @@ W niniejszym dodatku porównano wybrane aspekty języka Java oraz C++.
 
 ### Zmienne składowe klasy. Konstruktory. Metody składowe
 
+Poniższy przykład można porównać
+z [tym kodem](/programowanie-obiektowe/examples/01/Rectangle/)).
+
 Przykład (pełny przykład znajduje się w katalogu
 [Rectangle/](/programowanie-obiektowe/examples/A/Rectangle/)):
 ```cpp
