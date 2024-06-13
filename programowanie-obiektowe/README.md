@@ -2342,6 +2342,54 @@ Wynik działania przykładu:
 
 ### Dziedziczenie wielokrotne
 
+Java w przeciwieństwie C++ nie oferuje dziedziczenia po więcej niż jednej
+bezpośredniej klasie unikając w ten sposób problemu diamentu. Sposób rozwiązania
+tego problemu w C++ znajduje się poniżej.
+
+Przykład (pełny przykład znajduje się w katalogu
+[Polymorphism/](/programowanie-obiektowe/examples/A/Multiple/)):
+```cpp
+class base
+{
+public:
+  virtual ~base() = default;
+  virtual void f() {}
+};
+
+class base_1 : public virtual base
+{
+public:
+  void f() override
+  {
+    // 1
+  }
+};
+
+class base_2 : public virtual base
+{
+public:
+  void f() override
+  {
+    // 2
+  }
+};
+
+class derived
+  : public base_1
+  , public base_2
+{
+public:
+  void f() override { base_2::f(); }
+};
+
+int
+main()
+{
+  base* p = new derived{};
+  p->f();
+}
+```
+
 ### Odwołanie do składników klasy bazowej
 
 ### Bibliografia
