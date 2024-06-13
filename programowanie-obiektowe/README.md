@@ -2347,7 +2347,7 @@ bezpośredniej klasie unikając w ten sposób problemu diamentu. Sposób rozwią
 tego problemu w C++ znajduje się poniżej.
 
 Przykład (pełny przykład znajduje się w katalogu
-[Polymorphism/](/programowanie-obiektowe/examples/A/Multiple/)):
+[Multiple/](/programowanie-obiektowe/examples/A/Multiple/)):
 ```cpp
 class base
 {
