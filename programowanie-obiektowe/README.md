@@ -2392,6 +2392,10 @@ main()
 
 ### Odwołanie do składników klasy bazowej
 
+Do odwołania do składników klasy bazowej wykorzystuje się w języku Java słowo
+`super`, podczas gdy w C++ stosuje się nazwę klasy bazowej wraz z operatorem
+zakresu, np. `base_::` lub `std::exception::`.
+
 ### Bibliografia
 
   * David Abrahams, *Exception-Safety in Generic Components. Lessons Learned
