@@ -2417,7 +2417,7 @@ zakresu, np. `base_::` lub `std::exception::`.
 
 ## Dodatek C
 
-### Diagramy UML
+### Diagramy UML klas
 
 ## Zastrzeżenia
 
