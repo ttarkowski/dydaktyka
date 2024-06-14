@@ -5,7 +5,8 @@ w języku Java.
 
 Przejdź do treści modułu [0](#moduł-0), [1](#moduł-1), [2](#moduł-2),
 [3](#moduł-3), [4](#moduł-4), [5](#moduł-5), [6](#moduł-6), [7](#moduł-7),
-[8](#moduł-8), [9](#moduł-9), [10](#moduł-10), dodatku [A](#dodatek-a).
+[8](#moduł-8), [9](#moduł-9), [10](#moduł-10), [11](#moduł-11), dodatku
+[A](#dodatek-a), [B](#dodatek-b).
 
 ## Informacje organizacyjne
 
@@ -2146,6 +2147,10 @@ różnego rodzaju.
 
   * <https://refactoring.guru/design-patterns/visitor>
 
+## Moduł 11
+
+*Omówienie wyników projektu indywidualnego.*
+
 ## Dodatek A
 
 W niniejszym dodatku porównano wybrane aspekty języka Java oraz C++.
@@ -2403,6 +2408,12 @@ zakresu, np. `base_::` lub `std::exception::`.
     Lecture Notes in Computer Science **1766**, 69-79 (2001).
     <https://doi.org/10.1007/3-540-39953-4_6>,
     <https://www.boost.org/community/exception_safety.html>
+
+## Dodatek B
+
+### Abstrakcyjne klasy bazowe
+
+### Graficzne interfejsy użytkownika dla języka C++
 
 ## Zastrzeżenia
 
