@@ -2401,7 +2401,7 @@ Do odwołania do składników klasy bazowej wykorzystuje się w języku Java sł
 `super`, podczas gdy w C++ stosuje się nazwę klasy bazowej wraz z operatorem
 zakresu, np. `base_::` lub `std::exception::`.
 
-### Abstrakcyjne klasy bazowe
+### Klasy abstrakcyjne
 
 ### Bibliografia
 
