@@ -2419,7 +2419,7 @@ zakresu, np. `base_::` lub `std::exception::`.
 
 ### Bibliografia
 
-  * Julian Smart and Kevin Hock with Stefan Csomor, *Cross-Platform GUI
+  * Julian Smart and Kevin Hock with Stefan Csomor (2006), *Cross-Platform GUI
     Programming with wxWidgets*.
     <https://wxwidgets.org/docs/book/Cross-Platform%20GUI%20Programming%20with%20wxWidgets.pdf>
 
