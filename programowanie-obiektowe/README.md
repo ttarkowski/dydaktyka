@@ -2401,6 +2401,8 @@ Do odwołania do składników klasy bazowej wykorzystuje się w języku Java sł
 `super`, podczas gdy w C++ stosuje się nazwę klasy bazowej wraz z operatorem
 zakresu, np. `base_::` lub `std::exception::`.
 
+### Abstrakcyjne klasy bazowe
+
 ### Bibliografia
 
   * David Abrahams, *Exception-Safety in Generic Components. Lessons Learned
@@ -2411,9 +2413,15 @@ zakresu, np. `base_::` lub `std::exception::`.
 
 ## Dodatek B
 
-### Abstrakcyjne klasy bazowe
-
 ### Graficzne interfejsy użytkownika dla języka C++
+
+  * <https://wxwidgets.org/>
+
+### Bibliografia
+
+  * Julian Smart and Kevin Hock with Stefan Csomor, *Cross-Platform GUI
+    Programming with wxWidgets*.
+    <https://wxwidgets.org/docs/book/Cross-Platform%20GUI%20Programming%20with%20wxWidgets.pdf>
 
 ## Dodatek C
 
