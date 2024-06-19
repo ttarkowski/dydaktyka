@@ -2403,6 +2403,15 @@ zakresu, np. `base_::` lub `std::exception::`.
 
 ### Klasy abstrakcyjne
 
+```cpp
+class abstract
+{
+public:
+  virtual void f() = 0;  // funkcja czysto-wirtualna
+  virtual ~abstract() = default;
+};
+```
+
 ### Bibliografia
 
   * David Abrahams, *Exception-Safety in Generic Components. Lessons Learned
