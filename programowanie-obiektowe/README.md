@@ -2415,10 +2415,12 @@ zakresu, np. `base_::` lub `std::exception::`.
 
 ### Graficzne interfejsy użytkownika dla języka C++
 
+  * <https://www.qt.io/>
   * <https://wxwidgets.org/>
 
 ### Bibliografia
 
+  * <https://doc.qt.io/>
   * Julian Smart and Kevin Hock with Stefan Csomor (2006), *Cross-Platform GUI
     Programming with wxWidgets*.
     <https://wxwidgets.org/docs/book/Cross-Platform%20GUI%20Programming%20with%20wxWidgets.pdf>
